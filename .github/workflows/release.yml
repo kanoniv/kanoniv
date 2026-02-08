@@ -10,41 +10,40 @@ permissions:
 jobs:
   # Build wheels for Linux
   linux:
-    runs-on: ${{ matrix.platform.runner }}
+    runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
-        platform:
-          - runner: ubuntu-latest
-            target: x86_64
-          - runner: ubuntu-latest
-            target: aarch64
+        target: [x86_64, aarch64]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Set up QEMU
+        if: matrix.target == 'aarch64'
+        uses: docker/setup-qemu-action@v3
+        with:
+          platforms: arm64
       - name: Build wheels
         uses: PyO3/maturin-action@v1
         with:
-          target: ${{ matrix.platform.target }}
+          target: ${{ matrix.target }}
           args: --release --out dist --manifest-path python/Cargo.toml
           manylinux: auto
       - name: Upload wheels
         uses: actions/upload-artifact@v4
         with:
-          name: wheels-linux-${{ matrix.platform.target }}
+          name: wheels-linux-${{ matrix.target }}
           path: dist
 
-  # Build wheels for macOS
+  # Build wheels for macOS (both targets from ARM runner)
   macos:
-    runs-on: ${{ matrix.platform.runner }}
+    runs-on: macos-14
     strategy:
+      fail-fast: false
       matrix:
-        platform:
-          - runner: macos-13
-            target: x86_64
-          - runner: macos-14
-            target: aarch64
+        target: [x86_64-apple-darwin, aarch64-apple-darwin]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -53,27 +52,23 @@ jobs:
       - name: Build wheels
         uses: PyO3/maturin-action@v1
         with:
-          target: ${{ matrix.platform.target }}
+          target: ${{ matrix.target }}
           args: --release --out dist --manifest-path python/Cargo.toml
       - name: Upload wheels
         uses: actions/upload-artifact@v4
         with:
-          name: wheels-macos-${{ matrix.platform.target }}
+          name: wheels-macos-${{ matrix.target }}
           path: dist
 
   # Build wheels for Windows
   windows:
     runs-on: windows-latest
-    strategy:
-      matrix:
-        platform:
-          - target: x64
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          architecture: ${{ matrix.platform.target }}
+          architecture: x64
       - name: Build wheels
         uses: PyO3/maturin-action@v1
         with:
