@@ -1,16 +1,27 @@
 """Kanoniv — Identity resolution as code."""
 
-from .spec import Spec
-from .validate import validate
-from .plan import plan
-from .diff import diff
-
 __version__ = "0.2.0"
+
+_NATIVE_MODULES = {"Spec", "validate", "plan", "diff"}
+_CLOUD_MODULES = {"Client", "AsyncClient"}
 
 
 def __getattr__(name: str):
-    """Lazy-load Client/AsyncClient — they require httpx/pydantic (pip install kanoniv[cloud])."""
-    if name in ("Client", "AsyncClient"):
+    if name in _NATIVE_MODULES:
+        if name == "Spec":
+            from .spec import Spec
+            return Spec
+        elif name == "validate":
+            from .validate import validate
+            return validate
+        elif name == "plan":
+            from .plan import plan
+            return plan
+        elif name == "diff":
+            from .diff import diff
+            return diff
+
+    if name in _CLOUD_MODULES:
         try:
             from .client import Client, AsyncClient
         except ImportError:
@@ -20,6 +31,7 @@ def __getattr__(name: str):
         if name == "Client":
             return Client
         return AsyncClient
+
     raise AttributeError(f"module 'kanoniv' has no attribute {name!r}")
 
 
