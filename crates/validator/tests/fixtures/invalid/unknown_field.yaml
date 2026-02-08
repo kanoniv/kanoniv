@@ -1,0 +1,16 @@
+api_version: kanoniv/v2
+identity_version: retail_v1.0
+entity:
+  name: customer
+sources:
+  - name: crm
+    system: salesforce
+    table: contacts
+    id: contact_id
+    attributes:
+      email: email
+rules:
+  - name: unknown_field
+    type: exact
+    field: unknown_field # references field not in sources
+    weight: 1.0

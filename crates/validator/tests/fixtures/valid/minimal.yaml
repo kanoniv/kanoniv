@@ -1,0 +1,19 @@
+api_version: kanoniv/v2
+identity_version: retail_v1.0
+entity:
+  name: customer
+sources:
+  - name: crm
+    system: salesforce
+    table: contacts
+    id: contact_id
+    attributes:
+      email: email
+rules:
+  - name: email_exact
+    type: exact
+    field: email
+    weight: 1.0
+decision:
+  thresholds:
+    match: 0.9

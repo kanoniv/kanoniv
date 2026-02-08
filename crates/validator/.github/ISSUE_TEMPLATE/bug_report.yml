@@ -1,0 +1,38 @@
+name: Bug report
+description: Create a report to help us improve
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Please provide a minimal set of steps to reproduce the bug. 
+        Include filenames and contents if possible.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Validator version
+      description: |
+        What version of the validator are you using? (kanoniv --version)
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: OS and Environment
+      description: |
+        e.g. macOS Sonoma, Ubuntu 22.04, etc.
