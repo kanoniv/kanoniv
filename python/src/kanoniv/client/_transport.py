@@ -7,7 +7,7 @@ from typing import Any
 
 import httpx
 
-from .exceptions import (
+from ..exceptions import (
     AuthenticationError,
     ConflictError,
     ForbiddenError,
