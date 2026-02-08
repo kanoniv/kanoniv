@@ -14,17 +14,12 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [x86_64, aarch64]
+        target: [x86_64]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Set up QEMU
-        if: matrix.target == 'aarch64'
-        uses: docker/setup-qemu-action@v3
-        with:
-          platforms: arm64
       - name: Build wheels
         uses: PyO3/maturin-action@v1
         with:
