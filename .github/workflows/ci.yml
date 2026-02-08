@@ -27,11 +27,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install maturin and build
+      - name: Build native extension
+        working-directory: python
         run: |
-          pip install maturin
-          cd python && maturin develop --release
-      - name: Install test deps
-        run: pip install pytest pytest-asyncio respx httpx pydantic
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install maturin pytest pytest-asyncio respx httpx pydantic
+          maturin develop --release
       - name: Run tests
-        run: cd python && pytest -v
+        working-directory: python
+        run: |
+          source .venv/bin/activate
+          pytest -v

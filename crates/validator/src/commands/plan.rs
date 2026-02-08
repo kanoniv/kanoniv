@@ -216,8 +216,7 @@ fn extract_match_strategies(spec: &serde_json::Value) -> Vec<MatchStrategySummar
         .map(|rules| {
             rules
                 .iter()
-                .enumerate()
-                .map(|(_i, rule)| {
+                .map(|rule| {
                     let rule_name = rule
                         .get("name")
                         .and_then(|n| n.as_str())
@@ -606,6 +605,7 @@ fn compute_plan_hash(spec: &serde_json::Value) -> Result<String> {
     Ok(format!("sha256:{:x}", hasher.finalize()))
 }
 
+#[allow(clippy::too_many_arguments)]
 fn build_summary(
     entity: &str,
     identity_version: &str,
