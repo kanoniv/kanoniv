@@ -24,7 +24,7 @@ class SpecsResource:
         *,
         compile: bool = False,
     ) -> dict[str, Any]:
-        body: dict[str, Any] = {"spec_yaml": yaml_content, "compile": compile}
+        body: dict[str, Any] = {"raw_yaml": yaml_content, "compile": compile}
         return self._t.request("POST", "/v1/identity/specs", json=body)
 
 
@@ -44,5 +44,5 @@ class AsyncSpecsResource:
         *,
         compile: bool = False,
     ) -> dict[str, Any]:
-        body: dict[str, Any] = {"spec_yaml": yaml_content, "compile": compile}
+        body: dict[str, Any] = {"raw_yaml": yaml_content, "compile": compile}
         return await self._t.request("POST", "/v1/identity/specs", json=body)

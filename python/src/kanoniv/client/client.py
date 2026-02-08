@@ -88,15 +88,21 @@ class KanonivClient:
         self,
         source_id: str,
         path: str | Path,
+        *,
+        id_field: str = "id",
+        entity_type: str | None = None,
     ) -> dict[str, Any]:
         """Upload and process a file for ingestion."""
         p = Path(path)
+        form: dict[str, str] = {"source_id": source_id, "id_field": id_field}
+        if entity_type:
+            form["entity_type"] = entity_type
         with open(p, "rb") as f:
             return self._transport.request(
                 "POST",
                 "/v1/ingest/file/process",
                 files={"file": (p.name, f)},
-                data={"source_id": source_id},
+                data=form,
             )
 
     def stats(self) -> dict[str, Any]:
@@ -181,15 +187,21 @@ class KanonivAsyncClient:
         self,
         source_id: str,
         path: str | Path,
+        *,
+        id_field: str = "id",
+        entity_type: str | None = None,
     ) -> dict[str, Any]:
         """Upload and process a file for ingestion."""
         p = Path(path)
+        form: dict[str, str] = {"source_id": source_id, "id_field": id_field}
+        if entity_type:
+            form["entity_type"] = entity_type
         with open(p, "rb") as f:
             return await self._transport.request(
                 "POST",
                 "/v1/ingest/file/process",
                 files={"file": (p.name, f)},
-                data={"source_id": source_id},
+                data=form,
             )
 
     async def stats(self) -> dict[str, Any]:
