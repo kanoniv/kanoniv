@@ -31,24 +31,21 @@ print(f"Golden records: {len(result.golden_records)}")
 print(f"Merge rate: {result.merge_rate:.1%}")
 ```
 
-## Why Kanoniv
-
-- **Golden records out of the box.** Most ER tools stop at matching. Kanoniv includes survivorship — the logic that decides which values survive into the canonical record.
-- **Declarative YAML spec.** Your matching logic lives in a version-controlled file, not scattered across code. Review it in a PR, test it in CI, deploy it to production.
-- **Offline-first.** The Python SDK runs entirely on your machine. No API keys, no accounts, no data leaves your environment.
-- **Fast.** The reconciliation engine is written in Rust and compiled to native Python extensions via PyO3. 100K records in seconds on a laptop.
-
 ## Install
 
 ```bash
 pip install kanoniv
 ```
 
-Pre-built wheels available for Linux x86_64, macOS Intel, and macOS Apple Silicon.
+Pre-built wheels for Linux x86_64, macOS Intel, and macOS Apple Silicon. No Rust toolchain required.
 
-## Quick Start
+## Core Concepts
 
-### 1. Define a spec
+Kanoniv has five core concepts. They form a pipeline: **Spec** &rarr; **Validate** &rarr; **Plan** &rarr; **Reconcile** &rarr; **Diff**.
+
+### 1. Spec — Define your identity logic
+
+A **Spec** is a YAML file that declares everything about how records should be matched. It replaces hundreds of lines of ad-hoc matching code with a single, version-controlled configuration.
 
 ```yaml
 # customer-spec.yaml
@@ -56,35 +53,39 @@ api_version: kanoniv/v2
 identity_version: "1.0"
 entity:
   name: customer
-sources:
-  - name: crm
+
+sources:                              # Where your data lives
+  - name: salesforce
     adapter: csv
-    location: contacts.csv
-    primary_key: id
+    location: sf_contacts.csv
+    primary_key: sf_id
     attributes:
       email: email
-      name: full_name
+      first_name: first_name
+      last_name: last_name
       phone: phone
-  - name: billing
+  - name: stripe
     adapter: csv
-    location: stripe.csv
-    primary_key: id
+    location: stripe_customers.csv
+    primary_key: cus_id
     attributes:
       email: email
       name: name
       phone: phone
-blocking:
+
+blocking:                             # Reduce comparison space
   keys:
     - [email]
     - [phone]
-rules:
+
+rules:                                # How to compare records
   - name: email_exact
     type: exact
     field: email
     weight: 1.0
   - name: name_fuzzy
     type: similarity
-    field: name
+    field: first_name
     algorithm: jaro_winkler
     threshold: 0.85
     weight: 0.8
@@ -94,48 +95,161 @@ rules:
     algorithm: levenshtein
     threshold: 0.8
     weight: 0.6
-decision:
+
+decision:                             # When to merge vs. review
   thresholds:
     match: 0.7
     review: 0.4
-survivorship:
+
+survivorship:                         # Which values win
   strategy: source_priority
-  source_order: [crm, billing]
+  source_order: [salesforce, stripe]
 ```
 
-### 2. Validate and reconcile
+A spec has six sections:
+
+| Section | Purpose |
+|---------|---------|
+| `sources` | Declare data sources and map their columns to common attributes |
+| `blocking` | Reduce the comparison space — only records sharing a blocking key are compared |
+| `rules` | Define how to compare records (exact, fuzzy, phonetic, composite, ML) |
+| `decision` | Set thresholds — above `match` = auto-merge, above `review` = human review |
+| `survivorship` | When records merge, decide which source's values win for the golden record |
 
 ```python
-from kanoniv import Spec, Source, reconcile, validate, plan
+from kanoniv import Spec
 
 spec = Spec.from_file("customer-spec.yaml")
 
-# Validate — catches errors before you run
-result = validate(spec)
-result.raise_on_error()
+print(spec.entity)                    # {'name': 'customer'}
+print([s['name'] for s in spec.sources])  # ['salesforce', 'stripe']
+print([r['name'] for r in spec.rules])    # ['email_exact', 'name_fuzzy', 'phone_match']
+```
 
-# Plan — see what the engine will do
+### 2. Validate — Catch errors before you run
+
+**Validate** checks your spec for structural errors, invalid references, and logical mistakes — before any data is touched.
+
+```python
+from kanoniv import validate
+
+result = validate(spec)
+print(result)
+# <ValidationResult: Valid>
+
+result.raise_on_error()  # Raises if invalid — safe to use in CI
+```
+
+Validation catches:
+- Missing required fields (`entity`, `sources`, `rules`)
+- Invalid rule types or algorithms
+- Threshold values out of range
+- Source references that don't exist
+- Blocking keys referencing unmapped attributes
+- Survivorship strategies referencing unknown sources
+
+```python
+# Strict mode — also catches serde/schema issues
+from kanoniv import validate_strict
+
+errors = validate_strict(spec)
+# ['KNV-E201: Invalid survivorship strategy ...']
+```
+
+### 3. Plan — Preview the execution
+
+**Plan** compiles your spec into an execution plan and surfaces risk flags — without touching data. Use it to understand what the engine will do and catch potential quality issues.
+
+```python
+from kanoniv import plan
+
 p = plan(spec)
 print(p.summary())
+```
 
-# Reconcile — runs locally via Rust engine
+```
+  Identity:     customer (1.0)
+  Sources:      2 (salesforce, stripe)
+  Signals:      email (exact, w=1), first_name (similarity/jaro_winkler, w=0.8),
+                phone (similarity/levenshtein, w=0.6)
+  Blocking:     email, phone
+  Thresholds:   merge >= 0.7, review >= 0.4
+  Stages:       8 execution stages
+  Survivorship: source_priority [salesforce, stripe]
+  Risk flags:   0 critical, 1 high, 1 medium
+  Plan hash:    sha256:a3f8c91d...
+```
+
+```python
+# Inspect risk flags
+for flag in p.risk_flags:
+    print(f"  [{flag['severity']}] {flag['message']}")
+    print(f"    -> {flag['recommendation']}")
+
+# [high] Rule 'phone_match' has threshold 0.80 — risk of over-merging
+#    -> Consider raising threshold to 0.85+ or adding verification rules
+# [medium] No temporal configuration — identity resolution is not time-aware
+#    -> Add temporal config if entities have time-dependent attributes
+```
+
+The plan hash is deterministic — same spec always produces the same hash. Use it to detect config drift in CI/CD.
+
+### 4. Reconcile — Run identity resolution
+
+**Reconcile** runs the full pipeline locally: load data, normalize, block, compare, score, cluster, and build golden records. The Rust engine handles all CPU-intensive work.
+
+```python
+from kanoniv import Source, reconcile
+
 sources = [
-    Source.from_csv("crm", "contacts.csv"),
-    Source.from_csv("billing", "stripe.csv"),
+    Source.from_csv("salesforce", "sf_contacts.csv", primary_key="sf_id"),
+    Source.from_csv("stripe", "stripe_customers.csv", primary_key="cus_id"),
 ]
+
 result = reconcile(sources, spec)
+```
 
-# Results
-print(f"Clusters: {result.cluster_count}")
-print(f"Golden records: {len(result.golden_records)}")
-print(f"Merge rate: {result.merge_rate:.1%}")
+**What you get back:**
 
-# Export to Pandas
+```python
+# High-level metrics
+print(f"Input records:  {200}")
+print(f"Clusters:       {result.cluster_count}")      # 172 unique identities
+print(f"Golden records: {len(result.golden_records)}") # 172
+print(f"Merge rate:     {result.merge_rate:.1%}")      # 14.0%
+print(f"Decisions:      {len(result.decisions)}")      # 174
+
+# Clusters — which records belong together
+for cluster in result.clusters[:3]:
+    print(cluster)
+# ['sf_003rSO42uKiv7Ry', 'cus_pQvhxKkZssTKu3']  <- matched pair
+# ['sf_0037XsrSvBpDmH5']                           <- singleton
+# ['cus_ZQDA2kiT80g4DJ', 'sf_003CLFuMk9TsuZH']   <- matched pair
+
+# Decisions — why each pair was matched
+for d in result.decisions[:2]:
+    print(f"  {d['decision']} (confidence={d['confidence']:.3f})")
+    print(f"  matched on: {d['matched_on']}")
+# merge (confidence=0.783)
+# matched on: ['email_exact', 'phone_match']
+
+# Golden records — export to Pandas
 golden_df = result.to_pandas()
 golden_df.to_csv("golden_customers.csv", index=False)
 ```
 
-### 3. Compare spec versions
+Source adapters:
+
+| Adapter | Usage |
+|---------|-------|
+| CSV | `Source.from_csv("name", "path.csv", primary_key="id")` |
+| Pandas | `Source.from_pandas("name", dataframe, primary_key="id")` |
+| SQL / Warehouse | `Source.from_warehouse("name", connection, query)` |
+| dbt | `Source.from_dbt("name", project_dir, model)` |
+
+### 5. Diff — Compare spec versions
+
+**Diff** compares two spec versions to show exactly what changed — sources added/removed, rules modified, thresholds shifted. Use it to review changes before deploying a new spec version.
 
 ```python
 from kanoniv import Spec, diff
@@ -146,11 +260,54 @@ v2 = Spec.from_file("spec-v2.yaml")
 d = diff(v1, v2)
 print(d.summary)
 # version: 1.0 -> 2.0; sources: +1 -0 ~0; rules: +1 -0 ~0; thresholds changed
+
+print(d.sources_added)       # ['hubspot']
+print(d.rules_added)         # ['name_metaphone']
+print(d.thresholds_changed)  # True
+print(d.has_changes)         # True
 ```
 
-## Features
+## End-to-End Example
 
-### Matching Rules
+Putting it all together — a complete script from spec to golden records:
+
+```python
+from kanoniv import Spec, Source, validate, plan, reconcile
+
+# 1. Spec — load your identity logic
+spec = Spec.from_file("customer-spec.yaml")
+
+# 2. Validate — fail fast on bad config
+validate(spec).raise_on_error()
+
+# 3. Plan — check for risk flags
+p = plan(spec)
+print(p.summary())
+assert len([f for f in p.risk_flags if f['severity'] == 'critical']) == 0
+
+# 4. Reconcile — run the engine
+sources = [
+    Source.from_csv("salesforce", "sf_contacts.csv", primary_key="sf_id"),
+    Source.from_csv("stripe", "stripe_customers.csv", primary_key="cus_id"),
+]
+result = reconcile(sources, spec)
+
+print(f"Matched {result.cluster_count} identities from {200} records")
+print(f"Merge rate: {result.merge_rate:.1%}")
+
+# 5. Export golden records
+result.to_pandas().to_csv("golden_customers.csv", index=False)
+```
+
+## Why Kanoniv
+
+- **Golden records out of the box.** Most ER tools stop at matching. Kanoniv includes survivorship — the logic that decides which values survive into the canonical record.
+- **Declarative YAML spec.** Your matching logic lives in a version-controlled file, not scattered across code. Review it in a PR, test it in CI, deploy it to production.
+- **Offline-first.** The Python SDK runs entirely on your machine. No API keys, no accounts, no data leaves your environment.
+- **Fast.** The reconciliation engine is written in Rust and compiled to native Python extensions via PyO3. 100K records in seconds on a laptop.
+- **Full pipeline.** Validate &rarr; Plan &rarr; Reconcile &rarr; Diff. Each step catches problems earlier, before they reach production.
+
+## Matching Rules
 
 | Rule Type | Algorithm | Best For |
 |-----------|-----------|----------|
@@ -165,7 +322,7 @@ print(d.summary)
 | `composite` | AND/OR rule groups | Multi-field matching |
 | `ml` | ML model scoring | Custom models |
 
-### Survivorship Strategies
+## Survivorship Strategies
 
 | Strategy | Logic |
 |----------|-------|
@@ -175,64 +332,34 @@ print(d.summary)
 | `aggregate` | Combine values across sources |
 | `custom` | User-defined logic per field |
 
-### Source Adapters
-
-| Adapter | Method |
-|---------|--------|
-| CSV | `Source.from_csv(name, path)` |
-| Pandas | `Source.from_pandas(name, dataframe)` |
-| SQL / Warehouse | `Source.from_warehouse(name, connection, query)` |
-| dbt | `Source.from_dbt(name, project_dir, model)` |
-
-### Spec Validation
-
-The SDK validates specs before execution, catching configuration errors early:
-
-```python
-result = validate(spec)
-# Checks: required fields, valid rule types, threshold ranges,
-#          source references, blocking key consistency, and more
-```
-
-### Execution Plans
-
-Inspect what the engine will do before running:
-
-```python
-p = plan(spec)
-print(p.summary())
-print(f"Risk flags: {len(p.risk_flags)}")
-for flag in p.risk_flags:
-    print(f"  [{flag['severity']}] {flag['message']}")
-```
-
-### Spec Diffing
-
-Track changes between spec versions for safe deployments:
-
-```python
-d = diff(spec_v1, spec_v2)
-print(d.sources_added)      # ['hubspot']
-print(d.rules_added)        # ['name_metaphone']
-print(d.thresholds_changed) # True
-```
-
 ## Architecture
 
 ```
-Python SDK (kanoniv)
-  |  <-- pip install kanoniv
-  v
-PyO3 FFI bridge
-  |  <-- Python -> Rust (zero-copy where possible)
-  v
-Rust reconciliation engine
-  |  <-- Normalize -> Block -> Compare -> Score -> Cluster -> Survive
-  v
-Golden records (Pandas DataFrame)
+                    customer-spec.yaml
+                          |
+                     Spec.from_file()
+                          |
+        +---------+-------+-------+---------+
+        |         |               |         |
+   validate()   plan()      reconcile()   diff()
+        |         |               |         |
+   errors/ok   risk flags    +---------+  changes
+                             |  Rust   |
+                             | Engine  |
+                             +---------+
+                             | Normalize
+                             | Block
+                             | Compare
+                             | Score
+                             | Cluster
+                             | Survive
+                             +---------+
+                                  |
+                          Golden Records
+                        (Pandas DataFrame)
 ```
 
-The Rust engine handles all CPU-intensive work: string normalization, blocking, pairwise comparison, scoring, clustering, and survivorship. The Python SDK is a thin wrapper for I/O and data conversion.
+The Rust engine handles all CPU-intensive work. The Python SDK is a thin wrapper for I/O and data conversion. No data leaves your machine.
 
 ## How It Compares
 
