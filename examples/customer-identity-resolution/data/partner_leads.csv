@@ -1,0 +1,801 @@
+partner_lead_id,partner_name,first_name,last_name,email,company,estimated_arr,stage,submitted_at
+PTR_000000,DataStack Partners,,Watson,george.watson1@outlook.com,Amber Group,25000,engaged,2023-02-01T00:00:00
+PTR_000001,Databricks ISV Program,Andrea,,,Forge Labs,0,qualified,2023-11-04T00:00:00
+PTR_000002,DataStack Partners,,Adams,laura.adams@harbor.io,Harbor Analytics,250000,new,2024-01-19T00:00:00
+PTR_000003,Snowflake SI Network,Olivia,,,TechFlow Inc,25000,new,2023-05-01T00:00:00
+PTR_000004,BigQuery Alliance,,Cook,victoria.cook86@icloud.com,Echo Intelligence,100000,closed_lost,2023-05-31T00:00:00
+PTR_000005,CloudFirst Consulting,Carol,,carol.ross@pinnacle.com,Pinnacle Financial,50000,engaged,2023-04-29T00:00:00
+PTR_000006,dbt Labs Partners,Susan,,susan.lopez@isle.io,Isle Technologies,100000,negotiation,2023-10-16T00:00:00
+PTR_000007,CloudFirst Consulting,,,,Isle Technologies,250000,new,2023-09-14T00:00:00
+PTR_000008,Snowflake SI Network,Stephen,Garcia,stephen.garcia@quantum.co,Quantum Analytics,10000,closed_won,2022-11-19T00:00:00
+PTR_000009,dbt Labs Partners,Jose,Anderson,jose.anderson@bluewave.co,BlueWave Media,10000,negotiation,2022-11-06T00:00:00
+PTR_000010,DataStack Partners,Samuel,Williams,samuel.williams@isle.io,Isle Technologies,25000,engaged,2023-06-09T00:00:00
+PTR_000011,Databricks ISV Program,Ryan,Evans,ryan.evans69@gmail.com,Ridge Financial,10000,qualified,2022-09-21T00:00:00
+PTR_000012,DataStack Partners,Robert,,,Keystone Data,25000,new,2022-09-24T00:00:00
+PTR_000013,BigQuery Alliance,Shirley,Phillips,shirley.phillips@delta.com,Delta Platforms,50000,engaged,2022-06-04T00:00:00
+PTR_000014,Databricks ISV Program,Tyler,,tyler.watson52@fastmail.com,Redwood Industries,250000,engaged,2022-08-25T00:00:00
+PTR_000015,CloudFirst Consulting,Donald,Stewart,,Atlantic Digital,0,closed_won,2023-09-25T00:00:00
+PTR_000016,dbt Labs Partners,,,shirley.gutierrez@redwood.com,Redwood Industries,250000,engaged,2024-03-07T00:00:00
+PTR_000017,dbt Labs Partners,,Richardson,,Vertex Software,0,engaged,2022-03-19T00:00:00
+PTR_000018,Databricks ISV Program,,Baker,,Horizon Labs,0,qualified,2022-02-23T00:00:00
+PTR_000019,Databricks ISV Program,Raymond,Moore,raymond.moore@beacon.com,Beacon Data,0,qualified,2022-10-30T00:00:00
+PTR_000020,Snowflake SI Network,Charles,Hernandez,charles.hernandez@orbit.com,Orbit Solutions,50000,closed_won,2024-03-23T00:00:00
+PTR_000021,Databricks ISV Program,Karen,,karen.garcia@pacific.io,Pacific Innovations,10000,qualified,2023-03-15T00:00:00
+PTR_000022,dbt Labs Partners,,Johnson,helen.johnson51@hotmail.com,Cobalt Engineering,50000,closed_won,2023-04-16T00:00:00
+PTR_000023,CloudFirst Consulting,,Collins,kelly.collins32@fastmail.com,DataBridge Solutions,0,qualified,2023-03-09T00:00:00
+PTR_000024,Databricks ISV Program,,Morgan,heather.morgan33@yahoo.com,Keystone Data,10000,engaged,2022-09-02T00:00:00
+PTR_000025,dbt Labs Partners,Heather,,heather.long@jade.co,Jade Systems,100000,closed_won,2023-11-22T00:00:00
+PTR_000026,dbt Labs Partners,Jason,,jason.scott@sterling.co,Sterling Ventures,250000,new,2024-02-25T00:00:00
+PTR_000027,Databricks ISV Program,Jose,Lewis,jose.lewis@nexus.io,Nexus Healthcare,100000,closed_won,2022-03-20T00:00:00
+PTR_000028,BigQuery Alliance,Nicholas,Murphy,nicholas.murphy@techflow.com,TechFlow Inc,100000,closed_won,2023-12-15T00:00:00
+PTR_000029,Databricks ISV Program,Peter,Carter,peter.carter@meridian.co,Meridian Partners,100000,negotiation,2023-09-13T00:00:00
+PTR_000030,Databricks ISV Program,,Long,,Frost Dynamics,10000,negotiation,2022-08-19T00:00:00
+PTR_000031,BigQuery Alliance,Anna,Bailey,anna.bailey@orbit.com,ORBIT SOLUTIONS,10000,engaged,2022-12-22T00:00:00
+PTR_000032,dbt Labs Partners,,Diaz,ruth.diaz@pacific.io,Pacific Innovations,0,negotiation,2023-02-08T00:00:00
+PTR_000033,dbt Labs Partners,,Thompson,eric.thompson@nova.io,Nova Computing,10000,closed_won,2023-04-05T00:00:00
+PTR_000034,Snowflake SI Network,,Lee,linda.lee@obsidian.com,Obsidian Research,25000,qualified,2023-08-24T00:00:00
+PTR_000035,BigQuery Alliance,Samuel,Kelly,samuel.kelly13@hotmail.com,Summit Health,0,closed_lost,2023-11-22T00:00:00
+PTR_000036,CloudFirst Consulting,,Sanchez,karen.sanchez@cloudpeak.com,CloudPeak Technologies,0,new,2023-11-14T00:00:00
+PTR_000037,CloudFirst Consulting,,,catherine.roberts@amber.com,amber group,50000,engaged,2023-07-07T00:00:00
+PTR_000038,Snowflake SI Network,Kathleen,Bennett,kathleen.bennett@sapphire.com,Sapphire Analytics,25000,closed_won,2022-04-23T00:00:00
+PTR_000039,DataStack Partners,Stephanie,Cook,stephanie.cook@pulse.com,Pulse Engineering,250000,engaged,2022-05-10T00:00:00
+PTR_000040,CloudFirst Consulting,Michelle,Rivera,michelle.rivera@tidal.io,Tidal Software,10000,qualified,2023-09-15T00:00:00
+PTR_000041,BigQuery Alliance,,,julie.peterson@vertex.co,Vertex Software,25000,closed_won,2023-04-25T00:00:00
+PTR_000042,Snowflake SI Network,,,lisa.ross@sapphire.com,sapphire analytics,25000,qualified,2023-01-28T00:00:00
+PTR_000043,dbt Labs Partners,Jose,,jose.thomas@alpine.io,Alpine Services,10000,closed_lost,2022-09-19T00:00:00
+PTR_000044,DataStack Partners,Shirley,Ward,,Granite Holdings,250000,qualified,2023-04-11T00:00:00
+PTR_000045,dbt Labs Partners,Betty,Cruz,betty.cruz@summit.com,Summit Health,50000,qualified,2022-09-06T00:00:00
+PTR_000046,BigQuery Alliance,Judith,Castillo,judith.castillo@acme.co,Acme Corp,50000,qualified,2023-09-18T00:00:00
+PTR_000047,DataStack Partners,Cynthia,,cynthia.morgan5@outlook.com,Ridge Financial,25000,closed_lost,2022-10-05T00:00:00
+PTR_000048,CloudFirst Consulting,Edward,Torres,edward.torres@delta.com,Delta Platforms,250000,closed_won,2022-08-04T00:00:00
+PTR_000049,CloudFirst Consulting,Christina,Castillo,christina.castillo@coral.co,Coral Networks,250000,engaged,2022-10-12T00:00:00
+PTR_000050,dbt Labs Partners,Timothy,Myers,timothy.myers@frost.com,Frost Dynamics,10000,negotiation,2022-11-06T00:00:00
+PTR_000051,CloudFirst Consulting,Margaret,,margaret.carter29@hotmail.com,DataBridge Solutions,50000,qualified,2022-07-04T00:00:00
+PTR_000052,CloudFirst Consulting,Stephanie,King,,Pulse Engineering,100000,closed_lost,2023-03-26T00:00:00
+PTR_000053,Databricks ISV Program,Barbara,Walker,barbara.walker@atlas.co,Atlas Logistics,10000,closed_won,2023-06-25T00:00:00
+PTR_000054,DataStack Partners,,,douglas.miller@meridian.co,Meridian Partners,10000,negotiation,2022-10-06T00:00:00
+PTR_000055,Snowflake SI Network,,Collins,scott.collins10@gmail.com,REDWOOD INDUSTRIES,25000,negotiation,2023-12-16T00:00:00
+PTR_000056,CloudFirst Consulting,Barbara,,barbara.ramirez@vertex.co,Vertex Software,0,qualified,2023-07-05T00:00:00
+PTR_000057,Databricks ISV Program,John,Murphy,,Quartz Health,10000,closed_lost,2022-05-10T00:00:00
+PTR_000058,Databricks ISV Program,Stephen,Green,stephen.green@spark.io,spark automation,0,qualified,2023-04-15T00:00:00
+PTR_000059,CloudFirst Consulting,Kelly,,kelly.patel@techflow.com,techflow inc,100000,qualified,2023-10-22T00:00:00
+PTR_000060,Databricks ISV Program,Maria,Wood,maria.wood@atlas.co,Atlas Logistics,250000,engaged,2022-09-16T00:00:00
+PTR_000061,dbt Labs Partners,Katherine,Reed,katherine.reed97@gmail.com,Frost Dynamics,0,engaged,2023-10-01T00:00:00
+PTR_000062,DataStack Partners,Tyler,Ortiz,tyler.ortiz@echo.co,Echo Intelligence,250000,closed_won,2023-09-10T00:00:00
+PTR_000063,dbt Labs Partners,William,Garcia,,DataBridge Solutions,25000,engaged,2023-09-27T00:00:00
+PTR_000064,Snowflake SI Network,Mark,Torres,mark.torres@greenfield.com,GreenField Energy,100000,closed_lost,2022-06-09T00:00:00
+PTR_000065,CloudFirst Consulting,,,edward.ortiz@nexus.io,Nexus Healthcare,0,closed_won,2022-08-28T00:00:00
+PTR_000066,Databricks ISV Program,Jonathan,Ross,,BlueWave Media,50000,closed_lost,2023-12-10T00:00:00
+PTR_000067,DataStack Partners,,Diaz,christopher.diaz@quartz.io,Quartz Health,10000,new,2023-04-02T00:00:00
+PTR_000068,BigQuery Alliance,Donna,Green,donna.green@greenfield.com,GreenField Energy,10000,qualified,2022-11-25T00:00:00
+PTR_000069,CloudFirst Consulting,Roger,Morgan,roger.morgan50@yahoo.com,Alpine Services,10000,engaged,2024-03-29T00:00:00
+PTR_000070,BigQuery Alliance,Emily,,emily.sanchez24@yahoo.com,Ridge Financial,100000,closed_won,2022-07-19T00:00:00
+PTR_000071,Snowflake SI Network,,Johnson,richard.johnson39@aol.com,Beacon Data,25000,qualified,2022-08-12T00:00:00
+PTR_000072,Snowflake SI Network,Richard,Gray,richard.gray58@yahoo.com,Quartz Health,10000,closed_lost,2022-05-26T00:00:00
+PTR_000073,DataStack Partners,,Ruiz,ronald.ruiz@pacific.io,Pacific Innovations,250000,new,2022-08-26T00:00:00
+PTR_000074,BigQuery Alliance,Henry,Cruz,henry.cruz63@fastmail.com,Orbit Solutiojs,10000,negotiation,2024-03-26T00:00:00
+PTR_000075,CloudFirst Consulting,Paul,,,Acme Corp,50000,negotiation,2023-08-10T00:00:00
+PTR_000076,BigQuery Alliance,Victoria,Scott,victoria.scott56@aol.com,horizon labs,100000,new,2023-02-09T00:00:00
+PTR_000077,CloudFirst Consulting,Jeffrey,,,Tidal Software,0,negotiation,2023-06-30T00:00:00
+PTR_000078,Databricks ISV Program,Daniel,Anderson,daniel.anderson@lumen.com,Lumen AI,10000,negotiation,2023-12-22T00:00:00
+PTR_000079,Snowflake SI Network,Jerry,Martin,jerry.martin79@gmail.com,Canyon Resources,250000,engaged,2022-12-02T00:00:00
+PTR_000080,CloudFirst Consulting,Maria,Hernandez,maria.hernandez@tidal.io,Tidal Software,10000,negotiation,2023-04-28T00:00:00
+PTR_000081,Snowflake SI Network,Heather,Morales,heather.morales@spark.io,Spark Automation,100000,closed_won,2023-10-01T00:00:00
+PTR_000082,Databricks ISV Program,Aaron,Bennett,aaron.bennett@forge.io,Forge Labs,10000,closed_lost,2022-09-14T00:00:00
+PTR_000083,DataStack Partners,Katherine,,katherine.foster@tidal.io,Tidal Software,0,negotiation,2022-09-17T00:00:00
+PTR_000084,CloudFirst Consulting,Jonathan,Martin,jonathan.martin78@yahoo.com,Orbit Solutions,100000,negotiation,2023-10-20T00:00:00
+PTR_000085,dbt Labs Partners,Christina,,christina.reyes@keystone.com,Keystone Data,100000,closed_lost,2023-06-23T00:00:00
+PTR_000086,CloudFirst Consulting,Samantha,Turner,samantha.turner@horizon.co,Horizon Labs,50000,engaged,2024-04-04T00:00:00
+PTR_000087,DataStack Partners,Sandra,Ramos,sandra.ramos@forge.io,Forge Labs,250000,engaged,2023-07-27T00:00:00
+PTR_000088,BigQuery Alliance,Heather,,,Meridian Partners,250000,closed_lost,2023-12-11T00:00:00
+PTR_000089,DataStack Partners,,Green,zachary.green@acme.co,Acme Corp,0,engaged,2024-02-10T00:00:00
+PTR_000090,Snowflake SI Network,Sarah,,sarah.kim@summit.com,Summit Health,50000,closed_won,2022-06-13T00:00:00
+PTR_000091,BigQuery Alliance,,Turner,,Onyx Solutions,50000,negotiation,2022-12-30T00:00:00
+PTR_000092,Databricks ISV Program,Charles,Evans,,Pulse Engineering,25000,engaged,2023-09-26T00:00:00
+PTR_000093,Snowflake SI Network,Brenda,Foster,brenda.foster@summit.com,SUMMIT HEALTH,25000,qualified,2023-08-20T00:00:00
+PTR_000094,BigQuery Alliance,Heather,,heather.bailey@pinnacle.com,Pinnacle Financial,25000,qualified,2022-11-07T00:00:00
+PTR_000095,CloudFirst Consulting,,Hughes,,Isle Technologies,100000,engaged,2023-11-25T00:00:00
+PTR_000096,CloudFirst Consulting,,Evans,paul.evans@harbor.io,Harbor Analytics,25000,closed_won,2022-11-04T00:00:00
+PTR_000097,Snowflake SI Network,Catherine,,catherine.rogers@pacific.io,Pacific Innovations,10000,negotiation,2022-06-27T00:00:00
+PTR_000098,BigQuery Alliance,Stephen,,stephen.davis95@outlook.com,Canyon Resources,10000,engaged,2023-11-13T00:00:00
+PTR_000099,CloudFirst Consulting,,,anthony.young@vertex.co,Vertex Software,100000,qualified,2023-06-25T00:00:00
+PTR_000100,CloudFirst Consulting,Emily,Miller,,pinnacle financial,50000,negotiation,2022-06-05T00:00:00
+PTR_000101,Databricks ISV Program,Lisa,Peterson,lisa.peterson@lumen.com,Lumen AI,250000,new,2022-09-23T00:00:00
+PTR_000102,DataStack Partners,Michelle,Hill,,Acme,25000,qualified,2022-02-04T00:00:00
+PTR_000103,Databricks ISV Program,Carl,,,DataBridge Solutions,100000,qualified,2022-08-10T00:00:00
+PTR_000104,dbt Labs Partners,Arthur,Mitchell,,Meridia Partners,0,negotiation,2022-07-31T00:00:00
+PTR_000105,Snowflake SI Network,Benjamin,,benjamin.edwards@harbor.io,Harbor Analytics,100000,negotiation,2023-04-22T00:00:00
+PTR_000106,Snowflake SI Network,Helen,Perez,helen.perez@quartz.io,Quartz Health,10000,engaged,2023-03-31T00:00:00
+PTR_000107,Snowflake SI Network,,,jerry.walker@lumen.com,Lumen AI,0,engaged,2023-12-18T00:00:00
+PTR_000108,BigQuery Alliance,Jonathan,Wilson,,Tidal Software,250000,closed_lost,2022-06-24T00:00:00
+PTR_000109,dbt Labs Partners,Victoria,Moore,victoria.moore@orbit.com,Orbit Solutions,50000,qualified,2024-03-04T00:00:00
+PTR_000110,DataStack Partners,Michelle,Scott,michelle.scott@cloudpeak.com,CloudPeak Technologies,50000,new,2023-07-11T00:00:00
+PTR_000111,dbt Labs Partners,Joshua,Thompson,joshua.thompson@spark.io,Spark Automation,10000,engaged,2022-07-12T00:00:00
+PTR_000112,Snowflake SI Network,,Hughes,debra.hughes@pacific.io,Pacific Innovations,0,engaged,2023-01-20T00:00:00
+PTR_000113,BigQuery Alliance,Ryan,Cruz,ryan.cruz18@hotmail.com,Quantum Analytics,100000,engaged,2023-09-20T00:00:00
+PTR_000114,Snowflake SI Network,,Bailey,virginia.bailey@orbit.com,Orbit Solutions,250000,closed_lost,2023-11-06T00:00:00
+PTR_000115,BigQuery Alliance,Karen,Taylor,karen.taylor@echo.co,Echo Intelligence,10000,new,2023-08-31T00:00:00
+PTR_000116,Databricks ISV Program,Carolyn,Clark,carolyn.clark@nova.io,Nova Computing,0,engaged,2022-10-15T00:00:00
+PTR_000117,BigQuery Alliance,Anthony,Baker,anthony.baker@pulse.com,Pulse Engineering,25000,negotiation,2023-12-28T00:00:00
+PTR_000118,DataStack Partners,,,margaret.murphy89@icloud.com,GreenField Energy,100000,negotiation,2024-04-06T00:00:00
+PTR_000119,CloudFirst Consulting,,,evelyn.ward@ember.co,Ember Technologies,0,closed_won,2022-09-23T00:00:00
+PTR_000120,Snowflake SI Network,Gregory,,gregory.collins@lumen.com,Lumen AI,50000,closed_lost,2023-03-12T00:00:00
+PTR_000121,dbt Labs Partners,George,Thomas,george.thomas1@icloud.com,BlueWave Media,50000,engaged,2022-06-26T00:00:00
+PTR_000122,dbt Labs Partners,,Sanders,,Forge Labs,250000,closed_lost,2022-10-20T00:00:00
+PTR_000123,Databricks ISV Program,Virginia,Miller,virginia.miller@coral.co,Coral Networks,100000,qualified,2023-12-29T00:00:00
+PTR_000124,BigQuery Alliance,Nathan,,,Alpine Services,10000,negotiation,2023-04-04T00:00:00
+PTR_000125,Snowflake SI Network,,Mitchell,kenneth.mitchell@prism.com,Prism Consulting,250000,engaged,2023-03-11T00:00:00
+PTR_000126,Snowflake SI Network,Alexander,,alexander.long6@outlook.com,Obsidan Research,10000,new,2024-03-02T00:00:00
+PTR_000127,CloudFirst Consulting,,,cynthia.sanchez@nova.io,Nova Computing,10000,negotiation,2022-07-28T00:00:00
+PTR_000128,Snowflake SI Network,Maria,Nguyen,maria.nguyen@canyon.com,Canyon Resources,10000,engaged,2022-10-23T00:00:00
+PTR_000129,DataStack Partners,,Richardson,andrew.richardson34@icloud.com,Catalyst AI,25000,qualified,2022-02-15T00:00:00
+PTR_000130,dbt Labs Partners,Helen,Watson,,Sterling Ventures,250000,closed_lost,2023-09-16T00:00:00
+PTR_000131,CloudFirst Consulting,Eric,,,Alpine Services,100000,qualified,2023-09-02T00:00:00
+PTR_000132,DataStack Partners,Andrea,Moore,,Isle Technologies,50000,closed_lost,2023-05-05T00:00:00
+PTR_000133,BigQuery Alliance,Peter,Bennett,peter.bennett@ember.co,Ember Technologies,25000,qualified,2022-12-01T00:00:00
+PTR_000134,BigQuery Alliance,Kelly,Cox,kelly.cox17@aol.com,Vertex Software,10000,negotiation,2023-12-20T00:00:00
+PTR_000135,CloudFirst Consulting,Katherine,,katherine.turner42@hotmail.com,Meridian Partners,250000,qualified,2023-07-29T00:00:00
+PTR_000136,BigQuery Alliance,,Howard,joan.howard@atlas.co,Atlas Logistics,0,qualified,2022-11-25T00:00:00
+PTR_000137,BigQuery Alliance,Ronald,,ronald.jimenez38@aol.com,Quartz Health,50000,closed_won,2022-11-08T00:00:00
+PTR_000138,Snowflake SI Network,Jack,Gray,jack.gray@atlantic.co,Atlantic Digital,50000,engaged,2023-06-19T00:00:00
+PTR_000139,BigQuery Alliance,Tyler,Long,tyler.long@alpine.io,Alpine Services,250000,closed_lost,2022-11-21T00:00:00
+PTR_000140,Databricks ISV Program,Carl,,carl.james18@yahoo.com,Jade Systems,25000,negotiation,2022-09-05T00:00:00
+PTR_000141,Snowflake SI Network,Joseph,Nguyen,joseph.nguyen@nexus.io,Nexus Healthcare,100000,closed_won,2022-12-28T00:00:00
+PTR_000142,Snowflake SI Network,,Chavez,carolyn.chavez14@outlook.com,GreenField Energy,250000,new,2023-06-30T00:00:00
+PTR_000143,DataStack Partners,Ryan,King,ryan.king39@protonmail.com,Granite Holdings,10000,closed_lost,2023-05-26T00:00:00
+PTR_000144,DataStack Partners,Carol,,carol.gray@ironclad.com,Ironclad Security,0,closed_won,2022-06-01T00:00:00
+PTR_000145,Databricks ISV Program,Daniel,Alvarez,daniel.alvarez@beacon.com,Beacon Data,50000,qualified,2022-10-15T00:00:00
+PTR_000146,Databricks ISV Program,Frank,Rivera,frank.rivera@nexus.io,Nexus Healthcare,100000,qualified,2022-08-10T00:00:00
+PTR_000147,Snowflake SI Network,Jack,Richardson,jack.richardson@tidal.io,Tidal Software,50000,new,2022-06-21T00:00:00
+PTR_000148,Snowflake SI Network,Robert,,robert.hughes@atlas.co,Atlas Logistics,50000,new,2022-08-25T00:00:00
+PTR_000149,dbt Labs Partners,Benjamin,,benjamin.kim@ember.co,Ember Technologies,10000,closed_won,2023-12-21T00:00:00
+PTR_000150,BigQuery Alliance,Joan,,joan.anderson@cobalt.co,Cobalt Engineering,25000,new,2023-06-11T00:00:00
+PTR_000151,DataStack Partners,,,joyce.allen@orbit.com,Orbit Solutions,10000,new,2022-10-05T00:00:00
+PTR_000152,BigQuery Alliance,,Stewart,david.stewart@cobalt.co,Cobalt Engineering,250000,new,2022-12-20T00:00:00
+PTR_000153,BigQuery Alliance,Frank,,frank.rivera@onyx.co,Onyx Solutions,10000,closed_lost,2022-05-07T00:00:00
+PTR_000154,DataStack Partners,Helen,Hall,helen.hall@granite.io,Granite Holdings,100000,negotiation,2023-01-17T00:00:00
+PTR_000155,DataStack Partners,Larry,Gonzalez,larry.gonzalez@meridian.co,Meridian Partners,100000,new,2022-08-02T00:00:00
+PTR_000156,CloudFirst Consulting,,Kelly,mark.kelly@pinnacle.com,Pinnacle Financial,25000,qualified,2023-12-14T00:00:00
+PTR_000157,DataStack Partners,Patricia,Lopez,patricia.lopez22@fastmail.com,Spark Automation,100000,qualified,2022-12-06T00:00:00
+PTR_000158,BigQuery Alliance,Victoria,,victoria.reyes@techflow.com,TechFlow Inc,250000,qualified,2023-01-29T00:00:00
+PTR_000159,CloudFirst Consulting,Richard,Sanchez,richard.sanchez@horizon.co,Horizon Labs,25000,qualified,2022-02-25T00:00:00
+PTR_000160,Snowflake SI Network,Anthony,,anthony.morgan@horizon.co,Horizon Labs,250000,qualified,2023-08-17T00:00:00
+PTR_000161,BigQuery Alliance,Lisa,Baker,lisa.baker@redwood.com,Redwood Industries,250000,qualified,2023-11-09T00:00:00
+PTR_000162,CloudFirst Consulting,Dennis,Mendoza,dennis.mendoza95@fastmail.com,Beacon Data,50000,negotiation,2023-07-31T00:00:00
+PTR_000163,BigQuery Alliance,Betty,Castillo,betty.castillo@vertex.co,Vertex Software,100000,engaged,2024-03-12T00:00:00
+PTR_000164,DataStack Partners,Charles,Wilson,charles.wilson@jade.co,Jade Systems,0,qualified,2022-05-23T00:00:00
+PTR_000165,dbt Labs Partners,Jerry,Morris,jerry.morris39@outlook.com,Keystone Data,50000,new,2023-07-18T00:00:00
+PTR_000166,dbt Labs Partners,Christine,,christine.collins73@aol.com,Silverline Capital,250000,negotiation,2023-09-19T00:00:00
+PTR_000167,DataStack Partners,George,,george.scott@coral.co,Coral Networks,50000,negotiation,2024-01-19T00:00:00
+PTR_000168,Databricks ISV Program,Virginia,Phillips,virginia.phillips@ridge.com,Ridge Financial,10000,closed_lost,2023-04-20T00:00:00
+PTR_000169,Databricks ISV Program,Jose,Wood,,Granite Holdings,0,negotiation,2022-04-22T00:00:00
+PTR_000170,Snowflake SI Network,Shirley,Garcia,shirley.garcia@quartz.io,Quartz Health,50000,negotiation,2023-10-23T00:00:00
+PTR_000171,CloudFirst Consulting,George,Ortiz,george.ortiz@databridge.com,DataBridge Solutions,25000,closed_won,2023-05-07T00:00:00
+PTR_000172,BigQuery Alliance,Catherine,Cruz,catherine.cruz@acme.co,Acme,250000,negotiation,2023-05-27T00:00:00
+PTR_000173,CloudFirst Consulting,Timothy,Morgan,timothy.morgan42@hotmail.com,IRONCLAD SECURITY,25000,negotiation,2023-06-06T00:00:00
+PTR_000174,Snowflake SI Network,Samuel,Clark,samuel.clark@coral.co,Coral Networks,0,closed_lost,2023-09-29T00:00:00
+PTR_000175,Databricks ISV Program,Pamela,,pamela.powell21@outlook.com,Alpine Services,25000,qualified,2023-09-01T00:00:00
+PTR_000176,BigQuery Alliance,Joshua,Wright,joshua.wright@pacific.io,Pacific Innovations,0,new,2022-10-10T00:00:00
+PTR_000177,CloudFirst Consulting,Jack,Price,jack.price35@gmail.com,Quantum Analytics,0,qualified,2022-09-07T00:00:00
+PTR_000178,Snowflake SI Network,Paul,Morris,paul.morris@summit.com,Summit Health,0,qualified,2022-07-18T00:00:00
+PTR_000179,Snowflake SI Network,Jacob,Wood,jacob.wood@beacon.com,Beacon Data,10000,qualified,2022-08-05T00:00:00
+PTR_000180,Databricks ISV Program,,,samantha.howard56@fastmail.com,Nexus Healthcare,100000,qualified,2023-05-09T00:00:00
+PTR_000181,DataStack Partners,Jessica,Reed,,Cobalt Engineering,250000,new,2023-11-27T00:00:00
+PTR_000182,Databricks ISV Program,Larry,Lee,larry.lee@echo.co,Echo Intelligence,250000,closed_lost,2023-06-30T00:00:00
+PTR_000183,dbt Labs Partners,Stephen,Foster,stephen.foster@tidal.io,Tidal Software,10000,new,2022-09-26T00:00:00
+PTR_000184,Databricks ISV Program,Carol,Sanders,,NorthStar Systems,100000,closed_lost,2023-05-23T00:00:00
+PTR_000185,CloudFirst Consulting,Maria,Smith,,Ember Technologies,25000,new,2022-06-10T00:00:00
+PTR_000186,DataStack Partners,,Sanders,michelle.sanders@pacific.io,Pacific Innovations,50000,closed_lost,2022-10-17T00:00:00
+PTR_000187,BigQuery Alliance,,Powell,sharon.powell@onyx.co,Onyx Solutions,50000,new,2023-07-22T00:00:00
+PTR_000188,CloudFirst Consulting,Stephanie,Carter,stephanie.carter@vertex.co,Vertex Software,50000,negotiation,2022-12-26T00:00:00
+PTR_000189,Snowflake SI Network,Frank,Evans,frank.evans@horizon.co,Horizon Labs,25000,closed_won,2023-12-08T00:00:00
+PTR_000190,DataStack Partners,Justin,Lewis,justin.lewis@vertex.co,Vertex Software,250000,closed_lost,2023-07-15T00:00:00
+PTR_000191,dbt Labs Partners,George,Ross,george.ross@summit.com,Summit Health,10000,closed_won,2024-01-02T00:00:00
+PTR_000192,Snowflake SI Network,Olivia,Diaz,olivia.diaz@tidal.io,Tidal Software,250000,negotiation,2023-06-22T00:00:00
+PTR_000193,dbt Labs Partners,Pamela,Thomas,pamela.thomas@delta.com,Delta Platforms,250000,closed_won,2022-08-12T00:00:00
+PTR_000194,DataStack Partners,,,carl.ruiz@orbit.com,Orbit Solutions,25000,new,2022-05-06T00:00:00
+PTR_000195,BigQuery Alliance,Christine,Mitchell,,Pinnacle Financial,0,closed_lost,2023-03-30T00:00:00
+PTR_000196,Snowflake SI Network,,Brown,,Tidal Software,10000,new,2024-04-04T00:00:00
+PTR_000197,Databricks ISV Program,Joyce,,joyce.baker@spark.io,Spark Automation,25000,closed_lost,2023-10-04T00:00:00
+PTR_000198,CloudFirst Consulting,Aaron,Patel,aaron.patel45@fastmail.com,HARBOR ANALYTICS,25000,closed_won,2023-01-03T00:00:00
+PTR_000199,BigQuery Alliance,Shirley,Mitchell,shirley.mitchell@vertex.co,Vertex Software,50000,qualified,2023-07-01T00:00:00
+PTR_000200,Databricks ISV Program,Joseph,,joseph.rogers@atlas.co,Atlas Logistics,10000,engaged,2022-06-15T00:00:00
+PTR_000201,DataStack Partners,Charles,,charles.bennett44@protonmail.com,Coral Networks,100000,engaged,2023-03-04T00:00:00
+PTR_000202,CloudFirst Consulting,,,emma.roberts@forge.io,Forge Labs,100000,closed_lost,2022-10-21T00:00:00
+PTR_000203,Snowflake SI Network,Stephen,Torres,stephen.torres@quantum.co,Quantum Analytics,50000,engaged,2023-11-24T00:00:00
+PTR_000204,dbt Labs Partners,Joan,,joan.bennett@cobalt.co,Cobalt Engineering,10000,negotiation,2022-08-19T00:00:00
+PTR_000205,Snowflake SI Network,Judith,Powell,judith.powell@quartz.io,Quartz Health,0,closed_won,2023-03-08T00:00:00
+PTR_000206,CloudFirst Consulting,Sharon,Scott,sharon.scott@horizon.co,HORIZON LABS,50000,engaged,2023-02-18T00:00:00
+PTR_000207,Snowflake SI Network,Catherine,Mendoza,catherine.mendoza@delta.com,Delta Platforms,100000,closed_won,2022-05-04T00:00:00
+PTR_000208,dbt Labs Partners,Dorothy,Watson,,Atlantic Digital,100000,new,2023-07-29T00:00:00
+PTR_000209,Databricks ISV Program,Linda,,linda.brooks58@aol.com,Beacon Data,10000,new,2022-10-12T00:00:00
+PTR_000210,CloudFirst Consulting,,,sarah.walker@jade.co,Jade Systems,25000,qualified,2024-03-05T00:00:00
+PTR_000211,Databricks ISV Program,Cynthia,Lopez,cynthia.lopez41@protonmail.com,BlueWave Media,50000,new,2023-10-20T00:00:00
+PTR_000212,BigQuery Alliance,Scott,Allen,scott.allen72@hotmail.com,Summit Health,0,closed_won,2023-12-17T00:00:00
+PTR_000213,DataStack Partners,Andrew,Powell,andrew.powell@echo.co,Echo Intelligence,25000,qualified,2022-07-08T00:00:00
+PTR_000214,Snowflake SI Network,,Patel,jason.patel13@fastmail.com,Onyx Solutions,250000,qualified,2023-08-26T00:00:00
+PTR_000215,Databricks ISV Program,Patrick,Davis,patrick.davis22@protonmail.com,Amber Group,0,qualified,2022-11-12T00:00:00
+PTR_000216,BigQuery Alliance,,,katherine.carter@forge.io,Forge Labs,50000,engaged,2024-01-25T00:00:00
+PTR_000217,Snowflake SI Network,Nathan,,nathan.evans@silverline.co,Silverline Capital,50000,qualified,2024-02-17T00:00:00
+PTR_000218,Snowflake SI Network,Eric,Robinson,eric.robinson@nexus.io,nexus healthcare,0,engaged,2022-06-03T00:00:00
+PTR_000219,CloudFirst Consulting,,Lopez,joyce.lopez72@icloud.com,Vertex Software,250000,engaged,2023-04-13T00:00:00
+PTR_000220,DataStack Partners,Harold,Nguyen,harold.nguyen@databridge.com,DataBridge Solutions,100000,closed_lost,2024-02-29T00:00:00
+PTR_000221,Databricks ISV Program,Angela,Campbell,angela.campbell@sterling.co,Sterling Ventures,0,qualified,2022-07-20T00:00:00
+PTR_000222,BigQuery Alliance,Larry,Kim,larry.kim54@gmail.com,Pinnacle Financiak,250000,closed_won,2023-06-16T00:00:00
+PTR_000223,CloudFirst Consulting,,Jackson,donald.jackson@orbit.com,Orbit,250000,closed_lost,2023-05-06T00:00:00
+PTR_000224,CloudFirst Consulting,Donna,Kim,donna.kim@silverline.co,Silverline Caiptal,50000,qualified,2023-05-01T00:00:00
+PTR_000225,CloudFirst Consulting,,Jones,joshua.jones@redwood.com,Redwood Industries,25000,new,2023-08-23T00:00:00
+PTR_000226,BigQuery Alliance,Justin,Morgan,justin.morgan@spark.io,Spark Autmation,10000,negotiation,2024-02-04T00:00:00
+PTR_000227,BigQuery Alliance,Anna,Hughes,anna.hughes@spark.io,Spark Automation,100000,qualified,2023-11-16T00:00:00
+PTR_000228,Snowflake SI Network,Joseph,Rivera,joseph.rivera1@aol.com,Silverline Capital,0,new,2023-08-11T00:00:00
+PTR_000229,dbt Labs Partners,Frank,Collins,frank.collins@orbit.com,Orbit Solutions,50000,closed_lost,2023-06-30T00:00:00
+PTR_000230,DataStack Partners,Nicole,,,GRANITE HOLDINGS,100000,new,2023-10-11T00:00:00
+PTR_000231,CloudFirst Consulting,,Clark,heather.clark40@fastmail.com,BlueWave Media,25000,new,2024-02-01T00:00:00
+PTR_000232,dbt Labs Partners,Stephanie,Chavez,stephanie.chavez77@yahoo.com,Meridian Partners,0,qualified,2023-01-11T00:00:00
+PTR_000233,Databricks ISV Program,Alexander,Baker,alexander.baker@vertex.co,Vertex Software,50000,closed_won,2024-01-06T00:00:00
+PTR_000234,Snowflake SI Network,Betty,Parker,betty.parker@horizon.co,Horizon Labs,10000,new,2022-05-28T00:00:00
+PTR_000235,BigQuery Alliance,Richard,Bailey,richard.bailey16@aol.com,Nexus Healthcare,10000,closed_lost,2022-12-13T00:00:00
+PTR_000236,BigQuery Alliance,Samuel,Castillo,samuel.castillo@northstar.io,NORTHSTAR SYSTEMS,100000,negotiation,2024-01-27T00:00:00
+PTR_000237,Snowflake SI Network,Joyce,,joyce.white@obsidian.com,Obsidian Research,50000,new,2023-02-13T00:00:00
+PTR_000238,BigQuery Alliance,Richard,Williams,richard.williams46@outlook.com,Cobalt Engineering,50000,closed_won,2023-03-23T00:00:00
+PTR_000239,Databricks ISV Program,Douglas,,,AMBER GROUP,100000,closed_won,2023-12-25T00:00:00
+PTR_000240,BigQuery Alliance,,Lee,,Ember Technologies,10000,closed_won,2023-11-10T00:00:00
+PTR_000241,Snowflake SI Network,,James,,Frost Dynamics,100000,closed_won,2024-01-04T00:00:00
+PTR_000242,BigQuery Alliance,,Rogers,andrea.rogers69@yahoo.com,Nova Computing,0,new,2023-08-03T00:00:00
+PTR_000243,Snowflake SI Network,Janet,,janet.ortiz22@icloud.com,Pacific Innovations,50000,qualified,2022-03-19T00:00:00
+PTR_000244,dbt Labs Partners,Catherine,Ramos,,Summit Health,10000,negotiation,2024-01-12T00:00:00
+PTR_000245,BigQuery Alliance,Dorothy,Scott,,Pulse Engineering,100000,engaged,2022-05-28T00:00:00
+PTR_000246,Snowflake SI Network,Carol,Brooks,carol.brooks10@aol.com,Cobalt Engineering,0,negotiation,2023-06-21T00:00:00
+PTR_000247,Databricks ISV Program,Kelly,Thomas,kelly.thomas@nexus.io,Nexus Healthcare,100000,engaged,2023-12-27T00:00:00
+PTR_000248,Databricks ISV Program,Julie,Evans,julie.evans67@protonmail.com,Coral Networks,50000,engaged,2022-04-26T00:00:00
+PTR_000249,BigQuery Alliance,,,amy.wilson@redwood.com,Redwood Industries,0,qualified,2024-04-29T00:00:00
+PTR_000250,Databricks ISV Program,,Moore,harold.moore@pinnacle.com,Pinnacle Financbal,10000,new,2022-09-22T00:00:00
+PTR_000251,Snowflake SI Network,,Martin,charles.martin@acme.co,Acme Corp,10000,engaged,2023-10-08T00:00:00
+PTR_000252,Snowflake SI Network,Elizabeth,,elizabeth.mitchell@echo.co,Echo Intelligence,250000,engaged,2022-06-22T00:00:00
+PTR_000253,Snowflake SI Network,Anthony,,,Silverline Capital,100000,closed_lost,2023-05-02T00:00:00
+PTR_000254,BigQuery Alliance,Nancy,Lee,,Nova Computing,0,closed_won,2022-06-10T00:00:00
+PTR_000255,Databricks ISV Program,James,,james.morris@meridian.co,Meridian Partners,100000,closed_lost,2023-01-30T00:00:00
+PTR_000256,dbt Labs Partners,Peter,,peter.walker@ironclad.com,Ironclad Security,50000,closed_lost,2023-12-15T00:00:00
+PTR_000257,Databricks ISV Program,Sharon,Kim,,Amber Group,100000,closed_won,2023-12-15T00:00:00
+PTR_000258,CloudFirst Consulting,Pamela,Alvarez,pamela.alvarez@cloudpeak.com,CloudPeak Technologies,50000,closed_lost,2023-11-19T00:00:00
+PTR_000259,CloudFirst Consulting,Gary,Taylor,,GreenField Energy,25000,new,2023-12-28T00:00:00
+PTR_000260,Databricks ISV Program,,Turner,deborah.turner@greenfield.com,GreenField Energy,25000,closed_won,2022-09-28T00:00:00
+PTR_000261,CloudFirst Consulting,Benjamin,,benjamin.price@pinnacle.com,Pinnacle Financial,100000,closed_won,2024-03-30T00:00:00
+PTR_000262,Databricks ISV Program,,Evans,deborah.evans75@fastmail.com,Horizon Labs,25000,engaged,2023-06-14T00:00:00
+PTR_000263,CloudFirst Consulting,Richard,,richard.brooks15@hotmail.com,GreenField Energy,50000,new,2024-01-24T00:00:00
+PTR_000264,Snowflake SI Network,Jessica,,jessica.long@jade.co,Jade Systems,10000,closed_lost,2023-05-06T00:00:00
+PTR_000265,CloudFirst Consulting,Joshua,Rivera,joshua.rivera44@aol.com,Keystone Data,10000,closed_won,2024-02-09T00:00:00
+PTR_000266,Snowflake SI Network,Kelly,Baker,kelly.baker@ember.co,Ember Technologies,0,qualified,2023-06-25T00:00:00
+PTR_000267,DataStack Partners,Jonathan,Peterson,jonathan.peterson20@gmail.com,Cobalt Engineering,100000,new,2023-02-09T00:00:00
+PTR_000268,Snowflake SI Network,,Ward,rebecca.ward@quantum.co,Quantum Analytics,250000,engaged,2024-03-01T00:00:00
+PTR_000269,dbt Labs Partners,,Miller,jacob.miller@ridge.com,Ridge Financial,10000,closed_won,2023-01-09T00:00:00
+PTR_000270,dbt Labs Partners,Andrew,,andrew.thomas@databridge.com,DataBridge Solutions,0,engaged,2022-11-30T00:00:00
+PTR_000271,dbt Labs Partners,,Rogers,virginia.rogers40@outlook.com,Keystone Data,10000,engaged,2023-03-04T00:00:00
+PTR_000272,Snowflake SI Network,,,donald.patel54@fastmail.com,Catalyst AI,0,negotiation,2022-01-28T00:00:00
+PTR_000273,dbt Labs Partners,Brian,Nguyen,brian.nguyen@sapphire.com,Sapphire Analytics,100000,engaged,2022-08-21T00:00:00
+PTR_000274,BigQuery Alliance,Roger,Baker,roger.baker@coral.co,Coral Networks,50000,new,2022-11-09T00:00:00
+PTR_000275,Snowflake SI Network,Stephen,Hernandez,stephen.hernandez61@fastmail.com,TIDAL SOFTWARE,10000,negotiation,2023-09-01T00:00:00
+PTR_000276,DataStack Partners,Steven,Jimenez,,Orbit Solutions,25000,engaged,2022-07-05T00:00:00
+PTR_000277,Databricks ISV Program,,Hughes,julie.hughes@obsidian.com,Obsidian Research,50000,closed_won,2022-04-22T00:00:00
+PTR_000278,DataStack Partners,Scott,,scott.kelly80@yahoo.com,Frost Dynamics,50000,engaged,2022-06-14T00:00:00
+PTR_000279,BigQuery Alliance,Kelly,Walker,kelly.walker@frost.com,Frost Dynamics,50000,new,2023-04-10T00:00:00
+PTR_000280,Databricks ISV Program,Katherine,Mitchell,katherine.mitchell56@protonmail.com,onyx solutions,50000,engaged,2023-02-09T00:00:00
+PTR_000281,Snowflake SI Network,Linda,Kelly,linda.kelly40@protonmail.com,Sterling Ventures,0,qualified,2022-09-23T00:00:00
+PTR_000282,BigQuery Alliance,,,john.carter@pulse.com,Pulse Engineering,250000,closed_lost,2023-04-22T00:00:00
+PTR_000283,BigQuery Alliance,Jeffrey,Brooks,jeffrey.brooks@beacon.com,Beacon Data,250000,closed_won,2023-07-27T00:00:00
+PTR_000284,CloudFirst Consulting,,Richardson,jennifer.richardson@northstar.io,NorthStar Systems,10000,qualified,2023-06-28T00:00:00
+PTR_000285,dbt Labs Partners,Kathleen,,kathleen.ortiz@acme.co,Acme Corp,50000,qualified,2022-04-09T00:00:00
+PTR_000286,CloudFirst Consulting,,Martinez,sarah.martinez1@hotmail.com,GreenField Energy,250000,closed_lost,2022-12-15T00:00:00
+PTR_000287,BigQuery Alliance,Christina,,christina.ross93@yahoo.com,Atlantic Digital,250000,closed_won,2024-01-22T00:00:00
+PTR_000288,BigQuery Alliance,Brian,,brian.evans91@aol.com,Canyon Resources,0,negotiation,2023-12-20T00:00:00
+PTR_000289,Databricks ISV Program,Evelyn,Perez,evelyn.perez77@outlook.com,Vertex Software,10000,new,2022-06-28T00:00:00
+PTR_000290,CloudFirst Consulting,,Diaz,ronald.diaz@pinnacle.com,Pinnacle Financial,100000,new,2022-11-18T00:00:00
+PTR_000291,BigQuery Alliance,,Ramos,brian.ramos@ridge.com,Ridge Finanial,10000,new,2023-11-08T00:00:00
+PTR_000292,CloudFirst Consulting,Janet,Collins,janet.collins65@fastmail.com,Acme Corp,10000,negotiation,2022-12-31T00:00:00
+PTR_000293,DataStack Partners,Janet,Ross,janet.ross@frost.com,frost dynamics,0,qualified,2023-06-22T00:00:00
+PTR_000294,Snowflake SI Network,Kathleen,Long,,Forge Labs,10000,closed_lost,2023-01-27T00:00:00
+PTR_000295,CloudFirst Consulting,Judith,Chavez,judith.chavez29@gmail.com,LUMEN AI,250000,new,2022-07-12T00:00:00
+PTR_000296,DataStack Partners,Roger,Lee,,Horizon Labs,250000,closed_lost,2024-01-22T00:00:00
+PTR_000297,DataStack Partners,Brian,Perez,brian.perez17@gmail.com,Catalyst AI,100000,closed_won,2023-11-06T00:00:00
+PTR_000298,DataStack Partners,Donna,Murphy,donna.murphy@redwood.com,Redwood Industries,10000,closed_won,2022-05-14T00:00:00
+PTR_000299,dbt Labs Partners,Christina,Gonzalez,christina.gonzalez@coral.co,Coral Networks,50000,closed_won,2023-12-29T00:00:00
+PTR_000300,Databricks ISV Program,Cynthia,,cynthia.collins15@hotmail.com,Redwood Industries,10000,engaged,2023-08-31T00:00:00
+PTR_000301,Databricks ISV Program,,Gray,robert.gray2@fastmail.com,Acme,25000,engaged,2022-10-11T00:00:00
+PTR_000302,CloudFirst Consulting,Carl,,,Silverline Capital,10000,closed_won,2023-09-15T00:00:00
+PTR_000303,BigQuery Alliance,Kathleen,Ward,kathleen.ward@nova.io,Nova Computing,50000,qualified,2024-01-20T00:00:00
+PTR_000304,DataStack Partners,Daniel,Garcia,daniel.garcia43@yahoo.com,Atlas Logistics,25000,engaged,2022-08-13T00:00:00
+PTR_000305,DataStack Partners,Jose,,jose.morales2@gmail.com,Delta Platforms,0,engaged,2023-09-27T00:00:00
+PTR_000306,Databricks ISV Program,Emma,,,Sterling Ventures,10000,qualified,2022-05-06T00:00:00
+PTR_000307,Databricks ISV Program,Henry,,,Amber Group,100000,closed_lost,2022-12-24T00:00:00
+PTR_000308,CloudFirst Consulting,,Ward,joseph.ward@keystone.com,Keystone Data,25000,closed_won,2023-03-12T00:00:00
+PTR_000309,Snowflake SI Network,,Rodriguez,timothy.rodriguez30@protonmail.com,TechFlow Inc,50000,engaged,2024-02-22T00:00:00
+PTR_000310,BigQuery Alliance,Lauren,Kim,lauren.kim@silverline.co,Silverline Capital,25000,closed_won,2022-02-28T00:00:00
+PTR_000311,Snowflake SI Network,Patricia,King,patricia.king96@fastmail.com,Obsidian Research,250000,qualified,2023-08-10T00:00:00
+PTR_000312,CloudFirst Consulting,Brandon,Watson,,Atlas Lgoistics,50000,negotiation,2022-10-06T00:00:00
+PTR_000313,Snowflake SI Network,Thomas,Anderson,thomas.anderson@granite.io,Granite Holdings,100000,new,2022-12-29T00:00:00
+PTR_000314,CloudFirst Consulting,Pamela,,pamela.price@catalyst.com,Catalyst AI,0,negotiation,2023-03-08T00:00:00
+PTR_000315,BigQuery Alliance,Judith,Edwards,judith.edwards@techflow.com,TechFlow Inc,10000,closed_lost,2023-02-16T00:00:00
+PTR_000316,CloudFirst Consulting,,,roger.peterson@nexus.io,nexus healthcare,10000,negotiation,2023-01-26T00:00:00
+PTR_000317,CloudFirst Consulting,Jacob,,jacob.patel27@hotmail.com,Nexus Healthcare,25000,qualified,2022-04-22T00:00:00
+PTR_000318,DataStack Partners,,,peter.patel78@outlook.com,Sapphire Analytics,25000,qualified,2023-11-05T00:00:00
+PTR_000319,dbt Labs Partners,Joshua,Gonzalez,joshua.gonzalez@ridge.com,Ridge Financial,10000,negotiation,2023-04-30T00:00:00
+PTR_000320,CloudFirst Consulting,Brenda,,brenda.green@prism.com,Prism Consulting,50000,new,2023-11-14T00:00:00
+PTR_000321,dbt Labs Partners,Scott,,scott.jackson@databridge.com,DataBridge Solutions,100000,qualified,2023-01-06T00:00:00
+PTR_000322,dbt Labs Partners,Henry,Bailey,henry.bailey@sterling.co,STERLING VENTURES,50000,qualified,2023-10-03T00:00:00
+PTR_000323,Snowflake SI Network,,Jones,william.jones@sterling.co,Sterling Ventures,250000,qualified,2023-05-10T00:00:00
+PTR_000324,Snowflake SI Network,Richard,,richard.morgan@obsidian.com,Obsidian Research,250000,closed_lost,2024-04-01T00:00:00
+PTR_000325,DataStack Partners,Judith,Kelly,judith.kelly@nexus.io,Nexus Healthcare,25000,engaged,2022-09-11T00:00:00
+PTR_000326,dbt Labs Partners,Janet,,janet.rivera@cloudpeak.com,CloudPeak Technologies,50000,engaged,2023-12-28T00:00:00
+PTR_000327,Databricks ISV Program,Sharon,Watson,sharon.watson@atlantic.co,Atlantic Digital,250000,qualified,2023-11-16T00:00:00
+PTR_000328,BigQuery Alliance,Margaret,,margaret.scott@isle.io,Isle Technologies,0,closed_won,2023-01-28T00:00:00
+PTR_000329,BigQuery Alliance,Ryan,Green,ryan.green73@hotmail.com,Redwood Industries,25000,new,2024-02-28T00:00:00
+PTR_000330,dbt Labs Partners,Brian,Martin,brian.martin28@yahoo.com,Echo Intelligence,10000,qualified,2023-06-21T00:00:00
+PTR_000331,BigQuery Alliance,,Cruz,george.cruz@isle.io,Isle Technologies,0,qualified,2022-12-09T00:00:00
+PTR_000332,Snowflake SI Network,Stephanie,,stephanie.white@lumen.com,Lumen AI,10000,engaged,2023-07-14T00:00:00
+PTR_000333,DataStack Partners,Judith,Martinez,judith.martinez@delta.com,Delta Platforms,250000,negotiation,2022-04-18T00:00:00
+PTR_000334,BigQuery Alliance,Maria,,maria.miller@sterling.co,Sterling Ventures,25000,new,2022-09-29T00:00:00
+PTR_000335,DataStack Partners,Mary,,mary.lee16@hotmail.com,Atlantic Digital,50000,closed_won,2023-07-23T00:00:00
+PTR_000336,dbt Labs Partners,David,,david.moore43@fastmail.com,GreenField Energy,250000,negotiation,2023-07-28T00:00:00
+PTR_000337,BigQuery Alliance,Joan,Diaz,joan.diaz@catalyst.com,Catalyst AI,50000,qualified,2024-05-14T00:00:00
+PTR_000338,CloudFirst Consulting,Joseph,Brooks,joseph.brooks36@icloud.com,Summit Health,100000,qualified,2023-05-13T00:00:00
+PTR_000339,Snowflake SI Network,Evelyn,Alvarez,evelyn.alvarez@ember.co,EMBER TECHNOLOGIES,100000,new,2023-04-30T00:00:00
+PTR_000340,DataStack Partners,Angela,Nelson,angela.nelson@pulse.com,pulse engineering,25000,engaged,2024-01-28T00:00:00
+PTR_000341,BigQuery Alliance,Brian,,,Meridian Partners,25000,closed_won,2023-02-12T00:00:00
+PTR_000342,Databricks ISV Program,,,katherine.hughes@ironclad.com,IRONCLAD SECURITY,250000,closed_won,2023-12-17T00:00:00
+PTR_000343,Snowflake SI Network,Jennifer,Gomez,,Atlantic Digital,100000,engaged,2023-09-13T00:00:00
+PTR_000344,dbt Labs Partners,Amanda,Ross,,Silverline Capital,25000,qualified,2023-08-29T00:00:00
+PTR_000345,BigQuery Alliance,,,emily.collins@tidal.io,Tidal Software,250000,negotiation,2022-03-07T00:00:00
+PTR_000346,DataStack Partners,,Ramirez,frank.ramirez5@outlook.com,Ember Technologies,250000,engaged,2023-10-27T00:00:00
+PTR_000347,DataStack Partners,Jonathan,Rogers,jonathan.rogers18@fastmail.com,Nova Computing,100000,negotiation,2022-09-08T00:00:00
+PTR_000348,CloudFirst Consulting,,Martinez,daniel.martinez@quantum.co,Quantum Analytics,250000,new,2023-09-10T00:00:00
+PTR_000349,CloudFirst Consulting,,,diane.young@horizon.co,Horizon Labs,25000,engaged,2022-10-15T00:00:00
+PTR_000350,BigQuery Alliance,,,douglas.thomas27@protonmail.com,Tidal Software,10000,closed_lost,2022-08-03T00:00:00
+PTR_000351,Databricks ISV Program,Jennifer,Bailey,jennifer.bailey@granite.io,Granite Holdings,100000,negotiation,2022-12-13T00:00:00
+PTR_000352,BigQuery Alliance,Julie,,julie.thompson@acme.co,Acme Corp,50000,qualified,2022-09-21T00:00:00
+PTR_000353,DataStack Partners,Gary,Morris,gary.morris@techflow.com,TechFlow Inc,0,negotiation,2022-08-15T00:00:00
+PTR_000354,DataStack Partners,,Gonzalez,,Obsidian Research,50000,negotiation,2023-07-31T00:00:00
+PTR_000355,dbt Labs Partners,Frank,Campbell,frank.campbell@sterling.co,Sterling Ventures,100000,closed_won,2023-12-14T00:00:00
+PTR_000356,Databricks ISV Program,Christina,Parker,christina.parker64@gmail.com,PINNACLE FINANCIAL,0,qualified,2023-07-31T00:00:00
+PTR_000357,BigQuery Alliance,,Reed,sharon.reed@keystone.com,Keystone Data,250000,closed_lost,2022-08-02T00:00:00
+PTR_000358,Snowflake SI Network,,Chavez,nathan.chavez@frost.com,Frost Dynamics,25000,closed_won,2022-10-23T00:00:00
+PTR_000359,BigQuery Alliance,Mark,,mark.garcia@canyon.com,CANYON RESOURCES,50000,engaged,2022-03-20T00:00:00
+PTR_000360,CloudFirst Consulting,,Baker,donna.baker@atlas.co,Atlas Logistics,25000,negotiation,2022-12-19T00:00:00
+PTR_000361,Databricks ISV Program,Brian,Gray,brian.gray79@yahoo.com,Pulse Engineerng,100000,negotiation,2022-05-13T00:00:00
+PTR_000362,dbt Labs Partners,Jeffrey,Sanders,,NorthStar Systems,50000,qualified,2024-04-26T00:00:00
+PTR_000363,CloudFirst Consulting,Steven,Hill,steven.hill11@fastmail.com,harbor analytics,100000,qualified,2022-05-21T00:00:00
+PTR_000364,dbt Labs Partners,Barbara,Phillips,,STERLING VENTURES,25000,new,2023-01-14T00:00:00
+PTR_000365,CloudFirst Consulting,,,adam.brooks@obsidian.com,Obsidian Research,50000,new,2024-01-12T00:00:00
+PTR_000366,BigQuery Alliance,Debra,Long,debra.long@isle.io,Isle Technologies,250000,engaged,2023-07-04T00:00:00
+PTR_000367,Databricks ISV Program,Kevin,Sanchez,kevin.sanchez15@gmail.com,Sterling Ventures,25000,new,2022-10-14T00:00:00
+PTR_000368,Databricks ISV Program,Tyler,,tyler.davis99@gmail.com,Spark Automation,10000,new,2023-07-07T00:00:00
+PTR_000369,CloudFirst Consulting,Barbara,Cox,barbara.cox37@fastmail.com,Onyx Solutions,250000,negotiation,2022-12-25T00:00:00
+PTR_000370,DataStack Partners,Margaret,Baker,margaret.baker@pulse.com,Pulse Engineering,25000,qualified,2023-04-15T00:00:00
+PTR_000371,BigQuery Alliance,,Powell,gary.powell@obsidian.com,Obsidian Research,0,negotiation,2023-03-03T00:00:00
+PTR_000372,Snowflake SI Network,Dennis,,,DataBridge Solutions,0,closed_lost,2023-03-16T00:00:00
+PTR_000373,dbt Labs Partners,,Davis,jose.davis36@protonmail.com,Echo Intelligence,250000,new,2023-03-22T00:00:00
+PTR_000374,Snowflake SI Network,Anthony,Bailey,,DataBridge Solutions,50000,qualified,2022-11-08T00:00:00
+PTR_000375,BigQuery Alliance,Justin,,justin.price@ember.co,Ember Technologies,250000,engaged,2022-07-22T00:00:00
+PTR_000376,CloudFirst Consulting,Justin,Garcia,justin.garcia@isle.io,Isle Technologies,0,engaged,2023-01-12T00:00:00
+PTR_000377,DataStack Partners,Raymond,Reyes,raymond.reyes6@outlook.com,Pulse Engineering,25000,negotiation,2023-09-04T00:00:00
+PTR_000378,Databricks ISV Program,,Adams,charles.adams@lumen.com,Lumen AI,10000,closed_won,2023-10-16T00:00:00
+PTR_000379,DataStack Partners,Andrew,Ruiz,andrew.ruiz@vertex.co,Vertex Software,250000,closed_lost,2022-08-04T00:00:00
+PTR_000380,CloudFirst Consulting,,Flores,nicole.flores@cloudpeak.com,ColudPeak Technologies,10000,engaged,2024-01-10T00:00:00
+PTR_000381,BigQuery Alliance,Ronald,Williams,ronald.williams13@gmail.com,Horizon Labs,25000,new,2023-01-28T00:00:00
+PTR_000382,Snowflake SI Network,Shirley,,shirley.martinez@atlas.co,Atlas Logistics,10000,negotiation,2023-09-14T00:00:00
+PTR_000383,Databricks ISV Program,,Scott,amy.scott38@aol.com,Frost Dynamics,100000,new,2023-05-06T00:00:00
+PTR_000384,Snowflake SI Network,Olivia,Lewis,,Redwood Industries,10000,closed_won,2022-08-24T00:00:00
+PTR_000385,BigQuery Alliance,Peter,Ramirez,peter.ramirez@harbor.io,Harbor Analytics,50000,closed_won,2022-09-05T00:00:00
+PTR_000386,Snowflake SI Network,,Gutierrez,,Meridian Partners,0,negotiation,2024-04-22T00:00:00
+PTR_000387,CloudFirst Consulting,Thomas,Roberts,,Ironclad Security,0,qualified,2024-01-11T00:00:00
+PTR_000388,DataStack Partners,Kevin,,kevin.cruz81@outlook.com,Cobalt Engineering,25000,new,2022-10-30T00:00:00
+PTR_000389,BigQuery Alliance,Gregory,Foster,gregory.foster@harbor.io,harbor analytics,0,new,2022-08-09T00:00:00
+PTR_000390,Databricks ISV Program,Stephanie,Hill,stephanie.hill@sapphire.com,Sapphire Analytics,50000,engaged,2023-04-22T00:00:00
+PTR_000391,BigQuery Alliance,,,justin.hill90@outlook.com,Atlas Logistics,25000,qualified,2022-11-13T00:00:00
+PTR_000392,BigQuery Alliance,Anna,Roberts,anna.roberts54@outlook.com,Orbit Solutions,25000,qualified,2023-08-09T00:00:00
+PTR_000393,DataStack Partners,Adam,,,QUANTUM ANALYTICS,10000,closed_lost,2023-09-14T00:00:00
+PTR_000394,Databricks ISV Program,,,amy.young@redwood.com,redwood industries,0,closed_lost,2022-03-28T00:00:00
+PTR_000395,dbt Labs Partners,,,albert.lee@acme.co,Acme Corp,10000,new,2022-07-26T00:00:00
+PTR_000396,Databricks ISV Program,Frank,Wood,frank.wood@nova.io,Nova Computing,0,engaged,2023-09-12T00:00:00
+PTR_000397,DataStack Partners,Barbara,Reed,barbara.reed3@icloud.com,Vertex Software,50000,qualified,2023-03-04T00:00:00
+PTR_000398,Databricks ISV Program,Heather,,heather.cruz@forge.io,Forge Labs,50000,engaged,2023-04-09T00:00:00
+PTR_000399,DataStack Partners,Alexander,Harris,alexander.harris@silverline.co,Silverline Capital,25000,engaged,2022-03-27T00:00:00
+PTR_000400,DataStack Partners,Jennifer,,jennifer.smith@frost.com,Frost Dynamics,100000,engaged,2022-11-17T00:00:00
+PTR_000401,Snowflake SI Network,Gary,Davis,gary.davis@alpine.io,Alpine Services,100000,closed_won,2023-09-15T00:00:00
+PTR_000402,DataStack Partners,Kathleen,,kathleen.sanders@nova.io,Nova Computing,50000,closed_lost,2023-10-19T00:00:00
+PTR_000403,Snowflake SI Network,Jacob,Young,jacob.young@amber.com,amber group,50000,closed_won,2022-12-13T00:00:00
+PTR_000404,dbt Labs Partners,Scott,Phillips,scott.phillips@bluewave.co,BlueWave Media,10000,engaged,2023-01-11T00:00:00
+PTR_000405,Databricks ISV Program,,James,eric.james@quantum.co,Quantum Analytics,100000,qualified,2023-07-21T00:00:00
+PTR_000406,CloudFirst Consulting,Carol,,carol.hughes@jade.co,Jade Systems,25000,new,2022-10-27T00:00:00
+PTR_000407,BigQuery Alliance,Jonathan,,jonathan.gomez@cloudpeak.com,CLOUDPEAK TECHNOLOGIES,10000,closed_lost,2023-04-15T00:00:00
+PTR_000408,Snowflake SI Network,,Gray,ryan.gray@delta.com,Delta Platforms,250000,new,2023-10-15T00:00:00
+PTR_000409,BigQuery Alliance,,,eric.wilson@spark.io,Spark Automation,10000,engaged,2022-07-28T00:00:00
+PTR_000410,CloudFirst Consulting,Ashley,,ashley.mitchell49@icloud.com,Redwood Industries,100000,closed_won,2023-02-10T00:00:00
+PTR_000411,Databricks ISV Program,Nicole,Alvarez,nicole.alvarez@vertex.co,Vertex Software,250000,new,2024-05-07T00:00:00
+PTR_000412,CloudFirst Consulting,Donna,Davis,donna.davis10@aol.com,Beacon Data,250000,negotiation,2022-10-10T00:00:00
+PTR_000413,Databricks ISV Program,,,alexander.cooper@pulse.com,Pulse Engineering,50000,engaged,2023-04-11T00:00:00
+PTR_000414,Snowflake SI Network,Pamela,Harris,,DataBridge Solutions,250000,closed_won,2024-04-05T00:00:00
+PTR_000415,CloudFirst Consulting,Jeffrey,Kelly,,Atlas Logistics,100000,qualified,2022-02-03T00:00:00
+PTR_000416,dbt Labs Partners,Kenneth,Lopez,kenneth.lopez@frost.com,Frost Dynamics,25000,negotiation,2022-06-24T00:00:00
+PTR_000417,BigQuery Alliance,Jessica,Rodriguez,,Meridian Partners,10000,qualified,2023-02-22T00:00:00
+PTR_000418,BigQuery Alliance,,Long,joshua.long@orbit.com,Orbit Solutions,10000,negotiation,2023-03-06T00:00:00
+PTR_000419,CloudFirst Consulting,Scott,Brooks,scott.brooks@jade.co,JADE SYSTEMS,100000,closed_won,2022-06-15T00:00:00
+PTR_000420,dbt Labs Partners,,,jacob.murphy@techflow.com,TECHFLOW INC,10000,closed_won,2024-03-16T00:00:00
+PTR_000421,DataStack Partners,,,,Prism Consulting,50000,engaged,2023-05-18T00:00:00
+PTR_000422,DataStack Partners,Larry,Chavez,larry.chavez@sapphire.com,Sapphire Analytics,50000,new,2023-10-27T00:00:00
+PTR_000423,dbt Labs Partners,Christina,Cook,christina.cook@ironclad.com,Ironclad Security,100000,closed_won,2023-03-02T00:00:00
+PTR_000424,CloudFirst Consulting,Carl,Davis,carl.davis@cobalt.co,Cobalt Engineering,50000,closed_lost,2022-01-19T00:00:00
+PTR_000425,Databricks ISV Program,,Brown,peter.brown43@icloud.com,Echo Intelligence,25000,engaged,2022-06-25T00:00:00
+PTR_000426,Snowflake SI Network,,Williams,,Tidal Software,250000,closed_lost,2022-11-05T00:00:00
+PTR_000427,dbt Labs Partners,Anthony,Kelly,anthony.kelly@pacific.io,Pacific Innovations,100000,negotiation,2023-04-13T00:00:00
+PTR_000428,BigQuery Alliance,Helen,Ruiz,helen.ruiz@cloudpeak.com,CloudPeak Technologies,25000,engaged,2022-10-11T00:00:00
+PTR_000429,Snowflake SI Network,Nicole,Cox,nicole.cox@cloudpeak.com,CloudPeak Technologies,25000,new,2022-09-29T00:00:00
+PTR_000430,Snowflake SI Network,,,,Ridge Financial,10000,negotiation,2023-05-20T00:00:00
+PTR_000431,Snowflake SI Network,,Robinson,roger.robinson@pulse.com,Pulse Engineering,25000,negotiation,2024-02-21T00:00:00
+PTR_000432,Snowflake SI Network,Catherine,Harris,catherine.harris56@fastmail.com,Onyx,10000,engaged,2023-01-30T00:00:00
+PTR_000433,CloudFirst Consulting,Laura,Cruz,laura.cruz19@gmail.com,Keystone Data,250000,closed_won,2023-06-01T00:00:00
+PTR_000434,BigQuery Alliance,Barbara,Chavez,barbara.chavez@tidal.io,Tidal Software,50000,new,2024-01-04T00:00:00
+PTR_000435,dbt Labs Partners,Carol,Cook,carol.cook31@yahoo.com,Tidal Software,0,engaged,2022-12-16T00:00:00
+PTR_000436,DataStack Partners,Brenda,,brenda.hughes48@aol.com,Spark Automation,50000,closed_lost,2022-01-26T00:00:00
+PTR_000437,dbt Labs Partners,Carol,,carol.howard@quantum.co,Quantum Analytics,25000,closed_won,2023-03-27T00:00:00
+PTR_000438,dbt Labs Partners,Steven,,steven.ramos65@aol.com,Nova Computing,50000,qualified,2024-02-26T00:00:00
+PTR_000439,dbt Labs Partners,Catherine,,catherine.kim@silverline.co,Silverline Capital,50000,closed_won,2022-07-04T00:00:00
+PTR_000440,dbt Labs Partners,Katherine,,katherine.torres@obsidian.com,Obsidian Research,50000,negotiation,2023-10-26T00:00:00
+PTR_000441,dbt Labs Partners,Helen,,helen.mendoza@sterling.co,Sterling Ventures,250000,closed_won,2023-09-01T00:00:00
+PTR_000442,Snowflake SI Network,Heather,,heather.wilson27@hotmail.com,Rideg Financial,0,closed_won,2023-05-29T00:00:00
+PTR_000443,dbt Labs Partners,Brian,Cox,brian.cox84@yahoo.com,GreenField Energy,0,new,2023-08-13T00:00:00
+PTR_000444,Databricks ISV Program,Steven,Thomas,steven.thomas@lumen.com,Lumen AI,100000,negotiation,2022-11-26T00:00:00
+PTR_000445,Databricks ISV Program,,,virginia.lopez@northstar.io,NorthStar Systems,25000,qualified,2023-06-27T00:00:00
+PTR_000446,Databricks ISV Program,,Kim,,Vertex Software,25000,closed_lost,2023-06-24T00:00:00
+PTR_000447,CloudFirst Consulting,,Morris,margaret.morris@databridge.com,DatBaridge Solutions,0,closed_won,2022-08-22T00:00:00
+PTR_000448,DataStack Partners,Melissa,Parker,melissa.parker@isle.io,Isle Technologies,10000,closed_won,2023-12-04T00:00:00
+PTR_000449,BigQuery Alliance,Michael,Richardson,michael.richardson@canyon.com,Canyon Resources,50000,qualified,2024-02-25T00:00:00
+PTR_000450,Snowflake SI Network,Deborah,Sanders,deborah.sanders47@aol.com,Lumen AI,0,qualified,2023-07-29T00:00:00
+PTR_000451,Databricks ISV Program,Melissa,Stewart,melissa.stewart76@gmail.com,Ironclad Security,0,closed_lost,2023-01-12T00:00:00
+PTR_000452,CloudFirst Consulting,,,joshua.anderson@cloudpeak.com,cloudpeak technologies,100000,qualified,2024-02-15T00:00:00
+PTR_000453,dbt Labs Partners,Janet,Hall,janet.hall@quartz.io,Quartz Health,100000,closed_lost,2023-04-15T00:00:00
+PTR_000454,Snowflake SI Network,Jessica,Phillips,jessica.phillips@amber.com,Amber Group,250000,negotiation,2022-06-28T00:00:00
+PTR_000455,BigQuery Alliance,,Cox,nancy.cox@pulse.com,Pulse Engineering,25000,closed_lost,2022-10-18T00:00:00
+PTR_000456,BigQuery Alliance,Amanda,,,Redwood Industries,100000,engaged,2022-02-21T00:00:00
+PTR_000457,Snowflake SI Network,Kimberly,,kimberly.nguyen27@aol.com,NorthStar Systems,0,negotiation,2022-07-16T00:00:00
+PTR_000458,Databricks ISV Program,Anna,Wilson,,BlueWave Media,50000,new,2023-05-21T00:00:00
+PTR_000459,dbt Labs Partners,Emma,,emma.ramirez@spark.io,Spark Automation,50000,engaged,2023-03-19T00:00:00
+PTR_000460,BigQuery Alliance,Karen,Chavez,karen.chavez@cloudpeak.com,CloudPeak Technologies,25000,closed_lost,2022-06-10T00:00:00
+PTR_000461,Databricks ISV Program,Janet,Howard,janet.howard@ember.co,EMBER TECHNOLOGIES,250000,engaged,2022-05-04T00:00:00
+PTR_000462,BigQuery Alliance,Gregory,,,Horizon Labs,10000,closed_won,2022-06-09T00:00:00
+PTR_000463,BigQuery Alliance,Emma,,,ORBIT SOLUTIONS,0,engaged,2023-10-06T00:00:00
+PTR_000464,dbt Labs Partners,Benjamin,Alvarez,benjamin.alvarez81@hotmail.com,Ridge Financial,0,negotiation,2024-04-10T00:00:00
+PTR_000465,dbt Labs Partners,Laura,Scott,laura.scott@acme.co,acme corp,50000,qualified,2023-10-11T00:00:00
+PTR_000466,Databricks ISV Program,Aaron,,aaron.cox@nexus.io,NEXUS HEALTHCARE,100000,engaged,2022-08-01T00:00:00
+PTR_000467,Snowflake SI Network,Brandon,Ruiz,brandon.ruiz@echo.co,Echo Intelligence,100000,closed_lost,2022-05-15T00:00:00
+PTR_000468,BigQuery Alliance,Heather,,,CloudPeak Technoloies,10000,closed_lost,2022-11-11T00:00:00
+PTR_000469,dbt Labs Partners,Zachary,Cooper,zachary.cooper@atlas.co,Atlas Logistics,250000,closed_won,2023-08-11T00:00:00
+PTR_000470,CloudFirst Consulting,Dorothy,Jones,dorothy.jones@orbit.com,Orbit Solutions,0,new,2023-04-05T00:00:00
+PTR_000471,Databricks ISV Program,Joan,,joan.green@granite.io,Granite Holdings,0,closed_lost,2023-01-03T00:00:00
+PTR_000472,CloudFirst Consulting,James,Jimenez,james.jimenez@nova.io,Nova Computing,50000,qualified,2023-06-15T00:00:00
+PTR_000473,Snowflake SI Network,Justin,,justin.rogers68@gmail.com,Delta Platforms,250000,new,2024-02-29T00:00:00
+PTR_000474,Databricks ISV Program,,Mitchell,dorothy.mitchell26@aol.com,Horizon Labs,25000,closed_lost,2022-11-30T00:00:00
+PTR_000475,dbt Labs Partners,Andrew,King,andrew.king27@yahoo.com,Coral Networks,0,negotiation,2022-09-14T00:00:00
+PTR_000476,BigQuery Alliance,Nancy,Phillips,nancy.phillips89@protonmail.com,Pacific Innovations,100000,engaged,2022-05-26T00:00:00
+PTR_000477,Snowflake SI Network,,Wright,kevin.wright@pulse.com,Pulse Engineering,25000,closed_lost,2023-08-06T00:00:00
+PTR_000478,BigQuery Alliance,,,pamela.foster@quantum.co,Quantum Analytics,0,new,2022-10-22T00:00:00
+PTR_000479,CloudFirst Consulting,Amy,Carter,amy.carter2@icloud.com,Jade Systems,100000,qualified,2022-02-15T00:00:00
+PTR_000480,dbt Labs Partners,,Turner,lisa.turner@pinnacle.com,Pinnacle Financial,50000,qualified,2022-12-28T00:00:00
+PTR_000481,DataStack Partners,,,betty.wilson37@protonmail.com,Delta Platforms,25000,new,2023-11-07T00:00:00
+PTR_000482,Snowflake SI Network,Eric,,eric.bailey89@gmail.com,Atlantic Digital,25000,engaged,2022-10-01T00:00:00
+PTR_000483,Snowflake SI Network,,Davis,julie.davis@atlas.co,Atlas Logistics,0,closed_lost,2023-01-01T00:00:00
+PTR_000484,BigQuery Alliance,,Foster,robert.foster@sapphire.com,sapphire analytics,25000,engaged,2023-06-04T00:00:00
+PTR_000485,dbt Labs Partners,,,emma.hernandez@ember.co,Ember Technologies,250000,closed_lost,2023-06-28T00:00:00
+PTR_000486,Databricks ISV Program,Thomas,Flores,thomas.flores@pinnacle.com,Pinnacle Financial,100000,negotiation,2023-11-26T00:00:00
+PTR_000487,DataStack Partners,,Hernandez,charles.hernandez@quartz.io,Quartz Health,25000,new,2023-12-15T00:00:00
+PTR_000488,BigQuery Alliance,Susan,,susan.johnson@ridge.com,Ridge Financial,100000,closed_won,2023-08-26T00:00:00
+PTR_000489,DataStack Partners,,,kenneth.brown87@aol.com,GreenField Energy,25000,engaged,2023-06-10T00:00:00
+PTR_000490,CloudFirst Consulting,Kathleen,Hernandez,kathleen.hernandez89@fastmail.com,Canyon Resources,50000,new,2024-01-30T00:00:00
+PTR_000491,BigQuery Alliance,Henry,,henry.ruiz@echo.co,Echo Intelligence,10000,new,2023-07-16T00:00:00
+PTR_000492,dbt Labs Partners,Kenneth,,kenneth.davis@pacific.io,Pacific Innovations,10000,closed_lost,2023-06-12T00:00:00
+PTR_000493,DataStack Partners,,Kelly,william.kelly@greenfield.com,GreenField Energy,50000,qualified,2023-09-24T00:00:00
+PTR_000494,Snowflake SI Network,George,Morales,,Catalyst Ak,10000,closed_won,2024-02-01T00:00:00
+PTR_000495,Snowflake SI Network,Benjamin,,benjamin.ramirez@keystone.com,keystone data,250000,engaged,2023-10-09T00:00:00
+PTR_000496,BigQuery Alliance,Jeffrey,Nguyen,jeffrey.nguyen@pulse.com,Pulse Engineering,10000,negotiation,2022-11-18T00:00:00
+PTR_000497,CloudFirst Consulting,,Alvarez,rebecca.alvarez2@fastmail.com,Pinnacle Financial,10000,engaged,2022-11-03T00:00:00
+PTR_000498,DataStack Partners,Christine,Williams,christine.williams58@fastmail.com,forge labs,100000,new,2022-09-30T00:00:00
+PTR_000499,BigQuery Alliance,,,victoria.scott18@aol.com,Sapphire Analytics,10000,closed_lost,2024-02-09T00:00:00
+PTR_000500,Snowflake SI Network,Catherine,Parker,catherine.parker@greenfield.com,GreenField Energy,250000,engaged,2024-01-30T00:00:00
+PTR_000501,CloudFirst Consulting,Kimberly,,kimberly.torres63@yahoo.com,Sterling Ventures,250000,qualified,2022-04-21T00:00:00
+PTR_000502,CloudFirst Consulting,,Peterson,arthur.peterson@greenfield.com,GreenField Energy,25000,qualified,2022-09-08T00:00:00
+PTR_000503,DataStack Partners,,Gray,,GreenField Energy,0,qualified,2023-07-03T00:00:00
+PTR_000504,Snowflake SI Network,Carl,Anderson,carl.anderson@onyx.co,Onyx Solutions,50000,closed_won,2023-10-16T00:00:00
+PTR_000505,dbt Labs Partners,Lauren,Brooks,lauren.brooks@lumen.com,Lumen AI,10000,closed_lost,2023-01-09T00:00:00
+PTR_000506,BigQuery Alliance,,,anthony.torres@cobalt.co,Cobalt Engineering,10000,closed_won,2023-12-13T00:00:00
+PTR_000507,Snowflake SI Network,,Green,eric.green9@yahoo.com,Quartz Health,10000,qualified,2023-07-24T00:00:00
+PTR_000508,dbt Labs Partners,Aaron,,,Sterling Ventures,25000,closed_won,2023-11-13T00:00:00
+PTR_000509,CloudFirst Consulting,,Moore,michael.moore@redwood.com,Redwood Industries,100000,closed_won,2024-01-24T00:00:00
+PTR_000510,Databricks ISV Program,Peter,Foster,peter.foster@greenfield.com,GreenField Energy,250000,engaged,2023-09-30T00:00:00
+PTR_000511,Snowflake SI Network,Evelyn,Powell,evelyn.powell@northstar.io,NorthStar Systems,25000,new,2022-06-22T00:00:00
+PTR_000512,dbt Labs Partners,Paul,,paul.gomez@catalyst.com,Catalyst AI,0,qualified,2023-11-29T00:00:00
+PTR_000513,Snowflake SI Network,Gregory,Castillo,gregory.castillo@granite.io,Granite Holdings,50000,engaged,2023-06-06T00:00:00
+PTR_000514,dbt Labs Partners,,Martinez,carolyn.martinez@pulse.com,Pulse Engineering,0,negotiation,2022-12-26T00:00:00
+PTR_000515,BigQuery Alliance,,,heather.alvarez@sterling.co,Sterling Ventures,10000,new,2024-03-31T00:00:00
+PTR_000516,dbt Labs Partners,,Chavez,gregory.chavez@summit.com,Summit Health,100000,engaged,2022-11-09T00:00:00
+PTR_000517,BigQuery Alliance,,,eric.watson@nova.io,Nova Computing,50000,new,2022-11-14T00:00:00
+PTR_000518,BigQuery Alliance,Jose,Williams,jose.williams@redwood.com,Redwood Industries,10000,engaged,2023-09-16T00:00:00
+PTR_000519,Snowflake SI Network,Katherine,Moore,katherine.moore@greenfield.com,GreenField Energy,0,closed_won,2023-12-23T00:00:00
+PTR_000520,BigQuery Alliance,Raymond,Bailey,raymond.bailey30@fastmail.com,Jade Systems,0,negotiation,2024-04-08T00:00:00
+PTR_000521,DataStack Partners,,,,Frost Dynamics,25000,qualified,2022-09-03T00:00:00
+PTR_000522,Databricks ISV Program,Melissa,Smith,,Atlas Logistics,0,closed_won,2023-01-03T00:00:00
+PTR_000523,CloudFirst Consulting,Michelle,Ward,michelle.ward@ironclad.com,Ironclad Security,0,engaged,2022-06-17T00:00:00
+PTR_000524,BigQuery Alliance,,,steven.green@keystone.com,Keystone Data,0,engaged,2023-12-03T00:00:00
+PTR_000525,DataStack Partners,,,timothy.clark47@aol.com,CloudPeak Technologies,250000,engaged,2022-02-12T00:00:00
+PTR_000526,dbt Labs Partners,Raymond,,,prism consulting,250000,closed_lost,2024-01-12T00:00:00
+PTR_000527,CloudFirst Consulting,Brandon,,brandon.wright@onyx.co,Onyx Solutions,50000,engaged,2023-03-04T00:00:00
+PTR_000528,Databricks ISV Program,Laura,Nelson,laura.nelson@quartz.io,Quartz Health,25000,new,2023-05-15T00:00:00
+PTR_000529,Snowflake SI Network,Timothy,Foster,,Catalyst AI,100000,new,2023-10-13T00:00:00
+PTR_000530,dbt Labs Partners,Michael,Foster,,Sapphire Analytics,25000,negotiation,2022-05-27T00:00:00
+PTR_000531,DataStack Partners,Susan,,susan.ortiz@jade.co,Jade Systems,100000,negotiation,2024-05-18T00:00:00
+PTR_000532,BigQuery Alliance,Ashley,Peterson,ashley.peterson@cobalt.co,Cobalt Engineering,10000,new,2023-11-24T00:00:00
+PTR_000533,BigQuery Alliance,Karen,,karen.young@tidal.io,Tidal Software,0,engaged,2023-06-27T00:00:00
+PTR_000534,BigQuery Alliance,Aaron,,aaron.diaz@tidal.io,Tidal Software,50000,closed_won,2023-08-17T00:00:00
+PTR_000535,dbt Labs Partners,Arthur,,arthur.chavez@sterling.co,Sterling Ventures,50000,engaged,2022-06-03T00:00:00
+PTR_000536,dbt Labs Partners,Edward,,edward.brooks@isle.io,Isle eTchnologies,100000,engaged,2023-12-02T00:00:00
+PTR_000537,dbt Labs Partners,Jonathan,Peterson,jonathan.peterson@echo.co,Echo Intelligence,10000,new,2023-09-16T00:00:00
+PTR_000538,CloudFirst Consulting,,,,Jade Systems,25000,new,2022-04-29T00:00:00
+PTR_000539,Databricks ISV Program,Emily,Reed,emily.reed@redwood.com,Redwood Industries,25000,engaged,2023-03-08T00:00:00
+PTR_000540,dbt Labs Partners,Karen,Campbell,karen.campbell@keystone.com,Keystone Data,0,negotiation,2022-05-12T00:00:00
+PTR_000541,BigQuery Alliance,,,,Meridian Partners,250000,qualified,2024-02-05T00:00:00
+PTR_000542,dbt Labs Partners,Michelle,,,Tidal Software,250000,qualified,2022-06-04T00:00:00
+PTR_000543,Databricks ISV Program,Debra,,debra.richardson@northstar.io,NorthStar Systems,100000,negotiation,2024-03-06T00:00:00
+PTR_000544,BigQuery Alliance,,Kelly,patrick.kelly6@hotmail.com,Meridian Partners,250000,negotiation,2023-03-01T00:00:00
+PTR_000545,BigQuery Alliance,Samuel,Ramos,samuel.ramos@echo.co,Echo Intelligence,250000,closed_lost,2022-09-10T00:00:00
+PTR_000546,Databricks ISV Program,,,,Vertex Software,25000,qualified,2023-06-13T00:00:00
+PTR_000547,BigQuery Alliance,Stephen,,stephen.harris71@protonmail.com,Jade Systems,100000,closed_lost,2022-08-29T00:00:00
+PTR_000548,dbt Labs Partners,Amy,,amy.roberts32@gmail.com,Tidal Software,250000,closed_lost,2023-05-10T00:00:00
+PTR_000549,Snowflake SI Network,Jose,Rivera,jose.rivera@spark.io,Spark Automation,0,closed_lost,2024-02-05T00:00:00
+PTR_000550,DataStack Partners,Ashley,Gonzalez,ashley.gonzalez@frost.com,Frost Dynamics,250000,qualified,2023-08-03T00:00:00
+PTR_000551,Snowflake SI Network,Katherine,Morgan,katherine.morgan@coral.co,Coral Networks,100000,new,2022-10-27T00:00:00
+PTR_000552,Snowflake SI Network,,,jennifer.ward40@hotmail.com,Spark Automation,0,closed_won,2022-06-01T00:00:00
+PTR_000553,dbt Labs Partners,Elizabeth,Clark,elizabeth.clark58@hotmail.com,Vertex Software,250000,closed_lost,2023-09-16T00:00:00
+PTR_000554,Databricks ISV Program,,,charles.kelly@delta.com,delta platforms,0,engaged,2023-09-27T00:00:00
+PTR_000555,DataStack Partners,Stephen,Morales,stephen.morales@sapphire.com,Sapphire Analytics,0,engaged,2022-07-20T00:00:00
+PTR_000556,Databricks ISV Program,Ronald,,ronald.allen@amber.com,Amber Group,0,closed_won,2023-09-14T00:00:00
+PTR_000557,CloudFirst Consulting,,Phillips,diane.phillips@orbit.com,ORBIT SOLUTIONS,0,closed_lost,2023-05-12T00:00:00
+PTR_000558,dbt Labs Partners,Nicole,,nicole.myers@tidal.io,Tidal Software,10000,new,2023-03-11T00:00:00
+PTR_000559,dbt Labs Partners,Raymond,Richardson,raymond.richardson@redwood.com,Redwood Industries,50000,new,2023-01-29T00:00:00
+PTR_000560,CloudFirst Consulting,,James,albert.james@pinnacle.com,Pinnacle Financial,10000,negotiation,2024-01-06T00:00:00
+PTR_000561,Databricks ISV Program,Christina,Hill,christina.hill@nova.io,Nova Computing,50000,engaged,2023-07-19T00:00:00
+PTR_000562,BigQuery Alliance,Daniel,Howard,daniel.howard@acme.co,Acme Corp,250000,engaged,2023-07-13T00:00:00
+PTR_000563,dbt Labs Partners,Stephen,Alvarez,stephen.alvarez@greenfield.com,GreenField Energy,10000,negotiation,2023-01-22T00:00:00
+PTR_000564,dbt Labs Partners,Jason,,,GreenField Energy,0,qualified,2022-02-23T00:00:00
+PTR_000565,Databricks ISV Program,Daniel,,daniel.green@prism.com,Prism Consulting,250000,engaged,2023-08-08T00:00:00
+PTR_000566,dbt Labs Partners,Charles,Ortiz,charles.ortiz@sterling.co,Sterling Ventures,250000,closed_lost,2023-09-14T00:00:00
+PTR_000567,Databricks ISV Program,Joan,,joan.ward@tidal.io,Tidal Software,10000,engaged,2022-09-08T00:00:00
+PTR_000568,Databricks ISV Program,Edward,,edward.rodriguez@spark.io,spark automation,10000,qualified,2023-12-08T00:00:00
+PTR_000569,CloudFirst Consulting,Nathan,Perez,nathan.perez25@icloud.com,Obsidian Research,250000,new,2022-05-20T00:00:00
+PTR_000570,BigQuery Alliance,Stephen,Brooks,stephen.brooks34@icloud.com,Redwood Industries,50000,new,2023-10-07T00:00:00
+PTR_000571,CloudFirst Consulting,Amy,Ruiz,amy.ruiz@northstar.io,NorthStar Systems,100000,closed_lost,2023-04-19T00:00:00
+PTR_000572,dbt Labs Partners,Amanda,Morgan,,Quartz Health,10000,closed_lost,2024-05-21T00:00:00
+PTR_000573,Databricks ISV Program,Roger,Wright,roger.wright44@outlook.com,Redwood Industries,100000,closed_lost,2022-04-23T00:00:00
+PTR_000574,Databricks ISV Program,Peter,Thompson,peter.thompson68@outlook.com,summit health,10000,closed_won,2023-04-09T00:00:00
+PTR_000575,BigQuery Alliance,,Smith,michael.smith@greenfield.com,GreenField Energy,100000,new,2023-07-15T00:00:00
+PTR_000576,dbt Labs Partners,Kelly,King,kelly.king@nova.io,Nova Computing,0,engaged,2022-04-24T00:00:00
+PTR_000577,Snowflake SI Network,Henry,,henry.flores@atlas.co,Atlas Logistics,100000,new,2023-12-16T00:00:00
+PTR_000578,Snowflake SI Network,,,ryan.green@redwood.com,Redwood Industries,100000,qualified,2023-11-19T00:00:00
+PTR_000579,Snowflake SI Network,,,,Obsidian Research,250000,closed_won,2023-11-25T00:00:00
+PTR_000580,dbt Labs Partners,Samantha,,,Acme Corp,25000,closed_lost,2023-08-17T00:00:00
+PTR_000581,Databricks ISV Program,Maria,Miller,maria.miller@sapphire.com,Sapphire Analytics,10000,qualified,2022-11-04T00:00:00
+PTR_000582,Databricks ISV Program,,Wilson,justin.wilson13@outlook.com,Onyx Solutions,25000,closed_won,2023-11-05T00:00:00
+PTR_000583,DataStack Partners,Thomas,,thomas.long@ridge.com,Ridge Financial,25000,closed_won,2023-12-31T00:00:00
+PTR_000584,Snowflake SI Network,,Thompson,,Pulse Engineering,250000,engaged,2023-04-11T00:00:00
+PTR_000585,BigQuery Alliance,,Miller,anthony.miller91@aol.com,Cobalt Engineering,25000,engaged,2022-12-29T00:00:00
+PTR_000586,Databricks ISV Program,Brenda,,brenda.edwards@greenfield.com,GreenField Energy,50000,engaged,2023-12-11T00:00:00
+PTR_000587,Databricks ISV Program,Joan,,joan.myers14@gmail.com,Keystone Data,0,new,2022-11-05T00:00:00
+PTR_000588,dbt Labs Partners,Larry,Adams,larry.adams71@fastmail.com,Quantum Analytics,250000,qualified,2023-07-14T00:00:00
+PTR_000589,DataStack Partners,Virginia,Diaz,,Keystone Data,0,qualified,2024-03-22T00:00:00
+PTR_000590,Snowflake SI Network,,Collins,,Pinnacle Financial,250000,closed_lost,2023-04-15T00:00:00
+PTR_000591,dbt Labs Partners,Catherine,Smith,catherine.smith@granite.io,GRANITE HOLDINGS,10000,engaged,2023-06-29T00:00:00
+PTR_000592,Snowflake SI Network,,,,Quantum Analytics,250000,closed_lost,2022-07-22T00:00:00
+PTR_000593,Databricks ISV Program,,Patel,raymond.patel@ember.co,Ember Technologies,25000,closed_won,2023-04-23T00:00:00
+PTR_000594,Databricks ISV Program,,,sharon.moore82@gmail.com,Echo Intelligence,100000,engaged,2023-02-06T00:00:00
+PTR_000595,CloudFirst Consulting,Carolyn,Richardson,,granite Holdings,100000,negotiation,2023-11-06T00:00:00
+PTR_000596,Databricks ISV Program,Samuel,Young,samuel.young51@aol.com,Spark Automation,100000,qualified,2022-05-31T00:00:00
+PTR_000597,Snowflake SI Network,,,andrew.collins@obsidian.com,Obsidian Research,100000,closed_won,2022-02-16T00:00:00
+PTR_000598,Snowflake SI Network,,Castillo,john.castillo@quartz.io,Quartz Health,25000,closed_lost,2023-05-22T00:00:00
+PTR_000599,BigQuery Alliance,,Gomez,douglas.gomez37@aol.com,Sapphire Analytics,10000,closed_lost,2022-10-31T00:00:00
+PTR_000600,BigQuery Alliance,Roger,Moore,roger.moore@pacific.io,Pacific Innovations,250000,engaged,2024-03-30T00:00:00
+PTR_000601,dbt Labs Partners,Emma,Taylor,emma.taylor@cobalt.co,Cobalt Engineering,10000,engaged,2023-11-10T00:00:00
+PTR_000602,DataStack Partners,Gregory,Hernandez,gregory.hernandez@onyx.co,Onyx Solutions,100000,negotiation,2023-07-26T00:00:00
+PTR_000603,dbt Labs Partners,Elizabeth,,elizabeth.brown@nova.io,Nova Computing,0,qualified,2023-03-11T00:00:00
+PTR_000604,CloudFirst Consulting,Cynthia,Collins,cynthia.collins@ironclad.com,IRONCLAD SECURITY,25000,engaged,2023-04-29T00:00:00
+PTR_000605,DataStack Partners,,Williams,raymond.williams38@icloud.com,Vertex Software,10000,negotiation,2022-04-09T00:00:00
+PTR_000606,Snowflake SI Network,Joan,Bennett,joan.bennett@pinnacle.com,Pinnacle Financial,50000,engaged,2023-09-20T00:00:00
+PTR_000607,BigQuery Alliance,Amanda,,amanda.moore@quartz.io,Quartz Health,50000,closed_lost,2023-12-10T00:00:00
+PTR_000608,DataStack Partners,,,,Keystone Data,25000,negotiation,2022-11-30T00:00:00
+PTR_000609,CloudFirst Consulting,John,,john.cox@summit.com,Summit Health,0,qualified,2023-12-25T00:00:00
+PTR_000610,BigQuery Alliance,Kenneth,Campbell,kenneth.campbell50@fastmail.com,Obsidian Research,0,qualified,2022-04-21T00:00:00
+PTR_000611,Snowflake SI Network,,Smith,amy.smith@prism.com,Prism Consulting,10000,closed_won,2024-01-14T00:00:00
+PTR_000612,Snowflake SI Network,Steven,Smith,steven.smith@sterling.co,Sterling Ventures,25000,engaged,2022-11-25T00:00:00
+PTR_000613,Databricks ISV Program,Lauren,,lauren.powell14@fastmail.com,Meridian Partners,0,new,2023-09-01T00:00:00
+PTR_000614,dbt Labs Partners,Pamela,Edwards,pamela.edwards@techflow.com,TechFlow Inc,0,closed_won,2022-06-20T00:00:00
+PTR_000615,BigQuery Alliance,,Walker,andrew.walker@atlas.co,Atlas Logistics,10000,qualified,2023-03-09T00:00:00
+PTR_000616,CloudFirst Consulting,Steven,Taylor,steven.taylor4@gmail.com,Atlantic Digital,10000,qualified,2023-03-13T00:00:00
+PTR_000617,BigQuery Alliance,,Diaz,samuel.diaz@ember.co,Ember Technologies,25000,engaged,2022-10-18T00:00:00
+PTR_000618,Snowflake SI Network,Frank,,frank.parker@pinnacle.com,Pinnacle Financial,50000,negotiation,2022-10-16T00:00:00
+PTR_000619,DataStack Partners,,,christopher.johnson@catalyst.com,Catalyst AI,10000,qualified,2023-08-05T00:00:00
+PTR_000620,Databricks ISV Program,Mary,,mary.ross@alpine.io,Alpine Services,25000,engaged,2023-11-23T00:00:00
+PTR_000621,BigQuery Alliance,,Moore,justin.moore@coral.co,Coral Networks,0,negotiation,2024-03-23T00:00:00
+PTR_000622,CloudFirst Consulting,Julie,Myers,julie.myers39@protonmail.com,Quantum Analytics,100000,qualified,2024-02-19T00:00:00
+PTR_000623,Snowflake SI Network,,Gonzalez,,Ironclad Security,10000,closed_won,2024-01-10T00:00:00
+PTR_000624,CloudFirst Consulting,Kevin,Thomas,,Onyx,250000,closed_won,2023-09-28T00:00:00
+PTR_000625,BigQuery Alliance,Kimberly,,kimberly.baker@ironclad.com,Ironclad Security,0,engaged,2024-03-07T00:00:00
+PTR_000626,CloudFirst Consulting,,King,ronald.king10@yahoo.com,Quartz Health,50000,closed_lost,2023-04-12T00:00:00
+PTR_000627,CloudFirst Consulting,,Jimenez,catherine.jimenez69@protonmail.com,Granite Holdings,100000,engaged,2023-12-21T00:00:00
+PTR_000628,Databricks ISV Program,Daniel,,,Summit Health,10000,qualified,2023-12-05T00:00:00
+PTR_000629,dbt Labs Partners,Andrea,Brown,andrea.brown@nexus.io,Nexus Healthcare,250000,qualified,2023-03-13T00:00:00
+PTR_000630,dbt Labs Partners,,Adams,,Redwood Industries,50000,closed_won,2023-11-14T00:00:00
+PTR_000631,Snowflake SI Network,,Murphy,donald.murphy@ridge.com,Ridge Financial,25000,new,2023-09-29T00:00:00
+PTR_000632,BigQuery Alliance,Zachary,Sanchez,zachary.sanchez@catalyst.com,Catalyst AI,0,closed_won,2023-06-06T00:00:00
+PTR_000633,CloudFirst Consulting,Tyler,Mitchell,tyler.mitchell@obsidian.com,Obsidian Research,50000,new,2023-06-03T00:00:00
+PTR_000634,BigQuery Alliance,Roger,,roger.lewis@acme.co,Acme Corp,10000,new,2023-08-30T00:00:00
+PTR_000635,BigQuery Alliance,Patricia,Bennett,patricia.bennett74@aol.com,CloudPeak Technologies,10000,engaged,2022-10-25T00:00:00
+PTR_000636,Databricks ISV Program,,,,Acme Corp,0,engaged,2022-03-01T00:00:00
+PTR_000637,Snowflake SI Network,Andrea,,andrea.williams65@aol.com,CloudPeak Technologies,25000,qualified,2022-04-23T00:00:00
+PTR_000638,DataStack Partners,Dorothy,,dorothy.chavez63@gmail.com,DataBridge Solutions,50000,engaged,2022-08-17T00:00:00
+PTR_000639,Snowflake SI Network,Raymond,Baker,raymond.baker@nexus.io,Nexus Healthcare,100000,closed_lost,2023-04-22T00:00:00
+PTR_000640,BigQuery Alliance,Dennis,,,Spark Automation,50000,new,2024-02-19T00:00:00
+PTR_000641,Databricks ISV Program,Steven,Perez,steven.perez88@hotmail.com,Ridge Financial,100000,new,2022-08-17T00:00:00
+PTR_000642,DataStack Partners,Zachary,,zachary.mitchell@onyx.co,Onyx Solutions,100000,closed_won,2023-09-23T00:00:00
+PTR_000643,dbt Labs Partners,Debra,,debra.johnson14@fastmail.com,Onyx Solutions,250000,qualified,2023-09-27T00:00:00
+PTR_000644,BigQuery Alliance,Brandon,Patel,brandon.patel@canyon.com,Canyon Resources,100000,new,2023-12-21T00:00:00
+PTR_000645,CloudFirst Consulting,,,diane.williams64@gmail.com,Pacific Innovations,100000,closed_won,2022-05-09T00:00:00
+PTR_000646,CloudFirst Consulting,,Ramirez,diane.ramirez@greenfield.com,GreenField Energy,50000,qualified,2023-11-08T00:00:00
+PTR_000647,CloudFirst Consulting,Olivia,Turner,olivia.turner@onyx.co,Onyx Solutions,0,qualified,2023-09-26T00:00:00
+PTR_000648,Snowflake SI Network,Amy,Smith,amy.smith84@outlook.com,Ember Technologies,250000,qualified,2023-01-12T00:00:00
+PTR_000649,Snowflake SI Network,Carolyn,Thompson,,nexus healthcare,0,closed_won,2022-05-07T00:00:00
+PTR_000650,BigQuery Alliance,,Morgan,kenneth.morgan30@icloud.com,Frost Dynamics,10000,closed_won,2023-09-08T00:00:00
+PTR_000651,BigQuery Alliance,Jacob,Lee,jacob.lee4@outlook.com,Horizon Labs,10000,qualified,2024-07-02T00:00:00
+PTR_000652,CloudFirst Consulting,Donald,James,donald.james@vertex.co,Vertex Software,10000,closed_won,2022-12-31T00:00:00
+PTR_000653,DataStack Partners,,Reed,kenneth.reed@isle.io,Isle Technologies,50000,closed_won,2023-11-07T00:00:00
+PTR_000654,Databricks ISV Program,Justin,,justin.lopez@pinnacle.com,Pinnacle Financial,10000,qualified,2022-06-18T00:00:00
+PTR_000655,Snowflake SI Network,Charles,,charles.gomez29@protonmail.com,Sapphire Analytics,250000,negotiation,2023-09-04T00:00:00
+PTR_000656,Databricks ISV Program,Rebecca,,rebecca.myers45@hotmail.com,Ridge Financial,25000,closed_won,2022-11-19T00:00:00
+PTR_000657,CloudFirst Consulting,Douglas,,douglas.howard@redwood.com,Redwood Industries,100000,engaged,2024-04-18T00:00:00
+PTR_000658,DataStack Partners,Henry,Ramos,henry.ramos@atlantic.co,Atlantic Digital,10000,closed_lost,2023-10-13T00:00:00
+PTR_000659,Databricks ISV Program,,,,Quartz Health,10000,negotiation,2022-07-13T00:00:00
+PTR_000660,BigQuery Alliance,,Lee,thomas.lee@granite.io,Granite Holdings,0,qualified,2024-01-20T00:00:00
+PTR_000661,CloudFirst Consulting,Laura,Davis,,Ridge Financial,50000,closed_lost,2022-05-29T00:00:00
+PTR_000662,CloudFirst Consulting,Scott,Sanchez,scott.sanchez86@hotmail.com,Obsidian Research,50000,new,2022-12-15T00:00:00
+PTR_000663,BigQuery Alliance,,,amy.stewart@pinnacle.com,Pinnacle Financial,25000,qualified,2022-10-23T00:00:00
+PTR_000664,CloudFirst Consulting,Anna,Nelson,anna.nelson@beacon.com,Beacon Data,10000,closed_lost,2024-03-10T00:00:00
+PTR_000665,CloudFirst Consulting,,,emma.ramirez@quartz.io,Quartz Health,0,negotiation,2023-09-04T00:00:00
+PTR_000666,Databricks ISV Program,,Mitchell,george.mitchell@orbit.com,Orbit Solutions,0,negotiation,2023-06-27T00:00:00
+PTR_000667,DataStack Partners,Andrea,,andrea.brown21@hotmail.com,Frost Dynamics,250000,qualified,2023-08-02T00:00:00
+PTR_000668,Snowflake SI Network,,Cook,daniel.cook@echo.co,Echo Intelligence,25000,negotiation,2023-06-12T00:00:00
+PTR_000669,BigQuery Alliance,Charles,Mendoza,charles.mendoza18@protonmail.com,Lumen AI,10000,closed_lost,2022-05-31T00:00:00
+PTR_000670,Databricks ISV Program,Frank,Walker,frank.walker@quartz.io,Quartz Health,10000,closed_lost,2024-01-11T00:00:00
+PTR_000671,DataStack Partners,,,paul.roberts@nexus.io,Nexus Healthcare,250000,qualified,2023-10-20T00:00:00
+PTR_000672,Databricks ISV Program,John,Cox,,QUANTUM ANALYTICS,25000,closed_lost,2022-10-05T00:00:00
+PTR_000673,dbt Labs Partners,,,dennis.cooper@greenfield.com,GreenField Energy,10000,engaged,2024-01-16T00:00:00
+PTR_000674,DataStack Partners,John,Nelson,john.nelson41@outlook.com,Nova Computing,10000,qualified,2023-08-18T00:00:00
+PTR_000675,BigQuery Alliance,,Castillo,rachel.castillo@horizon.co,Horizon Labs,100000,new,2022-07-11T00:00:00
+PTR_000676,BigQuery Alliance,,Foster,sharon.foster@cobalt.co,cobalt engineering,10000,negotiation,2022-09-06T00:00:00
+PTR_000677,dbt Labs Partners,Edward,Morgan,edward.morgan95@fastmail.com,Orbit Solutions,10000,engaged,2022-06-30T00:00:00
+PTR_000678,Snowflake SI Network,Evelyn,,evelyn.carter@granite.io,Granite Holdings,100000,qualified,2024-02-14T00:00:00
+PTR_000679,CloudFirst Consulting,,Ross,jennifer.ross@delta.com,Delta Platforms,100000,closed_lost,2023-12-10T00:00:00
+PTR_000680,dbt Labs Partners,Pamela,Jimenez,pamela.jimenez50@protonmail.com,Pinnacle Financial,25000,closed_lost,2023-05-22T00:00:00
+PTR_000681,CloudFirst Consulting,Douglas,Garcia,douglas.garcia@onyx.co,Onyx Solutions,100000,closed_won,2022-10-24T00:00:00
+PTR_000682,Snowflake SI Network,Kevin,Brooks,kevin.brooks56@aol.com,Beacon Data,10000,qualified,2023-12-27T00:00:00
+PTR_000683,Databricks ISV Program,Betty,Cruz,betty.cruz@atlas.co,Atlas Logistics,0,engaged,2023-04-16T00:00:00
+PTR_000684,dbt Labs Partners,Tyler,Mitchell,tyler.mitchell@silverline.co,Silverline Capital,250000,engaged,2023-07-13T00:00:00
+PTR_000685,DataStack Partners,Jack,,jack.perez@delta.com,Delta Platforms,50000,qualified,2022-12-27T00:00:00
+PTR_000686,DataStack Partners,,,jack.thompson63@yahoo.com,Acme Corp,0,qualified,2022-11-25T00:00:00
+PTR_000687,Databricks ISV Program,Ruth,Lee,ruth.lee56@fastmail.com,Sterling Ventures,25000,closed_won,2022-07-10T00:00:00
+PTR_000688,dbt Labs Partners,Joyce,Mitchell,joyce.mitchell@ember.co,Ember Technologies,25000,qualified,2023-08-27T00:00:00
+PTR_000689,DataStack Partners,,Johnson,jack.johnson@atlantic.co,Atlantic Digital,10000,new,2022-07-23T00:00:00
+PTR_000690,DataStack Partners,Cynthia,,cynthia.carter61@icloud.com,Nova Computing,50000,closed_won,2023-08-20T00:00:00
+PTR_000691,Snowflake SI Network,Steven,,steven.smith@delta.com,Delta Platforms,250000,negotiation,2022-04-13T00:00:00
+PTR_000692,CloudFirst Consulting,Melissa,Nelson,melissa.nelson@coral.co,Coral Networks,100000,closed_lost,2022-11-26T00:00:00
+PTR_000693,CloudFirst Consulting,Olivia,Martin,olivia.martin56@fastmail.com,Redwood Industries,100000,engaged,2023-09-15T00:00:00
+PTR_000694,Snowflake SI Network,Ashley,Mitchell,ashley.mitchell65@protonmail.com,NorthStar Systems,25000,closed_won,2023-07-11T00:00:00
+PTR_000695,CloudFirst Consulting,,Thompson,laura.thompson@northstar.io,NorthStar Systems,25000,new,2023-06-03T00:00:00
+PTR_000696,Databricks ISV Program,Jack,Anderson,jack.anderson@echo.co,Echo Intelligence,0,engaged,2023-11-14T00:00:00
+PTR_000697,dbt Labs Partners,Justin,,,Atlas Logistics,250000,closed_lost,2023-03-17T00:00:00
+PTR_000698,DataStack Partners,Thomas,,,Forge Labs,0,negotiation,2024-04-14T00:00:00
+PTR_000699,Snowflake SI Network,Benjamin,Sanchez,,Onyx Solutions,0,closed_won,2022-06-28T00:00:00
+PTR_000700,dbt Labs Partners,Andrew,Ruiz,andrew.ruiz@orbit.com,Orbit Solutions,50000,closed_lost,2022-08-22T00:00:00
+PTR_000701,dbt Labs Partners,,Kim,stephen.kim@canyon.com,Canyon Resources,0,closed_lost,2023-07-25T00:00:00
+PTR_000702,DataStack Partners,,,andrea.hall@atlantic.co,Atlantic Digital,250000,negotiation,2022-08-26T00:00:00
+PTR_000703,DataStack Partners,Ashley,,ashley.torres35@aol.com,CloudPeak Technologies,50000,closed_lost,2023-04-07T00:00:00
+PTR_000704,CloudFirst Consulting,Paul,Murphy,paul.murphy@acme.co,Acme Corp,10000,closed_lost,2022-07-11T00:00:00
+PTR_000705,BigQuery Alliance,Joseph,,joseph.rivera@pacific.io,Pacific Innovations,25000,engaged,2023-02-14T00:00:00
+PTR_000706,CloudFirst Consulting,Harold,Perez,harold.perez@pulse.com,Pulse Engineering,250000,qualified,2023-02-03T00:00:00
+PTR_000707,BigQuery Alliance,Maria,,maria.anderson31@protonmail.com,Vertex Software,100000,engaged,2023-02-04T00:00:00
+PTR_000708,DataStack Partners,,Lee,mark.lee@nexus.io,Nexus Healthcare,10000,closed_lost,2022-07-09T00:00:00
+PTR_000709,DataStack Partners,Daniel,,daniel.wood@techflow.com,TechFlow Inc,10000,closed_lost,2023-11-09T00:00:00
+PTR_000710,BigQuery Alliance,,Evans,charles.evans@onyx.co,Onyx,50000,closed_lost,2022-07-12T00:00:00
+PTR_000711,CloudFirst Consulting,,,ronald.murphy@catalyst.com,Catalyst AI,10000,new,2022-06-11T00:00:00
+PTR_000712,Snowflake SI Network,,Chavez,,Onyx Solutioons,0,closed_lost,2022-11-22T00:00:00
+PTR_000713,BigQuery Alliance,Kenneth,Cox,kenneth.cox@amber.com,Amber Group,50000,qualified,2024-01-03T00:00:00
+PTR_000714,BigQuery Alliance,,,edward.reed2@gmail.com,Horizon Labs,0,negotiation,2023-11-05T00:00:00
+PTR_000715,Databricks ISV Program,Justin,James,justin.james@pacific.io,Pacific Innovations,0,closed_won,2022-05-30T00:00:00
+PTR_000716,DataStack Partners,,Gutierrez,jessica.gutierrez@meridian.co,Meridian Partners,25000,closed_lost,2023-05-07T00:00:00
+PTR_000717,Snowflake SI Network,Patricia,Mendoza,patricia.mendoza17@protonmail.com,Canyon Resources,10000,new,2023-01-28T00:00:00
+PTR_000718,CloudFirst Consulting,Michelle,Harris,michelle.harris@acme.co,Acme Corp,250000,engaged,2023-04-25T00:00:00
+PTR_000719,Snowflake SI Network,Justin,Jones,,Amber Group,50000,new,2022-03-16T00:00:00
+PTR_000720,DataStack Partners,Jessica,Parker,jessica.parker31@icloud.com,Lumen AI,25000,closed_won,2023-06-26T00:00:00
+PTR_000721,dbt Labs Partners,Olivia,Wilson,olivia.wilson28@yahoo.com,CloudPeak Technologies,250000,engaged,2024-01-07T00:00:00
+PTR_000722,Snowflake SI Network,Jeffrey,Ruiz,jeffrey.ruiz@vertex.co,Vertex Software,0,closed_lost,2022-06-05T00:00:00
+PTR_000723,Snowflake SI Network,Benjamin,Garcia,benjamin.garcia@bluewave.co,BlueWave Media,100000,negotiation,2024-03-26T00:00:00
+PTR_000724,DataStack Partners,James,Scott,,GreenField Energy,50000,closed_lost,2023-05-19T00:00:00
+PTR_000725,Snowflake SI Network,Carolyn,Long,carolyn.long@meridian.co,Meridian Partners,250000,closed_won,2022-12-31T00:00:00
+PTR_000726,Databricks ISV Program,Aaron,Turner,,Quartz Health,10000,negotiation,2024-05-13T00:00:00
+PTR_000727,dbt Labs Partners,Christine,Morales,christine.morales@pinnacle.com,Pinnacle Financial,25000,engaged,2024-02-18T00:00:00
+PTR_000728,DataStack Partners,Joyce,,joyce.clark@quartz.io,Quartz Health,100000,negotiation,2023-12-19T00:00:00
+PTR_000729,Snowflake SI Network,Paul,Roberts,,coral networks,10000,closed_lost,2023-11-30T00:00:00
+PTR_000730,Databricks ISV Program,,Martinez,victoria.martinez@cloudpeak.com,CloudPeak Technologies,0,closed_lost,2023-12-23T00:00:00
+PTR_000731,BigQuery Alliance,,Lopez,jose.lopez15@aol.com,Vertex Software,250000,qualified,2024-04-09T00:00:00
+PTR_000732,CloudFirst Consulting,Joshua,Peterson,joshua.peterson@quartz.io,Quartz Health,100000,qualified,2022-11-04T00:00:00
+PTR_000733,Databricks ISV Program,Benjamin,King,benjamin.king@catalyst.com,Catalyst AI,10000,closed_won,2023-12-17T00:00:00
+PTR_000734,Snowflake SI Network,Harold,,harold.brown32@yahoo.com,Nova Computing,0,closed_lost,2023-02-23T00:00:00
+PTR_000735,Snowflake SI Network,,,patrick.ross@alpine.io,Alpine Services,250000,negotiation,2022-08-06T00:00:00
+PTR_000736,dbt Labs Partners,Andrea,,andrea.parker21@aol.com,Jade Systems,100000,qualified,2024-05-19T00:00:00
+PTR_000737,BigQuery Alliance,,Brooks,ronald.brooks@redwood.com,Redwood Industries,25000,closed_won,2024-03-13T00:00:00
+PTR_000738,BigQuery Alliance,Susan,Peterson,,Horizon Labs,100000,closed_lost,2023-10-15T00:00:00
+PTR_000739,DataStack Partners,,,mary.ruiz@quantum.co,Quantum Analytics,50000,engaged,2023-03-29T00:00:00
+PTR_000740,BigQuery Alliance,,,cynthia.patel26@hotmail.com,DataBridge Solutions,0,qualified,2024-05-25T00:00:00
+PTR_000741,Databricks ISV Program,Jose,,jose.price@silverline.co,Silverline Capital,10000,closed_won,2023-01-09T00:00:00
+PTR_000742,BigQuery Alliance,Rachel,Thompson,rachel.thompson60@protonmail.com,TechFlow,50000,closed_won,2023-06-30T00:00:00
+PTR_000743,BigQuery Alliance,David,,david.carter89@yahoo.com,Redwood Industries,100000,negotiation,2023-11-05T00:00:00
+PTR_000744,dbt Labs Partners,Laura,Bennett,laura.bennett@silverline.co,Silverline Capital,250000,closed_lost,2023-02-11T00:00:00
+PTR_000745,Snowflake SI Network,Margaret,Martin,margaret.martin@jade.co,Jade Systems,50000,engaged,2023-02-04T00:00:00
+PTR_000746,CloudFirst Consulting,Richard,Rivera,richard.rivera87@protonmail.com,Pulse Engineering,10000,new,2023-07-18T00:00:00
+PTR_000747,BigQuery Alliance,,,,Delta Platforms,50000,closed_lost,2022-10-28T00:00:00
+PTR_000748,dbt Labs Partners,Nicholas,,,Ridge Financial,10000,negotiation,2023-11-05T00:00:00
+PTR_000749,BigQuery Alliance,Henry,Hall,henry.hall82@hotmail.com,Meridian Partners,10000,engaged,2024-01-07T00:00:00
+PTR_000750,CloudFirst Consulting,Catherine,Williams,catherine.williams@delta.com,Delta Platforms,250000,closed_lost,2023-03-04T00:00:00
+PTR_000751,BigQuery Alliance,Kelly,,kelly.evans@atlas.co,Atlas Logistics,25000,closed_won,2022-08-27T00:00:00
+PTR_000752,BigQuery Alliance,Kelly,,,GreenField Energy,25000,qualified,2022-08-05T00:00:00
+PTR_000753,DataStack Partners,Sandra,,sandra.wood71@hotmail.com,Keystone Data,0,new,2023-06-17T00:00:00
+PTR_000754,BigQuery Alliance,Melissa,Adams,melissa.adams@coral.co,Coral Networks,100000,negotiation,2023-09-24T00:00:00
+PTR_000755,dbt Labs Partners,Frank,Miller,frank.miller@summit.com,Summit Health,10000,negotiation,2023-05-24T00:00:00
+PTR_000756,dbt Labs Partners,,Taylor,richard.taylor@techflow.com,TechFlow Inc,0,closed_lost,2023-09-13T00:00:00
+PTR_000757,dbt Labs Partners,Lisa,Long,,Harbor Analytics,100000,closed_lost,2023-09-23T00:00:00
+PTR_000758,DataStack Partners,Debra,Morales,debra.morales@tidal.io,Tidal Software,100000,qualified,2023-03-25T00:00:00
+PTR_000759,CloudFirst Consulting,,Phillips,,nexus healthcare,250000,closed_won,2023-03-19T00:00:00
+PTR_000760,DataStack Partners,Margaret,,,ECHO INTELLIGENCE,250000,negotiation,2022-07-27T00:00:00
+PTR_000761,Databricks ISV Program,Carl,Allen,carl.allen@obsidian.com,Obsidian Research,10000,qualified,2023-10-04T00:00:00
+PTR_000762,DataStack Partners,Katherine,Kelly,katherine.kelly@quartz.io,Quartz Health,250000,closed_lost,2023-02-01T00:00:00
+PTR_000763,CloudFirst Consulting,Eric,Lee,eric.lee@ember.co,Ember Technologies,10000,closed_lost,2022-05-09T00:00:00
+PTR_000764,CloudFirst Consulting,Brenda,Bennett,,Amber Group,250000,closed_lost,2022-08-03T00:00:00
+PTR_000765,CloudFirst Consulting,Justin,Gomez,justin.gomez47@fastmail.com,Quartz Health,250000,closed_lost,2022-11-06T00:00:00
+PTR_000766,CloudFirst Consulting,Jacob,Phillips,jacob.phillips@nexus.io,Nexus Healthcare,250000,closed_won,2023-05-27T00:00:00
+PTR_000767,Databricks ISV Program,,Scott,pamela.scott@alpine.io,Alpine Services,50000,negotiation,2022-11-30T00:00:00
+PTR_000768,Databricks ISV Program,,Rivera,raymond.rivera36@gmail.com,NorthStar Systems,100000,closed_won,2023-10-11T00:00:00
+PTR_000769,Snowflake SI Network,Judith,Kim,judith.kim@summit.com,Summit Health,0,new,2022-05-11T00:00:00
+PTR_000770,Snowflake SI Network,Shirley,Cooper,shirley.cooper@sterling.co,Sterling Ventures,100000,negotiation,2022-10-25T00:00:00
+PTR_000771,dbt Labs Partners,Janet,,,BlueWave Media,10000,closed_lost,2022-06-07T00:00:00
+PTR_000772,BigQuery Alliance,Henry,,henry.kelly@redwood.com,Redwood Industries,250000,new,2024-03-07T00:00:00
+PTR_000773,Snowflake SI Network,Jose,Rogers,jose.rogers99@gmail.com,TechFlow Inc,50000,closed_won,2022-12-03T00:00:00
+PTR_000774,DataStack Partners,Laura,Brown,laura.brown92@protonmail.com,Redwood Industries,10000,closed_lost,2024-06-23T00:00:00
+PTR_000775,BigQuery Alliance,Lauren,Green,lauren.green38@hotmail.com,GreenField Energy,250000,new,2022-10-07T00:00:00
+PTR_000776,Snowflake SI Network,,Ross,,Quantum Analytics,0,new,2023-04-04T00:00:00
+PTR_000777,BigQuery Alliance,Jerry,Harris,jerry.harris7@fastmail.com,Cobalt Engineering,250000,qualified,2024-04-16T00:00:00
+PTR_000778,Databricks ISV Program,,Gomez,charles.gomez@pulse.com,Pulse Engineering,0,closed_lost,2023-07-08T00:00:00
+PTR_000779,Snowflake SI Network,Donald,Hernandez,donald.hernandez64@gmail.com,Nova Computing,0,closed_won,2023-01-15T00:00:00
+PTR_000780,Snowflake SI Network,Melissa,,melissa.nguyen94@gmail.com,Meridian Partners,250000,engaged,2023-03-24T00:00:00
+PTR_000781,DataStack Partners,,Gomez,,Granite Holdings,250000,engaged,2023-06-27T00:00:00
+PTR_000782,CloudFirst Consulting,Barbara,Gutierrez,barbara.gutierrez@orbit.com,ORBIT SOLUTIONS,0,qualified,2022-06-22T00:00:00
+PTR_000783,dbt Labs Partners,Lauren,Ruiz,lauren.ruiz@obsidian.com,Obsidian Research,250000,engaged,2023-12-14T00:00:00
+PTR_000784,CloudFirst Consulting,Maria,Perez,maria.perez44@hotmail.com,OBSIDIAN RESEARCH,250000,closed_won,2022-12-01T00:00:00
+PTR_000785,CloudFirst Consulting,Daniel,Wilson,daniel.wilson4@outlook.com,jade systems,100000,closed_won,2024-01-26T00:00:00
+PTR_000786,dbt Labs Partners,Deborah,,deborah.lopez@echo.co,ECHO INTELLIGENCE,0,new,2023-03-18T00:00:00
+PTR_000787,DataStack Partners,Douglas,King,douglas.king@cloudpeak.com,CloudPeak Technologies,50000,new,2023-12-08T00:00:00
+PTR_000788,Databricks ISV Program,,Powell,peter.powell@jade.co,Jade Systems,50000,closed_lost,2023-06-18T00:00:00
+PTR_000789,DataStack Partners,Brandon,Castillo,,Orbit Solutions,50000,closed_lost,2022-10-18T00:00:00
+PTR_000790,dbt Labs Partners,Maria,Williams,,Amber Group,25000,qualified,2023-06-26T00:00:00
+PTR_000791,BigQuery Alliance,Jerry,Bailey,jerry.bailey@tidal.io,Tidal Software,25000,closed_lost,2022-10-19T00:00:00
+PTR_000792,DataStack Partners,Timothy,Richardson,timothy.richardson@prism.com,Prism Consulting,25000,closed_won,2022-07-21T00:00:00
+PTR_000793,Databricks ISV Program,,Jones,betty.jones@acme.co,Acme Corp,250000,engaged,2023-02-07T00:00:00
+PTR_000794,DataStack Partners,,Hughes,ronald.hughes@acme.co,Acme Corp,250000,new,2023-03-23T00:00:00
+PTR_000795,Databricks ISV Program,Emma,Nguyen,,Atlas Logistics,10000,engaged,2023-12-06T00:00:00
+PTR_000796,Databricks ISV Program,,Richardson,kelly.richardson@pacific.io,Pacific Innovations,25000,closed_won,2022-07-16T00:00:00
+PTR_000797,Snowflake SI Network,Timothy,,,Alpine Services,10000,closed_won,2022-06-09T00:00:00
+PTR_000798,Databricks ISV Program,Julie,Morgan,julie.morgan@ridge.com,Ridge Financial,100000,closed_lost,2022-08-31T00:00:00
+PTR_000799,dbt Labs Partners,Alexander,Martinez,alexander.martinez6@fastmail.com,Frost Dynamics,25000,closed_won,2023-08-07T00:00:00

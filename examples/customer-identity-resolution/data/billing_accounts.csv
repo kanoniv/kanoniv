@@ -1,0 +1,1201 @@
+billing_account_id,account_name,email,company_name,billing_address,payment_method,plan,mrr_cents,created_at,status
+BILL_000000,Victoria Cook,victoria.cook86@icloud.com,Echo Intelligence,"7548 Center St, San Diego, CA 92101",ach,starter,50000,2023-03-18T00:00:00,past_due
+BILL_000001,Kevin Thomas,kevin.thomas@onyx.co,Onyx Solutions,"2170 Oak Ave, Houston, TX 77001",ach,growth,25000,2023-05-01T00:00:00,past_due
+BILL_000002,Barbara Ramirez,barbara.ramirez@vertex.co,Vertex Software,"1778 Market St, Los Angeles, CA 90001",wire,enterprise,250000,2023-04-29T00:00:00,churned
+BILL_000003,Heather Morgan,heather.morgan33@yahoo.com,Keystone Data,"7501 River Rd, Philadelphia, PA 19101",invoice,enterprise,50000,2022-07-30T00:00:00,active
+BILL_000004,Mary Young,mary.young@canyon.com,Canyon Resources,"3128 Pine Rd, Los Angeles, CA 90001",ach,enterprise,120000,2022-04-11T00:00:00,active
+BILL_000005,Jack Thompson,jack.thompson63@yahoo.com,Acme Corp,"1492 Cedar Ln, Denver, CO 80201",ach,growth,250000,2022-07-29T00:00:00,churned
+BILL_000006,"Cox, Nicholas",nicholas.cox91@icloud.com,Sapphire Analytics,"7620 Lake Dr, Jacksonville, FL 32099",invoice,enterprise,50000,2022-11-10T00:00:00,churned
+BILL_000007,"Harris, Catherine",catherine.harris56@fastmail.com,Onyx Solutions,"6299 Park Pl, Fort Worth, TX 76101",ach,starter,500000,2022-11-22T00:00:00,active
+BILL_000008,"Morgan, Kenneth",kenneth.morgan30@icloud.com,Frost Dynamics,"6873 Washington Ave, Austin, TX 73301",credit_card,starter,50000,2023-09-19T00:00:00,active
+BILL_000009,"Reed, Kenneth",kenneth.reed@isle.io,Isle Technologies,"2206 Pine Rd, Phoenix, AZ 85001",credit_card,starter,50000,2023-10-10T00:00:00,churned
+BILL_000010,Amy Richardson,amy.richardson@lumen.com,Lumen AI,"4566 High St, San Antonio, TX 78201",invoice,enterprise,25000,2023-12-18T00:00:00,active
+BILL_000011,"Young, Amy",amy.young@redwood.com,Redwood Industries,"183 High St, Nashville, TN 37201",invoice,growth,120000,2022-03-24T00:00:00,active
+BILL_000012,Ryan Evans,ryan.evans69@gmail.com,ridge financial,"1355 Oak Ave, Los Angeles, CA 90001",wire,growth,500000,2022-06-03T00:00:00,active
+BILL_000013,Peter Brown,peter.brown43@icloud.com,Echo Intelligence,"4005 Church St, Indianapolis, IN 46201",credit_card,enterprise,50000,2022-04-12T00:00:00,churned
+BILL_000014,Ronald Jones,ronald.jones@ember.co,Ember Technologies,"1613 Prospect Ave, Philadelphia, PA 19101",credit_card,growth,500000,2024-01-20T00:00:00,active
+BILL_000015,Ronald Diaz,ronald.diaz@pinnacle.com,Pinnacle Financial,"1269 Oak Ave, Phoenix, AZ 85001",ach,starter,50000,2022-07-13T00:00:00,active
+BILL_000016,Anthony Nguyen,anthony.nguyen11@yahoo.com,Onyx Solutions,"5720 Mill Rd, San Jose, CA 95101",invoice,growth,500000,2022-08-24T00:00:00,active
+BILL_000017,Roger Kelly,roger.kelly@beacon.com,Beacon Data,"3738 Bridge St, Fort Worth, TX 76101",ach,growth,250000,2022-06-20T00:00:00,active
+BILL_000018,Heather Edwards,heather.edwards@isle.io,Isle Technologies,"2038 Center St, Fort Worth, TX 76101",ach,enterprise,25000,2022-02-22T00:00:00,active
+BILL_000019,Rachel Brown,rachel.brown@onyx.co,Onyx Solutions,"6426 Elm Dr, San Diego, CA 92101",wire,enterprise,120000,2023-02-18T00:00:00,churned
+BILL_000020,"Hall, Adam",adam.hall@sapphire.com,Sapphire Analytics,"7912 Spring St, Dallas, TX 75201",ach,starter,250000,2022-12-03T00:00:00,active
+BILL_000021,"Morales, Kelly",kelly.morales@pacific.io,Pacific Innovatons,"8830 River Rd, Seattle, WA 98101",ach,enterprise,50000,2023-06-29T00:00:00,active
+BILL_000022,Ashley Mitchell,ashley.mitchell49@icloud.com,Redwood Industries,"3487 Spring St, Phoenix, AZ 85001",credit_card,starter,25000,2023-01-31T00:00:00,active
+BILL_000023,"Hill, Kevin",kevin.hill68@hotmail.com,Forge Labs,"5558 Oak Ave, Phoenix, AZ 85001",credit_card,growth,25000,2022-05-05T00:00:00,active
+BILL_000024,Justin Wilson,justin.wilson13@outlook.com,Onyx Solutions,"904 Union Ave, San Jose, CA 95101",wire,growth,25000,2023-05-28T00:00:00,past_due
+BILL_000025,Peter Martinez,peter.martinez@forge.io,Forge Labs,"7955 Elm Dr, Los Angeles, CA 90001",invoice,enterprise,250000,2023-03-12T00:00:00,churned
+BILL_000026,"Lopez, Betty",betty.lopez@ironclad.com,Ironclad Security,"2403 Church St, Denver, CO 80201",credit_card,enterprise,25000,2022-02-03T00:00:00,active
+BILL_000027,"Cox, Jeffrey",jeffrey.cox48@protonmail.com,Horizon Labs,"9916 Spring St, New York, NY 10001",invoice,enterprise,25000,2022-04-12T00:00:00,past_due
+BILL_000028,David Kim,david.kim@tidal.io,Tidal Software,"3596 Oak Ave, Indianapolis, IN 46201",credit_card,growth,250000,2022-08-20T00:00:00,active
+BILL_000029,Kathleen Ortiz,kathleen.ortiz@acme.co,Acme Corp,"1159 Oak Ave, Philadelphia, PA 19101",ach,growth,250000,2022-04-02T00:00:00,active
+BILL_000030,"Gray, Anthony",anthony.gray@greenfield.com,GreenField Energy,"1673 Market St, Los Angeles, CA 90001",wire,enterprise,500000,2023-07-21T00:00:00,past_due
+BILL_000031,Christine Rogers,christine.rogers16@aol.com,Redwood Industries,"1578 Pine Rd, San Jose, CA 95101",wire,enterprise,250000,2023-08-13T00:00:00,active
+BILL_000032,John Ross,john.ross16@fastmail.com,DataBridge Solutions,"7350 Mill Rd, Fort Worth, TX 76101",ach,enterprise,500000,2022-04-24T00:00:00,active
+BILL_000033,Sharon Morris,sharon.morris43@icloud.com,Catalyst AI,"2022 Union Ave, San Antonio, TX 78201",credit_card,enterprise,500000,2022-11-08T00:00:00,past_due
+BILL_000034,Benjamin Carter,benjamin.carter40@gmail.com,Delta Platforms,"6459 High St, San Antonio, TX 78201",ach,growth,25000,2022-12-18T00:00:00,active
+BILL_000035,Donald Gutierrez,donald.gutierrez68@icloud.com,Lumen AI,"9927 Cedar Ln, San Diego, CA 92101",ach,growth,50000,2023-02-02T00:00:00,churned
+BILL_000036,"Perez, Helen",helen.perez@quartz.io,Quartz Health,"4179 River Rd, Portland, OR 97201",wire,starter,25000,2022-11-08T00:00:00,active
+BILL_000037,"Cox, Arthur",arthur.cox@prism.com,Prism Consulting,"3766 River Rd, Indianapolis, IN 46201",wire,growth,50000,2022-04-17T00:00:00,active
+BILL_000038,Jennifer Smith,jennifer.smith@frost.com,Frost Dynamics,"5475 Main St, Austin, TX 73301",ach,enterprise,500000,2022-10-25T00:00:00,past_due
+BILL_000039,Nicole Mendoza,nicole.mendoza73@gmail.com,Forge Labs,"6171 Elm Dr, Columbus, OH 43085",invoice,growth,500000,2023-06-28T00:00:00,active
+BILL_000040,Laura Collins,laura.collins@silverline.co,Silverline Capital,"7514 Cedar Ln, Jacksonville, FL 32099",ach,growth,250000,2022-07-01T00:00:00,active
+BILL_000041,"Evans, Kevin",kevin.evans45@fastmail.com,Amber Group,"3795 Maple Blvd, Nashville, TN 37201",credit_card,starter,500000,2023-04-29T00:00:00,active
+BILL_000042,Donald Murphy,donald.murphy@ridge.com,Ridge Financial,"687 Center St, Columbus, OH 43085",credit_card,growth,250000,2023-07-28T00:00:00,past_due
+BILL_000043,Robert Bennett,robert.bennett@canyon.com,Canyon Resources,"1991 Cedar Ln, Dallas, TX 75201",ach,starter,500000,2023-10-01T00:00:00,churned
+BILL_000044,Daniel Cook,daniel.cook@echo.co,Echo Intelligence,"7097 Market St, New York, NY 10001",invoice,starter,120000,2023-03-26T00:00:00,active
+BILL_000045,Henry Ramos,henry.ramos@atlantic.co,Atlantic Digital,"5252 Union Ave, San Jose, CA 95101",credit_card,growth,25000,2023-08-26T00:00:00,active
+BILL_000046,Peter Rivera,peter.rivera7@icloud.com,Lumen AI,"8324 Center St, San Jose, CA 95101",ach,enterprise,50000,2022-07-02T00:00:00,active
+BILL_000047,Linda Richardson,linda.richardson@pulse.com,Pulse Engineering,"2238 Mill Rd, New York, NY 10001",wire,starter,120000,2023-10-26T00:00:00,past_due
+BILL_000048,"James, Albert",albert.james42@aol.com,Amber Group,"4953 Elm Dr, Dallas, TX 75201",wire,growth,25000,2023-03-08T00:00:00,active
+BILL_000049,Thomas Stewart,thomas.stewart66@yahoo.com,Sterling Ventures,"810 Academy St, San Diego, CA 92101",invoice,growth,250000,2023-01-09T00:00:00,active
+BILL_000050,"Morris, Anthony",anthony.morris65@hotmail.com,Tidal Software,"8373 Lake Dr, Austin, TX 73301",invoice,growth,25000,2023-09-06T00:00:00,active
+BILL_000051,Nancy Torres,nancy.torres59@protonmail.com,Keystone Data,"2969 High St, Portland, OR 97201",credit_card,growth,25000,2022-10-28T00:00:00,active
+BILL_000052,"Phillips, Shirley",shirley.phillips@delta.com,Delta Platforms,"1291 Bridge St, Philadelphia, PA 19101",ach,enterprise,120000,2022-08-11T00:00:00,past_due
+BILL_000053,"Myers, Shirley",shirley.myers@echo.co,Echo Intelligence,"3693 Pine Rd, Jacksonville, FL 32099",ach,starter,25000,2023-06-27T00:00:00,churned
+BILL_000054,Amy Williams,amy.williams@delta.com,Delta Platforms,"2008 Maple Blvd, Portland, OR 97201",ach,growth,120000,2023-06-26T00:00:00,active
+BILL_000055,"Turner, Samantha",samantha.turner@horizon.co,Horizon Labs,"3174 Washington Ave, San Jose, CA 95101",invoice,growth,50000,2024-02-03T00:00:00,active
+BILL_000056,Donald Patel,donald.patel54@fastmail.com,Catalyst AI,"9281 Washington Ave, Jacksonville, FL 32099",wire,growth,250000,2022-02-19T00:00:00,past_due
+BILL_000057,John Rodriguez,john.rodriguez@orbit.com,Orbit Solutions,"1977 Oak Ave, Fort Worth, TX 76101",invoice,growth,500000,2022-02-16T00:00:00,active
+BILL_000058,Deborah Jimenez,deborah.jimenez@cobalt.co,Cobalt Engineering,"2499 Lake Dr, Houston, TX 77001",invoice,growth,120000,2022-10-14T00:00:00,churned
+BILL_000059,Dorothy Miller,dorothy.miller84@protonmail.com,Pinnacle Financial,"6719 Park Pl, Phoenix, AZ 85001",credit_card,growth,25000,2022-02-21T00:00:00,churned
+BILL_000060,Daniel Jackson,daniel.jackson@catalyst.com,Catalyst AI,"9777 Spring St, Chicago, IL 60601",wire,starter,500000,2022-05-24T00:00:00,active
+BILL_000061,Donald Reed,donald.reed@nexus.io,Nexus Healthcare,"9662 Bridge St, Columbus, OH 43085",wire,starter,250000,2023-07-21T00:00:00,active
+BILL_000062,Shirley James,shirley.james@ironclad.com,Ironclad Security,"9467 Center St, Fort Worth, TX 76101",invoice,enterprise,250000,2023-06-21T00:00:00,past_due
+BILL_000063,"Morgan, Justin",justin.morgan@spark.io,Spark Automation,"6773 Bridge St, New York, NY 10001",credit_card,growth,25000,2024-01-01T00:00:00,active
+BILL_000064,Gregory Hernandez,gregory.hernandez@onyx.co,Onyx Solutions,"9031 Oak Ave, Fort Worth, TX 76101",ach,growth,250000,2023-07-08T00:00:00,active
+BILL_000065,Rachel Jones,rachel.jones86@icloud.com,GreenField Energy,"1884 High St, Los Angeles, CA 90001",credit_card,enterprise,50000,2022-07-20T00:00:00,active
+BILL_000066,David Thompson,david.thompson@redwood.com,Redwood Industries,"1360 River Rd, Fort Worth, TX 76101",ach,growth,120000,2022-08-23T00:00:00,past_due
+BILL_000067,Carol Chavez,carol.chavez@onyx.co,Onyx Solutions,"9805 Maple Blvd, Nashville, TN 37201",wire,starter,120000,2022-06-11T00:00:00,active
+BILL_000068,Angela Nelson,angela.nelson@pulse.com,Pulse Engineering,"3860 Church St, Portland, OR 97201",ach,starter,500000,2023-10-10T00:00:00,active
+BILL_000069,Stephen Foster,stephen.foster@tidal.io,Tidal Software,"1369 River Rd, Charlotte, NC 28201",wire,enterprise,500000,2022-10-18T00:00:00,active
+BILL_000070,Catherine Parker,catherine.parker@greenfield.com,GreenField Energy,"2968 Elm Dr, Philadelphia, PA 19101",invoice,starter,250000,2023-11-22T00:00:00,active
+BILL_000071,Raymond Moore,raymond.moore@beacon.com,Beacon Data,"4826 Main St, Columbus, OH 43085",invoice,growth,50000,2022-09-15T00:00:00,past_due
+BILL_000072,Kelly King,kelly.king@nova.io,Nova Computing,"230 Pine Rd, Seattle, WA 98101",credit_card,growth,500000,2022-06-08T00:00:00,past_due
+BILL_000073,Carol Gomez,carol.gomez@nova.io,Nova Computing,"5773 Cedar Ln, Chicago, IL 60601",ach,growth,250000,2023-11-27T00:00:00,active
+BILL_000074,Amy Stewart,amy.stewart@pinnacle.com,Pinnacle Financial,"8706 Academy St, San Diego, CA 92101",wire,enterprise,120000,2022-07-11T00:00:00,past_due
+BILL_000075,"Sanders, Rebecca",rebecca.sanders85@yahoo.com,CloudPeak Technologies,"8442 Market St, Fort Worth, TX 76101",wire,growth,50000,2023-07-05T00:00:00,churned
+BILL_000076,Angela Williams,angela.williams@alpine.io,Alpine Services,"4316 Prospect Ave, Fort Worth, TX 76101",ach,enterprise,500000,2023-09-15T00:00:00,past_due
+BILL_000077,"Chavez, Larry",larry.chavez@sapphire.com,Sapphire Analytics,"4610 Center St, Austin, TX 73301",wire,growth,250000,2023-06-15T00:00:00,churned
+BILL_000078,Margaret Thomas,margaret.thomas@prism.com,Prism Consulting,"1731 Oak Ave, New York, NY 10001",credit_card,starter,120000,2022-03-30T00:00:00,past_due
+BILL_000079,"Watson, Scott",scott.watson29@protonmail.com,Harbor Analytics,"5984 Market St, Seattle, WA 98101",invoice,enterprise,500000,2022-10-03T00:00:00,active
+BILL_000080,Diane Garcia,diane.garcia17@hotmail.com,Orbit Solutions,"2703 Union Ave, Houston, TX 77001",invoice,enterprise,500000,2022-05-02T00:00:00,active
+BILL_000081,"Bennett, Elizabeth",elizabeth.bennett@tidal.io,Tidal Software,"2612 Spring St, Chicago, IL 60601",wire,growth,250000,2023-02-06T00:00:00,active
+BILL_000082,"Scott, Elizabeth",elizabeth.scott55@gmail.com,Meridian Partners,"934 Spring St, Chicago, IL 60601",wire,growth,25000,2023-04-25T00:00:00,active
+BILL_000083,"Hernandez, Kathleen",kathleen.hernandez89@fastmail.com,Canyon Resources,"4946 Park Pl, Jacksonville, FL 32099",ach,growth,120000,2023-11-14T00:00:00,churned
+BILL_000084,Patrick Gonzalez,patrick.gonzalez@alpine.io,Alpine Services,"8589 River Rd, Phoenix, AZ 85001",invoice,enterprise,120000,2023-04-08T00:00:00,past_due
+BILL_000085,John Anderson,john.anderson@meridian.co,Meridian Partners,"8918 Maple Blvd, Seattle, WA 98101",wire,enterprise,50000,2023-04-12T00:00:00,churned
+BILL_000086,"Wright, Melissa",melissa.wright@techflow.com,TechFlow Inc,"4451 Cedar Ln, Jacksonville, FL 32099",credit_card,starter,250000,2023-09-02T00:00:00,past_due
+BILL_000087,"Brown, Gary",gary.brown64@yahoo.com,Pinnacle Financial,"7972 Bridge St, Nashville, TN 37201",invoice,starter,250000,2023-04-04T00:00:00,churned
+BILL_000088,Margaret Watson,margaret.watson65@hotmail.com,Sapphire Analytics,"8937 Academy St, Philadelphia, PA 19101",invoice,starter,120000,2022-03-14T00:00:00,past_due
+BILL_000089,"Kelly, Brenda",brenda.kelly@harbor.io,Harbor Analytics,"2042 River Rd, Philadelphia, PA 19101",credit_card,starter,50000,2022-12-17T00:00:00,active
+BILL_000090,Eric Watson,eric.watson@nova.io,Nova Computing,"9525 Main St, Denver, CO 80201",wire,enterprise,250000,2022-10-29T00:00:00,active
+BILL_000091,Margaret Peterson,margaret.peterson87@icloud.com,Ember Technologies,"9481 Bridge St, Columbus, OH 43085",ach,starter,50000,2023-09-03T00:00:00,active
+BILL_000092,William Nguyen,william.nguyen@forge.io,Forge Labs,"3362 Union Ave, Chicago, IL 60601",credit_card,growth,250000,2023-08-08T00:00:00,active
+BILL_000093,Susan Howard,susan.howard@granite.io,Granite Holdings,"4068 Oak Ave, Phoenix, AZ 85001",invoice,starter,500000,2023-08-29T00:00:00,active
+BILL_000094,George Ortiz,george.ortiz@databridge.com,DataBridge Solutions,"2625 Union Ave, Portland, OR 97201",credit_card,enterprise,50000,2023-05-24T00:00:00,active
+BILL_000095,Joyce Mitchell,joyce.mitchell@ember.co,Ember Technologies,"5147 Mill Rd, Jacksonville, FL 32099",ach,enterprise,25000,2023-09-02T00:00:00,active
+BILL_000096,Paul Rodriguez,paul.rodriguez54@protonmail.com,Beacon Data,"4734 River Rd, New York, NY 10001",credit_card,enterprise,50000,2023-09-10T00:00:00,active
+BILL_000097,"Howard, Daniel",daniel.howard@acme.co,Acme Corp,"4919 Oak Ave, Phoenix, AZ 85001",wire,starter,500000,2023-03-29T00:00:00,active
+BILL_000098,Dennis James,dennis.james42@yahoo.com,Echo Intelligence,"7004 Union Ave, Philadelphia, PA 19101",invoice,growth,500000,2022-12-30T00:00:00,active
+BILL_000099,Virginia Reyes,virginia.reyes@techflow.com,TechFlow Inc,"4124 Spring St, Dallas, TX 75201",wire,enterprise,120000,2023-03-12T00:00:00,active
+BILL_000100,Julie Davis,julie.davis@atlas.co,Atlas Logistics,"9041 Elm Dr, Houston, TX 77001",wire,enterprise,120000,2022-11-05T00:00:00,past_due
+BILL_000101,Robert Gray,robert.gray@beacon.com,Beacon Data,"664 Center St, San Antonio, TX 78201",credit_card,enterprise,120000,2022-11-04T00:00:00,active
+BILL_000102,"Morales, Brenda",brenda.morales@orbit.com,Orbit Solutions,"7359 Church St, San Jose, CA 95101",credit_card,enterprise,120000,2022-10-24T00:00:00,active
+BILL_000103,Margaret Baker,margaret.baker@pulse.com,Pulse Engineering,"795 High St, Denver, CO 80201",credit_card,starter,50000,2023-06-28T00:00:00,churned
+BILL_000104,Donna Davis,donna.davis10@aol.com,Beacon Data,"6351 Main St, Dallas, TX 75201",invoice,growth,50000,2022-07-10T00:00:00,active
+BILL_000105,Lisa Baker,lisa.baker@redwood.com,Redwood Industries,"6543 Oak Ave, Los Angeles, CA 90001",invoice,growth,250000,2024-01-18T00:00:00,active
+BILL_000106,"Green, Zachary",zachary.green@acme.co,Acme Corp,"515 Park Pl, Nashville, TN 37201",wire,growth,250000,2024-01-12T00:00:00,churned
+BILL_000107,Nicole Flores,nicole.flores@cloudpeak.com,CloudPeak Technologies,"4109 Pine Rd, Chicago, IL 60601",invoice,enterprise,500000,2024-02-14T00:00:00,active
+BILL_000108,Ronald Alvarez,ronald.alvarez@spark.io,Spark Automation,"9402 Pine Rd, Charlotte, NC 28201",credit_card,starter,120000,2022-05-13T00:00:00,active
+BILL_000109,William Carter,william.carter@prism.com,Prism Consulting,"2859 Union Ave, Nashville, TN 37201",credit_card,enterprise,25000,2023-01-16T00:00:00,active
+BILL_000110,Debra Long,debra.long@isle.io,Isle Technologies,"5079 High St, San Diego, CA 92101",wire,enterprise,250000,2023-06-13T00:00:00,active
+BILL_000111,Judith Kelly,judith.kelly@nexus.io,Nexus Healthcare,"1965 Bridge St, Jacksonville, FL 32099",wire,growth,250000,2022-09-28T00:00:00,active
+BILL_000112,Dorothy Perez,dorothy.perez@isle.io,Isle Technologies,"5263 Lake Dr, San Diego, CA 92101",credit_card,starter,25000,2024-03-09T00:00:00,churned
+BILL_000113,Arthur Cook,arthur.cook@frost.com,Frost Dynamics,"6202 Union Ave, San Diego, CA 92101",wire,enterprise,50000,2023-10-26T00:00:00,active
+BILL_000114,Roger Morgan,roger.morgan50@yahoo.com,Alpine Services,"9567 Park Pl, Denver, CO 80201",wire,enterprise,25000,2024-03-13T00:00:00,active
+BILL_000115,Alexander Baker,alexander.baker@vertex.co,Vertex Software,"9716 Main St, Austin, TX 73301",credit_card,enterprise,50000,2023-09-01T00:00:00,active
+BILL_000116,Carol Howard,carol.howard@quantum.co,Quantum Analytics,"2775 Oak Ave, Jacksonville, FL 32099",credit_card,starter,120000,2022-10-19T00:00:00,active
+BILL_000117,Ruth Diaz,ruth.diaz@pacific.io,Pacific Innovations,"2403 Union Ave, Philadelphia, PA 19101",ach,enterprise,500000,2023-02-03T00:00:00,active
+BILL_000118,Kelly Richardson,kelly.richardson@pacific.io,Pacific Innovations,"4652 High St, Chicago, IL 60601",credit_card,enterprise,120000,2022-07-13T00:00:00,active
+BILL_000119,Joan Green,joan.green@granite.io,Granite Holdings,"9331 Elm Dr, Fort Worth, TX 76101",invoice,growth,250000,2022-11-22T00:00:00,churned
+BILL_000120,"Wilson, Anna",anna.wilson@bluewave.co,BlueWave Media,"9188 Academy St, Seattle, WA 98101",invoice,growth,250000,2023-04-07T00:00:00,active
+BILL_000121,Lauren Roberts,lauren.roberts15@gmail.com,Pulse Engineering,"1526 Church St, Portland, OR 97201",invoice,starter,500000,2023-05-25T00:00:00,active
+BILL_000122,John Lee,john.lee@cloudpeak.com,CloudPeak Technologies,"2140 Cedar Ln, Indianapolis, IN 46201",wire,growth,50000,2022-11-16T00:00:00,active
+BILL_000123,"White, Dorothy",dorothy.white@techflow.com,TechFlow Inc,"1559 Cedar Ln, Austin, TX 73301",wire,starter,250000,2023-05-16T00:00:00,churned
+BILL_000124,"Kim, Benjamin",benjamin.kim@ember.co,Ember Technologies,"5866 Mill Rd, Jacksonville, FL 32099",credit_card,starter,120000,2023-11-29T00:00:00,past_due
+BILL_000125,Ryan Gray,ryan.gray@delta.com,Delta Platforms,"759 Maple Blvd, Nashville, TN 37201",invoice,starter,120000,2023-05-14T00:00:00,past_due
+BILL_000126,Melissa Allen,melissa.allen@ironclad.com,Ironclad Security,"7095 Church St, Dallas, TX 75201",ach,growth,250000,2022-11-11T00:00:00,active
+BILL_000127,Melissa Smith,melissa.smith54@yahoo.com,Atlas Logistics,"788 Pine Rd, Phoenix, AZ 85001",wire,growth,50000,2022-10-13T00:00:00,active
+BILL_000128,Mary Kelly,mary.kelly@atlantic.co,Atlantic Digital,"5275 High St, San Antonio, TX 78201",wire,starter,120000,2023-02-28T00:00:00,past_due
+BILL_000129,George Harris,george.harris@tidal.io,Tidal Software,"8321 River Rd, San Jose, CA 95101",ach,growth,25000,2023-01-21T00:00:00,active
+BILL_000130,"Moore, Matthew",matthew.moore@atlantic.co,Atlantic Digital,"7773 Market St, Jacksonville, FL 32099",ach,enterprise,250000,2023-03-27T00:00:00,active
+BILL_000131,Kimberly Clark,kimberly.clark@keystone.com,Keystone Data,"5162 Academy St, Phoenix, AZ 85001",ach,starter,500000,2022-06-17T00:00:00,active
+BILL_000132,Patrick Ross,patrick.ross@quantum.co,Quantum Analytics,"9086 Center St, Houston, TX 77001",ach,growth,50000,2022-12-25T00:00:00,active
+BILL_000133,"Miller, Maria",maria.miller@sterling.co,Sterling Ventures,"9770 Cedar Ln, Fort Worth, TX 76101",ach,growth,500000,2022-06-22T00:00:00,active
+BILL_000134,William Stewart,william.stewart5@fastmail.com,Quartz Health,"1705 Mill Rd, Indianapolis, IN 46201",credit_card,starter,50000,2023-08-05T00:00:00,active
+BILL_000135,Carl Cooper,carl.cooper@databridge.com,DataBridge Solutions,"1580 High St, San Diego, CA 92101",invoice,enterprise,50000,2022-05-02T00:00:00,active
+BILL_000136,Brandon Gonzalez,brandon.gonzalez@quartz.io,Quartz Health,"8246 Maple Blvd, Portland, OR 97201",invoice,growth,50000,2023-03-16T00:00:00,past_due
+BILL_000137,Jose Jackson,jose.jackson@tidal.io,Tidal Software,"967 Market St, New York, NY 10001",wire,growth,250000,2023-10-01T00:00:00,past_due
+BILL_000138,Paul Hill,paul.hill@acme.co,Acme Corp,"455 Lake Dr, Austin, TX 73301",invoice,starter,500000,2023-08-01T00:00:00,active
+BILL_000139,Laura Chavez,laura.chavez@northstar.io,NorthStar Systems,"6892 Spring St, Houston, TX 77001",invoice,growth,500000,2023-09-30T00:00:00,active
+BILL_000140,John Thomas,john.thomas24@gmail.com,Lumen AI,"9595 Mill Rd, San Diego, CA 92101",ach,growth,250000,2022-04-29T00:00:00,active
+BILL_000141,"Young, Lisa",lisa.young@canyon.com,Canyon Resources,"5042 Washington Ave, New York, NY 10001",wire,starter,25000,2023-06-25T00:00:00,churned
+BILL_000142,"Martin, Albert",albert.martin78@protonmail.com,Coral Networks,"3678 Park Pl, Seattle, WA 98101",invoice,enterprise,25000,2023-12-21T00:00:00,past_due
+BILL_000143,Patricia Mendoza,patricia.mendoza17@protonmail.com,Canyon Resources,"8764 Prospect Ave, Nashville, TN 37201",credit_card,starter,250000,2023-03-16T00:00:00,past_due
+BILL_000144,Gregory Sanders,gregory.sanders@echo.co,Echo Intelligence,"4819 Maple Blvd, Portland, OR 97201",ach,starter,500000,2023-08-21T00:00:00,active
+BILL_000145,Patrick Stewart,patrick.stewart@atlas.co,Atlas Logistics,"2215 Maple Blvd, Indianapolis, IN 46201",wire,starter,50000,2022-09-03T00:00:00,active
+BILL_000146,"Foster, Joseph",joseph.foster@silverline.co,Silverline Capital,"3814 Prospect Ave, Houston, TX 77001",credit_card,growth,25000,2022-02-23T00:00:00,past_due
+BILL_000147,Nicole Murphy,nicole.murphy@greenfield.com,GreenField Energy,"5308 Oak Ave, Columbus, OH 43085",ach,starter,25000,2022-08-19T00:00:00,churned
+BILL_000148,Evelyn Reed,evelyn.reed@nova.io,Nova Computing,"572 Pine Rd, Jacksonville, FL 32099",wire,starter,25000,2023-07-15T00:00:00,past_due
+BILL_000149,Sharon Moore,sharon.moore82@gmail.com,Echo Intelligence,"8804 River Rd, Charlotte, NC 28201",credit_card,growth,25000,2023-04-16T00:00:00,active
+BILL_000150,Nicholas Stewart,nicholas.stewart@coral.co,Coral Networks,"8691 Union Ave, Philadelphia, PA 19101",ach,growth,25000,2022-02-11T00:00:00,past_due
+BILL_000151,Deborah Cooper,deborah.cooper44@fastmail.com,Delta Platforms,"5471 Maple Blvd, Chicago, IL 60601",ach,growth,250000,2023-08-24T00:00:00,active
+BILL_000152,"Price, Kimberly",kimberly.price23@protonmail.com,Keystone Data,"7970 Bridge St, Seattle, WA 98101",ach,starter,500000,2023-10-09T00:00:00,active
+BILL_000153,"Thomas, Dennis",dennis.thomas@meridian.co,Meridian Partners,"4435 Bridge St, San Jose, CA 95101",credit_card,enterprise,120000,2022-03-04T00:00:00,active
+BILL_000154,Edward Carter,edward.carter@horizon.co,Horizon Labs,"612 Center St, San Jose, CA 95101",credit_card,growth,500000,2023-01-05T00:00:00,active
+BILL_000155,"Walker, Andrea",andrea.walker@obsidian.com,Obsidian Research,"5053 Maple Blvd, Denver, CO 80201",credit_card,enterprise,25000,2022-07-05T00:00:00,active
+BILL_000156,"Ortiz, Charles",charles.ortiz@sterling.co,Sterling Ventures,"1938 Oak Ave, Nashville, TN 37201",ach,enterprise,120000,2023-09-08T00:00:00,past_due
+BILL_000157,Jose Mitchell,jose.mitchell@amber.com,Amber Group,"7336 Park Pl, Philadelphia, PA 19101",credit_card,growth,50000,2022-11-06T00:00:00,past_due
+BILL_000158,"Bennett, Charles",charles.bennett44@protonmail.com,Coral Networks,"9251 Center St, Nashville, TN 37201",ach,growth,50000,2023-02-21T00:00:00,churned
+BILL_000159,Edward Brooks,edward.brooks@isle.io,Isle Technologies,"5068 River Rd, San Jose, CA 95101",invoice,growth,50000,2023-08-21T00:00:00,past_due
+BILL_000160,"Perez, Nathan",nathan.perez25@icloud.com,Obsidian Research,"5319 Maple Blvd, Indianapolis, IN 46201",credit_card,starter,120000,2022-04-05T00:00:00,past_due
+BILL_000161,Steven Ramos,steven.ramos65@aol.com,Nova Computing,"7688 Lake Dr, Philadelphia, PA 19101",invoice,starter,500000,2024-03-02T00:00:00,active
+BILL_000162,Douglas Smith,douglas.smith@horizon.co,Horizon Labs,"1008 Church St, Philadelphia, PA 19101",credit_card,starter,120000,2022-12-08T00:00:00,churned
+BILL_000163,Melissa Parker,melissa.parker@isle.io,Isle Technologies,"7694 Park Pl, Austin, TX 73301",invoice,enterprise,25000,2024-01-21T00:00:00,active
+BILL_000164,Carol Harris,carol.harris@spark.io,Spark Automation,"8105 Market St, Denver, CO 80201",ach,enterprise,120000,2023-12-27T00:00:00,active
+BILL_000165,Betty Castillo,betty.castillo@vertex.co,Vertex Software,"4175 Bridge St, Denver, CO 80201",wire,growth,500000,2023-11-17T00:00:00,active
+BILL_000166,Nicholas Robinson,nicholas.robinson41@yahoo.com,Pinnacle Financial,"3645 Union Ave, San Antonio, TX 78201",invoice,enterprise,250000,2022-10-29T00:00:00,past_due
+BILL_000167,Katherine Watson,katherine.watson@orbit.com,Orbit Solutions,"5309 Union Ave, Philadelphia, PA 19101",wire,starter,25000,2022-03-25T00:00:00,active
+BILL_000168,Raymond Davis,raymond.davis87@gmail.com,Pinnacle Financial,"9308 Union Ave, Phoenix, AZ 85001",credit_card,enterprise,50000,2022-08-13T00:00:00,active
+BILL_000169,Jonathan Wilson,jonathan.wilson63@fastmail.com,Tidal Software,"789 Prospect Ave, Fort Worth, TX 76101",credit_card,enterprise,250000,2022-05-04T00:00:00,churned
+BILL_000170,Lauren Scott,lauren.scott46@hotmail.com,Acme Corp,"8505 Elm Dr, Fort Worth, TX 76101",ach,growth,250000,2022-08-03T00:00:00,active
+BILL_000171,"Taylor, Emma",emma.taylor@cobalt.co,Cobalt Engineering,"3091 Spring St, Denver, CO 80201",credit_card,growth,120000,2023-06-18T00:00:00,active
+BILL_000172,Steven Hill,steven.hill11@fastmail.com,Harbor Analytics,"202 Oak Ave, Phoenix, AZ 85001",ach,starter,25000,2022-03-01T00:00:00,past_due
+BILL_000173,Albert James,albert.james76@yahoo.com,Pulse Engineering,"8739 Bridge St, Austin, TX 73301",wire,enterprise,120000,2023-09-10T00:00:00,past_due
+BILL_000174,"Patel, Raymond",raymond.patel@ember.co,Ember Technologies,"262 Elm Dr, Jacksonville, FL 32099",wire,starter,500000,2023-03-14T00:00:00,active
+BILL_000175,"Lopez, Deborah",deborah.lopez@echo.co,Echo Intelligence,"2402 Main St, Los Angeles, CA 90001",credit_card,enterprise,120000,2023-02-07T00:00:00,churned
+BILL_000176,"Martin, Karen",karen.martin@delta.com,Delta Platforms,"2436 River Rd, New York, NY 10001",invoice,starter,25000,2023-09-23T00:00:00,active
+BILL_000177,"Lewis, William",william.lewis@spark.io,Spark Automation,"5334 Church St, Denver, CO 80201",ach,starter,250000,2023-04-02T00:00:00,past_due
+BILL_000178,Anthony Flores,anthony.flores@tidal.io,Tidal Software,"4877 Spring St, Fort Worth, TX 76101",wire,starter,250000,2022-07-27T00:00:00,active
+BILL_000179,Nicholas Cook,nicholas.cook@ironclad.com,Ironclad Security,"8491 Center St, Portland, OR 97201",ach,growth,25000,2023-11-04T00:00:00,active
+BILL_000180,Evelyn Ward,evelyn.ward@ember.co,Ember Technologies,"782 Washington Ave, Denver, CO 80201",wire,growth,25000,2022-05-18T00:00:00,past_due
+BILL_000181,Dorothy Scott,dorothy.scott18@aol.com,Silverline Capital,"715 River Rd, Austin, TX 73301",ach,growth,25000,2024-01-14T00:00:00,active
+BILL_000182,"Campbell, Jose",jose.campbell@lumen.com,Lumen AI,"3967 Cedar Ln, Phoenix, AZ 85001",ach,starter,25000,2023-10-12T00:00:00,past_due
+BILL_000183,Thomas Roberts,thomas.roberts@ironclad.com,Ironclad Security,"9290 Lake Dr, Houston, TX 77001",ach,growth,50000,2023-10-16T00:00:00,churned
+BILL_000184,"Flores, Richard",richard.flores@summit.com,Summit Health,"1970 Union Ave, Houston, TX 77001",ach,growth,250000,2023-11-22T00:00:00,churned
+BILL_000185,Harold Cruz,harold.cruz@jade.co,Jade Systems,"424 Spring St, Indianapolis, IN 46201",ach,enterprise,120000,2023-03-28T00:00:00,churned
+BILL_000186,Peter Foster,peter.foster@greenfield.com,GreenField Energy,"1211 Center St, Austin, TX 73301",ach,growth,500000,2023-08-29T00:00:00,churned
+BILL_000187,Olivia Diaz,olivia.diaz@tidal.io,Tidal Software,"567 Maple Blvd, Nashville, TN 37201",wire,starter,120000,2023-06-30T00:00:00,past_due
+BILL_000188,Olivia Gray,olivia.gray@databridge.com,DataBridge Solutions,"4249 Park Pl, Denver, CO 80201",wire,growth,120000,2022-04-02T00:00:00,active
+BILL_000189,"Stewart, Daniel",daniel.stewart@prism.com,Prism Consulting,"7549 Spring St, Houston, TX 77001",wire,growth,25000,2023-02-10T00:00:00,active
+BILL_000190,"Murphy, Jacob",jacob.murphy@techflow.com,TechFlow Inc,"9138 Pine Rd, Charlotte, NC 28201",credit_card,starter,25000,2023-11-02T00:00:00,churned
+BILL_000191,Jacob Campbell,jacob.campbell48@protonmail.com,Summit Health,"3209 Cedar Ln, Dallas, TX 75201",wire,starter,500000,2023-07-06T00:00:00,active
+BILL_000192,Henry Evans,henry.evans@cloudpeak.com,CloudPeak Technologies,"3619 Mill Rd, Indianapolis, IN 46201",ach,starter,25000,2022-06-05T00:00:00,active
+BILL_000193,"Wood, Donald",donald.wood@meridian.co,Meridian Partners,"3841 Washington Ave, Denver, CO 80201",ach,growth,25000,2023-03-02T00:00:00,active
+BILL_000194,Timothy Bennett,timothy.bennett@lumen.com,Lumen AI,"901 Lake Dr, Columbus, OH 43085",invoice,enterprise,500000,2022-01-18T00:00:00,active
+BILL_000195,Lisa Peterson,lisa.peterson@lumen.com,Lumen AI,"4673 Maple Blvd, Indianapolis, IN 46201",wire,growth,25000,2022-07-21T00:00:00,active
+BILL_000196,"Edwards, Amanda",amanda.edwards@pinnacle.com,Pinnacle Financial,"3567 Maple Blvd, San Diego, CA 92101",wire,enterprise,500000,2023-12-11T00:00:00,past_due
+BILL_000197,Justin Gomez,justin.gomez47@fastmail.com,Quartz Health,"2132 Cedar Ln, Columbus, OH 43085",wire,enterprise,25000,2022-07-01T00:00:00,past_due
+BILL_000198,"Davis, Patrick",patrick.davis22@protonmail.com,Amber Group,"9502 Cedar Ln, Houston, TX 77001",wire,enterprise,250000,2022-10-18T00:00:00,past_due
+BILL_000199,"Edwards, Douglas",douglas.edwards@canyon.com,Canyon Resources,"258 Union Ave, San Jose, CA 95101",wire,starter,120000,2023-12-16T00:00:00,churned
+BILL_000200,"Jackson, Anna",anna.jackson74@hotmail.com,Pulse Engineering,"5649 Center St, San Jose, CA 95101",ach,growth,500000,2023-06-11T00:00:00,past_due
+BILL_000201,"Young, Kelly",kelly.young@greenfield.com,greenfield energy,"6950 Park Pl, Portland, OR 97201",invoice,starter,500000,2022-06-24T00:00:00,active
+BILL_000202,Charles Young,charles.young@northstar.io,NorthStar Systems,"7796 Pine Rd, Philadelphia, PA 19101",wire,starter,250000,2023-09-08T00:00:00,churned
+BILL_000203,"Torres, Adam",adam.torres@ember.co,Ember Technologies,"2338 Union Ave, Austin, TX 73301",wire,enterprise,500000,2022-09-21T00:00:00,active
+BILL_000204,George Diaz,george.diaz@greenfield.com,GreenField Energy,"4376 High St, Los Angeles, CA 90001",wire,growth,250000,2022-09-22T00:00:00,active
+BILL_000205,Betty Adams,betty.adams@obsidian.com,Obsidian Research,"4406 Park Pl, Seattle, WA 98101",credit_card,growth,50000,2022-12-24T00:00:00,active
+BILL_000206,"Diaz, Brandon",brandon.diaz@delta.com,Delta Platforms,"1006 High St, Fort Worth, TX 76101",wire,enterprise,50000,2023-03-28T00:00:00,active
+BILL_000207,Alexander Cooper,alexander.cooper@pulse.com,Pulse Engineering,"1369 Academy St, Houston, TX 77001",invoice,enterprise,250000,2023-06-08T00:00:00,churned
+BILL_000208,Donna King,donna.king@forge.io,Forge Labs,"9965 Bridge St, San Diego, CA 92101",invoice,growth,50000,2023-11-26T00:00:00,active
+BILL_000209,Samantha Jackson,samantha.jackson@spark.io,Spark Automation,"8648 Academy St, Houston, TX 77001",ach,enterprise,250000,2022-11-24T00:00:00,active
+BILL_000210,"Gonzalez, Raymond",raymond.gonzalez65@gmail.com,Obsidian Research,"4604 Union Ave, Los Angeles, CA 90001",wire,starter,500000,2023-03-22T00:00:00,churned
+BILL_000211,Dorothy Lopez,dorothy.lopez@pulse.com,Pulse Engineering,"2179 Washington Ave, Indianapolis, IN 46201",wire,growth,250000,2022-07-19T00:00:00,active
+BILL_000212,Justin Moore,justin.moore@coral.co,CORAL NETWORKS,"8327 Main St, Jacksonville, FL 32099",credit_card,starter,250000,2023-12-14T00:00:00,churned
+BILL_000213,"Gutierrez, Jason",jason.gutierrez@acme.co,Acme Corp,"7853 Church St, Indianapolis, IN 46201",credit_card,enterprise,120000,2023-11-19T00:00:00,active
+BILL_000214,Laura Scott,laura.scott@acme.co,Acme Corp,"2123 Maple Blvd, Houston, TX 77001",ach,enterprise,500000,2023-07-26T00:00:00,churned
+BILL_000215,Michael Richardson,michael.richardson@canyon.com,Canyon Resources,"7706 River Rd, Chicago, IL 60601",invoice,enterprise,120000,2023-12-28T00:00:00,past_due
+BILL_000216,Laura Moore,laura.moore@greenfield.com,greenfield energy,"8726 Oak Ave, Seattle, WA 98101",wire,enterprise,50000,2023-11-27T00:00:00,active
+BILL_000217,Brenda Edwards,brenda.edwards@greenfield.com,GreenField Energy,"8273 High St, San Jose, CA 95101",invoice,starter,250000,2023-08-22T00:00:00,churned
+BILL_000218,Roger Walker,roger.walker@catalyst.com,Catalyst AI,"7339 Elm Dr, Columbus, OH 43085",ach,starter,25000,2023-11-27T00:00:00,active
+BILL_000219,Diane Ross,diane.ross@catalyst.com,Catalyst AI,"2880 Main St, Indianapolis, IN 46201",invoice,enterprise,250000,2022-10-10T00:00:00,active
+BILL_000220,"Harris, Nicholas",nicholas.harris@pinnacle.com,Pinnacle Financial,"7657 Center St, Seattle, WA 98101",credit_card,enterprise,500000,2022-03-27T00:00:00,active
+BILL_000221,Adam Martinez,adam.martinez28@yahoo.com,Redwood Industries,"5679 Market St, Dallas, TX 75201",invoice,growth,120000,2022-03-21T00:00:00,churned
+BILL_000222,"Mendoza, Charles",charles.mendoza18@protonmail.com,Lumen AI,"6539 Academy St, Seattle, WA 98101",ach,growth,50000,2022-06-20T00:00:00,active
+BILL_000223,Edward Robinson,edward.robinson@ironclad.com,Ironclad Security,"6139 Academy St, Los Angeles, CA 90001",ach,growth,120000,2022-03-31T00:00:00,past_due
+BILL_000224,Richard Johnson,richard.johnson39@aol.com,Beacon Data,"977 Market St, Houston, TX 77001",invoice,starter,50000,2022-10-23T00:00:00,active
+BILL_000225,Rebecca Patel,rebecca.patel@alpine.io,Alpine Services,"9091 Union Ave, Dallas, TX 75201",credit_card,growth,25000,2023-10-31T00:00:00,active
+BILL_000226,"Diaz, Joan",joan.diaz@catalyst.com,Catalyst AI,"5013 High St, Denver, CO 80201",wire,starter,250000,2024-02-02T00:00:00,active
+BILL_000227,"Gray, Andrew",andrew.gray2@yahoo.com,Beacon Data,"1781 Prospect Ave, Denver, CO 80201",credit_card,enterprise,25000,2023-07-10T00:00:00,active
+BILL_000228,Evelyn Morris,evelyn.morris@cobalt.co,Cobalt Engineering,"3619 Mill Rd, Charlotte, NC 28201",credit_card,starter,250000,2023-10-20T00:00:00,active
+BILL_000229,Nicole Brown,nicole.brown@vertex.co,Vertex Software,"2125 Spring St, Dallas, TX 75201",invoice,growth,250000,2023-12-21T00:00:00,active
+BILL_000230,Daniel Wood,daniel.wood@techflow.com,TechFlow Inc,"9024 Cedar Ln, Indianapolis, IN 46201",ach,starter,25000,2023-12-10T00:00:00,active
+BILL_000231,Andrea Brooks,andrea.brooks@forge.io,Forge Labs,"2262 Spring St, Austin, TX 73301",credit_card,growth,500000,2023-08-29T00:00:00,active
+BILL_000232,Angela Campbell,angela.campbell@sterling.co,Sterling Ventures,"4760 Prospect Ave, Los Angeles, CA 90001",ach,enterprise,250000,2022-03-14T00:00:00,active
+BILL_000233,Judith Harris,judith.harris@redwood.com,Redwood Industries,"3146 Cedar Ln, New York, NY 10001",credit_card,growth,25000,2022-11-18T00:00:00,churned
+BILL_000234,Richard Foster,richard.foster32@protonmail.com,Ember Technologies,"362 High St, Chicago, IL 60601",credit_card,starter,50000,2022-03-30T00:00:00,churned
+BILL_000235,Donna Jimenez,donna.jimenez@summit.com,Summit Health,"5847 Center St, Indianapolis, IN 46201",wire,starter,120000,2022-12-03T00:00:00,past_due
+BILL_000236,"Wright, Michelle",michelle.wright@ironclad.com,Ironclad Security,"8380 Union Ave, Dallas, TX 75201",wire,starter,500000,2022-11-09T00:00:00,past_due
+BILL_000237,Kevin Kim,kevin.kim@lumen.com,lumen ai,"6524 Bridge St, Charlotte, NC 28201",ach,starter,120000,2024-01-13T00:00:00,active
+BILL_000238,Cynthia Ramirez,cynthia.ramirez@summit.com,Summit Health,"5281 Main St, Fort Worth, TX 76101",ach,enterprise,50000,2023-03-15T00:00:00,active
+BILL_000239,Benjamin Ramirez,benjamin.ramirez@keystone.com,keystone data,"2387 Park Pl, Dallas, TX 75201",invoice,growth,250000,2023-08-28T00:00:00,past_due
+BILL_000240,Joan Anderson,joan.anderson@cobalt.co,Cobalt Engineering,"9515 Pine Rd, Jacksonville, FL 32099",credit_card,enterprise,120000,2023-06-21T00:00:00,churned
+BILL_000241,Jerry Jackson,jerry.jackson46@hotmail.com,Atlas Logistics,"9057 Pine Rd, Seattle, WA 98101",wire,starter,120000,2022-03-21T00:00:00,active
+BILL_000242,Mark Wilson,mark.wilson@techflow.com,TechFlow Inc,"3974 Oak Ave, New York, NY 10001",invoice,growth,500000,2024-02-06T00:00:00,active
+BILL_000243,Jack Allen,jack.allen@jade.co,Jade Systems,"4478 Maple Blvd, Seattle, WA 98101",wire,growth,120000,2022-12-08T00:00:00,active
+BILL_000244,Edward Torres,edward.torres@delta.com,Delta Platforms,"7535 River Rd, Phoenix, AZ 85001",ach,starter,250000,2022-05-24T00:00:00,churned
+BILL_000245,Benjamin Alvarez,benjamin.alvarez81@hotmail.com,Ridge Financial,"4860 Market St, Portland, OR 97201",ach,enterprise,250000,2023-12-31T00:00:00,active
+BILL_000246,Victoria Ross,victoria.ross@pacific.io,Pacific Innovations,"5582 Pine Rd, Jacksonville, FL 32099",invoice,enterprise,500000,2022-07-09T00:00:00,active
+BILL_000247,"Cook, Carol",carol.cook31@yahoo.com,Tidal Software,"3655 Washington Ave, Denver, CO 80201",invoice,growth,25000,2023-01-07T00:00:00,churned
+BILL_000248,Samuel Watson,samuel.watson@redwood.com,Redwood Industries,"5061 Lake Dr, Charlotte, NC 28201",wire,enterprise,250000,2023-10-16T00:00:00,churned
+BILL_000249,William Jones,william.jones@sterling.co,Sterling Ventures,"6203 Church St, New York, NY 10001",invoice,starter,250000,2023-04-12T00:00:00,churned
+BILL_000250,"Patel, Jose",jose.patel@pacific.io,Pacific Innovations,"6360 Union Ave, Nashville, TN 37201",wire,enterprise,250000,2023-10-29T00:00:00,active
+BILL_000251,Lisa Long,lisa.long64@protonmail.com,Harbor Analytics,"8303 High St, Charlotte, NC 28201",ach,starter,50000,2023-10-14T00:00:00,active
+BILL_000252,"Ross, Lisa",lisa.ross@sapphire.com,Sapphire Analytics,"6333 Mill Rd, Dallas, TX 75201",credit_card,growth,50000,2023-01-07T00:00:00,active
+BILL_000253,"Castillo, Mark",mark.castillo@greenfield.com,GreenField Energy,"3059 Maple Blvd, San Jose, CA 95101",invoice,starter,50000,2023-07-09T00:00:00,churned
+BILL_000254,Mark Sanders,mark.sanders34@protonmail.com,Quantum Analytics,"7452 River Rd, Houston, TX 77001",ach,enterprise,120000,2023-11-06T00:00:00,past_due
+BILL_000255,"James, Evelyn",evelyn.james8@fastmail.com,NorthStar Systems,"6886 Union Ave, Phoenix, AZ 85001",invoice,starter,500000,2022-04-14T00:00:00,churned
+BILL_000256,Andrew Brown,andrew.brown@redwood.com,Redwood Industries,"6239 Union Ave, Columbus, OH 43085",ach,enterprise,500000,2022-12-09T00:00:00,past_due
+BILL_000257,Zachary Thompson,zachary.thompson@granite.io,Granite Holdings,"4337 Elm Dr, Philadelphia, PA 19101",credit_card,growth,50000,2023-01-13T00:00:00,past_due
+BILL_000258,Amanda Adams,amanda.adams@onyx.co,Onyx Solutions,"6955 Union Ave, Seattle, WA 98101",ach,growth,120000,2022-04-09T00:00:00,past_due
+BILL_000259,Brandon Ramos,brandon.ramos70@outlook.com,Ridge Financial,"558 Oak Ave, Seattle, WA 98101",invoice,growth,25000,2022-11-25T00:00:00,past_due
+BILL_000260,Donald Cruz,donald.cruz@jade.co,Jade Systems,"2008 Market St, Dallas, TX 75201",credit_card,enterprise,500000,2022-05-09T00:00:00,active
+BILL_000261,Jessica Reed,jessica.reed@cobalt.co,Cobalt Engineering,"4894 River Rd, Austin, TX 73301",wire,starter,250000,2023-08-23T00:00:00,active
+BILL_000262,Tyler Johnson,tyler.johnson@obsidian.com,Obsidian Research,"4456 Bridge St, Denver, CO 80201",ach,starter,50000,2023-09-14T00:00:00,active
+BILL_000263,Timothy Richardson,timothy.richardson@prism.com,Prism Consulting,"5161 Mill Rd, Los Angeles, CA 90001",invoice,enterprise,500000,2022-03-05T00:00:00,active
+BILL_000264,Charles Kelly,charles.kelly@delta.com,Delta Platforms,"2770 Washington Ave, Jacksonville, FL 32099",wire,enterprise,50000,2023-08-22T00:00:00,past_due
+BILL_000265,"Kelly, Susan",susan.kelly95@outlook.com,Keystone Data,"2851 Park Pl, Columbus, OH 43085",invoice,growth,120000,2022-03-21T00:00:00,active
+BILL_000266,Maria Carter,maria.carter@sapphire.com,Sapphire Analytics,"362 Washington Ave, San Antonio, TX 78201",invoice,growth,50000,2023-05-16T00:00:00,active
+BILL_000267,Donald James,donald.james@vertex.co,Vertex Software,"7944 Union Ave, Indianapolis, IN 46201",wire,growth,500000,2022-10-10T00:00:00,active
+BILL_000268,"Taylor, Ronald",ronald.taylor@vertex.co,Vertex Software,"1653 Spring St, Chicago, IL 60601",credit_card,starter,120000,2022-11-10T00:00:00,active
+BILL_000269,"Parker, Andrea",andrea.parker21@aol.com,Jade Systems,"1196 Church St, Houston, TX 77001",credit_card,starter,120000,2024-02-18T00:00:00,past_due
+BILL_000270,Victoria Taylor,victoria.taylor43@yahoo.com,CloudPeak Technologies,"2852 Bridge St, Los Angeles, CA 90001",ach,starter,250000,2023-04-01T00:00:00,past_due
+BILL_000271,Victoria Moore,victoria.moore@delta.com,Delta Platforms,"8918 Academy St, Jacksonville, FL 32099",wire,growth,120000,2022-10-16T00:00:00,active
+BILL_000272,"Perez, Matthew",matthew.perez@tidal.io,Tidal Software,"3592 High St, San Antonio, TX 78201",wire,growth,500000,2022-05-09T00:00:00,past_due
+BILL_000273,Andrew Ruiz,andrew.ruiz@vertex.co,Vertex Software,"7060 Cedar Ln, Chicago, IL 60601",wire,enterprise,50000,2022-05-03T00:00:00,active
+BILL_000274,William Rodriguez,william.rodriguez@ember.co,Ember Technologies,"8127 Spring St, Denver, CO 80201",invoice,growth,50000,2023-09-06T00:00:00,active
+BILL_000275,Lisa Wright,lisa.wright77@gmail.com,GreenField Energy,"5644 Elm Dr, Seattle, WA 98101",credit_card,enterprise,500000,2022-08-20T00:00:00,past_due
+BILL_000276,Richard Ross,richard.ross@acme.co,Acme Corp,"249 Washington Ave, Phoenix, AZ 85001",credit_card,growth,120000,2023-07-23T00:00:00,active
+BILL_000277,Nancy Phillips,nancy.phillips89@protonmail.com,Pacific Innovations,"9634 Main St, Austin, TX 73301",ach,enterprise,120000,2022-06-18T00:00:00,churned
+BILL_000278,Stephen Hernandez,stephen.hernandez61@fastmail.com,Tidal Software,"2727 Lake Dr, Houston, TX 77001",ach,enterprise,50000,2023-06-24T00:00:00,active
+BILL_000279,Stephanie Cruz,stephanie.cruz1@hotmail.com,onyx solutions,"8374 Maple Blvd, San Jose, CA 95101",wire,starter,120000,2022-05-01T00:00:00,past_due
+BILL_000280,Michelle Sanders,michelle.sanders@pacific.io,Pacific Innovations,"4152 High St, Dallas, TX 75201",wire,starter,500000,2022-08-16T00:00:00,active
+BILL_000281,Emily Sanchez,emily.sanchez@silverline.co,Silverline Capital,"5283 Maple Blvd, Phoenix, AZ 85001",wire,enterprise,50000,2022-05-12T00:00:00,active
+BILL_000282,Jeffrey Ruiz,jeffrey.ruiz@vertex.co,Vertex Software,"3762 Academy St, Houston, TX 77001",ach,growth,50000,2022-06-04T00:00:00,active
+BILL_000283,"Ortiz, Edward",edward.ortiz@nexus.io,Nexus Healthcare,"1624 Oak Ave, Dallas, TX 75201",credit_card,enterprise,120000,2022-10-19T00:00:00,active
+BILL_000284,Heather Mendoza,heather.mendoza21@gmail.com,Sapphire Analytics,"4250 Union Ave, Houston, TX 77001",wire,starter,250000,2023-12-08T00:00:00,active
+BILL_000285,Debra Anderson,debra.anderson@ironclad.com,Ironclad Security,"8301 Maple Blvd, Dallas, TX 75201",invoice,starter,50000,2023-08-03T00:00:00,active
+BILL_000286,"Miller, George",george.miller@prism.com,Prism Consulting,"5629 Spring St, Austin, TX 73301",ach,starter,250000,2022-12-21T00:00:00,active
+BILL_000287,Helen Thompson,helen.thompson@delta.com,Delta Platforms,"4196 Pine Rd, San Antonio, TX 78201",credit_card,enterprise,120000,2023-05-01T00:00:00,churned
+BILL_000288,Sharon Watson,sharon.watson@atlantic.co,Atlantic Digital,"7641 Market St, Austin, TX 73301",invoice,starter,250000,2023-11-30T00:00:00,churned
+BILL_000289,"Turner, Sandra",sandra.turner15@outlook.com,Coral Networks,"5204 Market St, Jacksonville, FL 32099",ach,starter,50000,2022-06-11T00:00:00,past_due
+BILL_000290,Paul Harris,paul.harris@northstar.io,NorthStar Systems,"5094 Prospect Ave, New York, NY 10001",wire,starter,120000,2022-04-20T00:00:00,active
+BILL_000291,Emma Smith,emma.smith3@gmail.com,Harbor Analytics,"2565 Lake Dr, Columbus, OH 43085",credit_card,starter,50000,2022-10-20T00:00:00,active
+BILL_000292,Jason Phillips,jason.phillips@harbor.io,Harbor Analytics,"1364 Mill Rd, Seattle, WA 98101",wire,starter,25000,2023-05-28T00:00:00,active
+BILL_000293,"Foster, Amy",amy.foster@alpine.io,Alpine Services,"4593 Market St, Los Angeles, CA 90001",invoice,growth,25000,2022-12-16T00:00:00,past_due
+BILL_000294,Aaron Rivera,aaron.rivera@granite.io,Granite Holdings,"4669 Pine Rd, Denver, CO 80201",ach,starter,120000,2023-06-23T00:00:00,churned
+BILL_000295,Dennis Hernandez,dennis.hernandez@summit.com,Summit Health,"7121 Union Ave, Seattle, WA 98101",invoice,enterprise,25000,2022-05-16T00:00:00,active
+BILL_000296,"Torres, Joyce",joyce.torres@redwood.com,Redwood Industries,"3551 High St, Los Angeles, CA 90001",wire,growth,500000,2023-09-08T00:00:00,past_due
+BILL_000297,Frank Wood,frank.wood@nova.io,Nova Computing,"5667 Oak Ave, Portland, OR 97201",invoice,enterprise,120000,2023-04-27T00:00:00,past_due
+BILL_000298,Jack Perez,jack.perez@delta.com,Delta Platforms,"8196 Cedar Ln, Charlotte, NC 28201",invoice,starter,25000,2022-11-03T00:00:00,past_due
+BILL_000299,"Hernandez, Donald",donald.hernandez64@gmail.com,Nova Computing,"6181 Prospect Ave, Indianapolis, IN 46201",credit_card,enterprise,50000,2022-12-02T00:00:00,active
+BILL_000300,Roger Wright,roger.wright44@outlook.com,Redwood Industries,"893 Oak Ave, Austin, TX 73301",wire,enterprise,250000,2022-07-10T00:00:00,churned
+BILL_000301,"Kelly, Joan",joan.kelly@keystone.com,Keystone Data,"3993 Union Ave, Charlotte, NC 28201",ach,starter,50000,2023-12-12T00:00:00,past_due
+BILL_000302,Cynthia Carter,cynthia.carter61@icloud.com,NOVA COMPUTING,"294 River Rd, Columbus, OH 43085",wire,growth,120000,2023-05-22T00:00:00,active
+BILL_000303,Stephen Brooks,stephen.brooks34@icloud.com,Redwood Industries,"4037 Oak Ave, Denver, CO 80201",invoice,enterprise,25000,2023-09-24T00:00:00,past_due
+BILL_000304,Ashley Jackson,ashley.jackson@alpine.io,Alpine Services,"8928 Spring St, Dallas, TX 75201",invoice,growth,120000,2023-11-25T00:00:00,active
+BILL_000305,"Kelly, Jack",jack.kelly@beacon.com,Beacon Data,"4166 Maple Blvd, Houston, TX 77001",ach,starter,250000,2023-11-15T00:00:00,active
+BILL_000306,"Bailey, Anthony",anthony.bailey@databridge.com,DataBridge Solutions,"6025 Maple Blvd, San Antonio, TX 78201",ach,starter,50000,2022-11-20T00:00:00,active
+BILL_000307,"Baker, Shirley",shirley.baker@horizon.co,horizon labs,"7207 Center St, Houston, TX 77001",invoice,starter,50000,2022-03-19T00:00:00,active
+BILL_000308,Raymond Richardson,raymond.richardson@redwood.com,REDWOOD INDUSTRIES,"5167 High St, Denver, CO 80201",wire,starter,500000,2022-12-30T00:00:00,active
+BILL_000309,"Thomas, Kelly",kelly.thomas@nexus.io,Nexus Healthcare,"9175 Park Pl, Nashville, TN 37201",wire,growth,250000,2023-10-07T00:00:00,active
+BILL_000310,"Lee, Linda",linda.lee@obsidian.com,Obsidian Research,"3564 Church St, Houston, TX 77001",wire,growth,250000,2023-07-17T00:00:00,active
+BILL_000311,Benjamin Ross,benjamin.ross84@outlook.com,Sapphire Analytics,"3684 Market St, Phoenix, AZ 85001",wire,starter,120000,2023-02-23T00:00:00,active
+BILL_000312,Katherine Ortiz,katherine.ortiz@greenfield.com,GreenField Energy,"9829 Park Pl, Dallas, TX 75201",credit_card,starter,250000,2022-10-22T00:00:00,active
+BILL_000313,"Moore, Michael",michael.moore@redwood.com,Redwood Industries,"328 High St, Jacksonville, FL 32099",wire,starter,50000,2023-12-05T00:00:00,past_due
+BILL_000314,Patrick Kelly,patrick.kelly6@hotmail.com,Meridian Partners,"1754 Spring St, San Diego, CA 92101",ach,starter,250000,2022-11-04T00:00:00,active
+BILL_000315,"Phillips, Michael",michael.phillips58@protonmail.com,Harbor Analytics,"3297 Bridge St, Los Angeles, CA 90001",wire,enterprise,500000,2023-08-12T00:00:00,active
+BILL_000316,Sharon Ramos,sharon.ramos@orbit.com,ORBIT SOLUTIONS,"8702 Lake Dr, Denver, CO 80201",credit_card,enterprise,250000,2023-01-07T00:00:00,churned
+BILL_000317,"Clark, Kenneth",kenneth.clark@pulse.com,Pulse Engineering,"2804 Union Ave, Seattle, WA 98101",credit_card,growth,250000,2023-03-11T00:00:00,past_due
+BILL_000318,Jonathan Martin,jonathan.martin14@icloud.com,Orbit,"3005 Mill Rd, Jacksonville, FL 32099",invoice,starter,500000,2023-03-07T00:00:00,active
+BILL_000319,George Ortiz,george.ortiz@frost.com,Frost Dynamics,"5883 Prospect Ave, Phoenix, AZ 85001",invoice,growth,250000,2022-12-11T00:00:00,active
+BILL_000320,Lauren Kim,lauren.kim@silverline.co,Silverline Capital,"7907 Main St, Portland, OR 97201",wire,growth,50000,2022-03-12T00:00:00,active
+BILL_000321,Emily Collins,emily.collins@tidal.io,Tidal Software,"4929 Market St, Dallas, TX 75201",credit_card,starter,120000,2022-04-05T00:00:00,active
+BILL_000322,Matthew Morgan,matthew.morgan@coral.co,Coral Networks,"2663 Elm Dr, Portland, OR 97201",wire,starter,25000,2023-01-14T00:00:00,past_due
+BILL_000323,Carol Ross,carol.ross@pinnacle.com,Pinnacle Financial,"3919 Bridge St, Denver, CO 80201",invoice,growth,120000,2023-04-24T00:00:00,active
+BILL_000324,Barbara Ramirez,barbara.ramirez@summit.com,Summit Health,"1295 Washington Ave, Austin, TX 73301",wire,starter,25000,2023-06-29T00:00:00,past_due
+BILL_000325,Raymond Reyes,raymond.reyes6@outlook.com,Pulse Engineering,"5034 Union Ave, Portland, OR 97201",ach,enterprise,25000,2023-08-21T00:00:00,past_due
+BILL_000326,Kelly Young,kelly.young@spark.io,Spark Automation,"570 Union Ave, Austin, TX 73301",wire,growth,250000,2022-12-15T00:00:00,active
+BILL_000327,Donna Miller,donna.miller@lumen.com,Lumen AI,"4205 Pine Rd, San Jose, CA 95101",invoice,starter,50000,2022-04-18T00:00:00,active
+BILL_000328,Alexander Rivera,alexander.rivera@isle.io,Isle Technologies,"4321 Spring St, Los Angeles, CA 90001",wire,starter,25000,2022-04-12T00:00:00,active
+BILL_000329,"Foster, Gregory",gregory.foster@harbor.io,Harbor Analytics,"3062 Prospect Ave, Philadelphia, PA 19101",credit_card,enterprise,120000,2022-09-16T00:00:00,past_due
+BILL_000330,"Diaz, Charles",charles.diaz@isle.io,Isle Technologies,"8815 Lake Dr, San Jose, CA 95101",wire,growth,50000,2023-04-27T00:00:00,past_due
+BILL_000331,Kenneth Thompson,kenneth.thompson@frost.com,Frost Dynamics,"2922 Cedar Ln, Charlotte, NC 28201",ach,growth,25000,2023-04-02T00:00:00,active
+BILL_000332,Henry Bailey,henry.bailey@sterling.co,Sterling Ventures,"108 Oak Ave, Philadelphia, PA 19101",invoice,starter,250000,2023-07-23T00:00:00,churned
+BILL_000333,"Cruz, Diane",diane.cruz@granite.io,Granite Holdings,"5758 Maple Blvd, Columbus, OH 43085",ach,starter,25000,2022-11-11T00:00:00,active
+BILL_000334,"Diaz, Samuel",samuel.diaz@ember.co,Ember Technologies,"8340 Mill Rd, San Antonio, TX 78201",credit_card,enterprise,50000,2022-12-23T00:00:00,active
+BILL_000335,"Peterson, Ashley",ashley.peterson@prism.com,Prism Consulting,"5033 High St, New York, NY 10001",ach,growth,250000,2023-12-18T00:00:00,past_due
+BILL_000336,Anthony Brown,anthony.brown@cloudpeak.com,CloudPeak Technologies,"302 River Rd, Fort Worth, TX 76101",wire,starter,120000,2023-05-14T00:00:00,past_due
+BILL_000337,Carl Cruz,carl.cruz37@icloud.com,Vertex Software,"4665 Pine Rd, San Diego, CA 92101",wire,enterprise,50000,2022-05-31T00:00:00,active
+BILL_000338,Joan Anderson,joan.anderson@beacon.com,Beacon Data,"2484 Washington Ave, Indianapolis, IN 46201",invoice,growth,500000,2023-02-19T00:00:00,active
+BILL_000339,Ryan Lopez,ryan.lopez63@hotmail.com,Onyx Solutions,"4673 Main St, Charlotte, NC 28201",ach,enterprise,50000,2023-04-04T00:00:00,active
+BILL_000340,"Reyes, Dorothy",dorothy.reyes85@yahoo.com,Summit Health,"1424 Oak Ave, Columbus, OH 43085",credit_card,starter,120000,2023-03-09T00:00:00,churned
+BILL_000341,Larry Lee,larry.lee@echo.co,Echo Intelligence,"5449 Center St, Los Angeles, CA 90001",ach,enterprise,120000,2023-07-13T00:00:00,active
+BILL_000342,Adam Murphy,adam.murphy16@protonmail.com,Keystone Data,"3770 Oak Ave, New York, NY 10001",invoice,enterprise,50000,2022-02-05T00:00:00,active
+BILL_000343,"Sanchez, Larry",larry.sanchez@orbit.com,Orbit Solutions,"1191 Spring St, New York, NY 10001",credit_card,enterprise,500000,2023-12-14T00:00:00,past_due
+BILL_000344,Douglas King,douglas.king@cloudpeak.com,CloudPeak Technologies,"8669 Mill Rd, Jacksonville, FL 32099",wire,growth,500000,2023-12-27T00:00:00,churned
+BILL_000345,Betty Kelly,betty.kelly@summit.com,Summit Health,"9992 High St, Nashville, TN 37201",ach,enterprise,25000,2023-03-02T00:00:00,active
+BILL_000346,Judith Cooper,judith.cooper@amber.com,Amber Group,"8013 Academy St, Charlotte, NC 28201",wire,starter,250000,2023-10-03T00:00:00,active
+BILL_000347,Peter Bennett,peter.bennett@ember.co,Ember Technologies,"6538 Market St, New York, NY 10001",ach,starter,120000,2023-01-22T00:00:00,active
+BILL_000348,"Stewart, Melissa",melissa.stewart76@gmail.com,Ironclad Security,"203 Elm Dr, Denver, CO 80201",ach,enterprise,120000,2022-07-17T00:00:00,active
+BILL_000349,"Green, Mary",mary.green@coral.co,Coral Networks,"2008 Bridge St, Seattle, WA 98101",wire,growth,120000,2022-06-11T00:00:00,active
+BILL_000350,Nicole Foster,nicole.foster@forge.io,Forge Labs,"2909 Lake Dr, Nashville, TN 37201",invoice,starter,50000,2022-04-29T00:00:00,active
+BILL_000351,Olivia Allen,olivia.allen@cloudpeak.com,CloudPeak Technologies,"3773 Elm Dr, Jacksonville, FL 32099",wire,enterprise,50000,2023-11-12T00:00:00,churned
+BILL_000352,Rebecca Robinson,rebecca.robinson@echo.co,Echo Intelligence,"6131 Academy St, Nashville, TN 37201",credit_card,growth,25000,2022-07-25T00:00:00,past_due
+BILL_000353,"Rivera, Donna",donna.rivera@keystone.com,Keystone Data,"2878 Cedar Ln, Indianapolis, IN 46201",wire,enterprise,50000,2022-09-02T00:00:00,past_due
+BILL_000354,"Long, Heather",heather.long@jade.co,Jade Systems,"2844 Washington Ave, San Antonio, TX 78201",invoice,enterprise,120000,2023-12-08T00:00:00,active
+BILL_000355,Judith Martin,judith.martin@sterling.co,Sterling Ventures,"9003 Spring St, Seattle, WA 98101",wire,enterprise,50000,2023-06-10T00:00:00,past_due
+BILL_000356,Karen Rivera,karen.rivera@cloudpeak.com,CloudPeak Technologies,"1380 Lake Dr, Seattle, WA 98101",credit_card,enterprise,120000,2022-11-01T00:00:00,churned
+BILL_000357,Samuel Harris,samuel.harris@orbit.com,orbit solutions,"815 Church St, Columbus, OH 43085",credit_card,enterprise,500000,2023-07-02T00:00:00,churned
+BILL_000358,Anna Nelson,anna.nelson11@outlook.com,Redwood Industries,"2603 Washington Ave, Fort Worth, TX 76101",wire,starter,25000,2022-04-26T00:00:00,active
+BILL_000359,Anthony Torres,anthony.torres@cobalt.co,Cobalt Engineering,"1489 Oak Ave, Jacksonville, FL 32099",wire,growth,250000,2023-10-27T00:00:00,active
+BILL_000360,Cynthia Kim,cynthia.kim@vertex.co,Vertex Software,"7908 Pine Rd, Chicago, IL 60601",ach,starter,25000,2023-06-18T00:00:00,active
+BILL_000361,Zachary Roberts,zachary.roberts@granite.io,Granite Holdings,"7022 Market St, Chicago, IL 60601",wire,growth,250000,2023-11-15T00:00:00,active
+BILL_000362,Pamela Price,pamela.price@catalyst.com,Catalyst AI,"5814 Center St, Indianapolis, IN 46201",invoice,enterprise,50000,2022-11-24T00:00:00,churned
+BILL_000363,George Thomas,george.thomas1@icloud.com,BlueWave Media,"8269 Center St, Indianapolis, IN 46201",credit_card,starter,50000,2022-03-24T00:00:00,active
+BILL_000364,"Walker, Peter",peter.walker@ironclad.com,Ironclad Security,"9897 Church St, Philadelphia, PA 19101",credit_card,growth,500000,2023-10-22T00:00:00,churned
+BILL_000365,Rachel Gray,rachel.gray@forge.io,Fyrge Labs,"5918 Church St, San Jose, CA 95101",credit_card,enterprise,250000,2024-01-05T00:00:00,past_due
+BILL_000366,Jonathan Taylor,jonathan.taylor@pulse.com,Pulse Engineering,"2568 Main St, Chicago, IL 60601",ach,growth,120000,2023-07-18T00:00:00,active
+BILL_000367,"Lopez, Steven",steven.lopez@horizon.co,Horizon Labs,"1380 High St, Denver, CO 80201",wire,starter,500000,2023-06-02T00:00:00,active
+BILL_000368,George Morales,george.morales@catalyst.com,Catalyst AI,"9867 Lake Dr, Dallas, TX 75201",ach,growth,120000,2023-10-05T00:00:00,churned
+BILL_000369,Janet Ortiz,janet.ortiz22@icloud.com,Pacific Innovations,"1986 Mill Rd, Austin, TX 73301",wire,enterprise,500000,2022-05-07T00:00:00,active
+BILL_000370,"Thompson, Henry",henry.thompson@nexus.io,Nexus Healthcare,"7665 High St, Dallas, TX 75201",invoice,starter,500000,2022-02-01T00:00:00,active
+BILL_000371,Joshua Lee,joshua.lee@greenfield.com,GreenField Energy,"5171 Mill Rd, San Jose, CA 95101",wire,starter,120000,2022-11-20T00:00:00,active
+BILL_000372,David Chavez,david.chavez@ironclad.com,Ironclad Security,"1015 Pine Rd, Denver, CO 80201",invoice,growth,250000,2023-07-28T00:00:00,past_due
+BILL_000373,Elizabeth Brooks,elizabeth.brooks@isle.io,Isle Technologies,"3305 Lake Dr, San Diego, CA 92101",ach,starter,250000,2023-07-01T00:00:00,churned
+BILL_000374,Frank Walker,frank.walker@quartz.io,Quartz Health,"826 Market St, Phoenix, AZ 85001",invoice,growth,25000,2023-08-31T00:00:00,active
+BILL_000375,Carolyn Richardson,carolyn.richardson@granite.io,Granite Holdings,"5247 Prospect Ave, Indianapolis, IN 46201",credit_card,enterprise,25000,2023-08-29T00:00:00,active
+BILL_000376,"Morgan, Katherine",katherine.morgan@coral.co,Coral Networks,"2600 Washington Ave, Nashville, TN 37201",invoice,enterprise,50000,2022-08-12T00:00:00,active
+BILL_000377,William Ramos,william.ramos25@aol.com,Keystone Data,"5718 River Rd, Seattle, WA 98101",invoice,starter,50000,2023-06-23T00:00:00,active
+BILL_000378,Carol Jimenez,carol.jimenez@northstar.io,NorthStar Systems,"5550 Oak Ave, Fort Worth, TX 76101",ach,growth,250000,2022-10-18T00:00:00,churned
+BILL_000379,Mary Anderson,mary.anderson@nova.io,Nova Computing,"3278 Church St, Philadelphia, PA 19101",wire,starter,250000,2023-02-12T00:00:00,active
+BILL_000380,James Lopez,james.lopez82@icloud.com,Forge Labs,"5684 Market St, Charlotte, NC 28201",wire,growth,500000,2022-03-29T00:00:00,churned
+BILL_000381,Sandra Richardson,sandra.richardson@vertex.co,Vertex Software,"5675 Market St, Dallas, TX 75201",invoice,enterprise,500000,2022-03-31T00:00:00,active
+BILL_000382,Patricia James,patricia.james@horizon.co,Horizon Lab,"2551 River Rd, Houston, TX 77001",ach,growth,500000,2022-08-01T00:00:00,active
+BILL_000383,Joan Flores,joan.flores@frost.com,Frost Dynamics,"554 Cedar Ln, Fort Worth, TX 76101",credit_card,growth,500000,2022-06-05T00:00:00,active
+BILL_000384,Charles Adams,charles.adams@lumen.com,Lumen AI,"7372 Market St, Philadelphia, PA 19101",wire,enterprise,500000,2023-04-15T00:00:00,active
+BILL_000385,Arthur James,arthur.james42@aol.com,Frost Dynamics,"5257 Bridge St, Columbus, OH 43085",wire,enterprise,120000,2024-01-09T00:00:00,churned
+BILL_000386,Jacob Young,jacob.young@amber.com,Amber Group,"1666 Spring St, Denver, CO 80201",credit_card,starter,50000,2022-08-23T00:00:00,active
+BILL_000387,"Watson, George",george.watson1@outlook.com,Amber Group,"6976 Bridge St, Seattle, WA 98101",credit_card,enterprise,50000,2022-12-29T00:00:00,active
+BILL_000388,Patrick Ruiz,patrick.ruiz87@fastmail.com,Nova Computing,"2313 Main St, Phoenix, AZ 85001",wire,starter,50000,2022-10-06T00:00:00,active
+BILL_000389,"Gomez, Richard",richard.gomez@summit.com,Summit Health,"7907 Cedar Ln, Dallas, TX 75201",ach,growth,250000,2023-05-16T00:00:00,active
+BILL_000390,Margaret James,margaret.james@echo.co,Echo Intelligence,"2506 Market St, New York, NY 10001",ach,starter,250000,2022-06-24T00:00:00,active
+BILL_000391,Sarah Walker,sarah.walker@jade.co,Jade Systems,"9881 Oak Ave, Charlotte, NC 28201",ach,growth,120000,2024-01-24T00:00:00,active
+BILL_000392,Daniel Wilson,daniel.wilson4@outlook.com,Jade Systems,"3710 Lake Dr, Dallas, TX 75201",credit_card,starter,500000,2024-01-17T00:00:00,past_due
+BILL_000393,"Carter, Jessica",jessica.carter@ridge.com,Ridge Financial,"6905 Lake Dr, San Diego, CA 92101",credit_card,growth,250000,2023-06-17T00:00:00,churned
+BILL_000394,"Morgan, Elizabeth",elizabeth.morgan2@protonmail.com,Meridian Partners,"167 Park Pl, New York, NY 10001",credit_card,growth,25000,2022-10-02T00:00:00,active
+BILL_000395,Roger Scott,roger.scott54@gmail.com,Meridian Partners,"6211 Church St, Austin, TX 73301",wire,starter,50000,2022-03-12T00:00:00,active
+BILL_000396,Jessica Gutierrez,jessica.gutierrez@meridian.co,Meridian Partners,"5019 High St, Phoenix, AZ 85001",wire,starter,25000,2023-05-20T00:00:00,active
+BILL_000397,"Thompson, Laura",laura.thompson@northstar.io,NorthStar Systems,"934 High St, Jacksonville, FL 32099",credit_card,starter,250000,2023-06-09T00:00:00,active
+BILL_000398,Ruth Turner,ruth.turner@onyx.co,Onyx Solutions,"7694 Market St, Fort Worth, TX 76101",invoice,growth,250000,2022-12-25T00:00:00,past_due
+BILL_000399,Timothy Patel,timothy.patel@frost.com,Frost Dynamics,"2811 Mill Rd, Chicago, IL 60601",invoice,enterprise,25000,2023-06-26T00:00:00,active
+BILL_000400,"Baker, Susan",susan.baker61@aol.com,Alpine Services,"5531 High St, Nashville, TN 37201",ach,starter,120000,2023-01-08T00:00:00,active
+BILL_000401,"Hernandez, Charles",charles.hernandez@quartz.io,Quartz Health,"2203 Union Ave, Phoenix, AZ 85001",wire,starter,120000,2023-10-04T00:00:00,active
+BILL_000402,"Miller, Arthur",arthur.miller@keystone.com,Keystone Data,"8473 Main St, San Antonio, TX 78201",wire,enterprise,50000,2022-12-02T00:00:00,active
+BILL_000403,"Williams, Nancy",nancy.williams@granite.io,Granite Holdings,"9662 Main St, Nashville, TN 37201",invoice,growth,500000,2023-06-15T00:00:00,past_due
+BILL_000404,Heather James,heather.james@amber.com,Amber Group,"6102 Park Pl, Los Angeles, CA 90001",invoice,starter,120000,2023-11-22T00:00:00,active
+BILL_000405,Catherine Ramos,catherine.ramos20@gmail.com,Summit Health,"7539 Lake Dr, Indianapolis, IN 46201",credit_card,growth,500000,2023-10-14T00:00:00,churned
+BILL_000406,"Hughes, Amy",amy.hughes@echo.co,Echo Intelligence,"8402 Spring St, San Jose, CA 95101",credit_card,growth,25000,2023-09-30T00:00:00,churned
+BILL_000407,John Cox,john.cox@summit.com,Summit Health,"2859 Elm Dr, Fort Worth, TX 76101",invoice,starter,500000,2023-12-20T00:00:00,past_due
+BILL_000408,Jerry Roberts,jerry.roberts@echo.co,Echo Intelligence,"3738 High St, Indianapolis, IN 46201",ach,enterprise,250000,2023-06-17T00:00:00,active
+BILL_000409,Donald Stewart,donald.stewart85@aol.com,Atlantic Digital,"601 Market St, Jacksonville, FL 32099",ach,growth,500000,2023-10-31T00:00:00,active
+BILL_000410,Michael Martin,michael.martin67@protonmail.com,Obsidian Research,"7145 Park Pl, Nashville, TN 37201",credit_card,growth,250000,2023-10-10T00:00:00,active
+BILL_000411,Thomas Flores,thomas.flores@orbit.com,Orbit Solutions,"1512 High St, San Diego, CA 92101",invoice,growth,250000,2022-05-22T00:00:00,active
+BILL_000412,Richard Taylor,richard.taylor@techflow.com,TechFlow Inc,"981 Elm Dr, Fort Worth, TX 76101",invoice,growth,25000,2023-05-30T00:00:00,active
+BILL_000413,"Foster, Donna",donna.foster@keystone.com,Keystone Data,"7710 Church St, Dallas, TX 75201",wire,growth,120000,2023-01-14T00:00:00,past_due
+BILL_000414,"Reyes, Sharon",sharon.reyes@ember.co,Ember Technologies,"9775 Academy St, San Antonio, TX 78201",invoice,growth,50000,2023-07-02T00:00:00,churned
+BILL_000415,"Martin, Brian",brian.martin28@yahoo.com,Echo Intelligence,"2555 Lake Dr, Indianapolis, IN 46201",ach,starter,120000,2023-01-11T00:00:00,past_due
+BILL_000416,Joshua Thompson,joshua.thompson@jade.co,Jade Systems,"2561 River Rd, Columbus, OH 43085",credit_card,enterprise,500000,2023-10-25T00:00:00,active
+BILL_000417,"Allen, Larry",larry.allen@meridian.co,Meridian Partners,"9834 Washington Ave, Los Angeles, CA 90001",invoice,enterprise,250000,2023-11-30T00:00:00,churned
+BILL_000418,Anthony Peterson,anthony.peterson@cobalt.co,Cobalt Engineering,"5325 High St, Los Angeles, CA 90001",ach,starter,500000,2023-07-09T00:00:00,past_due
+BILL_000419,"Castillo, Maria",maria.castillo@redwood.com,Redwood Industries,"730 Academy St, Denver, CO 80201",invoice,enterprise,25000,2022-05-10T00:00:00,past_due
+BILL_000420,Michael Clark,michael.clark@atlas.co,Atlas Logistics,"5152 Spring St, Houston, TX 77001",wire,enterprise,120000,2023-07-26T00:00:00,active
+BILL_000421,Frank Campbell,frank.campbell@sterling.co,Sterling Ventures,"8010 High St, Chicago, IL 60601",wire,enterprise,250000,2023-07-25T00:00:00,past_due
+BILL_000422,"Howard, Janet",janet.howard@ember.co,Ember Technologies,"5512 Bridge St, Phoenix, AZ 85001",ach,starter,500000,2022-05-14T00:00:00,active
+BILL_000423,Jason Scott,jason.scott@sterling.co,Sterling Ventures,"8840 Market St, Indianapolis, IN 46201",invoice,starter,500000,2024-02-29T00:00:00,active
+BILL_000424,Jacob Patel,jacob.patel27@hotmail.com,Nexus Healthcare,"5933 Pine Rd, Portland, OR 97201",wire,enterprise,120000,2022-07-04T00:00:00,active
+BILL_000425,Virginia Miller,virginia.miller@coral.co,Coral Networks,"6114 Oak Ave, Charlotte, NC 28201",wire,enterprise,250000,2023-09-16T00:00:00,churned
+BILL_000426,Frank Parker,frank.parker@pinnacle.com,Pinnacle Financial,"5153 Oak Ave, Denver, CO 80201",ach,starter,120000,2022-10-23T00:00:00,active
+BILL_000427,Michelle Mitchell,michelle.mitchell@tidal.io,Tidal Software,"5644 Oak Ave, Chicago, IL 60601",credit_card,enterprise,25000,2022-04-23T00:00:00,active
+BILL_000428,Christopher Garcia,christopher.garcia@jade.co,Jade Systems,"7834 Oak Ave, Chicago, IL 60601",invoice,starter,500000,2023-01-04T00:00:00,active
+BILL_000429,Albert Cox,albert.cox@ironclad.com,Ironclad Security,"6921 Union Ave, San Antonio, TX 78201",ach,starter,25000,2022-03-12T00:00:00,active
+BILL_000430,Steven Williams,steven.williams@cloudpeak.com,CloudPeak Technologies,"9558 Center St, Denver, CO 80201",invoice,enterprise,120000,2022-07-22T00:00:00,active
+BILL_000431,Catherine Reed,catherine.reed@keystone.com,Keystone Data,"6182 Academy St, San Antonio, TX 78201",wire,starter,500000,2023-09-25T00:00:00,active
+BILL_000432,Laura Davis,laura.davis@ridge.com,Ridge Financial,"7058 Market St, New York, NY 10001",credit_card,growth,120000,2022-05-26T00:00:00,active
+BILL_000433,Donna Lopez,donna.lopez24@fastmail.com,Redwood Industries,"7044 Union Ave, Indianapolis, IN 46201",ach,growth,500000,2024-03-04T00:00:00,churned
+BILL_000434,"James, Betty",betty.james@databridge.com,DataBridge Solutions,"3626 Pine Rd, San Jose, CA 95101",credit_card,growth,25000,2023-11-04T00:00:00,past_due
+BILL_000435,"Perez, Brian",brian.perez17@gmail.com,Catalyst AI,"3408 Pine Rd, Columbus, OH 43085",ach,enterprise,120000,2023-11-29T00:00:00,active
+BILL_000436,"Hall, Henry",henry.hall82@hotmail.com,meridian partners,"7894 Mill Rd, San Antonio, TX 78201",ach,growth,120000,2023-10-13T00:00:00,past_due
+BILL_000437,Gary Garcia,gary.garcia49@yahoo.com,Nova Computing,"4733 Main St, Seattle, WA 98101",wire,starter,500000,2023-09-06T00:00:00,active
+BILL_000438,Deborah Sanders,deborah.sanders47@aol.com,Lumen AI,"5128 Washington Ave, Jacksonville, FL 32099",credit_card,enterprise,250000,2023-05-07T00:00:00,churned
+BILL_000439,Katherine Mitchell,katherine.mitchell56@protonmail.com,Onyx Solutions,"9039 Washington Ave, Nashville, TN 37201",ach,starter,500000,2023-03-20T00:00:00,active
+BILL_000440,"Gonzalez, Steven",steven.gonzalez69@protonmail.com,Pacific Innovations,"9177 Park Pl, Jacksonville, FL 32099",wire,starter,500000,2023-06-26T00:00:00,past_due
+BILL_000441,Anthony Miller,anthony.miller91@aol.com,Cobalt Engineering,"2346 Academy St, San Antonio, TX 78201",invoice,starter,250000,2022-11-07T00:00:00,active
+BILL_000442,"Roberts, Jessica",jessica.roberts@atlantic.co,Atlantic Digital,"3960 Union Ave, Nashville, TN 37201",ach,growth,250000,2023-01-15T00:00:00,active
+BILL_000443,Daniel Garcia,daniel.garcia43@yahoo.com,Atlas Logistics,"103 Washington Ave, Los Angeles, CA 90001",ach,enterprise,25000,2022-08-27T00:00:00,churned
+BILL_000444,Heather Stewart,heather.stewart@canyon.com,Canyon Resources,"7380 Pine Rd, Jacksonville, FL 32099",ach,growth,50000,2023-07-07T00:00:00,active
+BILL_000445,John Carter,john.carter@pulse.com,Pulse Engineering,"9367 Academy St, Jacksonville, FL 32099",invoice,starter,50000,2022-12-21T00:00:00,active
+BILL_000446,Benjamin Edwards,benjamin.edwards@harbor.io,Harbor Analytics,"2336 Washington Ave, Indianapolis, IN 46201",wire,enterprise,120000,2023-03-12T00:00:00,churned
+BILL_000447,Dennis Garcia,dennis.garcia@jade.co,Jade Systems,"9668 Lake Dr, Philadelphia, PA 19101",ach,growth,25000,2022-02-08T00:00:00,active
+BILL_000448,"Cruz, Patrick",patrick.cruz@echo.co,Echo Intelligence,"9386 Market St, Indianapolis, IN 46201",invoice,enterprise,120000,2023-01-21T00:00:00,active
+BILL_000449,Brian Carter,brian.carter@keystone.com,Keystone Data,"4221 Spring St, Denver, CO 80201",invoice,starter,120000,2022-09-06T00:00:00,active
+BILL_000450,"Powell, Nicholas",nicholas.powell78@gmail.com,Keystone Data,"5359 Lake Dr, Nashville, TN 37201",credit_card,growth,120000,2022-08-31T00:00:00,active
+BILL_000451,Emma Thomas,emma.thomas44@yahoo.com,Silverline Capital,"7454 High St, Jacksonville, FL 32099",credit_card,growth,500000,2023-12-18T00:00:00,past_due
+BILL_000452,"Harris, Tyler",tyler.harris@harbor.io,Harbor Analytics,"6496 Maple Blvd, Phoenix, AZ 85001",invoice,growth,120000,2023-04-20T00:00:00,past_due
+BILL_000453,Diane Murphy,diane.murphy@techflow.com,TechFlow Inc,"3617 Maple Blvd, Jacksonville, FL 32099",ach,growth,120000,2022-11-26T00:00:00,active
+BILL_000454,Frank Miller,frank.miller@summit.com,Summit Health,"9858 Spring St, Portland, OR 97201",invoice,growth,500000,2023-01-14T00:00:00,active
+BILL_000455,Cynthia Martinez,cynthia.martinez63@gmail.com,DataBridge Solutions,"2238 Main St, San Diego, CA 92101",ach,enterprise,50000,2022-07-31T00:00:00,churned
+BILL_000456,Ronald Allen,ronald.allen@amber.com,Amber Group,"2755 High St, San Antonio, TX 78201",wire,growth,120000,2023-09-14T00:00:00,active
+BILL_000457,Victoria Ward,victoria.ward55@aol.com,Quartz Health,"4346 Park Pl, Charlotte, NC 28201",credit_card,enterprise,250000,2023-10-29T00:00:00,active
+BILL_000458,Sandra Rogers,sandra.rogers@horizon.co,Horizon Labs,"5645 Park Pl, New York, NY 10001",credit_card,enterprise,250000,2023-08-29T00:00:00,active
+BILL_000459,Lauren Green,lauren.green38@hotmail.com,GreenField Energy,"9954 River Rd, Phoenix, AZ 85001",wire,enterprise,500000,2022-07-20T00:00:00,active
+BILL_000460,Edward Kelly,edward.kelly@isle.io,Isle Technologies,"2005 River Rd, San Antonio, TX 78201",invoice,enterprise,120000,2022-02-04T00:00:00,active
+BILL_000461,"Cruz, Michael",michael.cruz@amber.com,Amber Group,"6134 Center St, Denver, CO 80201",ach,starter,25000,2022-06-20T00:00:00,past_due
+BILL_000462,Andrew Thomas,andrew.thomas@databridge.com,DataBridge Solutions,"9070 Elm Dr, Seattle, WA 98101",credit_card,growth,25000,2022-12-16T00:00:00,active
+BILL_000463,Sharon Diaz,sharon.diaz84@hotmail.com,Summit eHalth,"4405 Market St, Charlotte, NC 28201",wire,starter,120000,2022-06-22T00:00:00,active
+BILL_000464,"Foster, Sharon",sharon.foster@cobalt.co,Cobalt Engineering,"516 Mill Rd, Fort Worth, TX 76101",invoice,starter,50000,2022-10-16T00:00:00,active
+BILL_000465,Joyce Phillips,joyce.phillips@jade.co,Jade Systems,"1809 Church St, Indianapolis, IN 46201",ach,starter,120000,2023-08-16T00:00:00,active
+BILL_000466,"King, Kevin",kevin.king55@hotmail.com,Atlantic Digital,"6637 Market St, San Jose, CA 95101",ach,enterprise,50000,2023-06-20T00:00:00,past_due
+BILL_000467,Sandra Johnson,sandra.johnson@harbor.io,Harbor Analytics,"5839 Center St, Seattle, WA 98101",invoice,enterprise,120000,2022-12-09T00:00:00,active
+BILL_000468,"Richardson, Debra",debra.richardson@northstar.io,NorthStar Systems,"2098 Oak Ave, Houston, TX 77001",credit_card,growth,250000,2024-03-22T00:00:00,active
+BILL_000469,"Jones, Laura",laura.jones2@icloud.com,Onyx Solutions,"3451 Elm Dr, San Antonio, TX 78201",ach,enterprise,500000,2022-08-01T00:00:00,churned
+BILL_000470,Daniel Murphy,daniel.murphy@summit.com,Summit Health,"1216 Lake Dr, Philadelphia, PA 19101",wire,enterprise,250000,2023-08-30T00:00:00,active
+BILL_000471,Kenneth Lopez,kenneth.lopez@frost.com,Frost Dynamics,"8932 Mill Rd, Austin, TX 73301",wire,starter,120000,2022-06-11T00:00:00,past_due
+BILL_000472,David Thompson,david.thompson@canyon.com,Canyon Resources,"7156 Pine Rd, Indianapolis, IN 46201",credit_card,growth,50000,2022-12-05T00:00:00,active
+BILL_000473,Richard Brooks,richard.brooks15@hotmail.com,GreenField Energy,"6819 Mill Rd, Charlotte, NC 28201",ach,enterprise,25000,2023-12-07T00:00:00,churned
+BILL_000474,Emma Hernandez,emma.hernandez@ember.co,Ember Technologies,"9695 Park Pl, New York, NY 10001",credit_card,growth,120000,2023-06-17T00:00:00,past_due
+BILL_000475,"Diaz, Debra",debra.diaz56@aol.com,Forge Labs,"1453 High St, Indianapolis, IN 46201",credit_card,enterprise,120000,2022-09-23T00:00:00,past_due
+BILL_000476,Jerry Torres,jerry.torres85@outlook.com,Prism Consulting,"2417 Market St, Nashville, TN 37201",ach,starter,250000,2023-01-05T00:00:00,past_due
+BILL_000477,Nicole Lopez,nicole.lopez@spark.io,Spark Automation,"5296 High St, Charlotte, NC 28201",ach,growth,500000,2022-04-21T00:00:00,past_due
+BILL_000478,Dennis Ross,dennis.ross22@outlook.com,Forge Labs,"3748 Elm Dr, Jacksonville, FL 32099",wire,growth,120000,2023-03-29T00:00:00,churned
+BILL_000479,Kelly Scott,kelly.scott79@yahoo.com,Ember Technologies,"8819 Union Ave, Portland, OR 97201",credit_card,starter,250000,2023-03-25T00:00:00,active
+BILL_000480,Ryan Young,ryan.young@coral.co,Coral Networks,"627 High St, Houston, TX 77001",wire,enterprise,50000,2023-10-26T00:00:00,active
+BILL_000481,"Richardson, Gregory",gregory.richardson@quartz.io,Quartz Health,"3711 Prospect Ave, San Diego, CA 92101",ach,enterprise,120000,2023-11-23T00:00:00,active
+BILL_000482,Pamela Gray,pamela.gray@harbor.io,Harbor Analytics,"9585 Cedar Ln, San Antonio, TX 78201",ach,growth,500000,2022-03-09T00:00:00,active
+BILL_000483,Helen Watson,helen.watson@sterling.co,Sterling Ventures,"5329 Academy St, New York, NY 10001",credit_card,enterprise,250000,2023-05-31T00:00:00,active
+BILL_000484,Tyler Long,tyler.long@alpine.io,Alpine Services,"7438 Washington Ave, Phoenix, AZ 85001",ach,starter,500000,2023-01-04T00:00:00,churned
+BILL_000485,Alexander Allen,alexander.allen@echo.co,Echo Intelligence,"7683 Maple Blvd, Houston, TX 77001",invoice,growth,50000,2022-07-27T00:00:00,active
+BILL_000486,"Evans, Julie",julie.evans67@protonmail.com,Coral Networks,"262 Academy St, Phoenix, AZ 85001",credit_card,growth,120000,2022-04-24T00:00:00,churned
+BILL_000487,Joyce Morales,joyce.morales@catalyst.com,Catalyst AI,"2521 Prospect Ave, Denver, CO 80201",ach,enterprise,120000,2023-05-03T00:00:00,churned
+BILL_000488,Paul Alvarez,paul.alvarez22@fastmail.com,Onyx Solutions,"2797 Oak Ave, Houston, TX 77001",invoice,enterprise,120000,2022-08-07T00:00:00,past_due
+BILL_000489,"Ramirez, Samuel",samuel.ramirez@spark.io,Spark Automation,"2078 Lake Dr, Chicago, IL 60601",credit_card,starter,50000,2022-06-15T00:00:00,churned
+BILL_000490,Jack Johnson,jack.johnson@atlantic.co,Atlantic Digital,"8408 Center St, San Diego, CA 92101",invoice,enterprise,250000,2022-03-08T00:00:00,active
+BILL_000491,Andrea Brown,andrea.brown@nexus.io,Nexus Healthcare,"1562 Washington Ave, San Antonio, TX 78201",wire,growth,120000,2023-03-26T00:00:00,past_due
+BILL_000492,"Reyes, Charles",charles.reyes@acme.co,Acme Corp,"9978 Maple Blvd, Chicago, IL 60601",credit_card,growth,500000,2022-02-21T00:00:00,churned
+BILL_000493,Deborah Collins,deborah.collins@frost.com,Frost Dynamics,"8394 Cedar Ln, Columbus, OH 43085",invoice,enterprise,50000,2023-08-21T00:00:00,active
+BILL_000494,"Reyes, Victoria",victoria.reyes@techflow.com,TechFlow Inc,"7967 Center St, Jacksonville, FL 32099",ach,growth,50000,2022-10-30T00:00:00,churned
+BILL_000495,Heather Bailey,heather.bailey@pinnacle.com,Pinacle Financial,"4778 Union Ave, San Antonio, TX 78201",invoice,starter,120000,2022-08-10T00:00:00,past_due
+BILL_000496,Shirley Ward,shirley.ward@granite.io,Granite Holdings,"4990 Park Pl, Seattle, WA 98101",ach,growth,250000,2022-11-18T00:00:00,active
+BILL_000497,Samantha Carter,samantha.carter@prism.com,Prism Consulting,"2459 Maple Blvd, San Jose, CA 95101",invoice,growth,500000,2022-11-23T00:00:00,active
+BILL_000498,"Campbell, Jack",jack.campbell@nexus.io,Nexus Healthcare,"5370 Park Pl, Phoenix, AZ 85001",invoice,enterprise,25000,2023-09-24T00:00:00,past_due
+BILL_000499,Nicholas Jimenez,nicholas.jimenez@sterling.co,Sterling Ventures,"719 Spring St, New York, NY 10001",wire,enterprise,250000,2022-12-06T00:00:00,churned
+BILL_000500,Maria Hill,maria.hill@frost.com,Frost Dynamics,"3038 Lake Dr, Nashville, TN 37201",invoice,starter,250000,2022-08-04T00:00:00,churned
+BILL_000501,George Wilson,george.wilson@isle.io,Isle Technologies,"9480 Center St, Philadelphia, PA 19101",wire,growth,120000,2023-03-10T00:00:00,active
+BILL_000502,"Nelson, Emily",emily.nelson55@fastmail.com,Canyon Resources,"8397 High St, Nashville, TN 37201",invoice,starter,25000,2023-04-24T00:00:00,active
+BILL_000503,Ashley Chavez,ashley.chavez@canyon.com,Canyon Resources,"8648 Washington Ave, Nashville, TN 37201",credit_card,enterprise,50000,2023-07-09T00:00:00,active
+BILL_000504,Jeffrey Nguyen,jeffrey.nguyen@pulse.com,Pulse Engineering,"847 Center St, San Diego, CA 92101",credit_card,starter,25000,2022-11-28T00:00:00,active
+BILL_000505,Thomas Anderson,thomas.anderson@granite.io,Granite Holdings,"9983 Main St, Phoenix, AZ 85001",wire,growth,500000,2022-12-28T00:00:00,active
+BILL_000506,Ashley Hughes,ashley.hughes@echo.co,Echo Intelligence,"2256 Union Ave, Portland, OR 97201",credit_card,enterprise,25000,2022-04-06T00:00:00,active
+BILL_000507,Zachary Martin,zachary.martin@quartz.io,QUARTZ HEALTH,"3914 Spring St, Fort Worth, TX 76101",invoice,enterprise,250000,2023-02-11T00:00:00,active
+BILL_000508,"Miller, Douglas",douglas.miller@meridian.co,Meridian Partners,"7804 Lake Dr, Los Angeles, CA 90001",credit_card,growth,250000,2022-07-03T00:00:00,churned
+BILL_000509,"Perez, Richard",richard.perez50@outlook.com,Redwood Industries,"9842 Spring St, Seattle, WA 98101",credit_card,growth,500000,2023-07-14T00:00:00,past_due
+BILL_000510,Charles Roberts,charles.roberts@redwood.com,Redwood Industries,"8215 Prospect Ave, San Antonio, TX 78201",invoice,starter,250000,2024-02-17T00:00:00,churned
+BILL_000511,Stephanie Cook,stephanie.cook@pulse.com,pulse engineering,"2437 Mill Rd, New York, NY 10001",ach,starter,120000,2022-03-26T00:00:00,churned
+BILL_000512,Frank Edwards,frank.edwards@orbit.com,Orbit Soltuions,"7788 Market St, San Antonio, TX 78201",ach,growth,250000,2023-06-03T00:00:00,active
+BILL_000513,Amy Carter,amy.carter2@icloud.com,Jade Systems,"4951 Main St, Phoenix, AZ 85001",ach,enterprise,120000,2022-03-13T00:00:00,churned
+BILL_000514,Deborah Williams,deborah.williams@orbit.com,Orbit Solutions,"8051 Mill Rd, Los Angeles, CA 90001",invoice,enterprise,120000,2023-08-18T00:00:00,active
+BILL_000515,Janet Diaz,janet.diaz@horizon.co,Horizon Labs,"7298 Maple Blvd, Charlotte, NC 28201",ach,starter,50000,2022-08-02T00:00:00,active
+BILL_000516,Mary Collins,mary.collins96@hotmail.com,Silverline Capital,"9484 Pine Rd, San Jose, CA 95101",ach,growth,50000,2023-03-01T00:00:00,active
+BILL_000517,Betty Cruz,betty.cruz@atlas.co,atlas logistics,"1019 River Rd, Austin, TX 73301",credit_card,growth,50000,2023-02-10T00:00:00,active
+BILL_000518,Jerry Long,jerry.long8@icloud.com,onyx solutions,"7334 Market St, Chicago, IL 60601",credit_card,growth,500000,2023-10-15T00:00:00,churned
+BILL_000519,Barbara Taylor,barbara.taylor@obsidian.com,Obsidian Research,"6335 Cedar Ln, Austin, TX 73301",ach,enterprise,250000,2023-03-27T00:00:00,past_due
+BILL_000520,Heather Jimenez,heather.jimenez72@hotmail.com,CloudPeak Technologies,"6337 Maple Blvd, Philadelphia, PA 19101",ach,enterprise,50000,2022-07-25T00:00:00,active
+BILL_000521,Matthew Gonzalez,matthew.gonzalez@lumen.com,Lumen AI,"987 Cedar Ln, Charlotte, NC 28201",ach,enterprise,250000,2022-03-17T00:00:00,active
+BILL_000522,Donna Green,donna.green@greenfield.com,GreenField Energy,"9567 High St, Houston, TX 77001",invoice,starter,250000,2022-11-03T00:00:00,active
+BILL_000523,Debra Morales,debra.morales@tidal.io,Tidal Software,"4406 Elm Dr, Denver, CO 80201",ach,enterprise,50000,2023-02-17T00:00:00,churned
+BILL_000524,"Kim, Victoria",victoria.kim44@outlook.com,Atlantic Digital,"3743 Pine Rd, Houston, TX 77001",wire,growth,50000,2024-01-12T00:00:00,active
+BILL_000525,Kevin Mitchell,kevin.mitchell@ironclad.com,Ironclad Security,"2932 Center St, San Antonio, TX 78201",wire,starter,500000,2022-07-10T00:00:00,past_due
+BILL_000526,Jonathan Rogers,jonathan.rogers18@fastmail.com,Nova Computing,"2274 Park Pl, Phoenix, AZ 85001",invoice,starter,250000,2022-08-20T00:00:00,churned
+BILL_000527,Joshua Smith,joshua.smith@echo.co,Echo Intelligence,"7285 Maple Blvd, Austin, TX 73301",ach,enterprise,50000,2023-06-24T00:00:00,past_due
+BILL_000528,Barbara Reyes,barbara.reyes@techflow.com,TechFlow Inc,"6642 Washington Ave, Austin, TX 73301",invoice,starter,25000,2023-03-24T00:00:00,past_due
+BILL_000529,Joshua Hughes,joshua.hughes74@gmail.com,Silverline Capital,"7244 Spring St, Indianapolis, IN 46201",ach,growth,25000,2022-06-05T00:00:00,past_due
+BILL_000530,Jennifer Nguyen,jennifer.nguyen70@outlook.com,Onyx Solutions,"7372 Main St, Columbus, OH 43085",invoice,starter,500000,2022-11-13T00:00:00,active
+BILL_000531,Katherine Turner,katherine.turner42@hotmail.com,Meridian Partners,"1706 Park Pl, San Diego, CA 92101",ach,enterprise,250000,2023-03-12T00:00:00,active
+BILL_000532,Mark Peterson,mark.peterson68@gmail.com,BlueWave Media,"7837 Union Ave, Austin, TX 73301",ach,starter,250000,2022-12-10T00:00:00,past_due
+BILL_000533,"Campbell, Kenneth",kenneth.campbell50@fastmail.com,Obsidian Research,"1179 Church St, Austin, TX 73301",invoice,enterprise,250000,2022-05-29T00:00:00,past_due
+BILL_000534,"Wright, Kevin",kevin.wright@pulse.com,Pulse Engineering,"9694 Church St, Nashville, TN 37201",ach,starter,25000,2023-05-09T00:00:00,past_due
+BILL_000535,Jonathan Brown,jonathan.brown@lumen.com,Lumen AI,"131 Oak Ave, Charlotte, NC 28201",invoice,starter,120000,2023-09-01T00:00:00,active
+BILL_000536,Aaron Rodriguez,aaron.rodriguez4@yahoo.com,GreenField Energy,"6978 Mill Rd, Fort Worth, TX 76101",ach,starter,250000,2023-01-22T00:00:00,active
+BILL_000537,"Morris, Debra",debra.morris40@protonmail.com,Quartz Health,"2274 Washington Ave, Denver, CO 80201",wire,starter,25000,2022-02-22T00:00:00,active
+BILL_000538,Adam Anderson,adam.anderson@techflow.com,TechFlow Inc,"9737 Spring St, Dallas, TX 75201",ach,growth,50000,2022-12-03T00:00:00,active
+BILL_000539,Katherine Torres,katherine.torres55@fastmail.com,Nova Computing,"8100 Bridge St, Jacksonville, FL 32099",credit_card,enterprise,120000,2022-02-07T00:00:00,active
+BILL_000540,Raymond Ruiz,raymond.ruiz49@icloud.com,Harbor Analytics,"7648 Cedar Ln, Nashville, TN 37201",wire,growth,25000,2022-08-01T00:00:00,churned
+BILL_000541,"Brooks, Kelly",kelly.brooks@echo.co,echo intelligence,"9047 Maple Blvd, Columbus, OH 43085",ach,growth,25000,2023-10-02T00:00:00,past_due
+BILL_000542,"Sanders, Judith",judith.sanders@horizon.co,Horizon Labs,"3011 Spring St, Philadelphia, PA 19101",credit_card,growth,50000,2023-12-19T00:00:00,active
+BILL_000543,"Ramirez, Michelle",michelle.ramirez@obsidian.com,Obsidian Research,"2370 Park Pl, Austin, TX 73301",invoice,growth,50000,2022-04-13T00:00:00,churned
+BILL_000544,Jeffrey Wright,jeffrey.wright@alpine.io,Alpine Services,"773 High St, Portland, OR 97201",wire,starter,50000,2022-08-11T00:00:00,active
+BILL_000545,Zachary Adams,zachary.adams@nexus.io,Nexus Healthcare,"5324 Cedar Ln, Charlotte, NC 28201",wire,enterprise,25000,2023-01-02T00:00:00,active
+BILL_000546,"Stewart, Stephanie",stephanie.stewart@granite.io,Granite Holdings,"4608 Spring St, Jacksonville, FL 32099",invoice,growth,25000,2023-02-12T00:00:00,active
+BILL_000547,Julie Cox,julie.cox@isle.io,Isle Technologies,"9100 Union Ave, Columbus, OH 43085",credit_card,starter,500000,2023-07-29T00:00:00,churned
+BILL_000548,Jacob Wood,jacob.wood@beacon.com,Beacon Data,"2237 Prospect Ave, Houston, TX 77001",credit_card,enterprise,500000,2022-07-23T00:00:00,churned
+BILL_000549,Karen Taylor,karen.taylor@echo.co,Echo Intelligence,"5729 Cedar Ln, New York, NY 10001",wire,starter,250000,2023-05-01T00:00:00,active
+BILL_000550,Donald White,donald.white@forge.io,Forge Labs,"2115 Oak Ave, Austin, TX 73301",ach,enterprise,50000,2022-07-26T00:00:00,active
+BILL_000551,Lisa Mendoza,lisa.mendoza11@outlook.com,Horizon Labs,"9371 Market St, Austin, TX 73301",invoice,starter,25000,2022-03-30T00:00:00,active
+BILL_000552,Adam Rogers,adam.rogers@jade.co,Jade Systems,"3798 Maple Blvd, Jacksonville, FL 32099",credit_card,growth,120000,2023-04-08T00:00:00,past_due
+BILL_000553,"Chavez, Arthur",arthur.chavez@sterling.co,sterling ventures,"9691 Center St, Philadelphia, PA 19101",wire,growth,500000,2022-07-15T00:00:00,active
+BILL_000554,Joshua Wright,joshua.wright@pacific.io,Pacific Innovations,"6099 River Rd, Los Angeles, CA 90001",invoice,enterprise,500000,2022-08-17T00:00:00,active
+BILL_000555,Amy Ruiz,amy.ruiz@northstar.io,NorthStar Systems,"6423 Mill Rd, Los Angeles, CA 90001",credit_card,enterprise,500000,2023-04-05T00:00:00,active
+BILL_000556,"Wright, Donna",donna.wright43@hotmail.com,Harbor Analytics,"1801 Academy St, Los Angeles, CA 90001",wire,starter,250000,2022-03-29T00:00:00,past_due
+BILL_000557,Dorothy Jones,dorothy.jones@orbit.com,Orbit Solutions,"1238 Spring St, San Antonio, TX 78201",ach,enterprise,25000,2022-11-21T00:00:00,active
+BILL_000558,"Peterson, Joshua",joshua.peterson@quartz.io,Quartz Health,"3993 River Rd, San Jose, CA 95101",wire,growth,25000,2022-07-16T00:00:00,active
+BILL_000559,"Kelly, Jonathan",jonathan.kelly@quantum.co,Quantum Analytics,"7246 Elm Dr, Nashville, TN 37201",ach,enterprise,50000,2022-08-01T00:00:00,churned
+BILL_000560,"Turner, Robert",robert.turner@onyx.co,Onyx Solutions,"9932 Main St, Dallas, TX 75201",invoice,growth,250000,2023-11-18T00:00:00,past_due
+BILL_000561,Christina Turner,christina.turner@onyx.co,Onyx Solutions,"1548 Pine Rd, Columbus, OH 43085",wire,starter,500000,2023-12-15T00:00:00,churned
+BILL_000562,Heather Cruz,heather.cruz@forge.io,Forge Labs,"6287 Maple Blvd, Portland, OR 97201",credit_card,starter,500000,2023-04-13T00:00:00,active
+BILL_000563,Catherine Rodriguez,catherine.rodriguez@horizon.co,horizon labs,"8868 Washington Ave, Philadelphia, PA 19101",credit_card,starter,50000,2023-03-09T00:00:00,past_due
+BILL_000564,Daniel Green,daniel.green@prism.com,Prism Consulting,"8989 Mill Rd, New York, NY 10001",ach,enterprise,25000,2023-04-22T00:00:00,active
+BILL_000565,David Carter,david.carter89@yahoo.com,Redwood Industries,"997 River Rd, Charlotte, NC 28201",ach,starter,50000,2023-12-08T00:00:00,churned
+BILL_000566,"Scott, Sharon",sharon.scott@horizon.co,Horizon Labs,"9722 Spring St, Denver, CO 80201",credit_card,enterprise,25000,2023-01-26T00:00:00,active
+BILL_000567,"Williams, Maria",maria.williams@amber.com,Amber Group,"7265 Lake Dr, Chicago, IL 60601",invoice,enterprise,25000,2023-02-10T00:00:00,active
+BILL_000568,Henry Phillips,henry.phillips35@aol.com,Prism Consulting,"5154 Mill Rd, Los Angeles, CA 90001",invoice,enterprise,50000,2023-05-17T00:00:00,past_due
+BILL_000569,Emily Wilson,emily.wilson93@fastmail.com,Redwood Industries,"3231 Market St, Chicago, IL 60601",credit_card,starter,500000,2023-07-25T00:00:00,churned
+BILL_000570,Jennifer Gomez,jennifer.gomez68@aol.com,Canyon Resources,"8930 Cedar Ln, Nashville, TN 37201",credit_card,growth,25000,2022-09-09T00:00:00,active
+BILL_000571,Roger Peterson,roger.peterson@nexus.io,Nexus Healthcare,"8747 River Rd, San Antonio, TX 78201",invoice,enterprise,500000,2023-01-08T00:00:00,past_due
+BILL_000572,Evelyn Anderson,evelyn.anderson@prism.com,Prism Consulting,"6857 Market St, Austin, TX 73301",invoice,starter,50000,2023-07-27T00:00:00,active
+BILL_000573,"Johnson, Maria",maria.johnson44@hotmail.com,Lumen AI,"2559 Lake Dr, San Diego, CA 92101",credit_card,enterprise,120000,2023-10-20T00:00:00,active
+BILL_000574,"White, Carolyn",carolyn.white@nexus.io,Nexus Healthcare,"8872 Park Pl, San Antonio, TX 78201",invoice,enterprise,500000,2023-02-20T00:00:00,past_due
+BILL_000575,Donald Jackson,donald.jackson@orbit.com,Orbit Solutions,"9098 Pine Rd, New York, NY 10001",ach,starter,250000,2023-03-28T00:00:00,active
+BILL_000576,Tyler Ortiz,tyler.ortiz@echo.co,Echo Intelligence,"745 Mill Rd, Columbus, OH 43085",ach,starter,25000,2023-10-28T00:00:00,churned
+BILL_000577,Nicholas Hall,nicholas.hall@isle.io,Isle Technologies,"6000 Park Pl, Seattle, WA 98101",wire,starter,500000,2022-07-01T00:00:00,active
+BILL_000578,Harold Morris,harold.morris@sterling.co,Sterling Ventures,"1969 Elm Dr, Indianapolis, IN 46201",credit_card,growth,120000,2023-04-21T00:00:00,active
+BILL_000579,Anna Hughes,anna.hughes@spark.io,Spark Automation,"3072 Pine Rd, New York, NY 10001",ach,growth,120000,2023-10-03T00:00:00,active
+BILL_000580,"Garcia, Tyler",tyler.garcia@cloudpeak.com,CloudPeak Technologies,"7554 Mill Rd, Nashville, TN 37201",invoice,starter,25000,2023-11-13T00:00:00,churned
+BILL_000581,Shirley Ramirez,shirley.ramirez73@fastmail.com,Acme Corp,"680 Mill Rd, Denver, CO 80201",ach,enterprise,25000,2023-11-13T00:00:00,active
+BILL_000582,Zachary Mitchell,zachary.mitchell@onyx.co,Onyx Solutions,"7901 Lake Dr, Austin, TX 73301",wire,enterprise,25000,2023-08-12T00:00:00,past_due
+BILL_000583,Maria Gray,maria.gray88@gmail.com,Redwood Industries,"7174 Prospect Ave, Jacksonville, FL 32099",invoice,enterprise,50000,2023-11-29T00:00:00,past_due
+BILL_000584,"Rodriguez, Peter",peter.rodriguez@summit.com,Summit Health,"6349 Spring St, San Jose, CA 95101",ach,starter,50000,2022-04-30T00:00:00,active
+BILL_000585,Judith Morris,judith.morris@canyon.com,Canyon Resources,"1857 Main St, Portland, OR 97201",wire,enterprise,25000,2022-04-12T00:00:00,active
+BILL_000586,John Ruiz,john.ruiz@northstar.io,NorthStar Systems,"818 Washington Ave, Columbus, OH 43085",ach,growth,500000,2023-06-01T00:00:00,churned
+BILL_000587,Jose Allen,jose.allen@frost.com,Frost Dynamics,"3881 Mill Rd, Portland, OR 97201",credit_card,growth,250000,2023-07-05T00:00:00,active
+BILL_000588,"Nguyen, Harold",harold.nguyen@databridge.com,DataBridge Solutions,"3924 Lake Dr, Chicago, IL 60601",ach,starter,250000,2023-11-03T00:00:00,active
+BILL_000589,James Morris,james.morris@meridian.co,Meridian Partners,"4555 Bridge St, Dallas, TX 75201",credit_card,growth,25000,2022-08-22T00:00:00,churned
+BILL_000590,"Rivera, Heather",heather.rivera@horizon.co,Horizon Labs,"9792 Main St, Jacksonville, FL 32099",ach,growth,50000,2024-02-06T00:00:00,churned
+BILL_000591,"Foster, George",george.foster@bluewave.co,BlueWave Media,"2607 River Rd, Denver, CO 80201",invoice,growth,250000,2022-07-01T00:00:00,past_due
+BILL_000592,Dorothy Bailey,dorothy.bailey@ridge.com,Ridge Financial,"7097 Cedar Ln, Charlotte, NC 28201",invoice,growth,250000,2022-08-06T00:00:00,active
+BILL_000593,Pamela Jimenez,pamela.jimenez50@protonmail.com,Pinnacle Financial,"7136 Elm Dr, New York, NY 10001",wire,growth,50000,2023-01-25T00:00:00,past_due
+BILL_000594,Edward Rodriguez,edward.rodriguez@spark.io,Spark Automation,"5483 Pine Rd, San Diego, CA 92101",ach,growth,120000,2023-10-22T00:00:00,churned
+BILL_000595,Carl Anderson,carl.anderson@onyx.co,Onyx Solutions,"302 Academy St, Austin, TX 73301",ach,growth,250000,2023-10-26T00:00:00,active
+BILL_000596,Michelle Perez,michelle.perez@lumen.com,Lumen AI,"774 Main St, Nashville, TN 37201",invoice,starter,25000,2022-05-03T00:00:00,past_due
+BILL_000597,Jonathan Murphy,jonathan.murphy@catalyst.com,Catalyst AI,"9869 River Rd, San Jose, CA 95101",credit_card,enterprise,250000,2022-02-23T00:00:00,active
+BILL_000598,Betty James,betty.james@atlantic.co,Atlantic Digital,"1818 Academy St, Columbus, OH 43085",credit_card,growth,500000,2023-10-31T00:00:00,churned
+BILL_000599,Shirley Wood,shirley.wood@techflow.com,TechFlow Inc,"5581 Oak Ave, San Antonio, TX 78201",wire,starter,120000,2022-06-07T00:00:00,active
+BILL_000600,Christine King,christine.king@obsidian.com,Obsidian Research,"424 High St, Jacksonville, FL 32099",credit_card,growth,250000,2022-05-22T00:00:00,active
+BILL_000601,Kevin Gomez,kevin.gomez@summit.com,Summit Health,"6604 Academy St, New York, NY 10001",invoice,starter,250000,2022-04-14T00:00:00,active
+BILL_000602,Christopher Diaz,christopher.diaz@quartz.io,Quartz Health,"2797 Lake Dr, Charlotte, NC 28201",invoice,enterprise,500000,2023-01-02T00:00:00,churned
+BILL_000603,Jennifer Roberts,jennifer.roberts@granite.io,Granite Holdings,"366 Market St, Dallas, TX 75201",invoice,enterprise,250000,2022-05-02T00:00:00,past_due
+BILL_000604,"Richardson, Jennifer",jennifer.richardson@northstar.io,NorthStar Systems,"9709 Park Pl, Houston, TX 77001",ach,starter,500000,2023-03-22T00:00:00,active
+BILL_000605,Samantha Kelly,samantha.kelly42@hotmail.com,Forge Labs,"3721 High St, Denver, CO 80201",invoice,growth,500000,2023-01-24T00:00:00,active
+BILL_000606,"Johnson, Helen",helen.johnson51@hotmail.com,Cobalt Engineering,"2222 Cedar Ln, Jacksonville, FL 32099",invoice,starter,500000,2023-01-15T00:00:00,past_due
+BILL_000607,Virginia Jimenez,virginia.jimenez@orbit.com,Orbit Solutions,"3345 Union Ave, Seattle, WA 98101",credit_card,enterprise,120000,2023-03-28T00:00:00,active
+BILL_000608,Anthony Young,anthony.young@vertex.co,Vertex Software,"9779 Academy St, Charlotte, NC 28201",wire,growth,250000,2023-09-09T00:00:00,churned
+BILL_000609,Victoria Gray,victoria.gray@catalyst.com,Catalyst AI,"8545 Prospect Ave, San Jose, CA 95101",invoice,starter,50000,2022-12-27T00:00:00,past_due
+BILL_000610,Jonathan Peterson,jonathan.peterson20@gmail.com,Cobalt Engineering,"2915 Spring St, San Diego, CA 92101",credit_card,starter,120000,2022-08-19T00:00:00,active
+BILL_000611,"Flores, Thomas",thomas.flores@pinnacle.com,Pinnacle Financial,"7651 High St, Los Angeles, CA 90001",invoice,growth,50000,2023-10-13T00:00:00,active
+BILL_000612,Zachary Jimenez,zachary.jimenez@meridian.co,Meridian Partners,"8760 Pine Rd, Seattle, WA 98101",wire,growth,50000,2023-05-14T00:00:00,churned
+BILL_000613,Donna Edwards,donna.edwards96@outlook.com,Echo Intelligence,"2431 Main St, San Diego, CA 92101",invoice,growth,500000,2022-11-05T00:00:00,past_due
+BILL_000614,George Adams,george.adams46@hotmail.com,Jade Systems,"6194 Pine Rd, Jacksonville, FL 32099",wire,enterprise,25000,2023-01-03T00:00:00,active
+BILL_000615,Virginia Ramirez,virginia.ramirez@alpine.io,Alpine Services,"5227 Bridge St, Nashville, TN 37201",credit_card,starter,500000,2023-06-11T00:00:00,active
+BILL_000616,John Jimenez,john.jimenez6@hotmail.com,Granite Holdings,"9818 Oak Ave, Denver, CO 80201",ach,enterprise,25000,2023-06-04T00:00:00,active
+BILL_000617,Larry Wright,larry.wright@lumen.com,Lumen AI,"6892 Oak Ave, New York, NY 10001",credit_card,starter,500000,2022-04-15T00:00:00,active
+BILL_000618,Julie Martinez,julie.martinez@atlantic.co,Atlantic Digital,"6766 Main St, San Jose, CA 95101",invoice,starter,25000,2022-04-08T00:00:00,past_due
+BILL_000619,Virginia Allen,virginia.allen@silverline.co,Silverline Capital,"959 Center St, Houston, TX 77001",invoice,starter,250000,2022-08-08T00:00:00,active
+BILL_000620,Benjamin Garcia,benjamin.garcia@bluewave.co,BlueWave Media,"4735 Lake Dr, Columbus, OH 43085",invoice,growth,120000,2023-11-04T00:00:00,churned
+BILL_000621,Ronald Edwards,ronald.edwards@echo.co,Echo Intelligence,"4660 Elm Dr, San Antonio, TX 78201",invoice,starter,25000,2023-11-02T00:00:00,active
+BILL_000622,Margaret Murphy,margaret.murphy89@icloud.com,GreenField Energy,"3528 Center St, San Jose, CA 95101",ach,enterprise,25000,2023-10-29T00:00:00,churned
+BILL_000623,Scott Kelly,scott.kelly80@yahoo.com,Frost Dynamics,"5618 Lake Dr, Nashville, TN 37201",invoice,enterprise,250000,2022-06-04T00:00:00,active
+BILL_000624,Roger Foster,roger.foster@tidal.io,Tidal Software,"204 High St, Phoenix, AZ 85001",wire,starter,120000,2022-02-05T00:00:00,active
+BILL_000625,Alexander Harris,alexander.harris@silverline.co,Silverline Capital,"1607 Bridge St, San Diego, CA 92101",ach,growth,250000,2022-03-28T00:00:00,past_due
+BILL_000626,Heather Castillo,heather.castillo17@icloud.com,Quartz Health,"9140 River Rd, Denver, CO 80201",ach,starter,50000,2023-07-28T00:00:00,active
+BILL_000627,Eric Kim,eric.kim@alpine.io,Alpine Services,"8964 Main St, Seattle, WA 98101",ach,enterprise,120000,2023-03-03T00:00:00,past_due
+BILL_000628,Donald Allen,donald.allen@databridge.com,DataBridge Solutions,"9959 Washington Ave, Houston, TX 77001",wire,starter,50000,2023-10-06T00:00:00,past_due
+BILL_000629,"Torres, Ashley",ashley.torres35@aol.com,CloudPeak Technologies,"1602 Park Pl, Columbus, OH 43085",invoice,growth,50000,2023-06-11T00:00:00,active
+BILL_000630,Nicholas Adams,nicholas.adams@orbit.com,Orbit Solutions,"1970 Mill Rd, Chicago, IL 60601",ach,growth,50000,2023-12-04T00:00:00,active
+BILL_000631,Douglas Richardson,douglas.richardson12@protonmail.com,Beacon Data,"6666 Spring St, Houston, TX 77001",credit_card,starter,500000,2023-05-29T00:00:00,past_due
+BILL_000632,Christina Murphy,christina.murphy@obsidian.com,Obsidian Research,"4653 High St, Los Angeles, CA 90001",credit_card,growth,500000,2023-07-27T00:00:00,active
+BILL_000633,"Diaz, Douglas",douglas.diaz@lumen.com,Lumen AI,"4044 Center St, Houston, TX 77001",wire,starter,50000,2023-02-24T00:00:00,past_due
+BILL_000634,Andrew Gutierrez,andrew.gutierrez92@gmail.com,Delta Platforms,"5037 Center St, Chicago, IL 60601",wire,enterprise,250000,2023-05-31T00:00:00,past_due
+BILL_000635,Janet Collins,janet.collins65@fastmail.com,Acme Corp,"6065 Prospect Ave, Portland, OR 97201",wire,growth,50000,2022-11-21T00:00:00,active
+BILL_000636,"Bailey, Pamela",pamela.bailey@quartz.io,Quartz Health,"6404 River Rd, Houston, TX 77001",wire,enterprise,50000,2023-07-06T00:00:00,active
+BILL_000637,"Baker, Joyce",joyce.baker@obsidian.com,Obsidian Research,"6018 Spring St, San Diego, CA 92101",ach,enterprise,500000,2023-02-22T00:00:00,past_due
+BILL_000638,Carol Ross,carol.ross@nexus.io,Nexus Healthcare,"9789 Washington Ave, Fort Worth, TX 76101",ach,enterprise,120000,2022-12-08T00:00:00,past_due
+BILL_000639,Jeffrey Moore,jeffrey.moore@ridge.com,Ridge Financial,"4983 Market St, Phoenix, AZ 85001",ach,starter,25000,2022-04-06T00:00:00,active
+BILL_000640,Daniel Adams,daniel.adams@ironclad.com,Ironclad Security,"1856 Washington Ave, San Antonio, TX 78201",ach,enterprise,25000,2022-09-17T00:00:00,active
+BILL_000641,Aaron Bennett,aaron.bennett@forge.io,Forge Labs,"7830 Prospect Ave, Fort Worth, TX 76101",wire,growth,25000,2022-09-25T00:00:00,active
+BILL_000642,Melissa Sanchez,melissa.sanchez98@hotmail.com,Quantum Analytics,"1889 Maple Blvd, Charlotte, NC 28201",invoice,growth,500000,2022-05-29T00:00:00,active
+BILL_000643,"Flores, Katherine",katherine.flores@granite.io,Granite Holdings,"5622 Elm Dr, Indianapolis, IN 46201",invoice,growth,50000,2023-12-25T00:00:00,active
+BILL_000644,Evelyn Scott,evelyn.scott99@outlook.com,Onyx Solutions,"6795 Bridge St, San Jose, CA 95101",ach,enterprise,50000,2022-12-05T00:00:00,active
+BILL_000645,"Sanders, Brian",brian.sanders@bluewave.co,BlueWave Media,"6402 High St, Denver, CO 80201",credit_card,starter,25000,2023-10-19T00:00:00,active
+BILL_000646,Joshua Richardson,joshua.richardson65@aol.com,Delta Platforms,"8556 Bridge St, Austin, TX 73301",wire,starter,250000,2022-08-09T00:00:00,past_due
+BILL_000647,Katherine Mitchell,katherine.mitchell@forge.io,Forge Labs,"505 Prospect Ave, Los Angeles, CA 90001",credit_card,enterprise,50000,2023-11-26T00:00:00,active
+BILL_000648,Samuel Williams,samuel.williams@isle.io,Isle Technologies,"3926 Prospect Ave, Charlotte, NC 28201",ach,starter,25000,2023-07-03T00:00:00,active
+BILL_000649,Deborah Evans,deborah.evans75@fastmail.com,Horizon Labs,"6063 Lake Dr, Dallas, TX 75201",invoice,enterprise,120000,2023-04-23T00:00:00,active
+BILL_000650,Eric Bailey,eric.bailey89@gmail.com,Atlantic Digital,"6018 Mill Rd, Austin, TX 73301",invoice,starter,25000,2022-10-05T00:00:00,active
+BILL_000651,"Evans, Kelly",kelly.evans@atlas.co,Atlas Logistics,"4222 Elm Dr, San Diego, CA 92101",credit_card,growth,50000,2022-10-30T00:00:00,active
+BILL_000652,Jack Gray,jack.gray9@hotmail.com,Orbit Solutions,"6500 Maple Blvd, Chicago, IL 60601",invoice,growth,250000,2022-12-26T00:00:00,active
+BILL_000653,Thomas Jackson,thomas.jackson@orbit.com,orbit solutions,"9462 River Rd, Denver, CO 80201",wire,growth,500000,2023-03-14T00:00:00,active
+BILL_000654,"Bailey, Kenneth",kenneth.bailey16@fastmail.com,Obsidian Research,"9467 River Rd, Jacksonville, FL 32099",credit_card,growth,120000,2022-03-20T00:00:00,active
+BILL_000655,"Clark, Elizabeth",elizabeth.clark58@hotmail.com,Vertex Software,"7063 Spring St, San Jose, CA 95101",invoice,growth,120000,2023-09-21T00:00:00,past_due
+BILL_000656,Debra Hughes,debra.hughes@pacific.io,Pacific Innovations,"3552 Lake Dr, Denver, CO 80201",ach,enterprise,50000,2022-08-28T00:00:00,active
+BILL_000657,Dorothy Price,dorothy.price64@yahoo.com,Jade Systems,"3386 Park Pl, Fort Worth, TX 76101",wire,enterprise,25000,2023-03-14T00:00:00,churned
+BILL_000658,Stephanie Chavez,stephanie.chavez@quantum.co,Quantum Analytics,"1142 Park Pl, Denver, CO 80201",invoice,growth,50000,2022-07-29T00:00:00,active
+BILL_000659,"Walker, Heather",heather.walker90@icloud.com,Pacific Innovations,"6925 Church St, Fort Worth, TX 76101",invoice,growth,250000,2023-08-28T00:00:00,active
+BILL_000660,"Kim, Dorothy",dorothy.kim@beacon.com,Beacon Data,"1888 Oak Ave, Columbus, OH 43085",credit_card,growth,25000,2023-12-23T00:00:00,churned
+BILL_000661,"Brooks, Melissa",melissa.brooks@nexus.io,Nexus Healthcare,"4511 Spring St, Nashville, TN 37201",invoice,growth,50000,2022-10-08T00:00:00,active
+BILL_000662,"Campbell, Scott",scott.campbell@jade.co,Jade Systems,"4808 Lake Dr, San Antonio, TX 78201",wire,starter,250000,2022-05-19T00:00:00,past_due
+BILL_000663,Jose Lee,jose.lee@canyon.com,Canyon Resources,"1957 Pine Rd, San Diego, CA 92101",credit_card,starter,120000,2023-04-13T00:00:00,churned
+BILL_000664,John Alvarez,john.alvarez75@outlook.com,Sterling Ventures,"9483 Spring St, Portland, OR 97201",ach,starter,50000,2023-11-21T00:00:00,active
+BILL_000665,Stephen Howard,stephen.howard@pinnacle.com,Pinnacle Financial,"9620 Union Ave, Los Angeles, CA 90001",ach,starter,500000,2024-01-22T00:00:00,active
+BILL_000666,Carol Davis,carol.davis18@fastmail.com,Pulse Engineering,"2347 Market St, Portland, OR 97201",ach,starter,500000,2022-04-08T00:00:00,active
+BILL_000667,Emily Cruz,emily.cruz@orbit.com,Orbit Solutions,"3305 Main St, San Antonio, TX 78201",invoice,growth,500000,2023-04-06T00:00:00,active
+BILL_000668,Roger Murphy,roger.murphy54@yahoo.com,DataBridge Solutions,"9953 Church St, Philadelphia, PA 19101",wire,starter,25000,2023-11-26T00:00:00,past_due
+BILL_000669,"Perez, Deborah",deborah.perez@quartz.io,Quartz Health,"1304 Park Pl, Phoenix, AZ 85001",ach,enterprise,120000,2023-05-01T00:00:00,past_due
+BILL_000670,Sarah Bailey,sarah.bailey18@protonmail.com,Pulse Engineering,"9604 Washington Ave, Indianapolis, IN 46201",invoice,growth,50000,2022-09-26T00:00:00,active
+BILL_000671,Richard Williams,richard.williams46@outlook.com,Cobalt Engineering,"1143 Church St, Los Angeles, CA 90001",wire,starter,120000,2023-04-09T00:00:00,churned
+BILL_000672,Joan Ruiz,joan.ruiz@beacon.com,Beacon Data,"6847 Church St, San Antonio, TX 78201",credit_card,growth,500000,2022-05-15T00:00:00,active
+BILL_000673,Sharon Reed,sharon.reed@keystone.com,Keystone Data,"3078 Maple Blvd, Austin, TX 73301",credit_card,growth,250000,2022-07-21T00:00:00,active
+BILL_000674,John Murphy,john.murphy@quartz.io,Quartz Health,"3771 Bridge St, Charlotte, NC 28201",credit_card,starter,500000,2022-03-08T00:00:00,active
+BILL_000675,Debra Reyes,debra.reyes12@aol.com,Delta Platforms,"3090 Elm Dr, Chicago, IL 60601",ach,growth,120000,2022-08-05T00:00:00,active
+BILL_000676,Gary Jimenez,gary.jimenez@onyx.co,Onyx Solutions,"5696 Church St, San Jose, CA 95101",invoice,growth,120000,2022-06-19T00:00:00,past_due
+BILL_000677,John Walker,john.walker@catalyst.com,Catalyst AI,"9894 Oak Ave, Charlotte, NC 28201",credit_card,starter,25000,2022-10-25T00:00:00,past_due
+BILL_000678,Heather Clark,heather.clark40@fastmail.com,BlueWave Media,"9522 River Rd, Portland, OR 97201",wire,enterprise,120000,2023-10-10T00:00:00,churned
+BILL_000679,"Moore, Andrea",andrea.moore@isle.io,Isle Technologies,"6276 Elm Dr, Columbus, OH 43085",invoice,growth,25000,2023-05-26T00:00:00,past_due
+BILL_000680,Daniel Anderson,daniel.anderson@lumen.com,LUMEN AI,"5354 Market St, San Antonio, TX 78201",credit_card,enterprise,50000,2023-09-14T00:00:00,churned
+BILL_000681,Kenneth Mitchell,kenneth.mitchell@prism.com,Prism Consulting,"7382 Academy St, San Jose, CA 95101",invoice,growth,500000,2023-02-12T00:00:00,active
+BILL_000682,Charles Wilson,charles.wilson@jade.co,Jade Systems,"2755 Academy St, New York, NY 10001",invoice,starter,500000,2022-05-16T00:00:00,active
+BILL_000683,"Sanders, Kathleen",kathleen.sanders@nova.io,Nova Computing,"3047 Church St, Austin, TX 73301",credit_card,enterprise,25000,2023-09-30T00:00:00,churned
+BILL_000684,"Bailey, Carl",carl.bailey@cobalt.co,Cobalt Engineering,"4881 Church St, San Jose, CA 95101",ach,enterprise,250000,2023-06-24T00:00:00,past_due
+BILL_000685,Sharon Ramos,sharon.ramos@cobalt.co,Cobalt Engineering,"9108 Lake Dr, Chicago, IL 60601",credit_card,growth,500000,2022-10-25T00:00:00,active
+BILL_000686,"Williams, Ronald",ronald.williams13@gmail.com,Horizon Labs,"5644 Washington Ave, Houston, TX 77001",credit_card,enterprise,500000,2022-11-26T00:00:00,past_due
+BILL_000687,Carol Sanders,carol.sanders@northstar.io,NorthStar Systems,"8009 Main St, Portland, OR 97201",wire,starter,500000,2023-05-19T00:00:00,active
+BILL_000688,Sarah Morales,sarah.morales@canyon.com,Canyon Resources,"4410 Prospect Ave, Columbus, OH 43085",wire,enterprise,25000,2023-02-10T00:00:00,churned
+BILL_000689,Dennis Phillips,dennis.phillips@nexus.io,Nexus Healthcare,"8266 Mill Rd, Chicago, IL 60601",ach,enterprise,50000,2023-01-02T00:00:00,past_due
+BILL_000690,Diane Clark,diane.clark@onyx.co,Onyx Solutions,"8532 Bridge St, Houston, TX 77001",invoice,growth,50000,2022-10-06T00:00:00,active
+BILL_000691,"Ruiz, Mary",mary.ruiz@quantum.co,Quantum Analytics,"5085 Elm Dr, Los Angeles, CA 90001",credit_card,starter,250000,2022-12-23T00:00:00,churned
+BILL_000692,"Davis, Charles",charles.davis19@yahoo.com,Echo Intelligence,"1303 River Rd, Phoenix, AZ 85001",credit_card,growth,50000,2023-02-20T00:00:00,active
+BILL_000693,"Nguyen, Jeffrey",jeffrey.nguyen@databridge.com,DataBridge Solutions,"7592 Bridge St, Philadelphia, PA 19101",ach,enterprise,500000,2023-07-22T00:00:00,active
+BILL_000694,Roger Myers,roger.myers69@protonmail.com,DataBridge Solutions,"3151 Park Pl, Fort Worth, TX 76101",credit_card,growth,250000,2023-01-25T00:00:00,active
+BILL_000695,Eric Peterson,eric.peterson27@yahoo.com,Atlas Logistics,"289 Bridge St, Columbus, OH 43085",invoice,enterprise,25000,2022-08-25T00:00:00,active
+BILL_000696,Mark Green,mark.green@alpine.io,Alpine Services,"6047 Union Ave, Phoenix, AZ 85001",wire,enterprise,120000,2023-03-24T00:00:00,active
+BILL_000697,Ryan Carter,ryan.carter64@protonmail.com,Delta Platforms,"7650 Maple Blvd, Indianapolis, IN 46201",invoice,starter,120000,2023-02-09T00:00:00,past_due
+BILL_000698,Brandon Hughes,brandon.hughes29@protonmail.com,Isle Technologies,"8453 High St, Los Angeles, CA 90001",ach,growth,500000,2024-01-01T00:00:00,past_due
+BILL_000699,Jeffrey Sanders,jeffrey.sanders@northstar.io,NorthStar Systems,"7529 Academy St, Dallas, TX 75201",credit_card,enterprise,25000,2023-12-07T00:00:00,active
+BILL_000700,"Nguyen, Melissa",melissa.nguyen94@gmail.com,Meridian Partners,"5141 High St, Fort Worth, TX 76101",invoice,growth,250000,2022-11-24T00:00:00,active
+BILL_000701,Patricia Bennett,patricia.bennett74@aol.com,CloudPeak Technologies,"1329 Cedar Ln, Denver, CO 80201",invoice,enterprise,120000,2022-10-03T00:00:00,past_due
+BILL_000702,"Richardson, Dorothy",dorothy.richardson@quartz.io,Quartz Health,"1665 Spring St, Nashville, TN 37201",wire,growth,50000,2024-01-26T00:00:00,active
+BILL_000703,Alexander Myers,alexander.myers@jade.co,Jade Systems,"4767 Oak Ave, San Antonio, TX 78201",credit_card,growth,250000,2022-06-23T00:00:00,active
+BILL_000704,Alexander Rivera,alexander.rivera18@yahoo.com,Harbor Analytics,"1261 Bridge St, Fort Worth, TX 76101",wire,enterprise,500000,2022-05-15T00:00:00,active
+BILL_000705,Laura Hall,laura.hall@isle.io,Isle Technologies,"7082 Bridge St, San Jose, CA 95101",invoice,enterprise,25000,2022-11-30T00:00:00,churned
+BILL_000706,Scott Brooks,scott.brooks@jade.co,Jade Systems,"6402 Union Ave, San Antonio, TX 78201",invoice,growth,50000,2022-06-17T00:00:00,active
+BILL_000707,Douglas Turner,douglas.turner@granite.io,GRANITE HOLDINGS,"5331 Market St, Austin, TX 73301",wire,growth,120000,2023-05-11T00:00:00,active
+BILL_000708,Jerry Carter,jerry.carter68@icloud.com,Forge Labs,"8897 Lake Dr, Houston, TX 77001",invoice,growth,250000,2023-12-07T00:00:00,active
+BILL_000709,Jeffrey Edwards,jeffrey.edwards@obsidian.com,Obsidian Research,"5751 Main St, Phoenix, AZ 85001",wire,starter,25000,2023-07-16T00:00:00,churned
+BILL_000710,"Jackson, Jack",jack.jackson@granite.io,Granite Holdings,"2985 Washington Ave, Philadelphia, PA 19101",invoice,starter,120000,2023-09-26T00:00:00,past_due
+BILL_000711,Deborah Nelson,deborah.nelson4@aol.com,Lumen AI,"8759 River Rd, Portland, OR 97201",invoice,growth,500000,2023-09-14T00:00:00,active
+BILL_000712,"Richardson, Jack",jack.richardson@tidal.io,Tidal Software,"9809 Pine Rd, Chicago, IL 60601",ach,growth,50000,2022-05-09T00:00:00,churned
+BILL_000713,Katherine Carter,katherine.carter@forge.io,Forge Labs,"7148 Cedar Ln, Portland, OR 97201",wire,enterprise,50000,2024-01-24T00:00:00,active
+BILL_000714,Andrew Walker,andrew.walker@atlas.co,Atlas Logistics,"8950 Washington Ave, Nashville, TN 37201",ach,enterprise,250000,2023-01-07T00:00:00,active
+BILL_000715,"Morales, Carolyn",carolyn.morales57@hotmail.com,CloudPeak Technologies,"515 Bridge St, San Antonio, TX 78201",credit_card,starter,500000,2022-09-21T00:00:00,active
+BILL_000716,Paul Hill,paul.hill43@fastmail.com,Acme Corp,"7155 Prospect Ave, Austin, TX 73301",ach,starter,120000,2022-07-19T00:00:00,active
+BILL_000717,Ruth Sanders,ruth.sanders14@hotmail.com,Silverline Capital,"7450 Pine Rd, Seattle, WA 98101",invoice,starter,50000,2023-04-30T00:00:00,active
+BILL_000718,Carolyn Long,carolyn.long@meridian.co,Meridian Partners,"3775 Pine Rd, San Diego, CA 92101",wire,starter,250000,2022-08-31T00:00:00,active
+BILL_000719,Steven Walker,steven.walker@quantum.co,quantum analytics,"8931 Center St, San Diego, CA 92101",ach,starter,120000,2022-04-10T00:00:00,active
+BILL_000720,Donald Gray,donald.gray10@yahoo.com,Pacific Innovations,"868 Washington Ave, Philadelphia, PA 19101",ach,growth,120000,2023-07-20T00:00:00,active
+BILL_000721,Andrew Richardson,andrew.richardson34@icloud.com,Catalyst AI,"5080 Center St, San Diego, CA 92101",ach,enterprise,120000,2022-04-01T00:00:00,churned
+BILL_000722,Anna Bailey,anna.bailey@orbit.com,Orbit Solutions,"931 Academy St, San Diego, CA 92101",wire,enterprise,250000,2022-11-12T00:00:00,churned
+BILL_000723,George Mendoza,george.mendoza@tidal.io,Tidal Software,"4873 Elm Dr, Charlotte, NC 28201",ach,enterprise,25000,2023-05-02T00:00:00,churned
+BILL_000724,Michelle Patel,michelle.patel@ember.co,Ember Technologies,"5150 Mill Rd, New York, NY 10001",wire,starter,25000,2023-03-13T00:00:00,active
+BILL_000725,Mark Lee,mark.lee@nexus.io,Nexus Healthcare,"7497 Union Ave, Austin, TX 73301",credit_card,enterprise,250000,2022-07-07T00:00:00,churned
+BILL_000726,Jason Patel,jason.patel13@fastmail.com,Onyx Solutions,"3971 Center St, San Jose, CA 95101",credit_card,starter,250000,2023-10-08T00:00:00,past_due
+BILL_000727,Helen Nelson,helen.nelson@isle.io,Isle Technologies,"7422 Bridge St, Los Angeles, CA 90001",credit_card,growth,50000,2023-05-29T00:00:00,active
+BILL_000728,"Harris, Susan",susan.harris@atlantic.co,ATLANTIC DIGITAL,"3435 Lake Dr, Los Angeles, CA 90001",ach,starter,120000,2023-08-26T00:00:00,active
+BILL_000729,Ryan Wright,ryan.wright34@aol.com,Obsidian Research,"9692 Academy St, San Diego, CA 92101",ach,enterprise,50000,2023-10-19T00:00:00,active
+BILL_000730,Heather Morales,heather.morales@spark.io,Spark Automation,"9311 Maple Blvd, Indianapolis, IN 46201",invoice,starter,250000,2023-08-04T00:00:00,active
+BILL_000731,Daniel Hill,daniel.hill@tidal.io,Tidal Software,"2008 Maple Blvd, New York, NY 10001",invoice,growth,500000,2022-08-01T00:00:00,active
+BILL_000732,Joshua Long,joshua.long@orbit.com,Orbit Solutions,"6882 Bridge St, Seattle, WA 98101",credit_card,enterprise,120000,2022-10-24T00:00:00,past_due
+BILL_000733,"Ross, Mary",mary.ross@alpine.io,Alpine Services,"7983 Union Ave, Fort Worth, TX 76101",invoice,enterprise,250000,2023-10-03T00:00:00,active
+BILL_000734,Brandon Wright,brandon.wright@onyx.co,Onyx Solutions,"2747 Spring St, San Diego, CA 92101",ach,starter,50000,2023-01-09T00:00:00,active
+BILL_000735,Virginia Rogers,virginia.rogers40@outlook.com,Keystone Data,"9984 Church St, San Jose, CA 95101",credit_card,growth,50000,2023-01-06T00:00:00,active
+BILL_000736,"Bennett, Joan",joan.bennett@cobalt.co,Cobalt Engineering,"1699 Union Ave, San Jose, CA 95101",ach,growth,120000,2022-07-10T00:00:00,past_due
+BILL_000737,Linda Nelson,linda.nelson@jade.co,Jade Systems,"1362 Union Ave, Nashville, TN 37201",wire,starter,120000,2023-06-14T00:00:00,active
+BILL_000738,Amy Thomas,amy.thomas78@hotmail.com,Canyon Resources,"7353 River Rd, Charlotte, NC 28201",ach,starter,500000,2023-11-01T00:00:00,churned
+BILL_000739,Pamela Martinez,pamela.martinez@ember.co,Ember Technologies,"2046 Pine Rd, Portland, OR 97201",invoice,growth,500000,2022-06-03T00:00:00,active
+BILL_000740,Linda Kelly,linda.kelly40@protonmail.com,Sterling Ventures,"573 High St, Denver, CO 80201",credit_card,enterprise,250000,2022-08-09T00:00:00,active
+BILL_000741,Mary Evans,mary.evans54@outlook.com,Isle Technologies,"2343 Washington Ave, Nashville, TN 37201",invoice,growth,25000,2022-09-29T00:00:00,past_due
+BILL_000742,"Howard, Ryan",ryan.howard@databridge.com,DataBridge Solutions,"7491 Mill Rd, Columbus, OH 43085",wire,enterprise,120000,2023-06-17T00:00:00,active
+BILL_000743,Brian Evans,brian.evans91@aol.com,canyon resources,"8925 Main St, Chicago, IL 60601",wire,starter,50000,2024-01-22T00:00:00,past_due
+BILL_000744,Kathleen Ward,kathleen.ward@nova.io,Nova Computing,"2708 Maple Blvd, Charlotte, NC 28201",ach,growth,120000,2023-09-07T00:00:00,active
+BILL_000745,"Collins, Brian",brian.collins@pinnacle.com,Pinnacle Financial,"293 Washington Ave, New York, NY 10001",invoice,enterprise,25000,2023-03-12T00:00:00,active
+BILL_000746,"Jones, Joshua",joshua.jones@redwood.com,Redwood Industries,"4493 Washington Ave, New York, NY 10001",credit_card,starter,500000,2023-08-17T00:00:00,active
+BILL_000747,Rebecca Myers,rebecca.myers45@hotmail.com,Ridge Financial,"2737 Maple Blvd, Phoenix, AZ 85001",invoice,growth,500000,2022-10-20T00:00:00,active
+BILL_000748,Jack Murphy,jack.murphy41@hotmail.com,Sapphire Analytics,"5881 High St, Los Angeles, CA 90001",credit_card,enterprise,25000,2023-05-10T00:00:00,active
+BILL_000749,"Flores, Joyce",joyce.flores@delta.com,Delta Platforms,"3557 Lake Dr, San Antonio, TX 78201",invoice,enterprise,120000,2023-12-04T00:00:00,active
+BILL_000750,Katherine Reed,katherine.reed97@gmail.com,Frost Dynamics,"3953 High St, Dallas, TX 75201",credit_card,growth,120000,2023-12-24T00:00:00,active
+BILL_000751,Jessica Parker,jessica.parker31@icloud.com,Lumen AI,"5445 Church St, Fort Worth, TX 76101",wire,enterprise,50000,2023-04-22T00:00:00,active
+BILL_000752,Carol Clark,carol.clark@pulse.com,Pulse Engineering,"6778 Main St, Indianapolis, IN 46201",wire,enterprise,50000,2023-01-04T00:00:00,active
+BILL_000753,Richard Kim,richard.kim@quantum.co,Quantum Analytics,"6928 Mill Rd, Houston, TX 77001",invoice,growth,25000,2023-03-10T00:00:00,active
+BILL_000754,Henry Flores,henry.flores@atlas.co,Atlas Logistics,"3035 Main St, Columbus, OH 43085",invoice,starter,50000,2023-12-30T00:00:00,active
+BILL_000755,"Morales, Victoria",victoria.morales@granite.io,Granite Holdingd,"4930 Bridge St, San Antonio, TX 78201",wire,enterprise,50000,2023-03-21T00:00:00,active
+BILL_000756,Barbara Hall,barbara.hall@pinnacle.com,Pinnacle Financial,"3820 Prospect Ave, Los Angeles, CA 90001",wire,enterprise,250000,2023-08-07T00:00:00,active
+BILL_000757,"Brooks, Carol",carol.brooks10@aol.com,Cobalt Engineering,"4279 Pine Rd, Austin, TX 73301",credit_card,enterprise,120000,2023-03-28T00:00:00,active
+BILL_000758,"Perez, Donna",donna.perez44@fastmail.com,Isle Technologies,"1396 Maple Blvd, Chicago, IL 60601",ach,growth,25000,2023-01-09T00:00:00,active
+BILL_000759,"Hughes, Katherine",katherine.hughes@ironclad.com,Ironclad Security,"6869 Bridge St, Charlotte, NC 28201",credit_card,starter,500000,2023-10-19T00:00:00,churned
+BILL_000760,Sandra Adams,sandra.adams@redwood.com,Redwood Industries,"7972 Oak Ave, Austin, TX 73301",ach,enterprise,50000,2023-09-03T00:00:00,churned
+BILL_000761,Jerry Harris,jerry.harris7@fastmail.com,Cobalt Engineering,"8435 Market St, Philadelphia, PA 19101",credit_card,starter,250000,2024-02-01T00:00:00,active
+BILL_000762,Joshua Lewis,joshua.lewis@bluewave.co,BlueWave Media,"2183 Cedar Ln, Jacksonville, FL 32099",credit_card,starter,25000,2022-10-29T00:00:00,active
+BILL_000763,Susan Ortiz,susan.ortiz@jade.co,Jade Systems,"5789 Spring St, Denver, CO 80201",invoice,growth,250000,2024-03-02T00:00:00,churned
+BILL_000764,Paul Roberts,paul.roberts@coral.co,Coral Networks,"2631 High St, Nashville, TN 37201",ach,growth,25000,2024-01-15T00:00:00,churned
+BILL_000765,Frank Collins,frank.collins@orbit.com,Orbit Solutions,"1353 Church St, Los Angeles, CA 90001",invoice,enterprise,50000,2023-02-03T00:00:00,churned
+BILL_000766,"Baker, Joseph",joseph.baker@quartz.io,Quartz Health,"7609 Center St, Denver, CO 80201",credit_card,growth,50000,2022-08-26T00:00:00,active
+BILL_000767,Judith Roberts,judith.roberts83@icloud.com,NorthStar Systems,"368 Oak Ave, Charlotte, NC 28201",invoice,enterprise,250000,2023-01-07T00:00:00,active
+BILL_000768,"Kelly, Jeffrey",jeffrey.kelly@atlas.co,Atlas Logistics,"8943 Main St, Phoenix, AZ 85001",ach,enterprise,250000,2022-03-23T00:00:00,past_due
+BILL_000769,"Wilson, Ashley",ashley.wilson@greenfield.com,GreenField Energy,"8197 Market St, Chicago, IL 60601",wire,starter,250000,2022-09-30T00:00:00,past_due
+BILL_000770,"Peterson, Heather",heather.peterson21@aol.com,Pacific Innovations,"7836 Washington Ave, Philadelphia, PA 19101",invoice,enterprise,500000,2022-12-30T00:00:00,active
+BILL_000771,Ruth Price,ruth.price@isle.io,Isle Technologies,"5421 Maple Blvd, New York, NY 10001",wire,growth,120000,2023-11-13T00:00:00,active
+BILL_000772,Douglas Ward,douglas.ward@amber.com,Amber Group,"6733 Oak Ave, Columbus, OH 43085",credit_card,growth,250000,2023-10-06T00:00:00,churned
+BILL_000773,Olivia Stewart,olivia.stewart@databridge.com,databridge solutions,"1167 Elm Dr, Chicago, IL 60601",ach,growth,250000,2022-12-12T00:00:00,active
+BILL_000774,Sandra Ross,sandra.ross@beacon.com,Beacon Data,"4481 Main St, Portland, OR 97201",credit_card,starter,250000,2022-09-07T00:00:00,past_due
+BILL_000775,"Brooks, Lauren",lauren.brooks@lumen.com,Lumen AI,"3668 High St, Fort Worth, TX 76101",invoice,growth,50000,2022-09-06T00:00:00,churned
+BILL_000776,"Watson, Thomas",thomas.watson@frost.com,Frost Dynamics,"965 Mill Rd, Dallas, TX 75201",invoice,growth,120000,2022-08-24T00:00:00,past_due
+BILL_000777,"Powell, Matthew",matthew.powell@northstar.io,NorthStar Systems,"1573 Church St, Austin, TX 73301",ach,growth,25000,2023-03-18T00:00:00,active
+BILL_000778,Tyler Watson,tyler.watson52@fastmail.com,Redwood Industries,"7880 Pine Rd, Philadelphia, PA 19101",credit_card,starter,50000,2022-08-09T00:00:00,active
+BILL_000779,"Peterson, Gary",gary.peterson@greenfield.com,GreenField Energy,"3777 Park Pl, Indianapolis, IN 46201",invoice,growth,250000,2022-11-24T00:00:00,churned
+BILL_000780,"Campbell, George",george.campbell4@aol.com,Pinnacle Financial,"6214 Lake Dr, Fort Worth, TX 76101",wire,enterprise,250000,2023-10-18T00:00:00,past_due
+BILL_000781,Jacob Carter,jacob.carter@delta.com,Delta Platforms,"6584 Lake Dr, New York, NY 10001",credit_card,starter,250000,2022-01-21T00:00:00,active
+BILL_000782,Kenneth Gomez,kenneth.gomez@meridian.co,Meridian Partners,"6482 Maple Blvd, Dallas, TX 75201",invoice,growth,500000,2023-08-16T00:00:00,active
+BILL_000783,"Gray, Carol",carol.gray@ironclad.com,Ironclad Security,"9585 Market St, Charlotte, NC 28201",credit_card,starter,50000,2022-04-26T00:00:00,active
+BILL_000784,Shirley Walker,shirley.walker@harbor.io,Harbor Analytics,"7606 Elm Dr, Nashville, TN 37201",credit_card,enterprise,25000,2022-03-27T00:00:00,active
+BILL_000785,Steven Powell,steven.powell88@fastmail.com,Summit Health,"1081 Main St, Nashville, TN 37201",credit_card,starter,120000,2022-07-19T00:00:00,active
+BILL_000786,Barbara Hughes,barbara.hughes@pulse.com,Pulse Engineering,"7546 Union Ave, Indianapolis, IN 46201",credit_card,enterprise,500000,2022-08-28T00:00:00,active
+BILL_000787,Dennis Cooper,dennis.cooper@greenfield.com,GreenField Energy,"5822 Church St, San Diego, CA 92101",invoice,enterprise,50000,2024-01-10T00:00:00,active
+BILL_000788,"Stewart, Christopher",christopher.stewart@meridian.co,Meridian Partners,"6868 Oak Ave, San Jose, CA 95101",wire,enterprise,120000,2022-09-02T00:00:00,active
+BILL_000789,"Wilson, Olivia",olivia.wilson28@yahoo.com,CloudPeak Technologies,"7220 Park Pl, Houston, TX 77001",ach,enterprise,120000,2024-02-14T00:00:00,past_due
+BILL_000790,Betty Morales,betty.morales@harbor.io,Harbor Analytics,"3659 Mill Rd, Jacksonville, FL 32099",credit_card,starter,500000,2023-06-01T00:00:00,active
+BILL_000791,"Gomez, Eric",eric.gomez@granite.io,Granite Holdings,"9533 Elm Dr, Portland, OR 97201",credit_card,enterprise,25000,2023-04-28T00:00:00,churned
+BILL_000792,Steven Powell,steven.powell@atlantic.co,Atlantic Digital,"943 Prospect Ave, San Diego, CA 92101",ach,enterprise,120000,2023-08-31T00:00:00,active
+BILL_000793,Donald Walker,donald.walker@frost.com,Frost Dynamics,"1568 Mill Rd, Fort Worth, TX 76101",wire,enterprise,250000,2023-12-16T00:00:00,active
+BILL_000794,Evelyn Jimenez,evelyn.jimenez9@hotmail.com,Echo Intelligence,"5379 Market St, Fort Worth, TX 76101",credit_card,enterprise,25000,2022-09-27T00:00:00,churned
+BILL_000795,Eric Wilson,eric.wilson@spark.io,Spark Automation,"8258 Washington Ave, Seattle, WA 98101",credit_card,enterprise,50000,2022-07-10T00:00:00,past_due
+BILL_000796,Cynthia Sanchez,cynthia.sanchez@nova.io,Nova Computing,"4082 Prospect Ave, Los Angeles, CA 90001",credit_card,growth,50000,2022-06-30T00:00:00,churned
+BILL_000797,"Turner, Ryan",ryan.turner@nexus.io,Nexus Healthcare,"5495 Mill Rd, Portland, OR 97201",wire,enterprise,120000,2023-07-29T00:00:00,past_due
+BILL_000798,Aaron Williams,aaron.williams33@yahoo.com,Horizon Labs,"9453 Lake Dr, San Antonio, TX 78201",wire,growth,25000,2022-11-27T00:00:00,past_due
+BILL_000799,Karen Powell,karen.powell@beacon.com,Beacon Data,"4309 Main St, Dallas, TX 75201",ach,enterprise,120000,2022-07-20T00:00:00,past_due
+BILL_000800,Heather Evans,heather.evans@ember.co,Ember Technologies,"1670 River Rd, Philadelphia, PA 19101",credit_card,starter,50000,2023-02-16T00:00:00,past_due
+BILL_000801,"Peterson, Susan",susan.peterson16@aol.com,Horizon Labs,"3623 Washington Ave, Charlotte, NC 28201",credit_card,starter,500000,2023-04-29T00:00:00,past_due
+BILL_000802,Jonathan Foster,jonathan.foster@harbor.io,Harbor Analytics,"9302 Washington Ave, Jacksonville, FL 32099",wire,growth,120000,2023-03-28T00:00:00,active
+BILL_000803,Emma Roberts,emma.roberts@forge.io,Forge Labs,"9134 Pine Rd, Seattle, WA 98101",ach,starter,25000,2023-01-07T00:00:00,active
+BILL_000804,Douglas Sanders,douglas.sanders@quartz.io,Quartz Health,"1626 Prospect Ave, San Antonio, TX 78201",credit_card,enterprise,250000,2023-03-29T00:00:00,churned
+BILL_000805,Joan Price,joan.price65@outlook.com,Summit Health,"2073 Pine Rd, San Diego, CA 92101",invoice,starter,120000,2023-05-02T00:00:00,active
+BILL_000806,Brandon Castillo,brandon.castillo@orbit.com,Orbit Solutions,"9577 Bridge St, Dallas, TX 75201",wire,starter,120000,2022-09-08T00:00:00,active
+BILL_000807,Victoria Gomez,victoria.gomez39@fastmail.com,Quantum Analytics,"9057 Lake Dr, San Diego, CA 92101",invoice,growth,50000,2023-11-01T00:00:00,active
+BILL_000808,Lauren Johnson,lauren.johnson@orbit.com,Orbit,"6890 Pine Rd, Houston, TX 77001",ach,starter,250000,2022-07-08T00:00:00,past_due
+BILL_000809,Lisa Turner,lisa.turner@pinnacle.com,Pinnacle Financial,"9014 Lake Dr, Houston, TX 77001",invoice,enterprise,25000,2022-09-20T00:00:00,active
+BILL_000810,Catherine Williams,catherine.williams@delta.com,Delta Platforms,"8927 Union Ave, Austin, TX 73301",ach,starter,120000,2022-12-25T00:00:00,churned
+BILL_000811,Christine Brooks,christine.brooks73@yahoo.com,NorthStar Systems,"2692 Academy St, Seattle, WA 98101",credit_card,growth,250000,2022-04-21T00:00:00,active
+BILL_000812,"Gutierrez, Benjamin",benjamin.gutierrez@obsidian.com,Obsidian Research,"7997 Maple Blvd, Denver, CO 80201",credit_card,enterprise,50000,2023-06-27T00:00:00,active
+BILL_000813,Harold Brown,harold.brown32@yahoo.com,Nova Computing,"9466 Market St, Fort Worth, TX 76101",credit_card,starter,120000,2023-02-23T00:00:00,churned
+BILL_000814,Susan Castillo,susan.castillo91@hotmail.com,Isle Technologies,"3099 Mill Rd, Charlotte, NC 28201",credit_card,growth,25000,2023-03-04T00:00:00,past_due
+BILL_000815,"Cox, John",john.cox@quantum.co,Quantum Analytics,"4781 Bridge St, San Jose, CA 95101",ach,starter,250000,2022-08-22T00:00:00,active
+BILL_000816,"Perez, Jennifer",jennifer.perez@forge.io,Forge Labs,"9376 Oak Ave, Los Angeles, CA 90001",wire,growth,250000,2024-02-17T00:00:00,active
+BILL_000817,Elizabeth Johnson,elizabeth.johnson@prism.com,Prism Consulting,"8042 Mill Rd, Charlotte, NC 28201",invoice,growth,25000,2022-04-19T00:00:00,active
+BILL_000818,Samuel Kelly,samuel.kelly13@hotmail.com,Summit Health,"5663 Maple Blvd, Denver, CO 80201",invoice,starter,250000,2023-12-01T00:00:00,churned
+BILL_000819,Rachel Martinez,rachel.martinez36@outlook.com,Vertex Software,"2587 Washington Ave, Nashville, TN 37201",credit_card,starter,250000,2023-05-04T00:00:00,active
+BILL_000820,Jennifer Bailey,jennifer.bailey@sterling.co,Sterling Ventures,"2522 Elm Dr, Indianapolis, IN 46201",credit_card,starter,500000,2024-01-01T00:00:00,active
+BILL_000821,Jason Collins,jason.collins@vertex.co,Vertex Software,"1203 Washington Ave, Los Angeles, CA 90001",ach,starter,25000,2023-03-24T00:00:00,active
+BILL_000822,Michelle Thomas,michelle.thomas@obsidian.com,Obsidian Research,"8061 Main St, San Jose, CA 95101",credit_card,starter,120000,2022-06-06T00:00:00,active
+BILL_000823,Donald Smith,donald.smith23@outlook.com,Amber Group,"8296 Center St, San Diego, CA 92101",credit_card,growth,25000,2023-11-26T00:00:00,active
+BILL_000824,"Morales, Tyler",tyler.morales@summit.com,Summit Health,"4760 Pine Rd, Chicago, IL 60601",wire,growth,120000,2022-04-12T00:00:00,active
+BILL_000825,Catherine Jimenez,catherine.jimenez69@protonmail.com,GRANITE HOLDINGS,"8811 Spring St, Columbus, OH 43085",ach,enterprise,25000,2024-01-31T00:00:00,churned
+BILL_000826,Amy Hernandez,amy.hernandez@silverline.co,Silverline Capital,"7805 Washington Ave, New York, NY 10001",credit_card,starter,250000,2024-02-12T00:00:00,active
+BILL_000827,"Kelly, Melissa",melissa.kelly@amber.com,Amber Group,"7206 Bridge St, Seattle, WA 98101",credit_card,starter,250000,2023-12-19T00:00:00,active
+BILL_000828,Jose Foster,jose.foster82@yahoo.com,Redwood Industries,"2805 Bridge St, Chicago, IL 60601",invoice,starter,500000,2022-04-28T00:00:00,active
+BILL_000829,"Hernandez, Cynthia",cynthia.hernandez@ironclad.com,Ironclad Security,"3196 Main St, Dallas, TX 75201",credit_card,enterprise,250000,2024-01-11T00:00:00,active
+BILL_000830,Michael Smith,michael.smith@greenfield.com,GreenField Energy,"6934 Maple Blvd, San Jose, CA 95101",credit_card,growth,500000,2023-07-31T00:00:00,active
+BILL_000831,Jose Price,jose.price@silverline.co,Silverline Capital,"3260 Union Ave, Seattle, WA 98101",credit_card,growth,250000,2022-12-02T00:00:00,active
+BILL_000832,"Ramirez, Peter",peter.ramirez@harbor.io,Harbor Analytics,"671 Elm Dr, Houston, TX 77001",credit_card,starter,500000,2022-06-06T00:00:00,active
+BILL_000833,Cynthia Collins,cynthia.collins15@hotmail.com,redwood industries,"1405 Market St, Jacksonville, FL 32099",credit_card,growth,50000,2023-10-23T00:00:00,active
+BILL_000834,Julie Peterson,julie.peterson@vertex.co,Vertex Software,"8111 Maple Blvd, Chicago, IL 60601",wire,enterprise,120000,2023-05-20T00:00:00,churned
+BILL_000835,Barbara Wilson,barbara.wilson96@icloud.com,Atlantic Digital,"5357 Washington Ave, San Antonio, TX 78201",ach,starter,120000,2022-10-05T00:00:00,churned
+BILL_000836,Charles Evans,charles.evans@onyx.co,Onyx Solutions,"3047 Mill Rd, San Antonio, TX 78201",credit_card,growth,25000,2022-03-07T00:00:00,active
+BILL_000837,Mark Harris,mark.harris@techflow.com,TechFlow Inc,"3440 High St, Columbus, OH 43085",invoice,starter,25000,2023-06-12T00:00:00,active
+BILL_000838,Ryan Moore,ryan.moore8@icloud.com,Lumen AI,"8083 Lake Dr, Dallas, TX 75201",wire,enterprise,120000,2023-12-03T00:00:00,active
+BILL_000839,Paul Davis,paul.davis@northstar.io,NorthStar Systems,"9521 River Rd, Denver, CO 80201",invoice,starter,25000,2022-05-09T00:00:00,churned
+BILL_000840,Sarah Hill,sarah.hill@cloudpeak.com,CloudPeak Technologies,"4678 High St, Seattle, WA 98101",credit_card,starter,120000,2022-10-18T00:00:00,active
+BILL_000841,Joshua Gomez,joshua.gomez@vertex.co,Vertex Software,"8551 Bridge St, San Diego, CA 92101",credit_card,starter,25000,2023-09-17T00:00:00,past_due
+BILL_000842,Ruth Mendoza,ruth.mendoza91@icloud.com,Pacific Innovations,"3718 Park Pl, Jacksonville, FL 32099",credit_card,growth,250000,2022-08-09T00:00:00,past_due
+BILL_000843,"Turner, Patrick",patrick.turner46@gmail.com,Isle Technologies,"1358 Academy St, Denver, CO 80201",wire,growth,250000,2022-08-18T00:00:00,active
+BILL_000844,"Alvarez, Eric",eric.alvarez@alpine.io,Alpine Services,"7284 Union Ave, New York, NY 10001",ach,enterprise,500000,2022-03-14T00:00:00,active
+BILL_000845,"Nelson, John",john.nelson41@outlook.com,Nova Computing,"332 Spring St, Denver, CO 80201",invoice,growth,50000,2023-03-23T00:00:00,active
+BILL_000846,Scott Adams,scott.adams26@aol.com,Forge Labs,"5328 River Rd, Fort Worth, TX 76101",credit_card,growth,120000,2024-02-04T00:00:00,active
+BILL_000847,"Ruiz, Andrew",andrew.ruiz@orbit.com,Orbit Solutions,"4285 Maple Blvd, Los Angeles, CA 90001",invoice,starter,50000,2022-05-22T00:00:00,active
+BILL_000848,"Rogers, Jose",jose.rogers99@gmail.com,TechFlow Inc,"9949 Main St, Philadelphia, PA 19101",ach,enterprise,25000,2022-10-25T00:00:00,active
+BILL_000849,"Sanders, Carl",carl.sanders@frost.com,Frost Dynamics,"6527 Church St, Seattle, WA 98101",invoice,starter,120000,2023-04-17T00:00:00,active
+BILL_000850,"Robinson, Elizabeth",elizabeth.robinson33@fastmail.com,Lumen AI,"3855 Oak Ave, Denver, CO 80201",wire,growth,120000,2022-10-04T00:00:00,active
+BILL_000851,Douglas Thomas,douglas.thomas27@protonmail.com,Tidal Software,"2381 Washington Ave, Philadelphia, PA 19101",credit_card,growth,120000,2022-10-27T00:00:00,active
+BILL_000852,Karen Chavez,karen.chavez@cloudpeak.com,CloudPeak Technologies,"9608 Center St, Charlotte, NC 28201",invoice,enterprise,250000,2022-05-11T00:00:00,churned
+BILL_000853,Mark Ross,mark.ross@redwood.com,Redwood Industries,"8223 Market St, Phoenix, AZ 85001",wire,enterprise,500000,2024-02-19T00:00:00,past_due
+BILL_000854,Sandra Wood,sandra.wood71@hotmail.com,Keystone Data,"6879 Church St, San Diego, CA 92101",invoice,starter,25000,2023-07-07T00:00:00,active
+BILL_000855,"Ortiz, Albert",albert.ortiz@ember.co,Ember Technologies,"5708 Center St, Seattle, WA 98101",wire,enterprise,50000,2023-02-07T00:00:00,active
+BILL_000856,Catherine Rogers,catherine.rogers@pacific.io,Pacific Innovations,"5348 Academy St, San Antonio, TX 78201",credit_card,growth,250000,2022-06-23T00:00:00,past_due
+BILL_000857,Kimberly Thompson,kimberly.thompson@databridge.com,DataBridge Solutions,"621 Bridge St, Houston, TX 77001",credit_card,starter,25000,2023-12-16T00:00:00,past_due
+BILL_000858,"Perez, Evelyn",evelyn.perez77@outlook.com,Vertex Software,"8469 Lake Dr, Portland, OR 97201",invoice,starter,120000,2022-08-13T00:00:00,churned
+BILL_000859,Scott Sanchez,scott.sanchez86@hotmail.com,Obsidian Research,"5416 Main St, Columbus, OH 43085",credit_card,enterprise,25000,2022-08-15T00:00:00,past_due
+BILL_000860,"Sanders, Janet",janet.sanders@bluewave.co,BlueWave Media,"2977 Washington Ave, Columbus, OH 43085",credit_card,starter,250000,2022-06-28T00:00:00,churned
+BILL_000861,Albert Gomez,albert.gomez@keystone.com,KEYSTONE DATA,"3045 Center St, Denver, CO 80201",invoice,enterprise,250000,2022-09-19T00:00:00,active
+BILL_000862,Amy Rivera,amy.rivera@frost.com,Frost Dynamics,"609 Spring St, Philadelphia, PA 19101",ach,growth,250000,2023-06-17T00:00:00,active
+BILL_000863,Mark Mendoza,mark.mendoza@canyon.com,Canyon Resources,"5564 Lake Dr, Jacksonville, FL 32099",credit_card,growth,250000,2022-08-11T00:00:00,active
+BILL_000864,Betty Jones,betty.jones@acme.co,Acme Corp,"3088 Main St, Fort Worth, TX 76101",credit_card,growth,250000,2023-01-31T00:00:00,active
+BILL_000865,Victoria Collins,victoria.collins@sapphire.com,Sapphire Analytics,"3815 Union Ave, Dallas, TX 75201",ach,starter,50000,2023-04-09T00:00:00,churned
+BILL_000866,Michelle Flores,michelle.flores@obsidian.com,Obsidian Research,"3973 Pine Rd, Chicago, IL 60601",wire,enterprise,500000,2023-12-15T00:00:00,past_due
+BILL_000867,"Bailey, Catherine",catherine.bailey@keystone.com,Keystone Data,"7992 Elm Dr, Houston, TX 77001",ach,starter,25000,2023-01-25T00:00:00,active
+BILL_000868,Dennis Jimenez,dennis.jimenez46@icloud.com,Ember Technologies,"1381 Prospect Ave, Denver, CO 80201",invoice,growth,50000,2022-08-25T00:00:00,active
+BILL_000869,Joseph Lopez,joseph.lopez@amber.com,Amber Group,"4389 Mill Rd, Philadelphia, PA 19101",ach,starter,500000,2022-10-27T00:00:00,past_due
+BILL_000870,Brandon Ramos,brandon.ramos@amber.com,Amber Group,"4540 Prospect Ave, Seattle, WA 98101",invoice,enterprise,25000,2022-06-03T00:00:00,churned
+BILL_000871,Barbara Cox,barbara.cox37@fastmail.com,Onyx Solutions,"7133 Main St, Dallas, TX 75201",ach,starter,500000,2022-12-21T00:00:00,past_due
+BILL_000872,Zachary Rivera,zachary.rivera@tidal.io,Tidal Software,"1443 Lake Dr, Philadelphia, PA 19101",ach,enterprise,250000,2022-06-06T00:00:00,active
+BILL_000873,Anthony Baker,anthony.baker@pulse.com,Pulse Engineering,"7272 Mill Rd, San Diego, CA 92101",credit_card,growth,250000,2023-07-22T00:00:00,active
+BILL_000874,Nancy Ward,nancy.ward@greenfield.com,GreenField Energy,"1374 Oak Ave, Austin, TX 73301",invoice,growth,50000,2022-08-08T00:00:00,past_due
+BILL_000875,Nicholas Robinson,nicholas.robinson62@protonmail.com,Ridge Financial,"9745 Spring St, Jacksonville, FL 32099",invoice,starter,500000,2023-09-14T00:00:00,active
+BILL_000876,Ruth Lee,ruth.lee@ember.co,Ember Technologies,"8946 High St, San Diego, CA 92101",ach,starter,500000,2023-09-02T00:00:00,active
+BILL_000877,Stephen Alvarez,stephen.alvarez@greenfield.com,GreenField Energy,"3759 Main St, San Diego, CA 92101",invoice,enterprise,50000,2023-03-02T00:00:00,active
+BILL_000878,Frank Rivera,frank.rivera@nexus.io,Nexus Healthcare,"4411 Maple Blvd, Charlotte, NC 28201",invoice,enterprise,120000,2022-09-23T00:00:00,active
+BILL_000879,"Hughes, Susan",susan.hughes85@protonmail.com,Beacon Data,"5537 Mill Rd, Portland, OR 97201",wire,enterprise,250000,2023-08-25T00:00:00,past_due
+BILL_000880,"Ramirez, Shirley",shirley.ramirez51@icloud.com,DataBridge Solutions,"6690 Elm Dr, Columbus, OH 43085",invoice,enterprise,120000,2023-11-30T00:00:00,active
+BILL_000881,Janet Hall,janet.hall@quartz.io,Quartz Health,"9420 Prospect Ave, San Antonio, TX 78201",credit_card,starter,500000,2023-02-21T00:00:00,past_due
+BILL_000882,Joan Gutierrez,joan.gutierrez98@hotmail.com,Quartz Health,"6847 River Rd, Dallas, TX 75201",ach,starter,250000,2023-01-14T00:00:00,active
+BILL_000883,Anthony King,anthony.king@harbor.io,harbor analytics,"4153 River Rd, San Diego, CA 92101",ach,starter,50000,2023-05-30T00:00:00,past_due
+BILL_000884,Brandon Williams,brandon.williams78@gmail.com,Keystone Data,"9155 Spring St, Dallas, TX 75201",ach,growth,500000,2022-12-14T00:00:00,past_due
+BILL_000885,"Rodriguez, Jeffrey",jeffrey.rodriguez@meridian.co,Meridian Partners,"9536 Center St, Houston, TX 77001",ach,growth,50000,2022-08-08T00:00:00,active
+BILL_000886,Justin Price,justin.price@ember.co,Ember Technologies,"3787 Oak Ave, San Antonio, TX 78201",invoice,growth,120000,2022-09-13T00:00:00,active
+BILL_000887,Alexander Rodriguez,alexander.rodriguez@quartz.io,Quartz Health,"8141 High St, Portland, OR 97201",ach,growth,250000,2024-01-03T00:00:00,past_due
+BILL_000888,Joseph Nguyen,joseph.nguyen@nexus.io,Nexus Healthcare,"3283 Academy St, Jacksonville, FL 32099",credit_card,growth,500000,2022-10-24T00:00:00,past_due
+BILL_000889,"Hill, Stephanie",stephanie.hill@sapphire.com,Sapphire Analytics,"3104 Spring St, Seattle, WA 98101",ach,growth,120000,2023-04-04T00:00:00,churned
+BILL_000890,"Ortiz, Emily",emily.ortiz@obsidian.com,Obsidian Research,"524 Maple Blvd, Houston, TX 77001",credit_card,starter,50000,2023-08-02T00:00:00,active
+BILL_000891,"Chavez, Barbara",barbara.chavez@tidal.io,Tidal Software,"596 Union Ave, Portland, OR 97201",ach,enterprise,250000,2023-12-18T00:00:00,churned
+BILL_000892,Adam Walker,adam.walker85@outlook.com,Obsidian Research,"2041 Pine Rd, Chicago, IL 60601",invoice,enterprise,500000,2022-07-28T00:00:00,active
+BILL_000893,Frank Flores,frank.flores@bluewave.co,BlueWave Media,"1169 Oak Ave, Philadelphia, PA 19101",wire,enterprise,500000,2022-11-25T00:00:00,past_due
+BILL_000894,Brian Harris,brian.harris32@gmail.com,Meridian Partners,"3362 Lake Dr, Jacksonville, FL 32099",credit_card,enterprise,500000,2023-04-04T00:00:00,active
+BILL_000895,Steven Jimenez,steven.jimenez@orbit.com,Orbit Solutions,"7533 Cedar Ln, San Diego, CA 92101",wire,starter,250000,2022-08-06T00:00:00,active
+BILL_000896,Joshua Kelly,joshua.kelly92@icloud.com,Quantum Analytics,"5086 Church St, Seattle, WA 98101",ach,growth,25000,2023-01-10T00:00:00,past_due
+BILL_000897,Arthur Foster,arthur.foster52@outlook.com,BlueWave Media,"1258 Spring St, New York, NY 10001",invoice,growth,25000,2024-02-11T00:00:00,active
+BILL_000898,Stephen Taylor,stephen.taylor@isle.io,Isle Technologies,"2862 Bridge St, Denver, CO 80201",ach,enterprise,500000,2023-10-18T00:00:00,past_due
+BILL_000899,"Powell, Harold",harold.powell@prism.com,Prism Consulting,"8842 Spring St, Austin, TX 73301",credit_card,enterprise,25000,2023-02-07T00:00:00,active
+BILL_000900,Roger Lopez,roger.lopez@spark.io,Spark Automation,"7016 Prospect Ave, Philadelphia, PA 19101",invoice,enterprise,120000,2022-05-01T00:00:00,churned
+BILL_000901,Tyler Evans,tyler.evans@redwood.com,Redwood Industries,"3408 Mill Rd, Nashville, TN 37201",credit_card,enterprise,50000,2022-04-30T00:00:00,active
+BILL_000902,Carolyn Chavez,carolyn.chavez14@outlook.com,GreenField Energy,"9248 Market St, Austin, TX 73301",ach,growth,500000,2023-04-18T00:00:00,past_due
+BILL_000903,"Lopez, Maria",maria.lopez46@yahoo.com,Tidal Software,"6032 Center St, San Antonio, TX 78201",ach,starter,25000,2022-08-25T00:00:00,active
+BILL_000904,Joshua Walker,joshua.walker40@icloud.com,Echo Intelligence,"7938 Park Pl, Philadelphia, PA 19101",credit_card,starter,120000,2022-03-09T00:00:00,active
+BILL_000905,Steven Kelly,steven.kelly75@yahoo.com,Horizon Labs,"3882 Park Pl, Los Angeles, CA 90001",wire,enterprise,50000,2022-05-09T00:00:00,active
+BILL_000906,"King, Ronald",ronald.king10@yahoo.com,Quartz Health,"9633 Bridge St, New York, NY 10001",wire,starter,120000,2023-03-12T00:00:00,active
+BILL_000907,Victoria Hughes,victoria.hughes84@fastmail.com,Cobalt Engineering,"705 Center St, Chicago, IL 60601",credit_card,growth,50000,2023-01-13T00:00:00,active
+BILL_000908,Olivia Allen,olivia.allen@keystone.com,Keystone Data,"9778 Washington Ave, Fort Worth, TX 76101",ach,growth,120000,2022-10-10T00:00:00,past_due
+BILL_000909,Jennifer Cook,jennifer.cook51@outlook.com,Pacific Innovations,"2654 Pine Rd, Indianapolis, IN 46201",credit_card,starter,500000,2022-10-23T00:00:00,active
+BILL_000910,Jerry Walker,jerry.walker@delta.com,Delta Platforms,"4759 Pine Rd, Charlotte, NC 28201",credit_card,growth,120000,2023-03-30T00:00:00,past_due
+BILL_000911,Thomas Long,thomas.long@ridge.com,Ridge Financial,"1838 River Rd, Denver, CO 80201",invoice,starter,250000,2023-12-15T00:00:00,active
+BILL_000912,Albert Davis,albert.davis@cloudpeak.com,CloudPeak Technologies,"8714 Park Pl, San Antonio, TX 78201",wire,growth,25000,2023-12-10T00:00:00,churned
+BILL_000913,Gregory White,gregory.white48@hotmail.com,Keystone Data,"9409 Mill Rd, Dallas, TX 75201",invoice,starter,500000,2023-09-07T00:00:00,past_due
+BILL_000914,Larry Murphy,larry.murphy84@aol.com,Forge Labs,"7160 Pine Rd, Houston, TX 77001",credit_card,enterprise,250000,2022-12-03T00:00:00,churned
+BILL_000915,Stephen Kim,stephen.kim@canyon.com,Canyon Resources,"4944 Lake Dr, Charlotte, NC 28201",credit_card,growth,250000,2023-08-01T00:00:00,past_due
+BILL_000916,Rachel Bailey,rachel.bailey@keystone.com,Keystone Data,"9510 Market St, Houston, TX 77001",credit_card,starter,500000,2022-03-12T00:00:00,active
+BILL_000917,Jose Thomas,jose.thomas@alpine.io,Alpine Services,"7691 Lake Dr, San Jose, CA 95101",invoice,starter,250000,2022-05-20T00:00:00,active
+BILL_000918,Jeffrey Smith,jeffrey.smith8@hotmail.com,NorthStar Systems,"1260 Academy St, Austin, TX 73301",ach,growth,50000,2022-10-26T00:00:00,churned
+BILL_000919,Jacob Ramos,jacob.ramos@redwood.com,Redwood Industries,"6997 Academy St, Phoenix, AZ 85001",ach,starter,120000,2022-06-10T00:00:00,active
+BILL_000920,Tyler Gonzalez,tyler.gonzalez@bluewave.co,BlueWave Media,"7596 Maple Blvd, San Jose, CA 95101",wire,growth,50000,2023-11-10T00:00:00,active
+BILL_000921,"Hall, Andrea",andrea.hall@atlantic.co,Atlantic Digital,"2179 Lake Dr, Jacksonville, FL 32099",credit_card,enterprise,500000,2022-07-09T00:00:00,active
+BILL_000922,Brandon Sanders,brandon.sanders@orbit.com,Orbit Solutions,"6515 Bridge St, Nashville, TN 37201",credit_card,growth,50000,2022-02-22T00:00:00,active
+BILL_000923,"Mitchell, Heather",heather.mitchell@catalyst.com,Catalyst AI,"9821 Oak Ave, Portland, OR 97201",credit_card,growth,50000,2024-02-07T00:00:00,past_due
+BILL_000924,Andrew Powell,andrew.powell@echo.co,Echo Intelligence,"3099 Union Ave, San Antonio, TX 78201",ach,starter,250000,2022-03-10T00:00:00,churned
+BILL_000925,Brenda Hall,brenda.hall28@fastmail.com,BlueWave Media,"4756 Elm Dr, Portland, OR 97201",ach,growth,250000,2022-04-07T00:00:00,active
+BILL_000926,"Sanchez, Karen",karen.sanchez@cloudpeak.com,CloudPeak Technologies,"2488 Church St, Dallas, TX 75201",ach,enterprise,50000,2023-07-27T00:00:00,active
+BILL_000927,Joshua Mendoza,joshua.mendoza@granite.io,Granite Holdings,"6066 River Rd, Los Angeles, CA 90001",wire,starter,25000,2022-08-24T00:00:00,active
+BILL_000928,"Lee, Nancy",nancy.lee@nova.io,Nova Computing,"5470 Pine Rd, San Antonio, TX 78201",invoice,growth,250000,2022-05-21T00:00:00,active
+BILL_000929,David Kim,david.kim@redwood.com,Redwood Industries,"7936 Washington Ave, Nashville, TN 37201",invoice,growth,25000,2023-08-13T00:00:00,active
+BILL_000930,"Watson, Michael",michael.watson@silverline.co,Silverline Capital,"4253 Market St, Charlotte, NC 28201",credit_card,growth,25000,2024-01-31T00:00:00,active
+BILL_000931,Daniel Price,daniel.price29@icloud.com,CloudPeak Technologies,"5407 Cedar Ln, Seattle, WA 98101",ach,starter,120000,2023-03-24T00:00:00,active
+BILL_000932,Anna Wilson,anna.wilson@summit.com,Summit Health,"4024 River Rd, New York, NY 10001",ach,starter,500000,2022-08-13T00:00:00,past_due
+BILL_000933,Zachary Brooks,zachary.brooks@meridian.co,Meridian Partners,"6624 Spring St, Jacksonville, FL 32099",credit_card,starter,50000,2022-09-08T00:00:00,churned
+BILL_000934,"Roberts, Emma",emma.roberts61@aol.com,Atlantic Digital,"105 Elm Dr, San Jose, CA 95101",wire,growth,500000,2022-11-04T00:00:00,active
+BILL_000935,"Morales, Olivia",olivia.morales@canyon.com,Canyon Resources,"8322 Spring St, Fort Worth, TX 76101",invoice,starter,500000,2022-08-05T00:00:00,past_due
+BILL_000936,"Alvarez, Steven",steven.alvarez@catalyst.com,Catalyst AI,"9619 Market St, San Jose, CA 95101",invoice,enterprise,120000,2022-11-16T00:00:00,active
+BILL_000937,Tyler Gonzalez,tyler.gonzalez53@yahoo.com,Amber Group,"6979 Spring St, San Antonio, TX 78201",ach,enterprise,120000,2022-12-28T00:00:00,churned
+BILL_000938,"Garcia, Barbara",barbara.garcia@keystone.com,Keystone Data,"9580 Center St, Dallas, TX 75201",ach,growth,250000,2023-09-26T00:00:00,active
+BILL_000939,"Ramos, Jennifer",jennifer.ramos@pacific.io,Pacific Innovations,"4290 Center St, Fort Worth, TX 76101",wire,enterprise,120000,2023-11-22T00:00:00,active
+BILL_000940,Dennis Alvarez,dennis.alvarez@spark.io,Spark Automation,"4068 Pine Rd, Dallas, TX 75201",wire,enterprise,120000,2024-01-08T00:00:00,active
+BILL_000941,Shirley Mitchell,shirley.mitchell@vertex.co,Vertex Software,"6458 Union Ave, Jacksonville, FL 32099",ach,starter,25000,2023-06-17T00:00:00,past_due
+BILL_000942,Amanda Howard,amanda.howard@redwood.com,Redwood Industries,"804 Cedar Ln, Denver, CO 80201",credit_card,starter,50000,2023-03-28T00:00:00,active
+BILL_000943,Tyler Kim,tyler.kim@cobalt.co,Cobalt Engineering,"1941 River Rd, San Diego, CA 92101",credit_card,starter,50000,2023-05-31T00:00:00,past_due
+BILL_000944,Joan Murphy,joan.murphy93@protonmail.com,Canyon Resources,"4131 River Rd, Austin, TX 73301",invoice,starter,25000,2023-09-15T00:00:00,churned
+BILL_000945,Tyler Ramos,tyler.ramos36@icloud.com,Onyx Solutions,"8620 Church St, Nashville, TN 37201",invoice,growth,250000,2023-10-20T00:00:00,active
+BILL_000946,Joan Rodriguez,joan.rodriguez12@fastmail.com,CloudPeak Technologies,"9215 Oak Ave, Phoenix, AZ 85001",invoice,growth,250000,2023-09-23T00:00:00,active
+BILL_000947,Nancy Torres,nancy.torres31@icloud.com,Quantum Analytics,"9760 Academy St, Chicago, IL 60601",credit_card,growth,250000,2022-04-15T00:00:00,active
+BILL_000948,Henry Ruiz,henry.ruiz@echo.co,Echo Intelligence,"6325 Oak Ave, New York, NY 10001",wire,growth,250000,2023-07-17T00:00:00,churned
+BILL_000949,Samuel Young,samuel.young51@aol.com,Spark Automation,"6246 Mill Rd, Columbus, OH 43085",invoice,growth,120000,2022-04-06T00:00:00,active
+BILL_000950,"King, Ronald",ronald.king74@hotmail.com,GreenField Energy,"3164 Church St, San Antonio, TX 78201",invoice,enterprise,120000,2022-09-06T00:00:00,churned
+BILL_000951,"Ward, Christina",christina.ward97@yahoo.com,Keystone Data,"7493 Pine Rd, Charlotte, NC 28201",invoice,starter,500000,2023-12-01T00:00:00,churned
+BILL_000952,"Foster, Helen",helen.foster59@fastmail.com,GreenField Energy,"2516 Washington Ave, New York, NY 10001",ach,starter,50000,2022-08-03T00:00:00,churned
+BILL_000953,"Gutierrez, Joyce",joyce.gutierrez@spark.io,Spark Automation,"6213 Maple Blvd, Columbus, OH 43085",invoice,starter,250000,2023-09-17T00:00:00,active
+BILL_000954,"Foster, Pamela",pamela.foster@quantum.co,Quantum Analytics,"2734 Center St, Philadelphia, PA 19101",wire,growth,120000,2023-01-09T00:00:00,churned
+BILL_000955,Stephanie Ruiz,stephanie.ruiz@ironclad.com,IRONCLAD SECURITY,"8401 Center St, San Jose, CA 95101",credit_card,growth,500000,2023-01-21T00:00:00,active
+BILL_000956,"Martin, Daniel",daniel.martin87@outlook.com,Sapphire Analytics,"545 Oak Ave, Philadelphia, PA 19101",credit_card,growth,120000,2023-01-24T00:00:00,past_due
+BILL_000957,Jessica Miller,jessica.miller61@protonmail.com,Silverline Capital,"4255 Academy St, New York, NY 10001",credit_card,starter,120000,2023-10-07T00:00:00,active
+BILL_000958,Timothy Parker,timothy.parker13@outlook.com,Orbit Solutions,"2139 Academy St, Denver, CO 80201",invoice,growth,500000,2023-09-15T00:00:00,active
+BILL_000959,"Wood, Charles",charles.wood12@fastmail.com,Keystone Data,"7898 Oak Ave, Seattle, WA 98101",credit_card,enterprise,50000,2024-01-02T00:00:00,past_due
+BILL_000960,"Davis, Carl",carl.davis@cobalt.co,Cobalt Engineering,"5898 Cedar Ln, San Jose, CA 95101",credit_card,enterprise,25000,2022-03-30T00:00:00,active
+BILL_000961,George Cox,george.cox79@hotmail.com,Redwood Industries,"2404 Church St, Indianapolis, IN 46201",credit_card,starter,120000,2022-04-12T00:00:00,active
+BILL_000962,Samantha Howard,samantha.howard56@fastmail.com,Nexus Healthcare,"7853 Oak Ave, San Antonio, TX 78201",invoice,growth,25000,2023-03-11T00:00:00,churned
+BILL_000963,Cynthia Gonzalez,cynthia.gonzalez@lumen.com,Lumen AI,"3976 Cedar Ln, San Diego, CA 92101",wire,enterprise,25000,2022-09-01T00:00:00,active
+BILL_000964,"White, Ashley",ashley.white@delta.com,Delta Platforms,"4630 River Rd, Los Angeles, CA 90001",ach,starter,500000,2023-08-30T00:00:00,active
+BILL_000965,Gregory Ortiz,gregory.ortiz@alpine.io,Alpine Services,"2331 Maple Blvd, Seattle, WA 98101",ach,growth,120000,2022-05-08T00:00:00,churned
+BILL_000966,Deborah Jackson,deborah.jackson@nova.io,Nova Computing,"8711 Prospect Ave, Jacksonville, FL 32099",credit_card,starter,50000,2022-07-14T00:00:00,past_due
+BILL_000967,Charles Evans,charles.evans@pulse.com,Pulse Engineering,"6328 Main St, Portland, OR 97201",credit_card,starter,250000,2023-09-21T00:00:00,past_due
+BILL_000968,Shirley Ross,shirley.ross15@outlook.com,Echo Intelligence,"2425 Park Pl, Austin, TX 73301",ach,starter,25000,2023-06-28T00:00:00,active
+BILL_000969,Christine Howard,christine.howard@nexus.io,Nexus Healthcare,"3543 Spring St, Jacksonville, FL 32099",credit_card,growth,50000,2023-01-03T00:00:00,churned
+BILL_000970,"Howard, Douglas",douglas.howard@redwood.com,Redwood Industries,"4317 Main St, Dallas, TX 75201",credit_card,growth,25000,2023-12-21T00:00:00,churned
+BILL_000971,Raymond Mitchell,raymond.mitchell@prism.com,Prism Consulting,"979 Bridge St, Indianapolis, IN 46201",credit_card,growth,250000,2023-11-09T00:00:00,active
+BILL_000972,Catherine Powell,catherine.powell12@aol.com,DataBridge Solutions,"8292 Pine Rd, Indianapolis, IN 46201",credit_card,starter,120000,2022-08-12T00:00:00,churned
+BILL_000973,"Hill, Albert",albert.hill88@icloud.com,GreenField Energy,"4941 Bridge St, Columbus, OH 43085",credit_card,starter,120000,2022-03-01T00:00:00,past_due
+BILL_000974,Joseph Brooks,joseph.brooks36@icloud.com,Summit Health,"6975 Lake Dr, Austin, TX 73301",wire,starter,25000,2023-01-24T00:00:00,active
+BILL_000975,Lauren Rivera,lauren.rivera13@hotmail.com,Frost Dynamics,"2752 Prospect Ave, New York, NY 10001",wire,enterprise,500000,2022-06-26T00:00:00,active
+BILL_000976,Julie Myers,julie.myers39@protonmail.com,Quantum Analytics,"3512 Bridge St, New York, NY 10001",wire,growth,120000,2024-01-21T00:00:00,active
+BILL_000977,Janet Cooper,janet.cooper@atlas.co,Atlas Logistics,"856 Academy St, San Jose, CA 95101",wire,growth,120000,2022-11-19T00:00:00,active
+BILL_000978,"Diaz, James",james.diaz@keystone.com,Keystone Data,"6766 Lake Dr, Columbus, OH 43085",ach,enterprise,500000,2022-07-19T00:00:00,churned
+BILL_000979,"Cook, Cynthia",cynthia.cook@vertex.co,Vertex Software,"4906 Spring St, Phoenix, AZ 85001",credit_card,starter,250000,2023-05-29T00:00:00,churned
+BILL_000980,"Edwards, Judith",judith.edwards@techflow.com,TechFlow Inc,"5116 Bridge St, San Diego, CA 92101",wire,starter,50000,2023-03-04T00:00:00,active
+BILL_000981,"Phillips, Scott",scott.phillips@bluewave.co,BlueWave Media,"7399 Mill Rd, Los Angeles, CA 90001",invoice,starter,25000,2022-12-16T00:00:00,active
+BILL_000982,"Patel, Kelly",kelly.patel@techflow.com,TechFlow Inc,"2049 Mill Rd, Fort Worth, TX 76101",credit_card,growth,50000,2023-06-04T00:00:00,active
+BILL_000983,Karen Young,karen.young@tidal.io,Tidal Software,"4757 Cedar Ln, New York, NY 10001",ach,growth,50000,2023-03-10T00:00:00,active
+BILL_000984,Jack Gonzalez,jack.gonzalez@databridge.com,DataBridge Solutions,"4694 Bridge St, Houston, TX 77001",credit_card,enterprise,25000,2023-04-28T00:00:00,churned
+BILL_000985,Julie Cox,julie.cox@harbor.io,Harbor Analytics,"8715 Maple Blvd, New York, NY 10001",wire,growth,50000,2022-06-27T00:00:00,active
+BILL_000986,Pamela Alvarez,pamela.alvarez@cloudpeak.com,CloudPeak Technologies,"3605 Washington Ave, Indianapolis, IN 46201",wire,starter,500000,2023-08-12T00:00:00,active
+BILL_000987,"Hall, Jacob",jacob.hall@redwood.com,Redwood Industries,"286 Lake Dr, Charlotte, NC 28201",ach,starter,50000,2022-09-19T00:00:00,active
+BILL_000988,Raymond Bennett,raymond.bennett@pinnacle.com,Pinnacle Financial,"9937 River Rd, San Jose, CA 95101",ach,growth,120000,2023-03-08T00:00:00,churned
+BILL_000989,Robert Hughes,robert.hughes@prism.com,Prism Consulting,"1345 Center St, Austin, TX 73301",ach,growth,250000,2022-09-29T00:00:00,churned
+BILL_000990,"Lee, Mary",mary.lee16@hotmail.com,Atlantic Digital,"477 Academy St, Seattle, WA 98101",wire,starter,25000,2023-08-14T00:00:00,past_due
+BILL_000991,"Cox, Brenda",brenda.cox@echo.co,Echo Intelligence,"4622 Center St, Austin, TX 73301",invoice,growth,500000,2023-04-07T00:00:00,active
+BILL_000992,Jose Wood,jose.wood@granite.io,Granite Holdings,"4776 Oak Ave, Austin, TX 73301",credit_card,starter,120000,2022-05-17T00:00:00,active
+BILL_000993,"Taylor, Robert",robert.taylor@atlantic.co,Atlantic Digital,"9868 Washington Ave, Los Angeles, CA 90001",ach,starter,25000,2024-01-06T00:00:00,active
+BILL_000994,Betty Parker,betty.parker@horizon.co,Horizon Labs,"5086 Cedar Ln, Austin, TX 73301",ach,enterprise,250000,2022-05-20T00:00:00,churned
+BILL_000995,"Murphy, Michelle",michelle.murphy@atlantic.co,Atlantic Digital,"7771 High St, San Jose, CA 95101",invoice,starter,25000,2022-04-24T00:00:00,active
+BILL_000996,Larry Gonzalez,larry.gonzalez@meridian.co,Meridian Partners,"331 Center St, San Jose, CA 95101",credit_card,starter,50000,2022-08-04T00:00:00,churned
+BILL_000997,"Mitchell, Arthur",arthur.mitchell@meridian.co,Meridian Partners,"5962 Washington Ave, Dallas, TX 75201",invoice,starter,50000,2022-06-08T00:00:00,active
+BILL_000998,George Peterson,george.peterson@frost.com,Frost Dynamics,"7358 Market St, Portland, OR 97201",ach,growth,120000,2023-01-18T00:00:00,active
+BILL_000999,Eric Castillo,eric.castillo24@protonmail.com,Canyon Resources,"3759 River Rd, Jacksonville, FL 32099",ach,growth,120000,2023-04-14T00:00:00,active
+BILL_001000,Christopher Price,christopher.price@orbit.com,Orbit Solutions,"8640 Church St, Houston, TX 77001",invoice,growth,25000,2022-09-25T00:00:00,active
+BILL_001001,Elizabeth Morgan,elizabeth.morgan@atlantic.co,Atlantic Digital,"1658 High St, Indianapolis, IN 46201",wire,starter,120000,2022-12-21T00:00:00,churned
+BILL_001002,Thomas Rivera,thomas.rivera@onyx.co,Onyx Solutions,"548 Oak Ave, Charlotte, NC 28201",invoice,starter,25000,2023-11-11T00:00:00,past_due
+BILL_001003,Brandon Kelly,brandon.kelly@keystone.com,Keystone Data,"4041 Main St, Houston, TX 77001",wire,starter,25000,2023-05-09T00:00:00,active
+BILL_001004,James Martin,james.martin67@yahoo.com,Forge Labs,"7861 Main St, Houston, TX 77001",credit_card,enterprise,500000,2023-08-04T00:00:00,churned
+BILL_001005,Jeffrey Smith,jeffrey.smith@silverline.co,Silverline Capital,"1841 Oak Ave, Jacksonville, FL 32099",wire,enterprise,50000,2022-08-21T00:00:00,active
+BILL_001006,"Stewart, Albert",albert.stewart@databridge.com,DataBridge Solutions,"8897 Church St, Charlotte, NC 28201",ach,enterprise,500000,2023-05-06T00:00:00,active
+BILL_001007,Maria Nguyen,maria.nguyen@canyon.com,Canyon Resources,"9263 Mill Rd, Indianapolis, IN 46201",wire,starter,250000,2022-11-02T00:00:00,past_due
+BILL_001008,Anna Roberts,anna.roberts54@outlook.com,Orbit Solutions,"2711 Cedar Ln, Los Angeles, CA 90001",wire,growth,25000,2023-03-26T00:00:00,churned
+BILL_001009,Arthur Adams,arthur.adams@frost.com,Frost Dynamics,"2427 Spring St, Phoenix, AZ 85001",ach,growth,120000,2023-04-06T00:00:00,active
+BILL_001010,Catherine Kim,catherine.kim@silverline.co,Silverline Capital,"3938 Academy St, Los Angeles, CA 90001",invoice,growth,250000,2022-05-08T00:00:00,active
+BILL_001011,Victoria Gray,victoria.gray@pinnacle.com,Pinnacle Financial,"3003 Main St, Fort Worth, TX 76101",credit_card,growth,120000,2022-07-09T00:00:00,active
+BILL_001012,Pamela Powell,pamela.powell21@outlook.com,Alpine Services,"3865 Center St, Los Angeles, CA 90001",wire,starter,25000,2023-04-26T00:00:00,past_due
+BILL_001013,"Hill, Christina",christina.hill@nova.io,Nova Computing,"1776 Main St, Nashville, TN 37201",credit_card,growth,25000,2023-07-12T00:00:00,active
+BILL_001014,Aaron Patel,aaron.patel45@fastmail.com,Harbor Analytics,"4914 Prospect Ave, Fort Worth, TX 76101",credit_card,enterprise,250000,2022-09-27T00:00:00,active
+BILL_001015,"Mitchell, Kelly",kelly.mitchell40@yahoo.com,Jade Systems,"5802 Market St, Nashville, TN 37201",invoice,enterprise,500000,2022-12-24T00:00:00,past_due
+BILL_001016,Ronald Jimenez,ronald.jimenez38@aol.com,Quartz Health,"2947 Academy St, Philadelphia, PA 19101",invoice,enterprise,25000,2022-07-21T00:00:00,active
+BILL_001017,"Taylor, Stephanie",stephanie.taylor42@gmail.com,Silverline Capital,"2420 Cedar Ln, Nashville, TN 37201",credit_card,starter,250000,2023-09-12T00:00:00,active
+BILL_001018,Amy Wilson,amy.wilson@redwood.com,Redwood Industries,"1705 Pine Rd, Charlotte, NC 28201",credit_card,enterprise,25000,2024-02-26T00:00:00,churned
+BILL_001019,Carolyn Martinez,carolyn.martinez@pulse.com,Pulse Engineerin,"1217 Academy St, Denver, CO 80201",credit_card,starter,120000,2022-09-09T00:00:00,active
+BILL_001020,"Thompson, Timothy",timothy.thompson34@aol.com,DataBridge Solutions,"8348 Academy St, Denver, CO 80201",ach,growth,25000,2023-10-27T00:00:00,past_due
+BILL_001021,"Phillips, Nicole",nicole.phillips39@icloud.com,Canyon Resources,"5379 Mill Rd, Nashville, TN 37201",invoice,starter,50000,2023-05-19T00:00:00,active
+BILL_001022,Shirley Cooper,shirley.cooper@sterling.co,Sterling Ventures,"5625 Maple Blvd, Austin, TX 73301",ach,growth,120000,2022-12-05T00:00:00,active
+BILL_001023,"Lee, Roger",roger.lee@horizon.co,Horizon Labs,"7361 Church St, Houston, TX 77001",ach,starter,120000,2023-11-17T00:00:00,active
+BILL_001024,Kenneth Powell,kenneth.powell@techflow.com,TechFlow Inc,"7387 Bridge St, San Diego, CA 92101",credit_card,enterprise,50000,2023-09-15T00:00:00,active
+BILL_001025,"Gray, Janet",janet.gray@bluewave.co,BlueWave Media,"6576 Main St, Houston, TX 77001",invoice,growth,250000,2023-09-13T00:00:00,active
+BILL_001026,Henry Kelly,henry.kelly@redwood.com,Redwood Industries,"2015 Union Ave, Indianapolis, IN 46201",wire,enterprise,250000,2023-11-08T00:00:00,active
+BILL_001027,Thomas Chavez,thomas.chavez@silverline.co,silverline capital,"3762 Lake Dr, San Diego, CA 92101",credit_card,enterprise,25000,2022-06-10T00:00:00,past_due
+BILL_001028,Andrea Rogers,andrea.rogers69@yahoo.com,Nova Computing,"3215 Main St, Portland, OR 97201",wire,enterprise,500000,2023-04-24T00:00:00,active
+BILL_001029,Timothy Miller,timothy.miller@beacon.com,Beacon Data,"3182 Bridge St, Chicago, IL 60601",ach,enterprise,250000,2023-12-26T00:00:00,active
+BILL_001030,Janet Richardson,janet.richardson61@yahoo.com,Catalyst AI,"5298 Oak Ave, Charlotte, NC 28201",ach,growth,120000,2022-04-13T00:00:00,active
+BILL_001031,Carl Allen,carl.allen@obsidian.com,Obsidian Research,"8584 Prospect Ave, Austin, TX 73301",wire,growth,50000,2023-07-30T00:00:00,churned
+BILL_001032,Elizabeth Powell,elizabeth.powell@alpine.io,Alpine Services,"2235 Prospect Ave, Indianapolis, IN 46201",ach,starter,500000,2023-10-01T00:00:00,past_due
+BILL_001033,Shirley Gutierrez,shirley.gutierrez@redwood.com,Redwood Industries,"2578 Center St, Indianapolis, IN 46201",credit_card,starter,50000,2023-12-14T00:00:00,past_due
+BILL_001034,Joseph Wright,joseph.wright@keystone.com,Keystone Data,"9364 Union Ave, San Jose, CA 95101",credit_card,enterprise,250000,2024-01-07T00:00:00,active
+BILL_001035,"Young, Diane",diane.young@horizon.co,Horizon Labs,"8184 High St, Phoenix, AZ 85001",wire,enterprise,250000,2022-12-09T00:00:00,active
+BILL_001036,Kimberly Ross,kimberly.ross@obsidian.com,OObsidian Research,"7742 Cedar Ln, San Diego, CA 92101",invoice,enterprise,500000,2022-10-28T00:00:00,active
+BILL_001037,"Hall, Pamela",pamela.hall@summit.com,SUMMIT HEALTH,"1351 Main St, Dallas, TX 75201",ach,growth,250000,2022-07-10T00:00:00,active
+BILL_001038,"Hughes, Kathleen",kathleen.hughes@sapphire.com,Sapphire Analytics,"4570 Mill Rd, Los Angeles, CA 90001",invoice,enterprise,50000,2024-01-26T00:00:00,active
+BILL_001039,"Gomez, Richard",richard.gomez@obsidian.com,Obsidian Research,"6067 Spring St, Chicago, IL 60601",credit_card,starter,120000,2022-07-24T00:00:00,active
+BILL_001040,Sharon Torres,sharon.torres@quartz.io,Quartz Health,"2491 Main St, Columbus, OH 43085",invoice,starter,120000,2022-11-17T00:00:00,active
+BILL_001041,Henry White,henry.white@amber.com,Amber Group,"4832 Pine Rd, Indianapolis, IN 46201",invoice,starter,120000,2022-08-15T00:00:00,churned
+BILL_001042,"Green, Ryan",ryan.green73@hotmail.com,Redwood Industries,"5588 Academy St, San Antonio, TX 78201",wire,growth,25000,2024-01-18T00:00:00,churned
+BILL_001043,Timothy Foster,timothy.foster6@gmail.com,Catalyst AI,"2975 Market St, Dallas, TX 75201",ach,enterprise,120000,2023-06-10T00:00:00,churned
+BILL_001044,"Ross, Patrick",patrick.ross@alpine.io,Alpine Services,"969 Washington Ave, Dallas, TX 75201",credit_card,starter,25000,2022-05-20T00:00:00,active
+BILL_001045,Donna Reyes,donna.reyes@nova.io,Nova Computing,"8076 River Rd, San Jose, CA 95101",invoice,growth,50000,2022-05-12T00:00:00,churned
+BILL_001046,"Brooks, Jeffrey",jeffrey.brooks@beacon.com,Beacon Data,"9911 River Rd, Charlotte, NC 28201",ach,enterprise,120000,2023-03-31T00:00:00,active
+BILL_001047,"Foster, Brenda",brenda.foster@summit.com,Summit Health,"9342 Academy St, Los Angeles, CA 90001",wire,starter,120000,2023-08-17T00:00:00,churned
+BILL_001048,"King, Samantha",samantha.king@atlantic.co,Atlantic Digital,"9318 Union Ave, Phoenix, AZ 85001",wire,enterprise,50000,2023-07-12T00:00:00,active
+BILL_001049,Gregory Chavez,gregory.chavez88@aol.com,Horizon Labs,"1133 Mill Rd, Phoenix, AZ 85001",invoice,starter,250000,2022-02-25T00:00:00,active
+BILL_001050,"Kelly, Katherine",katherine.kelly@quartz.io,Quartz Health,"7748 Union Ave, Denver, CO 80201",ach,growth,250000,2022-12-12T00:00:00,past_due
+BILL_001051,Robert Hill,robert.hill@bluewave.co,BlueWave Media,"3191 Union Ave, San Antonio, TX 78201",credit_card,enterprise,500000,2023-08-01T00:00:00,active
+BILL_001052,Kathleen Bennett,kathleen.bennett@sapphire.com,Sapphire Analytics,"3596 Park Pl, Charlotte, NC 28201",credit_card,enterprise,500000,2022-06-18T00:00:00,active
+BILL_001053,Alexander Reed,alexander.reed@delta.com,Delta Platforms,"5163 Maple Blvd, Seattle, WA 98101",ach,enterprise,500000,2023-07-07T00:00:00,past_due
+BILL_001054,Samantha Brooks,samantha.brooks@northstar.io,NorthStar Systems,"7899 Washington Ave, Chicago, IL 60601",wire,growth,25000,2022-05-14T00:00:00,past_due
+BILL_001055,Eric Thompson,eric.thompson@nova.io,Nova Computing,"1482 High St, San Antonio, TX 78201",ach,starter,120000,2023-02-06T00:00:00,churned
+BILL_001056,"Williams, Sandra",sandra.williams@silverline.co,Silverline Capital,"2958 Center St, Denver, CO 80201",invoice,enterprise,50000,2022-09-10T00:00:00,churned
+BILL_001057,Richard Rivera,richard.rivera87@protonmail.com,Pulse Engineering,"888 Main St, Chicago, IL 60601",invoice,enterprise,250000,2023-04-18T00:00:00,active
+BILL_001058,Nathan Cox,nathan.cox@keystone.com,Keystone Data,"8037 Academy St, Columbus, OH 43085",wire,starter,500000,2023-02-23T00:00:00,active
+BILL_001059,Carl Jimenez,carl.jimenez@ridge.com,Ridge Financial,"4794 Mill Rd, Portland, OR 97201",invoice,growth,25000,2023-12-16T00:00:00,active
+BILL_001060,Joan Bennett,joan.bennett@pinnacle.com,Pinnacle Financial,"5552 Park Pl, Chicago, IL 60601",wire,starter,500000,2023-10-08T00:00:00,active
+BILL_001061,"Richardson, Kathleen",kathleen.richardson@nexus.io,Nexus Healthcare,"5682 Washington Ave, Chicago, IL 60601",ach,enterprise,120000,2023-12-23T00:00:00,active
+BILL_001062,Maria Turner,maria.turner13@protonmail.com,Frost Dynamics,"7213 River Rd, Chicago, IL 60601",credit_card,starter,25000,2022-11-11T00:00:00,active
+BILL_001063,"Morales, Joshua",joshua.morales37@outlook.com,Horizon Labs,"3609 Main St, Denver, CO 80201",credit_card,enterprise,50000,2023-06-13T00:00:00,active
+BILL_001064,Roger Gray,roger.gray@alpine.io,Alpine Services,"4248 Pine Rd, Portland, OR 97201",credit_card,starter,500000,2022-12-26T00:00:00,past_due
+BILL_001065,Gary Taylor,gary.taylor@greenfield.com,GreenField Energy,"6606 Oak Ave, Jacksonville, FL 32099",ach,starter,250000,2023-08-11T00:00:00,active
+BILL_001066,"King, Andrew",andrew.king27@yahoo.com,Coral Networks,"335 Cedar Ln, Philadelphia, PA 19101",credit_card,growth,250000,2022-05-22T00:00:00,active
+BILL_001067,Stephen Mendoza,stephen.mendoza53@aol.com,Frost Dynamics,"9191 Union Ave, Seattle, WA 98101",invoice,enterprise,250000,2022-10-20T00:00:00,active
+BILL_001068,Douglas White,douglas.white@ironclad.com,Ironclad Security,"2225 Prospect Ave, San Jose, CA 95101",invoice,enterprise,120000,2023-03-08T00:00:00,past_due
+BILL_001069,Alexander Martinez,alexander.martinez6@fastmail.com,Frost Dynamics,"5229 Bridge St, Chicago, IL 60601",invoice,starter,500000,2023-04-06T00:00:00,active
+BILL_001070,Thomas Davis,thomas.davis16@fastmail.com,Beacon Data,"9206 Academy St, Houston, TX 77001",invoice,growth,250000,2022-02-23T00:00:00,active
+BILL_001071,Melissa Nelson,melissa.nelson@coral.co,Coral Networks,"5573 Main St, Columbus, OH 43085",wire,enterprise,500000,2022-09-11T00:00:00,past_due
+BILL_001072,Roger Moore,roger.moore53@yahoo.com,Pulse Engineering,"2078 Spring St, San Antonio, TX 78201",wire,starter,500000,2022-10-11T00:00:00,active
+BILL_001073,"Ramirez, Emma",emma.ramirez@spark.io,Spark Automation,"5768 Mill Rd, Houston, TX 77001",ach,enterprise,500000,2022-10-15T00:00:00,active
+BILL_001074,Donna Wood,donna.wood@orbit.com,Orbit Solutions,"2981 Academy St, San Diego, CA 92101",invoice,growth,250000,2023-06-16T00:00:00,past_due
+BILL_001075,"Morris, Sarah",sarah.morris10@outlook.com,Pacific Innovations,"3792 Lake Dr, Jacksonville, FL 32099",invoice,growth,250000,2023-04-30T00:00:00,active
+BILL_001076,Gregory Collins,gregory.collins@lumen.com,Lumen AI,"9184 Elm Dr, Houston, TX 77001",ach,enterprise,25000,2022-12-24T00:00:00,active
+BILL_001077,Lauren Williams,lauren.williams21@aol.com,Pinnacle Financial,"3414 Pine Rd, Columbus, OH 43085",ach,starter,50000,2023-11-17T00:00:00,active
+BILL_001078,Henry Rogers,henry.rogers@obsidian.com,Obsidian Research,"5698 Union Ave, San Antonio, TX 78201",wire,growth,500000,2022-10-14T00:00:00,past_due
+BILL_001079,"Young, Benjamin",benjamin.young83@fastmail.com,Vertex Software,"5532 Union Ave, Phoenix, AZ 85001",credit_card,enterprise,500000,2023-05-05T00:00:00,past_due
+BILL_001080,Joyce Chavez,joyce.chavez17@yahoo.com,TechFlow Inc,"2070 Center St, Houston, TX 77001",ach,starter,250000,2024-03-16T00:00:00,past_due
+BILL_001081,Stephanie Kelly,stephanie.kelly@alpine.io,alpine services,"2004 Washington Ave, Charlotte, NC 28201",credit_card,growth,50000,2023-10-03T00:00:00,active
+BILL_001082,Sandra Reed,sandra.reed@catalyst.com,Catalyst AI,"1976 Maple Blvd, Philadelphia, PA 19101",credit_card,starter,50000,2023-01-07T00:00:00,active
+BILL_001083,Andrea Williams,andrea.williams65@aol.com,CloudPeak Technologies,"5881 Oak Ave, Nashville, TN 37201",wire,enterprise,500000,2022-03-24T00:00:00,churned
+BILL_001084,"Thompson, Shirley",shirley.thompson@sterling.co,Sterling Ventures,"8161 Cedar Ln, Philadelphia, PA 19101",ach,growth,120000,2022-08-26T00:00:00,active
+BILL_001085,Justin Carter,justin.carter@atlas.co,Atlas Logistics,"7673 Elm Dr, Fort Worth, TX 76101",wire,starter,25000,2023-01-25T00:00:00,active
+BILL_001086,"Scott, Victoria",victoria.scott18@aol.com,Sapphire Analytics,"4681 Center St, Austin, TX 73301",credit_card,starter,120000,2023-11-02T00:00:00,past_due
+BILL_001087,"Bailey, Richard",richard.bailey16@aol.com,Nexus Healthcare,"9257 Prospect Ave, Denver, CO 80201",invoice,enterprise,50000,2022-12-28T00:00:00,active
+BILL_001088,Harold Alvarez,harold.alvarez@keystone.com,Keystone Data,"2353 Maple Blvd, Indianapolis, IN 46201",invoice,starter,25000,2022-09-26T00:00:00,past_due
+BILL_001089,"Cruz, Roger",roger.cruz@cloudpeak.com,CloudPeak Technologies,"4202 Main St, Portland, OR 97201",ach,starter,120000,2022-04-25T00:00:00,past_due
+BILL_001090,Laura Smith,laura.smith@spark.io,Spark Automation,"7048 Center St, Seattle, WA 98101",wire,enterprise,250000,2023-02-13T00:00:00,churned
+BILL_001091,Patrick Bailey,patrick.bailey@isle.io,Isle Technologies,"9458 Oak Ave, Phoenix, AZ 85001",invoice,enterprise,250000,2022-12-30T00:00:00,active
+BILL_001092,Victoria Moore,victoria.moore@orbit.com,Orbit Solutions,"7226 Academy St, Nashville, TN 37201",credit_card,growth,250000,2023-12-28T00:00:00,active
+BILL_001093,Richard Walker,richard.walker@onyx.co,Onyx Solutions,"1916 Union Ave, Chicago, IL 60601",ach,starter,25000,2023-10-12T00:00:00,churned
+BILL_001094,Angela Allen,angela.allen34@icloud.com,Lumenn AI,"3544 Center St, Seattle, WA 98101",invoice,enterprise,120000,2023-04-03T00:00:00,active
+BILL_001095,Sarah Kim,sarah.kim@summit.com,Summit Healh,"8198 Oak Ave, Austin, TX 73301",invoice,growth,120000,2022-06-14T00:00:00,churned
+BILL_001096,Joyce White,joyce.white@obsidian.com,Obsidian Research,"482 Prospect Ave, Fort Worth, TX 76101",wire,starter,25000,2022-11-13T00:00:00,active
+BILL_001097,"Taylor, Tyler",tyler.taylor11@icloud.com,Forge Labs,"2193 Academy St, Austin, TX 73301",invoice,growth,50000,2022-06-02T00:00:00,active
+BILL_001098,Anthony Kelly,anthony.kelly@pacific.io,Pacific nInovations,"5836 Center St, Houston, TX 77001",invoice,starter,50000,2023-04-03T00:00:00,active
+BILL_001099,Brenda Bennett,brenda.bennett@amber.com,Amber Group,"7849 High St, San Diego, CA 92101",invoice,growth,25000,2022-10-12T00:00:00,past_due
+BILL_001100,Judith Castillo,judith.castillo@acme.co,Acme Corp,"1843 Cedar Ln, Columbus, OH 43085",ach,enterprise,50000,2023-07-11T00:00:00,churned
+BILL_001101,Alexander Gomez,alexander.gomez14@icloud.com,BlueWave Media,"3783 Mill Rd, Austin, TX 73301",invoice,enterprise,500000,2022-04-29T00:00:00,active
+BILL_001102,Stephanie Myers,stephanie.myers40@yahoo.com,greenfield energy,"7417 Union Ave, Nashville, TN 37201",ach,growth,25000,2023-02-23T00:00:00,churned
+BILL_001103,Douglas Wright,douglas.wright@obsidian.com,Obsidian Research,"4916 Washington Ave, San Antonio, TX 78201",invoice,enterprise,120000,2023-05-14T00:00:00,past_due
+BILL_001104,Barbara Gutierrez,barbara.gutierrez@orbit.com,Orbit,"790 Washington Ave, New York, NY 10001",wire,starter,500000,2022-04-27T00:00:00,past_due
+BILL_001105,"Stewart, Andrew",andrew.stewart@summit.com,Summit Health,"6852 Oak Ave, Portland, OR 97201",invoice,growth,250000,2022-09-28T00:00:00,churned
+BILL_001106,Olivia Lee,olivia.lee18@icloud.com,Meridian Partners,"9185 Cedar Ln, Jacksonville, FL 32099",ach,starter,25000,2024-02-24T00:00:00,active
+BILL_001107,Kevin Brooks,kevin.brooks56@aol.com,Beacon Data,"9240 High St, Houston, TX 77001",ach,growth,120000,2023-11-22T00:00:00,churned
+BILL_001108,Daniel Ramirez,daniel.ramirez95@fastmail.com,Quartz Health,"7044 High St, Philadelphia, PA 19101",wire,growth,50000,2022-07-05T00:00:00,past_due
+BILL_001109,William Garcia,william.garcia@databridge.com,DataBridge Solutions,"7587 Pine Rd, Denver, CO 80201",wire,starter,500000,2023-11-07T00:00:00,churned
+BILL_001110,Brian Ramos,brian.ramos@ridge.com,Ridge Financial,"4380 Park Pl, Philadelphia, PA 19101",invoice,enterprise,500000,2023-06-11T00:00:00,active
+BILL_001111,Emily Ross,emily.ross@pulse.com,Pulse Engineering,"411 Lake Dr, Chicago, IL 60601",invoice,growth,120000,2022-09-16T00:00:00,active
+BILL_001112,Kenneth Brown,kenneth.brown87@aol.com,GreenField Energy,"3966 Market St, Chicago, IL 60601",invoice,growth,50000,2023-02-04T00:00:00,active
+BILL_001113,Steven Thomas,steven.thomas@lumen.com,Lumen AI,"4248 Market St, Austin, TX 73301",ach,starter,25000,2022-10-13T00:00:00,active
+BILL_001114,Deborah Foster,deborah.foster21@outlook.com,Frost Dynamics,"9852 High St, Indianapolis, IN 46201",ach,enterprise,25000,2022-11-22T00:00:00,active
+BILL_001115,Stephanie Stewart,stephanie.stewart@ember.co,Ember Technologies,"6109 Academy St, Austin, TX 73301",credit_card,growth,120000,2023-03-21T00:00:00,active
+BILL_001116,Carolyn Clark,carolyn.clark@nova.io,Nova Computing,"6758 Prospect Ave, Seattle, WA 98101",wire,enterprise,120000,2022-08-29T00:00:00,active
+BILL_001117,"Cruz, Ryan",ryan.cruz18@hotmail.com,Quantum Analytics,"1261 High St, Charlotte, NC 28201",ach,starter,25000,2023-10-18T00:00:00,churned
+BILL_001118,Samantha Rodriguez,samantha.rodriguez@isle.io,Isle Technologies,"2731 Lake Dr, San Jose, CA 95101",ach,starter,50000,2024-02-23T00:00:00,active
+BILL_001119,"Davis, Charles",charles.davis@sterling.co,Sterling Ventures,"3093 Park Pl, Dallas, TX 75201",invoice,starter,250000,2022-09-15T00:00:00,active
+BILL_001120,Kenneth Kim,kenneth.kim@alpine.io,Alpine Services,"2920 Prospect Ave, Columbus, OH 43085",credit_card,enterprise,250000,2023-06-23T00:00:00,churned
+BILL_001121,Susan Thompson,susan.thompson6@fastmail.com,Vertex Software,"5190 Church St, San Jose, CA 95101",invoice,starter,500000,2022-06-21T00:00:00,active
+BILL_001122,"Foster, Diane",diane.foster@vertex.co,Vertex Software,"5546 Pine Rd, San Jose, CA 95101",wire,starter,120000,2023-12-06T00:00:00,active
+BILL_001123,Aaron Turner,aaron.turner40@protonmail.com,Nexus Healthcare,"2536 Pine Rd, Charlotte, NC 28201",invoice,growth,120000,2022-05-06T00:00:00,churned
+BILL_001124,Charles Gomez,charles.gomez29@protonmail.com,Sapphire Analytics,"1968 Academy St, Denver, CO 80201",invoice,growth,120000,2023-08-14T00:00:00,active
+BILL_001125,Virginia White,virginia.white@cobalt.co,Cobalt Engineering,"7078 High St, Charlotte, NC 28201",credit_card,growth,250000,2023-10-31T00:00:00,active
+BILL_001126,Lisa Wilson,lisa.wilson@tidal.io,TIDAL SOFTWARE,"825 Bridge St, Portland, OR 97201",credit_card,growth,25000,2023-11-14T00:00:00,active
+BILL_001127,"Collins, Scott",scott.collins10@gmail.com,Redwood Industries,"8908 Washington Ave, Chicago, IL 60601",wire,starter,120000,2023-08-31T00:00:00,active
+BILL_001128,Sarah Lopez,sarah.lopez@canyon.com,Canyon Resources,"4630 Park Pl, Jacksonville, FL 32099",ach,enterprise,25000,2023-12-09T00:00:00,active
+BILL_001129,Elizabeth Nguyen,elizabeth.nguyen@atlas.co,Atlas Logistics,"3894 Washington Ave, Chicago, IL 60601",invoice,starter,500000,2023-12-24T00:00:00,active
+BILL_001130,Jason Jones,jason.jones@canyon.com,Canyon Resources,"6093 Spring St, Phoenix, AZ 85001",ach,growth,50000,2022-09-17T00:00:00,active
+BILL_001131,Maria Mendoza,maria.mendoza61@protonmail.com,Atlas Logistics,"6441 Park Pl, Chicago, IL 60601",ach,starter,250000,2022-04-20T00:00:00,active
+BILL_001132,"Turner, Carolyn",carolyn.turner@techflow.com,TechFlow Inc,"1929 Market St, Portland, OR 97201",ach,starter,120000,2022-04-05T00:00:00,active
+BILL_001133,Laura Adams,laura.adams@harbor.io,Harbor Analytics,"9044 High St, Dallas, TX 75201",ach,enterprise,250000,2023-11-06T00:00:00,active
+BILL_001134,Ruth Lee,ruth.lee56@fastmail.com,Sterling Ventures,"5887 Bridge St, Chicago, IL 60601",credit_card,starter,25000,2022-05-02T00:00:00,churned
+BILL_001135,Lisa Brooks,lisa.brooks@pacific.io,PACIFIC INNOVATIONS,"2855 Park Pl, Seattle, WA 98101",wire,growth,500000,2023-07-28T00:00:00,churned
+BILL_001136,Janet Martinez,janet.martinez85@fastmail.com,Obsidian Research,"5044 Church St, Austin, TX 73301",credit_card,growth,500000,2022-08-04T00:00:00,active
+BILL_001137,"Hughes, Brenda",brenda.hughes48@aol.com,Spark Automation,"6868 Washington Ave, Denver, CO 80201",credit_card,starter,25000,2022-03-07T00:00:00,active
+BILL_001138,"Nguyen, Emma",emma.nguyen@atlas.co,Atlas Logistics,"4367 Oak Ave, Nashville, TN 37201",invoice,growth,250000,2023-12-02T00:00:00,churned
+BILL_001139,"Price, Benjamin",benjamin.price@pinnacle.com,Pinnacle Financial,"1575 Cedar Ln, Houston, TX 77001",invoice,starter,50000,2024-02-26T00:00:00,past_due
+BILL_001140,John Cook,john.cook82@icloud.com,Quartz Health,"9605 Washington Ave, Indianapolis, IN 46201",invoice,starter,120000,2023-09-17T00:00:00,active
+BILL_001141,Dennis Sanders,dennis.sanders@databridge.com,DataBridge Solutions,"6763 Washington Ave, Los Angeles, CA 90001",credit_card,growth,25000,2022-10-04T00:00:00,past_due
+BILL_001142,Brenda Lewis,brenda.lewis@greenfield.com,GreenField Energy,"6362 Academy St, Chicago, IL 60601",credit_card,growth,250000,2023-12-15T00:00:00,churned
+BILL_001143,Brian Nguyen,brian.nguyen@sapphire.com,Sapphire Analytics,"2774 High St, Phoenix, AZ 85001",wire,enterprise,250000,2022-06-19T00:00:00,active
+BILL_001144,Timothy Rodriguez,timothy.rodriguez30@protonmail.com,TechFlow Inc,"8065 Bridge St, Austin, TX 73301",invoice,enterprise,500000,2023-11-30T00:00:00,past_due
+BILL_001145,Frank Ramirez,frank.ramirez5@outlook.com,Ember Technologies,"3779 Bridge St, Chicago, IL 60601",credit_card,enterprise,25000,2023-08-25T00:00:00,active
+BILL_001146,Amy Johnson,amy.johnson97@yahoo.com,DataBridge Solutions,"792 Maple Blvd, Indianapolis, IN 46201",wire,starter,25000,2022-12-20T00:00:00,active
+BILL_001147,Larry Adams,larry.adams71@fastmail.com,Quantum Analytics,"3016 Park Pl, Dallas, TX 75201",invoice,enterprise,25000,2023-03-30T00:00:00,past_due
+BILL_001148,Ronald Murphy,ronald.murphy@catalyst.com,Catalyst AI,"6762 Oak Ave, Los Angeles, CA 90001",ach,growth,250000,2022-06-04T00:00:00,active
+BILL_001149,Stephen Morales,stephen.morales@sapphire.com,Sapphire Analytics,"3320 Main St, Houston, TX 77001",credit_card,starter,500000,2022-01-28T00:00:00,past_due
+BILL_001150,Pamela Alvarez,pamela.alvarez@forge.io,Forge Labs,"275 Washington Ave, Charlotte, NC 28201",wire,starter,120000,2024-01-27T00:00:00,active
+BILL_001151,Richard Sanchez,richard.sanchez@horizon.co,Horizon Labs,"6600 Church St, Philadelphia, PA 19101",ach,enterprise,250000,2022-02-18T00:00:00,past_due
+BILL_001152,Joseph Watson,joseph.watson@keystone.com,Keystone Data,"7630 River Rd, Chicago, IL 60601",credit_card,enterprise,120000,2023-12-05T00:00:00,churned
+BILL_001153,Larry Bailey,larry.bailey@ridge.com,Ridge Financial,"2257 Spring St, Seattle, WA 98101",ach,starter,25000,2023-12-09T00:00:00,churned
+BILL_001154,Nathan Evans,nathan.evans@silverline.co,Silverline Capital,"6983 Spring St, San Antonio, TX 78201",wire,growth,25000,2023-10-01T00:00:00,active
+BILL_001155,"Nguyen, Laura",laura.nguyen@tidal.io,Tidal Software,"9272 Oak Ave, Nashville, TN 37201",credit_card,enterprise,25000,2023-05-08T00:00:00,past_due
+BILL_001156,Steven Wright,steven.wright@beacon.com,Beacon Data,"4922 Mill Rd, Seattle, WA 98101",ach,starter,250000,2023-06-30T00:00:00,past_due
+BILL_001157,John Watson,john.watson@pacific.io,Pacific Innovations,"125 Prospect Ave, Columbus, OH 43085",wire,starter,50000,2023-03-01T00:00:00,active
+BILL_001158,Rachel Myers,rachel.myers@onyx.co,Onyx Solutions,"2651 Washington Ave, Charlotte, NC 28201",credit_card,starter,120000,2022-03-30T00:00:00,churned
+BILL_001159,"Garcia, James",james.garcia@acme.co,Acme Corp,"2558 Maple Blvd, Fort Worth, TX 76101",wire,starter,120000,2022-03-19T00:00:00,active
+BILL_001160,"Murphy, Paul",paul.murphy@acme.co,Acme Corp,"8012 Academy St, Nashville, TN 37201",wire,growth,50000,2022-09-03T00:00:00,active
+BILL_001161,Edward Flores,edward.flores@horizon.co,Horizon Labs,"8948 Market St, Phoenix, AZ 85001",ach,starter,500000,2022-04-24T00:00:00,active
+BILL_001162,Mary Myers,mary.myers@databridge.com,DataBridge Solutions,"6413 Elm Dr, Indianapolis, IN 46201",ach,starter,120000,2023-03-22T00:00:00,past_due
+BILL_001163,"Stewart, Andrew",andrew.stewart69@yahoo.com,Meridian Partners,"4324 Church St, Los Angeles, CA 90001",wire,growth,50000,2022-05-05T00:00:00,active
+BILL_001164,Jerry Walker,jerry.walker@lumen.com,Lumen AI,"5753 Oak Ave, Nashville, TN 37201",invoice,growth,50000,2023-12-02T00:00:00,active
+BILL_001165,Joseph Ward,joseph.ward@keystone.com,Keystone Data,"990 Mill Rd, Austin, TX 73301",wire,enterprise,120000,2023-05-01T00:00:00,active
+BILL_001166,Stephanie White,stephanie.white@lumen.com,Lumen AI,"9598 Market St, Dallas, TX 75201",wire,starter,25000,2023-03-26T00:00:00,active
+BILL_001167,"Moore, Harold",harold.moore@pinnacle.com,Pinnacle Financial,"6879 Academy St, Denver, CO 80201",invoice,growth,25000,2022-10-07T00:00:00,churned
+BILL_001168,"Bennett, Daniel",daniel.bennett@coral.co,Coral Networks,"7706 Church St, Indianapolis, IN 46201",credit_card,enterprise,25000,2022-10-08T00:00:00,active
+BILL_001169,"Alvarez, Nicole",nicole.alvarez@vertex.co,Vertex Software,"4699 Union Ave, Los Angeles, CA 90001",wire,growth,25000,2024-01-23T00:00:00,active
+BILL_001170,"Thomas, Emily",emily.thomas@delta.com,Delta Platforms,"6801 Prospect Ave, Fort Worth, TX 76101",ach,starter,120000,2024-01-10T00:00:00,active
+BILL_001171,Katherine Foster,katherine.foster@tidal.io,Tidal Software,"4486 Elm Dr, Fort Worth, TX 76101",invoice,enterprise,250000,2022-10-17T00:00:00,churned
+BILL_001172,George Ross,george.ross@summit.com,Summit Health,"5032 Lake Dr, Austin, TX 73301",credit_card,starter,50000,2024-02-05T00:00:00,churned
+BILL_001173,"Murphy, Andrea",andrea.murphy30@icloud.com,Horizon Labs,"492 Mill Rd, Houston, TX 77001",invoice,enterprise,500000,2023-11-06T00:00:00,active
+BILL_001174,"Watson, Betty",betty.watson@harbor.io,Harbor Analytics,"1422 Main St, Indianapolis, IN 46201",ach,enterprise,500000,2022-01-30T00:00:00,active
+BILL_001175,"Patel, Cynthia",cynthia.patel26@hotmail.com,DataBridge Solutions,"7650 Oak Ave, San Jose, CA 95101",ach,growth,250000,2023-12-25T00:00:00,active
+BILL_001176,"King, Robert",robert.king@keystone.com,Keystone Data,"7725 River Rd, Houston, TX 77001",wire,starter,250000,2022-09-02T00:00:00,past_due
+BILL_001177,"Scott, Dorothy",dorothy.scott12@protonmail.com,Pulse Engineering,"8571 Spring St, Seattle, WA 98101",invoice,growth,250000,2022-03-28T00:00:00,active
+BILL_001178,Michelle Evans,michelle.evans1@outlook.com,Pinnacle Financial,"6577 Market St, Indianapolis, IN 46201",credit_card,growth,120000,2023-01-18T00:00:00,past_due
+BILL_001179,"Stewart, Joan",joan.stewart@prism.com,Prism Consulting,"1679 Union Ave, Portland, OR 97201",invoice,growth,250000,2023-08-02T00:00:00,past_due
+BILL_001180,Elizabeth King,elizabeth.king@quartz.io,Quartz Health,"2813 Union Ave, Charlotte, NC 28201",invoice,growth,25000,2022-06-15T00:00:00,churned
+BILL_001181,Carl Evans,carl.evans21@yahoo.com,Silverline Capital,"3722 Washington Ave, Denver, CO 80201",invoice,growth,25000,2023-08-11T00:00:00,active
+BILL_001182,"Martin, Olivia",olivia.martin56@fastmail.com,Redwood Industries,"4525 Cedar Ln, Chicago, IL 60601",wire,enterprise,250000,2023-09-25T00:00:00,past_due
+BILL_001183,"Ruiz, Helen",helen.ruiz@cloudpeak.com,CloudPeak Technologies,"907 Cedar Ln, Austin, TX 73301",wire,starter,25000,2022-06-08T00:00:00,active
+BILL_001184,Emily Brown,emily.brown@catalyst.com,Catalyst AI,"2910 Cedar Ln, Seattle, WA 98101",credit_card,growth,25000,2022-05-20T00:00:00,active
+BILL_001185,"Rogers, Nathan",nathan.rogers42@hotmail.com,Summit Health,"6572 High St, Seattle, WA 98101",ach,enterprise,250000,2022-06-11T00:00:00,past_due
+BILL_001186,Olivia Peterson,olivia.peterson@meridian.co,Meridian Partners,"9397 Bridge St, Seattle, WA 98101",ach,growth,120000,2023-11-05T00:00:00,churned
+BILL_001187,Elizabeth Lopez,elizabeth.lopez@quantum.co,Quantum Analytics,"7931 Main St, Denver, CO 80201",invoice,enterprise,120000,2023-03-06T00:00:00,active
+BILL_001188,Christopher Jones,christopher.jones@ironclad.com,Ironclad Security,"5700 Maple Blvd, Chicago, IL 60601",wire,starter,500000,2023-02-04T00:00:00,churned
+BILL_001189,Ronald Williams,ronald.williams@amber.com,Amber Group,"3212 Union Ave, San Diego, CA 92101",wire,enterprise,25000,2023-10-03T00:00:00,past_due
+BILL_001190,Gary Ruiz,gary.ruiz@quantum.co,Quantum Analytics,"4602 Maple Blvd, Columbus, OH 43085",credit_card,enterprise,250000,2022-10-27T00:00:00,active
+BILL_001191,Gary Davis,gary.davis@alpine.io,Alpine Services,"829 Cedar Ln, New York, NY 10001",invoice,starter,25000,2023-08-05T00:00:00,active
+BILL_001192,Julie Scott,julie.scott@prism.com,Prism Consulting,"3212 Market St, San Jose, CA 95101",invoice,growth,250000,2024-02-11T00:00:00,active
+BILL_001193,"Gonzalez, Heather",heather.gonzalez@redwood.com,Redwood Industries,"2081 Oak Ave, Fort Worth, TX 76101",wire,enterprise,120000,2022-08-26T00:00:00,active
+BILL_001194,Jacob Gonzalez,jacob.gonzalez@ironclad.com,Ironclad Security,"7483 Church St, Indianapolis, IN 46201",wire,enterprise,500000,2023-10-19T00:00:00,active
+BILL_001195,William Sanders,william.sanders@cobalt.co,Cobalt Engineering,"1329 Spring St, Los Angeles, CA 90001",invoice,growth,250000,2023-01-29T00:00:00,active
+BILL_001196,"Rivera, Raymond",raymond.rivera36@gmail.com,NorthStar Systems,"2819 Bridge St, Seattle, WA 98101",wire,enterprise,50000,2023-11-01T00:00:00,churned
+BILL_001197,Donna Foster,donna.foster41@protonmail.com,Meridian Partners,"4475 Spring St, San Antonio, TX 78201",invoice,growth,120000,2023-09-27T00:00:00,active
+BILL_001198,"Gonzalez, Lisa",lisa.gonzalez@canyon.com,Canyon Resources,"2415 Spring St, Chicago, IL 60601",invoice,growth,25000,2023-10-22T00:00:00,active
+BILL_001199,Anthony Young,anthony.young@quantum.co,Quantum Analytics,"883 River Rd, Chicago, IL 60601",ach,starter,250000,2023-02-26T00:00:00,active

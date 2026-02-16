@@ -411,14 +411,45 @@ client = Client(base_url="https://api.kanoniv.com", api_key="kn_...")
 - **[Lead Matching](https://kanoniv.com/docs/use-cases/lead-matching)** — Match inbound leads to existing accounts
 - **[Patient Matching](https://kanoniv.com/docs/use-cases/patient-matching)** — HIPAA-compliant patient record linking
 
+## Try It
+
+Run the bundled example - 6,500 records across 5 source systems, resolved in under a second:
+
+```bash
+pip install kanoniv pandas
+cd examples/customer-identity-resolution/kanoniv/
+python -c "
+from kanoniv import Spec, Source, reconcile, validate
+
+spec = Spec.from_file('kanoniv.yml')
+validate(spec).raise_on_error()
+
+sources = [
+    Source.from_csv('crm_contacts', '../data/crm_contacts.csv', primary_key='crm_contact_id'),
+    Source.from_csv('billing_accounts', '../data/billing_accounts.csv', primary_key='billing_account_id'),
+    Source.from_csv('support_users', '../data/support_users.csv', primary_key='support_user_id'),
+    Source.from_csv('app_signups', '../data/app_signups.csv', primary_key='app_user_id'),
+    Source.from_csv('partner_leads', '../data/partner_leads.csv', primary_key='partner_lead_id'),
+]
+result = reconcile(sources, spec)
+print(f'{result.cluster_count} golden records from 6,539 input records')
+print(f'Merge rate: {result.merge_rate:.1%}')
+result.to_pandas().to_csv('golden_customers.csv', index=False)
+print('Exported to golden_customers.csv')
+"
+```
+
+The [`examples/`](examples/) directory also includes the same problem solved with [dbt/SQL](examples/customer-identity-resolution/dbt-sql/) and [Splink](examples/customer-identity-resolution/splink/) for comparison. See the [full walkthrough notebook](examples/customer-identity-resolution/kanoniv/customer_entity.ipynb) for data exploration, quality analysis, and business enrichment.
+
 ## What's in This Repo
 
 | Directory | Description |
 |---|---|
 | [`crates/validator`](crates/validator/) | Rust CLI + library for validating, compiling, planning, and diffing identity specs |
-| [`python/`](python/) | Python SDK source — native extension built with [PyO3](https://pyo3.rs) + [maturin](https://www.maturin.rs) |
+| [`python/`](python/) | Python SDK source - native extension built with [PyO3](https://pyo3.rs) + [maturin](https://www.maturin.rs) |
+| [`examples/`](examples/) | End-to-end examples with sample data (10 CSVs, 6,500 records) |
 
-The reconciliation engine (matching, blocking, scoring, clustering, survivorship) is compiled into the published PyPI wheels. Install with `pip install kanoniv` — no Rust toolchain required.
+The reconciliation engine (matching, blocking, scoring, clustering, survivorship) is compiled into the published PyPI wheels. Install with `pip install kanoniv` - no Rust toolchain required.
 
 ## License
 

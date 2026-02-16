@@ -1,0 +1,22 @@
+name: 'identity_resolution'
+version: '1.0.0'
+config-version: 2
+
+profile: 'identity_resolution'
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+seed-paths: ["../data"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  identity_resolution:
+    intermediate:
+      +materialized: table
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts

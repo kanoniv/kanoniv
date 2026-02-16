@@ -1,0 +1,19 @@
+identity_resolution:
+  target: local
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: TRANSFORMER
+      database: KANONIV_DEMO
+      warehouse: TRANSFORM_WH
+      schema: DEV
+      threads: 4
+
+    local:
+      type: duckdb
+      path: "../data/identity_resolution.duckdb"
+      schema: main
+      threads: 4

@@ -1,0 +1,281 @@
+# Kanoniv Identity Resolution Spec - v2
+# This single file replaces 25+ intermediate SQL models from the "before" project.
+#
+# What this spec does:
+#   1. Defines 5 source systems with canonical field mappings
+#   2. Sets up blocking strategy to reduce O(n²) comparison space
+#   3. Defines Fellegi-Sunter probabilistic scoring with 5 comparison fields
+#   4. Estimates u-probabilities from random pairs (unbiased - avoids blocking bias)
+#   5. Learns m-probabilities via EM training from blocked candidate pairs
+#   6. Configures survivorship rules for golden record assembly
+#   7. Enables governance: probability logging + shadow-mode threshold protection
+#
+# Lines of YAML: 170      Lines of SQL it replaces: 1,400+
+#
+# Note: Name parsing (billing "Last, First" -> first/last, support display_name -> first/last)
+# happens in dbt staging models before entities reach the Kanoniv engine.
+
+api_version: kanoniv/v2
+identity_version: customer_v1
+
+metadata:
+  name: Customer Identity Resolution
+  description: >-
+    Cross-source customer resolution across CRM, Billing, Support, App,
+    and Partner systems (2,000 true entities from 6,500 records).
+  owner: data-engineering
+  tags: [production, pii-source, identity]
+
+entity:
+  name: customer
+  description: Unified customer entity resolved across 5 source systems
+  compliance:
+    frameworks: [gdpr]
+    pii_fields: [email, phone, first_name, last_name]
+    audit_required: true
+
+# ---------------------------------------------------------------------------
+# Sources  - canonical field mappings from each system
+#
+# Attribute map: canonical_name -> source_column_name
+# Staging models handle format normalization (name parsing, phone formatting)
+# before entities are fed to the engine.
+# ---------------------------------------------------------------------------
+sources:
+  crm_contacts:
+    adapter: csv
+    location: raw.crm_contacts
+    primary_key: crm_contact_id
+    schema:
+      email: { type: string, pii: true }
+      phone: { type: string, pii: true }
+      first_name: { type: string, pii: true }
+      last_name: { type: string, pii: true }
+      company_name: { type: string }
+    attributes:
+      first_name: first_name
+      last_name: last_name
+      email: email
+      phone: phone
+      company_name: company_name
+    freshness:
+      max_age: "24h"
+      warn_after: "12h"
+    tags: [production, crm]
+
+  billing_accounts:
+    adapter: csv
+    location: raw.billing_accounts
+    primary_key: billing_account_id
+    schema:
+      email: { type: string, pii: true }
+      first_name: { type: string, pii: true }
+      last_name: { type: string, pii: true }
+      company_name: { type: string }
+    # Note: raw billing has "account_name" in "Last, First" format.
+    # Staging model stg_billing__accounts parses it into first_name/last_name.
+    attributes:
+      first_name: first_name
+      last_name: last_name
+      email: email
+      company_name: company_name
+    freshness:
+      max_age: "24h"
+    tags: [production, billing]
+
+  support_users:
+    adapter: csv
+    location: raw.support_users
+    primary_key: support_user_id
+    schema:
+      email: { type: string, pii: true, nullable: true }
+      phone: { type: string, pii: true, nullable: true }
+      first_name: { type: string, pii: true }
+      last_name: { type: string, pii: true }
+      company_name: { type: string }
+    # Note: raw support has "display_name" as free-text.
+    # Staging model stg_support__users splits into first_name/last_name.
+    attributes:
+      first_name: first_name
+      last_name: last_name
+      email: email
+      phone: phone
+      company_name: company
+    freshness:
+      max_age: "48h"
+    tags: [production, support]
+
+  app_signups:
+    adapter: csv
+    location: raw.app_signups
+    primary_key: app_user_id
+    schema:
+      email: { type: string, pii: true }
+      first_name: { type: string, pii: true, nullable: true }
+      last_name: { type: string, pii: true, nullable: true }
+    attributes:
+      first_name: first_name
+      last_name: last_name
+      email: email
+    freshness:
+      max_age: "24h"
+    tags: [production, app]
+
+  partner_leads:
+    adapter: csv
+    location: raw.partner_leads
+    primary_key: partner_lead_id
+    schema:
+      email: { type: string, pii: true, nullable: true }
+      first_name: { type: string, pii: true, nullable: true }
+      last_name: { type: string, pii: true, nullable: true }
+      company_name: { type: string }
+    attributes:
+      first_name: first_name
+      last_name: last_name
+      email: email
+      company_name: company
+    freshness:
+      max_age: "72h"
+    tags: [production, partner]
+
+# ---------------------------------------------------------------------------
+# Blocking - reduce comparison space from O(n^2) to O(n log n)
+#
+# Multiple blocking keys = union of candidate pairs.
+# A pair only needs to share ONE blocking key to be compared.
+# ---------------------------------------------------------------------------
+blocking:
+  strategy: composite
+  keys:
+    - [email]
+    - [phone]
+    - [last_name, first_name]
+    - [company_name, last_name]
+
+# ---------------------------------------------------------------------------
+# Decision - Fellegi-Sunter probabilistic scoring with EM training
+#
+# Two-phase training:
+#   Phase 1: estimate u-probabilities from random (unblocked) pairs.
+#            This avoids the bias where blocked pairs always agree on the
+#            blocking field, inflating u for email/phone.
+#   Phase 2: EM with fix_u=true  - only learns m-probabilities from
+#            blocked candidate pairs, keeping u frozen from Phase 1.
+#
+# m = P(field agrees | true match)     - how often matches agree
+# u = P(field agrees | non-match)      - how often random pairs agree
+# weight = field importance multiplier  - amplifies log-likelihood ratio
+# ---------------------------------------------------------------------------
+decision:
+  scoring:
+    strategy: fellegi_sunter
+
+    training:
+      method: em
+      estimate_u: random_sampling     # Phase 1: unbiased u from random pairs
+      max_random_pairs: 1000000       # Sample up to 1M random pairs for u
+      max_iterations: 25              # Phase 2: EM iterations for m
+      convergence_threshold: 0.001
+
+    fields:
+      # Email - strongest identifier. Near-unique, so u is very low.
+      # Weight 2.0: email match/mismatch has outsized influence on decision.
+      # Normalizer: lowercase, strip plus-addressing, Gmail dot trick.
+      - name: email
+        comparator: exact
+        weight: 2.0
+        m_probability: 0.95           # 95% of true matches share email
+        u_probability: 0.001          # Only 0.1% of random pairs share email
+        normalizer: email
+
+      # Phone - strong identifier when present, but 40% missing across sources.
+      # Normalizer: strip formatting -> E.164 (+1XXXXXXXXXX).
+      - name: phone
+        comparator: exact
+        weight: 1.5
+        m_probability: 0.85           # Lower m due to frequent missing values
+        u_probability: 0.005          # Phone collisions are rare
+        normalizer: phone
+
+      # First name - moderate discriminator. Fuzzy matching handles typos/nicknames.
+      # Normalizer: NFC + lowercase + nickname resolution (Bob->Robert, etc.)
+      - name: first_name
+        comparator: jaro_winkler
+        weight: 1.0
+        m_probability: 0.85           # True matches usually share first name
+        u_probability: 0.05           # 5% chance random pair shares first name
+        normalizer: nickname
+
+      # Last name - stronger than first name (more diverse).
+      # Normalizer: Unicode NFC, lowercase, whitespace collapse.
+      - name: last_name
+        comparator: jaro_winkler
+        weight: 1.0
+        m_probability: 0.88           # True matches almost always share last name
+        u_probability: 0.02           # 2% chance random pair shares last name
+        normalizer: name
+
+      # Company - moderate discriminator. Fuzzy handles "Acme Corp" vs "ACME".
+      # Normalizer: trim + lowercase.
+      - name: company_name
+        comparator: jaro_winkler
+        weight: 1.0
+        m_probability: 0.80           # Co-workers may be different entities
+        u_probability: 0.02           # Low base rate for company name agreement
+        normalizer: generic
+
+    # Log-likelihood thresholds for Fellegi-Sunter decision boundaries.
+    # These operate on the raw composite score (sum of field log-likelihood ratios).
+    thresholds:
+      match: 8.0                      # Confident match (email + one strong field)
+      possible: 4.0                   # Needs human review
+      non_match: -5.0                 # Confident non-match
+
+  # Normalized score thresholds (used by non-FS scoring methods as fallback)
+  thresholds:
+    match: 0.9
+    review: 0.7
+
+  conflict_strategy: prefer_high_confidence
+
+  tie_breaking:
+    - exact_match_priority
+    - lowest_entity_id
+
+  audit:
+    log_all_comparisons: false        # Too verbose for production
+    log_decisions: true
+    log_conflicts: true
+
+# ---------------------------------------------------------------------------
+# Survivorship - golden record assembly
+#
+# Default: prefer CRM as system of record, then billing, then others.
+# Field overrides let specific fields pull from the best source.
+# ---------------------------------------------------------------------------
+survivorship:
+  default: source_priority
+  overrides:
+    - field: email
+      strategy: most_complete
+    - field: phone
+      strategy: source_priority
+      priority: [crm_contacts, support_users]
+    - field: first_name
+      strategy: most_complete
+    - field: last_name
+      strategy: most_complete
+    - field: company_name
+      strategy: source_priority
+      priority: [crm_contacts, billing_accounts, partner_leads]
+
+# ---------------------------------------------------------------------------
+# Governance - operational guardrails
+# ---------------------------------------------------------------------------
+governance:
+  require_freshness: true
+  require_schema: true
+  required_tags: [production]
+  log_probabilities: true                       # Log per-field FS weights in telemetry
+  require_shadow_on_threshold_change: true       # Block deploys if thresholds change without shadow run

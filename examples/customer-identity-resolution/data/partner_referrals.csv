@@ -1,0 +1,485 @@
+referral_id,partner_lead_id,referring_partner,referral_type,notes,created_at
+REF_000000,PTR_000000,CloudFirst Consulting,inbound,,2023-02-22T00:00:00
+REF_000001,PTR_000002,dbt Labs Partners,inbound,,2024-04-19T00:00:00
+REF_000002,PTR_000005,CloudFirst Consulting,co-sell,Existing dbt user looking for identity resolution,2023-09-10T00:00:00
+REF_000003,PTR_000007,dbt Labs Partners,marketplace,Existing dbt user looking for identity resolution,2023-08-25T00:00:00
+REF_000004,PTR_000008,BigQuery Alliance,co-sell,Existing dbt user looking for identity resolution,2023-02-05T00:00:00
+REF_000005,PTR_000009,Snowflake SI Network,inbound,Migrating from legacy MDM,2023-03-08T00:00:00
+REF_000006,PTR_000010,BigQuery Alliance,marketplace,"Evaluated competitor, needs better matching",2023-09-02T00:00:00
+REF_000007,PTR_000011,Snowflake SI Network,inbound,Migrating from legacy MDM,2022-10-21T00:00:00
+REF_000008,PTR_000014,Databricks ISV Program,inbound,"Evaluated competitor, needs better matching",2022-09-21T00:00:00
+REF_000009,PTR_000016,Databricks ISV Program,co-sell,,2024-01-22T00:00:00
+REF_000010,PTR_000017,DataStack Partners,marketplace,HIPAA compliance requirement,2022-09-06T00:00:00
+REF_000011,PTR_000020,Databricks ISV Program,co-sell,Existing dbt user looking for identity resolution,2023-11-09T00:00:00
+REF_000012,PTR_000021,DataStack Partners,marketplace,Met at Snowflake Summit,2023-01-02T00:00:00
+REF_000013,PTR_000022,CloudFirst Consulting,co-sell,Met at Snowflake Summit,2023-03-20T00:00:00
+REF_000014,PTR_000023,CloudFirst Consulting,inbound,Migrating from legacy MDM,2022-11-06T00:00:00
+REF_000015,PTR_000025,dbt Labs Partners,co-sell,,2023-11-12T00:00:00
+REF_000016,PTR_000026,Snowflake SI Network,marketplace,HIPAA compliance requirement,2024-04-17T00:00:00
+REF_000017,PTR_000027,Snowflake SI Network,inbound,Met at Snowflake Summit,2022-01-20T00:00:00
+REF_000018,PTR_000028,dbt Labs Partners,marketplace,Migrating from legacy MDM,2023-10-26T00:00:00
+REF_000019,PTR_000029,DataStack Partners,co-sell,,2023-08-09T00:00:00
+REF_000020,PTR_000030,DataStack Partners,inbound,Existing dbt user looking for identity resolution,2022-08-19T00:00:00
+REF_000021,PTR_000031,BigQuery Alliance,marketplace,Existing dbt user looking for identity resolution,2023-03-03T00:00:00
+REF_000022,PTR_000034,Snowflake SI Network,inbound,,2023-06-30T00:00:00
+REF_000023,PTR_000036,DataStack Partners,co-sell,,2023-09-24T00:00:00
+REF_000024,PTR_000037,dbt Labs Partners,inbound,"Evaluated competitor, needs better matching",2023-02-17T00:00:00
+REF_000025,PTR_000039,Snowflake SI Network,inbound,Migrating from legacy MDM,2022-03-15T00:00:00
+REF_000026,PTR_000040,BigQuery Alliance,co-sell,Met at Snowflake Summit,2023-05-01T00:00:00
+REF_000027,PTR_000042,CloudFirst Consulting,marketplace,"Evaluated competitor, needs better matching",2023-03-21T00:00:00
+REF_000028,PTR_000044,DataStack Partners,marketplace,Existing dbt user looking for identity resolution,2023-02-16T00:00:00
+REF_000029,PTR_000045,DataStack Partners,inbound,"Evaluated competitor, needs better matching",2022-10-06T00:00:00
+REF_000030,PTR_000048,Snowflake SI Network,marketplace,Met at Snowflake Summit,2022-09-14T00:00:00
+REF_000031,PTR_000049,CloudFirst Consulting,marketplace,"Evaluated competitor, needs better matching",2022-10-26T00:00:00
+REF_000032,PTR_000050,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2022-12-22T00:00:00
+REF_000033,PTR_000051,dbt Labs Partners,marketplace,HIPAA compliance requirement,2022-04-15T00:00:00
+REF_000034,PTR_000053,dbt Labs Partners,inbound,,2023-06-23T00:00:00
+REF_000035,PTR_000054,Snowflake SI Network,marketplace,Existing dbt user looking for identity resolution,2022-07-30T00:00:00
+REF_000036,PTR_000055,Databricks ISV Program,marketplace,,2023-06-27T00:00:00
+REF_000037,PTR_000056,Snowflake SI Network,marketplace,,2023-07-10T00:00:00
+REF_000038,PTR_000057,dbt Labs Partners,inbound,Migrating from legacy MDM,2022-07-13T00:00:00
+REF_000039,PTR_000058,BigQuery Alliance,co-sell,Met at Snowflake Summit,2022-11-11T00:00:00
+REF_000040,PTR_000059,DataStack Partners,inbound,Met at Snowflake Summit,2023-08-24T00:00:00
+REF_000041,PTR_000060,DataStack Partners,marketplace,Migrating from legacy MDM,2022-12-13T00:00:00
+REF_000042,PTR_000061,BigQuery Alliance,co-sell,,2024-04-18T00:00:00
+REF_000043,PTR_000062,Snowflake SI Network,inbound,Existing dbt user looking for identity resolution,2024-02-16T00:00:00
+REF_000044,PTR_000064,CloudFirst Consulting,co-sell,Migrating from legacy MDM,2022-09-17T00:00:00
+REF_000045,PTR_000065,Databricks ISV Program,marketplace,Existing dbt user looking for identity resolution,2022-09-05T00:00:00
+REF_000046,PTR_000066,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2023-12-15T00:00:00
+REF_000047,PTR_000067,BigQuery Alliance,co-sell,Migrating from legacy MDM,2023-01-15T00:00:00
+REF_000048,PTR_000068,CloudFirst Consulting,inbound,HIPAA compliance requirement,2023-03-05T00:00:00
+REF_000049,PTR_000070,Snowflake SI Network,inbound,Migrating from legacy MDM,2022-03-28T00:00:00
+REF_000050,PTR_000072,dbt Labs Partners,co-sell,HIPAA compliance requirement,2022-10-22T00:00:00
+REF_000051,PTR_000073,Databricks ISV Program,marketplace,Met at Snowflake Summit,2022-05-12T00:00:00
+REF_000052,PTR_000077,Snowflake SI Network,co-sell,,2023-11-07T00:00:00
+REF_000053,PTR_000079,dbt Labs Partners,co-sell,Met at Snowflake Summit,2022-10-22T00:00:00
+REF_000054,PTR_000081,Snowflake SI Network,co-sell,Migrating from legacy MDM,2023-06-26T00:00:00
+REF_000055,PTR_000082,Databricks ISV Program,co-sell,,2022-10-27T00:00:00
+REF_000056,PTR_000088,Snowflake SI Network,inbound,"Evaluated competitor, needs better matching",2024-05-19T00:00:00
+REF_000057,PTR_000090,Snowflake SI Network,marketplace,Migrating from legacy MDM,2022-04-29T00:00:00
+REF_000058,PTR_000091,BigQuery Alliance,co-sell,"Evaluated competitor, needs better matching",2023-05-27T00:00:00
+REF_000059,PTR_000095,BigQuery Alliance,co-sell,Met at Snowflake Summit,2023-12-29T00:00:00
+REF_000060,PTR_000097,DataStack Partners,marketplace,"Evaluated competitor, needs better matching",2022-09-03T00:00:00
+REF_000061,PTR_000098,Snowflake SI Network,co-sell,Migrating from legacy MDM,2023-10-04T00:00:00
+REF_000062,PTR_000100,Snowflake SI Network,co-sell,,2022-06-11T00:00:00
+REF_000063,PTR_000101,DataStack Partners,inbound,Existing dbt user looking for identity resolution,2022-10-31T00:00:00
+REF_000064,PTR_000102,BigQuery Alliance,marketplace,Met at Snowflake Summit,2022-02-19T00:00:00
+REF_000065,PTR_000104,DataStack Partners,inbound,Migrating from legacy MDM,2022-07-25T00:00:00
+REF_000066,PTR_000105,dbt Labs Partners,inbound,HIPAA compliance requirement,2023-03-30T00:00:00
+REF_000067,PTR_000107,CloudFirst Consulting,marketplace,Migrating from legacy MDM,2024-01-12T00:00:00
+REF_000068,PTR_000108,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2022-05-21T00:00:00
+REF_000069,PTR_000109,BigQuery Alliance,co-sell,HIPAA compliance requirement,2024-01-13T00:00:00
+REF_000070,PTR_000110,DataStack Partners,marketplace,"Evaluated competitor, needs better matching",2023-06-12T00:00:00
+REF_000071,PTR_000111,Databricks ISV Program,co-sell,Met at Snowflake Summit,2022-06-03T00:00:00
+REF_000072,PTR_000112,Snowflake SI Network,marketplace,"Evaluated competitor, needs better matching",2022-11-16T00:00:00
+REF_000073,PTR_000114,dbt Labs Partners,co-sell,Migrating from legacy MDM,2024-01-25T00:00:00
+REF_000074,PTR_000116,DataStack Partners,marketplace,Met at Snowflake Summit,2022-12-23T00:00:00
+REF_000075,PTR_000119,DataStack Partners,inbound,Existing dbt user looking for identity resolution,2022-09-15T00:00:00
+REF_000076,PTR_000121,Snowflake SI Network,co-sell,"Evaluated competitor, needs better matching",2022-01-13T00:00:00
+REF_000077,PTR_000123,dbt Labs Partners,co-sell,"Evaluated competitor, needs better matching",2023-12-08T00:00:00
+REF_000078,PTR_000124,CloudFirst Consulting,marketplace,HIPAA compliance requirement,2023-07-02T00:00:00
+REF_000079,PTR_000125,Databricks ISV Program,inbound,,2023-06-25T00:00:00
+REF_000080,PTR_000127,BigQuery Alliance,co-sell,Existing dbt user looking for identity resolution,2022-06-27T00:00:00
+REF_000081,PTR_000128,Snowflake SI Network,co-sell,Met at Snowflake Summit,2023-02-16T00:00:00
+REF_000082,PTR_000129,CloudFirst Consulting,inbound,"Evaluated competitor, needs better matching",2022-06-02T00:00:00
+REF_000083,PTR_000131,dbt Labs Partners,inbound,HIPAA compliance requirement,2023-06-19T00:00:00
+REF_000084,PTR_000132,Databricks ISV Program,inbound,,2023-09-12T00:00:00
+REF_000085,PTR_000133,Databricks ISV Program,inbound,"Evaluated competitor, needs better matching",2023-04-12T00:00:00
+REF_000086,PTR_000134,BigQuery Alliance,co-sell,HIPAA compliance requirement,2023-09-15T00:00:00
+REF_000087,PTR_000135,DataStack Partners,marketplace,Migrating from legacy MDM,2023-05-27T00:00:00
+REF_000088,PTR_000137,dbt Labs Partners,co-sell,HIPAA compliance requirement,2022-07-10T00:00:00
+REF_000089,PTR_000139,DataStack Partners,marketplace,,2023-04-26T00:00:00
+REF_000090,PTR_000140,dbt Labs Partners,co-sell,Existing dbt user looking for identity resolution,2022-11-03T00:00:00
+REF_000091,PTR_000143,CloudFirst Consulting,marketplace,Migrating from legacy MDM,2023-05-21T00:00:00
+REF_000092,PTR_000144,DataStack Partners,co-sell,"Evaluated competitor, needs better matching",2022-08-13T00:00:00
+REF_000093,PTR_000147,BigQuery Alliance,inbound,Migrating from legacy MDM,2022-06-19T00:00:00
+REF_000094,PTR_000154,BigQuery Alliance,co-sell,"Evaluated competitor, needs better matching",2023-03-20T00:00:00
+REF_000095,PTR_000158,Databricks ISV Program,co-sell,Migrating from legacy MDM,2022-10-13T00:00:00
+REF_000096,PTR_000159,dbt Labs Partners,inbound,Met at Snowflake Summit,2022-06-11T00:00:00
+REF_000097,PTR_000163,DataStack Partners,inbound,HIPAA compliance requirement,2024-03-12T00:00:00
+REF_000098,PTR_000164,DataStack Partners,marketplace,HIPAA compliance requirement,2022-06-10T00:00:00
+REF_000099,PTR_000166,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2023-12-04T00:00:00
+REF_000100,PTR_000167,Databricks ISV Program,co-sell,,2024-04-06T00:00:00
+REF_000101,PTR_000168,CloudFirst Consulting,marketplace,HIPAA compliance requirement,2023-06-01T00:00:00
+REF_000102,PTR_000172,BigQuery Alliance,co-sell,Migrating from legacy MDM,2023-07-11T00:00:00
+REF_000103,PTR_000174,dbt Labs Partners,inbound,"Evaluated competitor, needs better matching",2024-03-05T00:00:00
+REF_000104,PTR_000175,BigQuery Alliance,inbound,Met at Snowflake Summit,2023-07-25T00:00:00
+REF_000105,PTR_000176,Snowflake SI Network,co-sell,,2022-11-12T00:00:00
+REF_000106,PTR_000177,dbt Labs Partners,marketplace,,2022-07-14T00:00:00
+REF_000107,PTR_000178,Databricks ISV Program,co-sell,Existing dbt user looking for identity resolution,2022-02-23T00:00:00
+REF_000108,PTR_000179,Snowflake SI Network,inbound,Migrating from legacy MDM,2022-10-12T00:00:00
+REF_000109,PTR_000183,Databricks ISV Program,inbound,,2022-09-27T00:00:00
+REF_000110,PTR_000187,dbt Labs Partners,co-sell,,2023-09-11T00:00:00
+REF_000111,PTR_000190,BigQuery Alliance,co-sell,"Evaluated competitor, needs better matching",2023-09-01T00:00:00
+REF_000112,PTR_000191,DataStack Partners,co-sell,,2024-05-21T00:00:00
+REF_000113,PTR_000192,Snowflake SI Network,inbound,HIPAA compliance requirement,2023-08-25T00:00:00
+REF_000114,PTR_000193,dbt Labs Partners,co-sell,Migrating from legacy MDM,2022-04-13T00:00:00
+REF_000115,PTR_000194,dbt Labs Partners,co-sell,,2022-06-22T00:00:00
+REF_000116,PTR_000195,Databricks ISV Program,co-sell,Met at Snowflake Summit,2023-05-07T00:00:00
+REF_000117,PTR_000196,Snowflake SI Network,marketplace,HIPAA compliance requirement,2024-04-30T00:00:00
+REF_000118,PTR_000198,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2022-11-10T00:00:00
+REF_000119,PTR_000199,Databricks ISV Program,marketplace,Met at Snowflake Summit,2023-07-28T00:00:00
+REF_000120,PTR_000201,Snowflake SI Network,inbound,Migrating from legacy MDM,2023-01-04T00:00:00
+REF_000121,PTR_000202,Snowflake SI Network,co-sell,"Evaluated competitor, needs better matching",2022-12-30T00:00:00
+REF_000122,PTR_000203,BigQuery Alliance,co-sell,,2023-07-17T00:00:00
+REF_000123,PTR_000204,BigQuery Alliance,co-sell,"Evaluated competitor, needs better matching",2022-09-25T00:00:00
+REF_000124,PTR_000206,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2023-05-14T00:00:00
+REF_000125,PTR_000207,dbt Labs Partners,inbound,HIPAA compliance requirement,2022-03-30T00:00:00
+REF_000126,PTR_000209,dbt Labs Partners,inbound,Migrating from legacy MDM,2022-08-18T00:00:00
+REF_000127,PTR_000212,Snowflake SI Network,co-sell,Met at Snowflake Summit,2024-05-28T00:00:00
+REF_000128,PTR_000213,Snowflake SI Network,inbound,HIPAA compliance requirement,2022-07-10T00:00:00
+REF_000129,PTR_000214,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2023-08-08T00:00:00
+REF_000130,PTR_000215,BigQuery Alliance,inbound,,2022-10-19T00:00:00
+REF_000131,PTR_000217,Snowflake SI Network,co-sell,Met at Snowflake Summit,2023-12-16T00:00:00
+REF_000132,PTR_000218,BigQuery Alliance,marketplace,Migrating from legacy MDM,2022-05-29T00:00:00
+REF_000133,PTR_000222,BigQuery Alliance,co-sell,Met at Snowflake Summit,2023-05-18T00:00:00
+REF_000134,PTR_000223,CloudFirst Consulting,marketplace,"Evaluated competitor, needs better matching",2023-05-27T00:00:00
+REF_000135,PTR_000224,DataStack Partners,marketplace,Existing dbt user looking for identity resolution,2023-06-22T00:00:00
+REF_000136,PTR_000225,DataStack Partners,co-sell,Met at Snowflake Summit,2023-10-15T00:00:00
+REF_000137,PTR_000226,BigQuery Alliance,marketplace,Migrating from legacy MDM,2024-01-21T00:00:00
+REF_000138,PTR_000227,dbt Labs Partners,marketplace,Migrating from legacy MDM,2024-02-04T00:00:00
+REF_000139,PTR_000230,dbt Labs Partners,co-sell,Existing dbt user looking for identity resolution,2024-03-06T00:00:00
+REF_000140,PTR_000231,BigQuery Alliance,co-sell,HIPAA compliance requirement,2023-11-05T00:00:00
+REF_000141,PTR_000232,Databricks ISV Program,marketplace,Met at Snowflake Summit,2023-04-10T00:00:00
+REF_000142,PTR_000234,dbt Labs Partners,inbound,Met at Snowflake Summit,2022-11-01T00:00:00
+REF_000143,PTR_000235,DataStack Partners,marketplace,Existing dbt user looking for identity resolution,2023-05-13T00:00:00
+REF_000144,PTR_000239,DataStack Partners,inbound,"Evaluated competitor, needs better matching",2023-12-13T00:00:00
+REF_000145,PTR_000240,dbt Labs Partners,marketplace,"Evaluated competitor, needs better matching",2023-11-09T00:00:00
+REF_000146,PTR_000241,Databricks ISV Program,inbound,"Evaluated competitor, needs better matching",2024-05-23T00:00:00
+REF_000147,PTR_000243,DataStack Partners,co-sell,,2022-05-05T00:00:00
+REF_000148,PTR_000245,BigQuery Alliance,inbound,Existing dbt user looking for identity resolution,2022-05-25T00:00:00
+REF_000149,PTR_000246,DataStack Partners,inbound,"Evaluated competitor, needs better matching",2023-08-14T00:00:00
+REF_000150,PTR_000247,BigQuery Alliance,inbound,Migrating from legacy MDM,2024-01-20T00:00:00
+REF_000151,PTR_000249,CloudFirst Consulting,marketplace,Existing dbt user looking for identity resolution,2024-05-27T00:00:00
+REF_000152,PTR_000252,Snowflake SI Network,inbound,Migrating from legacy MDM,2022-09-02T00:00:00
+REF_000153,PTR_000254,DataStack Partners,co-sell,HIPAA compliance requirement,2022-04-14T00:00:00
+REF_000154,PTR_000256,CloudFirst Consulting,inbound,"Evaluated competitor, needs better matching",2023-09-24T00:00:00
+REF_000155,PTR_000257,dbt Labs Partners,co-sell,HIPAA compliance requirement,2024-02-21T00:00:00
+REF_000156,PTR_000261,BigQuery Alliance,inbound,Migrating from legacy MDM,2024-05-13T00:00:00
+REF_000157,PTR_000263,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2024-04-09T00:00:00
+REF_000158,PTR_000264,BigQuery Alliance,inbound,,2023-05-06T00:00:00
+REF_000159,PTR_000265,BigQuery Alliance,co-sell,Migrating from legacy MDM,2024-01-21T00:00:00
+REF_000160,PTR_000266,dbt Labs Partners,co-sell,"Evaluated competitor, needs better matching",2023-09-24T00:00:00
+REF_000161,PTR_000271,CloudFirst Consulting,inbound,,2023-03-19T00:00:00
+REF_000162,PTR_000272,CloudFirst Consulting,marketplace,,2022-06-05T00:00:00
+REF_000163,PTR_000274,Snowflake SI Network,co-sell,,2022-11-08T00:00:00
+REF_000164,PTR_000276,DataStack Partners,marketplace,,2022-10-31T00:00:00
+REF_000165,PTR_000277,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2022-04-14T00:00:00
+REF_000166,PTR_000279,Snowflake SI Network,marketplace,,2023-08-28T00:00:00
+REF_000167,PTR_000280,CloudFirst Consulting,inbound,HIPAA compliance requirement,2023-04-24T00:00:00
+REF_000168,PTR_000281,DataStack Partners,inbound,Met at Snowflake Summit,2022-08-08T00:00:00
+REF_000169,PTR_000282,CloudFirst Consulting,marketplace,Met at Snowflake Summit,2022-12-04T00:00:00
+REF_000170,PTR_000283,Snowflake SI Network,co-sell,,2023-03-29T00:00:00
+REF_000171,PTR_000284,dbt Labs Partners,co-sell,Met at Snowflake Summit,2023-04-22T00:00:00
+REF_000172,PTR_000285,dbt Labs Partners,marketplace,Met at Snowflake Summit,2022-09-05T00:00:00
+REF_000173,PTR_000286,CloudFirst Consulting,inbound,Existing dbt user looking for identity resolution,2023-05-21T00:00:00
+REF_000174,PTR_000287,DataStack Partners,inbound,"Evaluated competitor, needs better matching",2023-10-19T00:00:00
+REF_000175,PTR_000288,dbt Labs Partners,marketplace,"Evaluated competitor, needs better matching",2023-12-18T00:00:00
+REF_000176,PTR_000289,Snowflake SI Network,co-sell,,2022-07-05T00:00:00
+REF_000177,PTR_000291,DataStack Partners,co-sell,,2023-08-25T00:00:00
+REF_000178,PTR_000294,DataStack Partners,co-sell,,2023-02-16T00:00:00
+REF_000179,PTR_000297,CloudFirst Consulting,marketplace,HIPAA compliance requirement,2023-10-02T00:00:00
+REF_000180,PTR_000298,Snowflake SI Network,inbound,Met at Snowflake Summit,2022-10-10T00:00:00
+REF_000181,PTR_000301,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2022-10-27T00:00:00
+REF_000182,PTR_000302,CloudFirst Consulting,marketplace,Existing dbt user looking for identity resolution,2023-09-25T00:00:00
+REF_000183,PTR_000309,Snowflake SI Network,marketplace,Migrating from legacy MDM,2024-04-03T00:00:00
+REF_000184,PTR_000310,Databricks ISV Program,inbound,Met at Snowflake Summit,2022-06-21T00:00:00
+REF_000185,PTR_000311,Snowflake SI Network,inbound,Existing dbt user looking for identity resolution,2023-07-16T00:00:00
+REF_000186,PTR_000312,Snowflake SI Network,marketplace,Migrating from legacy MDM,2022-07-20T00:00:00
+REF_000187,PTR_000313,CloudFirst Consulting,marketplace,Migrating from legacy MDM,2022-12-02T00:00:00
+REF_000188,PTR_000314,Databricks ISV Program,inbound,Existing dbt user looking for identity resolution,2022-12-15T00:00:00
+REF_000189,PTR_000316,Snowflake SI Network,marketplace,,2023-03-07T00:00:00
+REF_000190,PTR_000317,dbt Labs Partners,marketplace,HIPAA compliance requirement,2022-09-04T00:00:00
+REF_000191,PTR_000318,Snowflake SI Network,co-sell,Met at Snowflake Summit,2023-10-26T00:00:00
+REF_000192,PTR_000320,BigQuery Alliance,marketplace,"Evaluated competitor, needs better matching",2023-10-23T00:00:00
+REF_000193,PTR_000321,CloudFirst Consulting,marketplace,,2023-02-26T00:00:00
+REF_000194,PTR_000325,Snowflake SI Network,inbound,Migrating from legacy MDM,2022-12-02T00:00:00
+REF_000195,PTR_000328,CloudFirst Consulting,inbound,"Evaluated competitor, needs better matching",2022-12-13T00:00:00
+REF_000196,PTR_000329,dbt Labs Partners,marketplace,,2023-12-23T00:00:00
+REF_000197,PTR_000330,CloudFirst Consulting,inbound,"Evaluated competitor, needs better matching",2023-06-26T00:00:00
+REF_000198,PTR_000331,DataStack Partners,marketplace,"Evaluated competitor, needs better matching",2022-10-17T00:00:00
+REF_000199,PTR_000332,CloudFirst Consulting,inbound,,2023-04-07T00:00:00
+REF_000200,PTR_000333,DataStack Partners,co-sell,,2022-05-03T00:00:00
+REF_000201,PTR_000334,BigQuery Alliance,co-sell,HIPAA compliance requirement,2022-08-31T00:00:00
+REF_000202,PTR_000335,Snowflake SI Network,inbound,Existing dbt user looking for identity resolution,2023-10-03T00:00:00
+REF_000203,PTR_000336,BigQuery Alliance,inbound,Met at Snowflake Summit,2023-03-08T00:00:00
+REF_000204,PTR_000337,Databricks ISV Program,inbound,,2024-05-16T00:00:00
+REF_000205,PTR_000340,DataStack Partners,co-sell,"Evaluated competitor, needs better matching",2023-08-31T00:00:00
+REF_000206,PTR_000341,BigQuery Alliance,marketplace,"Evaluated competitor, needs better matching",2023-07-03T00:00:00
+REF_000207,PTR_000342,BigQuery Alliance,inbound,HIPAA compliance requirement,2023-11-18T00:00:00
+REF_000208,PTR_000343,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2023-05-25T00:00:00
+REF_000209,PTR_000344,CloudFirst Consulting,co-sell,,2024-01-02T00:00:00
+REF_000210,PTR_000345,dbt Labs Partners,marketplace,,2022-04-03T00:00:00
+REF_000211,PTR_000347,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2022-10-12T00:00:00
+REF_000212,PTR_000348,Snowflake SI Network,inbound,"Evaluated competitor, needs better matching",2023-05-17T00:00:00
+REF_000213,PTR_000349,Snowflake SI Network,marketplace,HIPAA compliance requirement,2022-11-21T00:00:00
+REF_000214,PTR_000350,Snowflake SI Network,marketplace,,2022-12-23T00:00:00
+REF_000215,PTR_000351,CloudFirst Consulting,co-sell,HIPAA compliance requirement,2022-12-17T00:00:00
+REF_000216,PTR_000353,BigQuery Alliance,marketplace,Met at Snowflake Summit,2022-12-18T00:00:00
+REF_000217,PTR_000355,DataStack Partners,inbound,Met at Snowflake Summit,2023-10-20T00:00:00
+REF_000218,PTR_000358,Snowflake SI Network,marketplace,Existing dbt user looking for identity resolution,2022-06-29T00:00:00
+REF_000219,PTR_000359,DataStack Partners,inbound,Existing dbt user looking for identity resolution,2022-05-18T00:00:00
+REF_000220,PTR_000361,dbt Labs Partners,marketplace,"Evaluated competitor, needs better matching",2022-05-05T00:00:00
+REF_000221,PTR_000362,CloudFirst Consulting,co-sell,Met at Snowflake Summit,2024-04-10T00:00:00
+REF_000222,PTR_000363,Databricks ISV Program,co-sell,Met at Snowflake Summit,2022-05-07T00:00:00
+REF_000223,PTR_000367,Databricks ISV Program,inbound,Existing dbt user looking for identity resolution,2022-11-24T00:00:00
+REF_000224,PTR_000368,CloudFirst Consulting,inbound,Migrating from legacy MDM,2023-07-28T00:00:00
+REF_000225,PTR_000369,Databricks ISV Program,co-sell,Met at Snowflake Summit,2023-04-27T00:00:00
+REF_000226,PTR_000371,dbt Labs Partners,co-sell,Migrating from legacy MDM,2023-04-20T00:00:00
+REF_000227,PTR_000372,Databricks ISV Program,co-sell,Existing dbt user looking for identity resolution,2022-09-17T00:00:00
+REF_000228,PTR_000373,Databricks ISV Program,co-sell,Existing dbt user looking for identity resolution,2022-12-08T00:00:00
+REF_000229,PTR_000374,CloudFirst Consulting,co-sell,HIPAA compliance requirement,2023-03-18T00:00:00
+REF_000230,PTR_000377,dbt Labs Partners,co-sell,"Evaluated competitor, needs better matching",2023-10-19T00:00:00
+REF_000231,PTR_000378,DataStack Partners,inbound,Met at Snowflake Summit,2023-09-30T00:00:00
+REF_000232,PTR_000380,Snowflake SI Network,co-sell,"Evaluated competitor, needs better matching",2024-06-04T00:00:00
+REF_000233,PTR_000381,Databricks ISV Program,inbound,"Evaluated competitor, needs better matching",2023-02-23T00:00:00
+REF_000234,PTR_000384,DataStack Partners,marketplace,Migrating from legacy MDM,2022-10-03T00:00:00
+REF_000235,PTR_000385,Snowflake SI Network,inbound,Migrating from legacy MDM,2022-05-24T00:00:00
+REF_000236,PTR_000386,CloudFirst Consulting,marketplace,,2024-03-10T00:00:00
+REF_000237,PTR_000387,BigQuery Alliance,marketplace,Migrating from legacy MDM,2023-10-19T00:00:00
+REF_000238,PTR_000388,DataStack Partners,inbound,Met at Snowflake Summit,2022-12-18T00:00:00
+REF_000239,PTR_000389,BigQuery Alliance,inbound,Existing dbt user looking for identity resolution,2022-09-13T00:00:00
+REF_000240,PTR_000392,CloudFirst Consulting,inbound,HIPAA compliance requirement,2023-08-03T00:00:00
+REF_000241,PTR_000394,Databricks ISV Program,co-sell,Met at Snowflake Summit,2022-06-20T00:00:00
+REF_000242,PTR_000395,dbt Labs Partners,marketplace,Migrating from legacy MDM,2022-08-28T00:00:00
+REF_000243,PTR_000396,BigQuery Alliance,marketplace,Existing dbt user looking for identity resolution,2023-08-20T00:00:00
+REF_000244,PTR_000397,CloudFirst Consulting,co-sell,Existing dbt user looking for identity resolution,2022-12-25T00:00:00
+REF_000245,PTR_000398,BigQuery Alliance,marketplace,,2023-08-24T00:00:00
+REF_000246,PTR_000401,dbt Labs Partners,co-sell,Migrating from legacy MDM,2023-10-29T00:00:00
+REF_000247,PTR_000404,BigQuery Alliance,inbound,HIPAA compliance requirement,2023-04-12T00:00:00
+REF_000248,PTR_000406,DataStack Partners,co-sell,Existing dbt user looking for identity resolution,2022-12-03T00:00:00
+REF_000249,PTR_000408,DataStack Partners,marketplace,,2023-07-09T00:00:00
+REF_000250,PTR_000409,Databricks ISV Program,co-sell,,2022-06-06T00:00:00
+REF_000251,PTR_000410,Databricks ISV Program,marketplace,Met at Snowflake Summit,2023-03-05T00:00:00
+REF_000252,PTR_000412,CloudFirst Consulting,inbound,Existing dbt user looking for identity resolution,2022-06-26T00:00:00
+REF_000253,PTR_000414,dbt Labs Partners,marketplace,Existing dbt user looking for identity resolution,2024-04-22T00:00:00
+REF_000254,PTR_000415,dbt Labs Partners,inbound,,2022-07-28T00:00:00
+REF_000255,PTR_000419,CloudFirst Consulting,co-sell,,2022-09-09T00:00:00
+REF_000256,PTR_000420,BigQuery Alliance,marketplace,Met at Snowflake Summit,2024-02-19T00:00:00
+REF_000257,PTR_000423,dbt Labs Partners,co-sell,,2023-05-08T00:00:00
+REF_000258,PTR_000425,CloudFirst Consulting,marketplace,Migrating from legacy MDM,2022-06-28T00:00:00
+REF_000259,PTR_000427,BigQuery Alliance,co-sell,,2023-05-30T00:00:00
+REF_000260,PTR_000429,CloudFirst Consulting,co-sell,,2022-08-08T00:00:00
+REF_000261,PTR_000431,Databricks ISV Program,inbound,Met at Snowflake Summit,2023-10-19T00:00:00
+REF_000262,PTR_000433,DataStack Partners,co-sell,,2023-03-28T00:00:00
+REF_000263,PTR_000434,CloudFirst Consulting,marketplace,,2024-04-29T00:00:00
+REF_000264,PTR_000436,CloudFirst Consulting,inbound,Migrating from legacy MDM,2022-02-26T00:00:00
+REF_000265,PTR_000440,dbt Labs Partners,co-sell,HIPAA compliance requirement,2023-08-19T00:00:00
+REF_000266,PTR_000441,BigQuery Alliance,inbound,,2023-07-25T00:00:00
+REF_000267,PTR_000442,BigQuery Alliance,inbound,"Evaluated competitor, needs better matching",2023-07-15T00:00:00
+REF_000268,PTR_000444,Snowflake SI Network,co-sell,,2023-03-17T00:00:00
+REF_000269,PTR_000445,DataStack Partners,co-sell,Migrating from legacy MDM,2023-05-04T00:00:00
+REF_000270,PTR_000446,CloudFirst Consulting,inbound,Met at Snowflake Summit,2023-12-23T00:00:00
+REF_000271,PTR_000447,CloudFirst Consulting,co-sell,Migrating from legacy MDM,2022-12-01T00:00:00
+REF_000272,PTR_000448,DataStack Partners,co-sell,,2024-04-10T00:00:00
+REF_000273,PTR_000451,DataStack Partners,co-sell,"Evaluated competitor, needs better matching",2022-10-17T00:00:00
+REF_000274,PTR_000453,CloudFirst Consulting,inbound,,2023-04-03T00:00:00
+REF_000275,PTR_000454,DataStack Partners,inbound,"Evaluated competitor, needs better matching",2022-02-26T00:00:00
+REF_000276,PTR_000456,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2022-03-29T00:00:00
+REF_000277,PTR_000460,DataStack Partners,inbound,Migrating from legacy MDM,2022-03-14T00:00:00
+REF_000278,PTR_000461,CloudFirst Consulting,inbound,,2022-09-17T00:00:00
+REF_000279,PTR_000468,DataStack Partners,marketplace,"Evaluated competitor, needs better matching",2022-10-22T00:00:00
+REF_000280,PTR_000469,CloudFirst Consulting,marketplace,"Evaluated competitor, needs better matching",2023-10-07T00:00:00
+REF_000281,PTR_000472,Snowflake SI Network,inbound,Existing dbt user looking for identity resolution,2023-10-12T00:00:00
+REF_000282,PTR_000473,Snowflake SI Network,marketplace,Met at Snowflake Summit,2024-01-29T00:00:00
+REF_000283,PTR_000474,Databricks ISV Program,co-sell,,2023-02-07T00:00:00
+REF_000284,PTR_000475,DataStack Partners,inbound,Migrating from legacy MDM,2022-08-22T00:00:00
+REF_000285,PTR_000476,Snowflake SI Network,co-sell,"Evaluated competitor, needs better matching",2022-09-05T00:00:00
+REF_000286,PTR_000477,Snowflake SI Network,marketplace,Met at Snowflake Summit,2023-06-28T00:00:00
+REF_000287,PTR_000478,dbt Labs Partners,co-sell,"Evaluated competitor, needs better matching",2023-02-21T00:00:00
+REF_000288,PTR_000481,BigQuery Alliance,co-sell,,2024-04-07T00:00:00
+REF_000289,PTR_000482,Snowflake SI Network,co-sell,HIPAA compliance requirement,2022-11-26T00:00:00
+REF_000290,PTR_000483,CloudFirst Consulting,inbound,Migrating from legacy MDM,2022-09-20T00:00:00
+REF_000291,PTR_000484,CloudFirst Consulting,co-sell,Existing dbt user looking for identity resolution,2023-08-03T00:00:00
+REF_000292,PTR_000485,BigQuery Alliance,co-sell,"Evaluated competitor, needs better matching",2023-06-11T00:00:00
+REF_000293,PTR_000486,Snowflake SI Network,inbound,Existing dbt user looking for identity resolution,2024-01-23T00:00:00
+REF_000294,PTR_000487,Databricks ISV Program,marketplace,HIPAA compliance requirement,2023-11-11T00:00:00
+REF_000295,PTR_000489,CloudFirst Consulting,co-sell,"Evaluated competitor, needs better matching",2023-05-28T00:00:00
+REF_000296,PTR_000493,CloudFirst Consulting,marketplace,"Evaluated competitor, needs better matching",2023-10-03T00:00:00
+REF_000297,PTR_000494,BigQuery Alliance,inbound,Existing dbt user looking for identity resolution,2023-11-23T00:00:00
+REF_000298,PTR_000496,BigQuery Alliance,inbound,"Evaluated competitor, needs better matching",2022-11-01T00:00:00
+REF_000299,PTR_000497,dbt Labs Partners,inbound,,2022-10-22T00:00:00
+REF_000300,PTR_000498,BigQuery Alliance,marketplace,Existing dbt user looking for identity resolution,2023-02-03T00:00:00
+REF_000301,PTR_000499,CloudFirst Consulting,marketplace,,2024-04-03T00:00:00
+REF_000302,PTR_000500,DataStack Partners,inbound,Met at Snowflake Summit,2024-01-04T00:00:00
+REF_000303,PTR_000501,Snowflake SI Network,marketplace,,2022-07-14T00:00:00
+REF_000304,PTR_000503,Databricks ISV Program,co-sell,HIPAA compliance requirement,2023-10-09T00:00:00
+REF_000305,PTR_000504,CloudFirst Consulting,co-sell,Existing dbt user looking for identity resolution,2024-02-14T00:00:00
+REF_000306,PTR_000506,CloudFirst Consulting,co-sell,Met at Snowflake Summit,2023-12-23T00:00:00
+REF_000307,PTR_000507,Databricks ISV Program,co-sell,HIPAA compliance requirement,2023-10-03T00:00:00
+REF_000308,PTR_000509,BigQuery Alliance,co-sell,Existing dbt user looking for identity resolution,2024-04-04T00:00:00
+REF_000309,PTR_000510,BigQuery Alliance,inbound,HIPAA compliance requirement,2023-09-17T00:00:00
+REF_000310,PTR_000511,CloudFirst Consulting,co-sell,HIPAA compliance requirement,2022-07-23T00:00:00
+REF_000311,PTR_000512,CloudFirst Consulting,inbound,"Evaluated competitor, needs better matching",2023-06-23T00:00:00
+REF_000312,PTR_000513,dbt Labs Partners,inbound,,2023-06-27T00:00:00
+REF_000313,PTR_000516,DataStack Partners,marketplace,Met at Snowflake Summit,2023-01-11T00:00:00
+REF_000314,PTR_000518,CloudFirst Consulting,marketplace,,2023-11-11T00:00:00
+REF_000315,PTR_000519,CloudFirst Consulting,marketplace,,2023-12-27T00:00:00
+REF_000316,PTR_000520,BigQuery Alliance,inbound,Migrating from legacy MDM,2024-03-09T00:00:00
+REF_000317,PTR_000522,BigQuery Alliance,marketplace,Met at Snowflake Summit,2023-01-15T00:00:00
+REF_000318,PTR_000525,dbt Labs Partners,inbound,HIPAA compliance requirement,2022-08-01T00:00:00
+REF_000319,PTR_000526,DataStack Partners,inbound,"Evaluated competitor, needs better matching",2024-03-11T00:00:00
+REF_000320,PTR_000527,DataStack Partners,co-sell,"Evaluated competitor, needs better matching",2022-12-24T00:00:00
+REF_000321,PTR_000528,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2023-01-24T00:00:00
+REF_000322,PTR_000529,DataStack Partners,inbound,HIPAA compliance requirement,2023-11-01T00:00:00
+REF_000323,PTR_000530,Databricks ISV Program,co-sell,Existing dbt user looking for identity resolution,2022-09-10T00:00:00
+REF_000324,PTR_000531,dbt Labs Partners,inbound,"Evaluated competitor, needs better matching",2023-12-11T00:00:00
+REF_000325,PTR_000532,CloudFirst Consulting,inbound,Met at Snowflake Summit,2023-10-17T00:00:00
+REF_000326,PTR_000534,DataStack Partners,marketplace,Met at Snowflake Summit,2023-09-12T00:00:00
+REF_000327,PTR_000537,DataStack Partners,co-sell,Existing dbt user looking for identity resolution,2023-08-07T00:00:00
+REF_000328,PTR_000540,Databricks ISV Program,marketplace,,2022-08-29T00:00:00
+REF_000329,PTR_000542,DataStack Partners,inbound,Met at Snowflake Summit,2022-07-31T00:00:00
+REF_000330,PTR_000543,Snowflake SI Network,inbound,"Evaluated competitor, needs better matching",2024-07-18T00:00:00
+REF_000331,PTR_000544,DataStack Partners,marketplace,HIPAA compliance requirement,2023-01-15T00:00:00
+REF_000332,PTR_000545,CloudFirst Consulting,inbound,Existing dbt user looking for identity resolution,2022-08-22T00:00:00
+REF_000333,PTR_000548,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2023-09-04T00:00:00
+REF_000334,PTR_000549,Snowflake SI Network,marketplace,,2023-12-23T00:00:00
+REF_000335,PTR_000550,Snowflake SI Network,co-sell,HIPAA compliance requirement,2024-01-15T00:00:00
+REF_000336,PTR_000553,Snowflake SI Network,inbound,"Evaluated competitor, needs better matching",2024-01-29T00:00:00
+REF_000337,PTR_000555,Snowflake SI Network,inbound,"Evaluated competitor, needs better matching",2022-01-31T00:00:00
+REF_000338,PTR_000556,BigQuery Alliance,marketplace,,2023-07-24T00:00:00
+REF_000339,PTR_000557,DataStack Partners,marketplace,Migrating from legacy MDM,2023-05-16T00:00:00
+REF_000340,PTR_000558,dbt Labs Partners,inbound,,2022-12-02T00:00:00
+REF_000341,PTR_000560,Snowflake SI Network,inbound,Migrating from legacy MDM,2024-02-13T00:00:00
+REF_000342,PTR_000563,CloudFirst Consulting,marketplace,,2023-03-07T00:00:00
+REF_000343,PTR_000565,CloudFirst Consulting,co-sell,,2023-08-22T00:00:00
+REF_000344,PTR_000568,Snowflake SI Network,inbound,Migrating from legacy MDM,2023-11-17T00:00:00
+REF_000345,PTR_000571,Snowflake SI Network,inbound,HIPAA compliance requirement,2023-09-05T00:00:00
+REF_000346,PTR_000573,Snowflake SI Network,marketplace,Existing dbt user looking for identity resolution,2022-08-28T00:00:00
+REF_000347,PTR_000575,BigQuery Alliance,co-sell,Existing dbt user looking for identity resolution,2023-06-03T00:00:00
+REF_000348,PTR_000576,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2022-05-31T00:00:00
+REF_000349,PTR_000578,BigQuery Alliance,co-sell,HIPAA compliance requirement,2024-01-06T00:00:00
+REF_000350,PTR_000579,Databricks ISV Program,co-sell,Migrating from legacy MDM,2024-01-06T00:00:00
+REF_000351,PTR_000583,BigQuery Alliance,marketplace,HIPAA compliance requirement,2024-03-28T00:00:00
+REF_000352,PTR_000584,DataStack Partners,marketplace,Existing dbt user looking for identity resolution,2023-04-20T00:00:00
+REF_000353,PTR_000585,Snowflake SI Network,marketplace,Existing dbt user looking for identity resolution,2022-09-09T00:00:00
+REF_000354,PTR_000586,Snowflake SI Network,marketplace,Existing dbt user looking for identity resolution,2023-12-22T00:00:00
+REF_000355,PTR_000587,dbt Labs Partners,co-sell,HIPAA compliance requirement,2022-08-17T00:00:00
+REF_000356,PTR_000588,BigQuery Alliance,inbound,Met at Snowflake Summit,2023-09-02T00:00:00
+REF_000357,PTR_000591,CloudFirst Consulting,co-sell,"Evaluated competitor, needs better matching",2023-07-13T00:00:00
+REF_000358,PTR_000592,Databricks ISV Program,inbound,HIPAA compliance requirement,2022-01-14T00:00:00
+REF_000359,PTR_000594,DataStack Partners,inbound,,2023-02-18T00:00:00
+REF_000360,PTR_000595,Databricks ISV Program,co-sell,,2023-09-20T00:00:00
+REF_000361,PTR_000598,CloudFirst Consulting,co-sell,HIPAA compliance requirement,2023-06-07T00:00:00
+REF_000362,PTR_000599,Databricks ISV Program,co-sell,Met at Snowflake Summit,2022-10-31T00:00:00
+REF_000363,PTR_000600,Databricks ISV Program,inbound,Met at Snowflake Summit,2024-05-16T00:00:00
+REF_000364,PTR_000601,CloudFirst Consulting,co-sell,HIPAA compliance requirement,2023-12-15T00:00:00
+REF_000365,PTR_000603,Databricks ISV Program,marketplace,,2023-02-25T00:00:00
+REF_000366,PTR_000604,DataStack Partners,inbound,Migrating from legacy MDM,2023-06-05T00:00:00
+REF_000367,PTR_000607,Snowflake SI Network,marketplace,,2024-03-25T00:00:00
+REF_000368,PTR_000609,DataStack Partners,co-sell,"Evaluated competitor, needs better matching",2023-12-23T00:00:00
+REF_000369,PTR_000610,CloudFirst Consulting,inbound,"Evaluated competitor, needs better matching",2022-09-09T00:00:00
+REF_000370,PTR_000612,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2022-09-11T00:00:00
+REF_000371,PTR_000613,dbt Labs Partners,inbound,Met at Snowflake Summit,2023-09-12T00:00:00
+REF_000372,PTR_000614,dbt Labs Partners,co-sell,Existing dbt user looking for identity resolution,2022-06-26T00:00:00
+REF_000373,PTR_000616,DataStack Partners,inbound,,2023-05-01T00:00:00
+REF_000374,PTR_000617,Snowflake SI Network,inbound,,2023-01-29T00:00:00
+REF_000375,PTR_000618,CloudFirst Consulting,marketplace,HIPAA compliance requirement,2022-10-26T00:00:00
+REF_000376,PTR_000621,DataStack Partners,inbound,"Evaluated competitor, needs better matching",2024-02-29T00:00:00
+REF_000377,PTR_000624,DataStack Partners,inbound,Met at Snowflake Summit,2023-08-26T00:00:00
+REF_000378,PTR_000625,Snowflake SI Network,marketplace,,2024-02-03T00:00:00
+REF_000379,PTR_000626,BigQuery Alliance,inbound,"Evaluated competitor, needs better matching",2023-08-14T00:00:00
+REF_000380,PTR_000628,dbt Labs Partners,inbound,Migrating from legacy MDM,2023-12-22T00:00:00
+REF_000381,PTR_000629,Databricks ISV Program,inbound,Existing dbt user looking for identity resolution,2023-02-22T00:00:00
+REF_000382,PTR_000631,BigQuery Alliance,co-sell,,2023-08-22T00:00:00
+REF_000383,PTR_000632,CloudFirst Consulting,marketplace,,2023-01-08T00:00:00
+REF_000384,PTR_000634,BigQuery Alliance,co-sell,HIPAA compliance requirement,2023-11-19T00:00:00
+REF_000385,PTR_000635,CloudFirst Consulting,marketplace,,2022-10-27T00:00:00
+REF_000386,PTR_000638,CloudFirst Consulting,marketplace,"Evaluated competitor, needs better matching",2022-05-23T00:00:00
+REF_000387,PTR_000639,BigQuery Alliance,inbound,Met at Snowflake Summit,2023-04-07T00:00:00
+REF_000388,PTR_000642,Databricks ISV Program,marketplace,Migrating from legacy MDM,2023-10-20T00:00:00
+REF_000389,PTR_000644,CloudFirst Consulting,inbound,Met at Snowflake Summit,2023-11-12T00:00:00
+REF_000390,PTR_000645,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2022-08-29T00:00:00
+REF_000391,PTR_000647,CloudFirst Consulting,marketplace,Existing dbt user looking for identity resolution,2023-10-25T00:00:00
+REF_000392,PTR_000649,dbt Labs Partners,co-sell,Migrating from legacy MDM,2022-05-11T00:00:00
+REF_000393,PTR_000650,Databricks ISV Program,inbound,Migrating from legacy MDM,2023-07-31T00:00:00
+REF_000394,PTR_000652,Databricks ISV Program,marketplace,Met at Snowflake Summit,2022-09-16T00:00:00
+REF_000395,PTR_000653,dbt Labs Partners,inbound,HIPAA compliance requirement,2023-11-28T00:00:00
+REF_000396,PTR_000657,DataStack Partners,inbound,Existing dbt user looking for identity resolution,2024-02-29T00:00:00
+REF_000397,PTR_000658,Databricks ISV Program,marketplace,,2023-09-25T00:00:00
+REF_000398,PTR_000659,dbt Labs Partners,marketplace,Met at Snowflake Summit,2022-09-04T00:00:00
+REF_000399,PTR_000660,CloudFirst Consulting,co-sell,,2024-03-31T00:00:00
+REF_000400,PTR_000661,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2022-04-24T00:00:00
+REF_000401,PTR_000662,DataStack Partners,marketplace,,2022-10-31T00:00:00
+REF_000402,PTR_000663,DataStack Partners,co-sell,HIPAA compliance requirement,2022-07-12T00:00:00
+REF_000403,PTR_000665,Snowflake SI Network,co-sell,HIPAA compliance requirement,2023-06-01T00:00:00
+REF_000404,PTR_000666,dbt Labs Partners,inbound,HIPAA compliance requirement,2023-02-27T00:00:00
+REF_000405,PTR_000667,DataStack Partners,marketplace,Met at Snowflake Summit,2023-08-31T00:00:00
+REF_000406,PTR_000668,CloudFirst Consulting,co-sell,"Evaluated competitor, needs better matching",2023-02-05T00:00:00
+REF_000407,PTR_000669,Snowflake SI Network,inbound,,2022-09-17T00:00:00
+REF_000408,PTR_000672,Snowflake SI Network,inbound,,2022-10-25T00:00:00
+REF_000409,PTR_000675,BigQuery Alliance,marketplace,Migrating from legacy MDM,2022-08-29T00:00:00
+REF_000410,PTR_000676,DataStack Partners,inbound,Met at Snowflake Summit,2022-10-12T00:00:00
+REF_000411,PTR_000682,Snowflake SI Network,inbound,Migrating from legacy MDM,2023-12-08T00:00:00
+REF_000412,PTR_000687,CloudFirst Consulting,co-sell,Existing dbt user looking for identity resolution,2022-07-24T00:00:00
+REF_000413,PTR_000689,CloudFirst Consulting,marketplace,,2022-03-15T00:00:00
+REF_000414,PTR_000691,Snowflake SI Network,marketplace,Migrating from legacy MDM,2022-05-31T00:00:00
+REF_000415,PTR_000696,Snowflake SI Network,marketplace,,2023-10-26T00:00:00
+REF_000416,PTR_000698,Databricks ISV Program,marketplace,Migrating from legacy MDM,2024-05-13T00:00:00
+REF_000417,PTR_000700,Snowflake SI Network,inbound,"Evaluated competitor, needs better matching",2022-03-08T00:00:00
+REF_000418,PTR_000702,CloudFirst Consulting,marketplace,Migrating from legacy MDM,2022-05-22T00:00:00
+REF_000419,PTR_000703,Snowflake SI Network,marketplace,Existing dbt user looking for identity resolution,2023-09-22T00:00:00
+REF_000420,PTR_000705,dbt Labs Partners,marketplace,Migrating from legacy MDM,2023-04-16T00:00:00
+REF_000421,PTR_000707,DataStack Partners,inbound,Met at Snowflake Summit,2023-06-03T00:00:00
+REF_000422,PTR_000708,Databricks ISV Program,inbound,"Evaluated competitor, needs better matching",2022-07-28T00:00:00
+REF_000423,PTR_000709,dbt Labs Partners,marketplace,Migrating from legacy MDM,2024-02-09T00:00:00
+REF_000424,PTR_000710,CloudFirst Consulting,inbound,,2022-06-24T00:00:00
+REF_000425,PTR_000711,BigQuery Alliance,co-sell,,2022-09-08T00:00:00
+REF_000426,PTR_000712,DataStack Partners,co-sell,Existing dbt user looking for identity resolution,2022-12-01T00:00:00
+REF_000427,PTR_000713,Snowflake SI Network,marketplace,,2024-02-13T00:00:00
+REF_000428,PTR_000714,DataStack Partners,co-sell,"Evaluated competitor, needs better matching",2023-08-28T00:00:00
+REF_000429,PTR_000716,dbt Labs Partners,inbound,Migrating from legacy MDM,2023-09-04T00:00:00
+REF_000430,PTR_000717,Databricks ISV Program,inbound,Met at Snowflake Summit,2023-02-15T00:00:00
+REF_000431,PTR_000718,Snowflake SI Network,inbound,"Evaluated competitor, needs better matching",2023-08-16T00:00:00
+REF_000432,PTR_000719,dbt Labs Partners,marketplace,HIPAA compliance requirement,2022-05-04T00:00:00
+REF_000433,PTR_000720,BigQuery Alliance,marketplace,Existing dbt user looking for identity resolution,2023-05-10T00:00:00
+REF_000434,PTR_000723,DataStack Partners,co-sell,,2023-10-25T00:00:00
+REF_000435,PTR_000724,DataStack Partners,inbound,Met at Snowflake Summit,2023-01-17T00:00:00
+REF_000436,PTR_000726,Databricks ISV Program,co-sell,"Evaluated competitor, needs better matching",2024-01-31T00:00:00
+REF_000437,PTR_000728,Databricks ISV Program,inbound,Existing dbt user looking for identity resolution,2024-03-08T00:00:00
+REF_000438,PTR_000729,Databricks ISV Program,marketplace,HIPAA compliance requirement,2024-05-20T00:00:00
+REF_000439,PTR_000732,Snowflake SI Network,co-sell,"Evaluated competitor, needs better matching",2022-11-01T00:00:00
+REF_000440,PTR_000734,DataStack Partners,marketplace,"Evaluated competitor, needs better matching",2023-05-18T00:00:00
+REF_000441,PTR_000736,DataStack Partners,marketplace,Migrating from legacy MDM,2024-04-03T00:00:00
+REF_000442,PTR_000737,DataStack Partners,co-sell,Existing dbt user looking for identity resolution,2024-03-12T00:00:00
+REF_000443,PTR_000738,DataStack Partners,marketplace,,2023-08-02T00:00:00
+REF_000444,PTR_000743,CloudFirst Consulting,marketplace,Met at Snowflake Summit,2024-02-07T00:00:00
+REF_000445,PTR_000744,Snowflake SI Network,co-sell,Met at Snowflake Summit,2023-02-22T00:00:00
+REF_000446,PTR_000747,Databricks ISV Program,marketplace,Existing dbt user looking for identity resolution,2023-01-30T00:00:00
+REF_000447,PTR_000748,CloudFirst Consulting,inbound,HIPAA compliance requirement,2024-01-04T00:00:00
+REF_000448,PTR_000750,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2023-04-26T00:00:00
+REF_000449,PTR_000751,Snowflake SI Network,inbound,HIPAA compliance requirement,2023-01-31T00:00:00
+REF_000450,PTR_000754,Databricks ISV Program,inbound,Migrating from legacy MDM,2024-01-04T00:00:00
+REF_000451,PTR_000756,Snowflake SI Network,inbound,,2023-08-13T00:00:00
+REF_000452,PTR_000757,Databricks ISV Program,co-sell,HIPAA compliance requirement,2023-12-31T00:00:00
+REF_000453,PTR_000759,BigQuery Alliance,co-sell,,2023-01-29T00:00:00
+REF_000454,PTR_000760,CloudFirst Consulting,inbound,Migrating from legacy MDM,2022-10-21T00:00:00
+REF_000455,PTR_000761,dbt Labs Partners,inbound,Met at Snowflake Summit,2023-06-26T00:00:00
+REF_000456,PTR_000762,Databricks ISV Program,marketplace,"Evaluated competitor, needs better matching",2023-01-05T00:00:00
+REF_000457,PTR_000763,Databricks ISV Program,inbound,Migrating from legacy MDM,2022-04-29T00:00:00
+REF_000458,PTR_000764,Snowflake SI Network,co-sell,,2022-12-05T00:00:00
+REF_000459,PTR_000766,CloudFirst Consulting,co-sell,Migrating from legacy MDM,2023-10-15T00:00:00
+REF_000460,PTR_000770,dbt Labs Partners,inbound,"Evaluated competitor, needs better matching",2023-01-25T00:00:00
+REF_000461,PTR_000772,dbt Labs Partners,co-sell,Existing dbt user looking for identity resolution,2024-04-11T00:00:00
+REF_000462,PTR_000774,Databricks ISV Program,marketplace,HIPAA compliance requirement,2024-04-12T00:00:00
+REF_000463,PTR_000775,CloudFirst Consulting,inbound,HIPAA compliance requirement,2022-08-07T00:00:00
+REF_000464,PTR_000776,BigQuery Alliance,inbound,"Evaluated competitor, needs better matching",2023-02-02T00:00:00
+REF_000465,PTR_000777,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2023-12-30T00:00:00
+REF_000466,PTR_000778,CloudFirst Consulting,inbound,HIPAA compliance requirement,2023-07-01T00:00:00
+REF_000467,PTR_000780,Snowflake SI Network,co-sell,Existing dbt user looking for identity resolution,2023-04-19T00:00:00
+REF_000468,PTR_000781,BigQuery Alliance,co-sell,"Evaluated competitor, needs better matching",2023-05-01T00:00:00
+REF_000469,PTR_000782,Databricks ISV Program,co-sell,Migrating from legacy MDM,2022-07-13T00:00:00
+REF_000470,PTR_000783,Databricks ISV Program,inbound,Migrating from legacy MDM,2023-11-24T00:00:00
+REF_000471,PTR_000785,CloudFirst Consulting,co-sell,Existing dbt user looking for identity resolution,2024-01-20T00:00:00
+REF_000472,PTR_000786,Snowflake SI Network,marketplace,Migrating from legacy MDM,2023-07-28T00:00:00
+REF_000473,PTR_000787,BigQuery Alliance,inbound,Met at Snowflake Summit,2024-04-11T00:00:00
+REF_000474,PTR_000789,DataStack Partners,co-sell,Existing dbt user looking for identity resolution,2022-11-09T00:00:00
+REF_000475,PTR_000790,dbt Labs Partners,inbound,HIPAA compliance requirement,2023-02-27T00:00:00
+REF_000476,PTR_000791,CloudFirst Consulting,inbound,Met at Snowflake Summit,2022-06-23T00:00:00
+REF_000477,PTR_000792,BigQuery Alliance,co-sell,Migrating from legacy MDM,2022-05-26T00:00:00
+REF_000478,PTR_000793,dbt Labs Partners,co-sell,Existing dbt user looking for identity resolution,2023-04-11T00:00:00
+REF_000479,PTR_000794,CloudFirst Consulting,inbound,Migrating from legacy MDM,2022-11-24T00:00:00
+REF_000480,PTR_000795,Snowflake SI Network,inbound,,2023-10-18T00:00:00
+REF_000481,PTR_000796,dbt Labs Partners,inbound,Existing dbt user looking for identity resolution,2022-08-25T00:00:00
+REF_000482,PTR_000798,BigQuery Alliance,marketplace,Migrating from legacy MDM,2022-08-22T00:00:00
+REF_000483,PTR_000799,CloudFirst Consulting,marketplace,Existing dbt user looking for identity resolution,2023-09-04T00:00:00
