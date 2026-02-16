@@ -8,8 +8,10 @@ from typing import Any
 from ._transport import AsyncTransport, SyncTransport
 from .resources.audit import AsyncAuditResource, AuditResource
 from .resources.entities import AsyncEntitiesResource, EntitiesResource
+from .resources.feedback import AsyncFeedbackResource, FeedbackResource
 from .resources.jobs import AsyncJobsResource, JobsResource
 from .resources.overrides import AsyncOverridesResource, OverridesResource
+from .resources.resolve import AsyncResolveResource, ResolveResource
 from .resources.reviews import AsyncReviewsResource, ReviewsResource
 from .resources.rules import AsyncRulesResource, RulesResource
 from .resources.sources import AsyncSourcesResource, SourcesResource
@@ -34,7 +36,7 @@ class KanonivClient:
     def __init__(
         self,
         *,
-        base_url: str = "http://localhost:3010",
+        base_url: str = "https://api.kanoniv.com",
         api_key: str | None = None,
         access_token: str | None = None,
         timeout: float = 30.0,
@@ -53,8 +55,10 @@ class KanonivClient:
         self.jobs = JobsResource(self._transport)
         self.reviews = ReviewsResource(self._transport)
         self.overrides = OverridesResource(self._transport)
+        self.feedback = FeedbackResource(self._transport)
         self.audit = AuditResource(self._transport)
         self.specs = SpecsResource(self._transport)
+        self.resolve_rt = ResolveResource(self._transport)
 
     # -- Top-level convenience methods -----------------------------------------
 
@@ -74,35 +78,63 @@ class KanonivClient:
 
     def ingest(
         self,
-        source_id: str,
+        source_name: str,
         records: list[dict[str, Any]],
+        *,
+        entity_type: str = "entity",
     ) -> dict[str, Any]:
-        """Ingest records via the webhook endpoint."""
+        """Ingest records via the batch endpoint."""
         return self._transport.request(
             "POST",
-            f"/v1/ingest/webhook/{source_id}",
-            json=records,
+            "/v1/ingest/batch",
+            json={
+                "source_name": source_name,
+                "entity_type": entity_type,
+                "entities": records,
+            },
         )
 
     def ingest_file(
         self,
         source_id: str,
         path: str | Path,
-        *,
-        id_field: str = "id",
-        entity_type: str | None = None,
     ) -> dict[str, Any]:
         """Upload and process a file for ingestion."""
         p = Path(path)
-        form: dict[str, str] = {"source_id": source_id, "id_field": id_field}
-        if entity_type:
-            form["entity_type"] = entity_type
         with open(p, "rb") as f:
             return self._transport.request(
                 "POST",
                 "/v1/ingest/file/process",
                 files={"file": (p.name, f)},
-                data=form,
+                data={"source_id": source_id},
+            )
+
+    def ingest_parquet(
+        self,
+        source_name: str,
+        path: str | Path,
+        *,
+        entity_type: str = "entity",
+    ) -> dict[str, Any]:
+        """Upload a Parquet file for bulk ingestion.
+
+        Args:
+            source_name: Name of the data source.
+            path: Path to a local ``.parquet`` file.
+            entity_type: Entity type label (default ``"entity"``).
+
+        Returns:
+            Ingest summary with ``new``, ``updated``, ``unchanged`` counts.
+        """
+        import os as _os
+
+        p = Path(path)
+        with open(p, "rb") as f:
+            return self._transport.request(
+                "POST",
+                "/v1/ingest/parquet",
+                files={"file": (_os.path.basename(str(p)), f, "application/octet-stream")},
+                data={"source_name": source_name, "entity_type": entity_type},
             )
 
     def stats(self) -> dict[str, Any]:
@@ -133,7 +165,7 @@ class KanonivAsyncClient:
     def __init__(
         self,
         *,
-        base_url: str = "http://localhost:3010",
+        base_url: str = "https://api.kanoniv.com",
         api_key: str | None = None,
         access_token: str | None = None,
         timeout: float = 30.0,
@@ -152,8 +184,10 @@ class KanonivAsyncClient:
         self.jobs = AsyncJobsResource(self._transport)
         self.reviews = AsyncReviewsResource(self._transport)
         self.overrides = AsyncOverridesResource(self._transport)
+        self.feedback = AsyncFeedbackResource(self._transport)
         self.audit = AsyncAuditResource(self._transport)
         self.specs = AsyncSpecsResource(self._transport)
+        self.resolve_rt = AsyncResolveResource(self._transport)
 
     # -- Top-level convenience methods -----------------------------------------
 
@@ -173,35 +207,63 @@ class KanonivAsyncClient:
 
     async def ingest(
         self,
-        source_id: str,
+        source_name: str,
         records: list[dict[str, Any]],
+        *,
+        entity_type: str = "entity",
     ) -> dict[str, Any]:
-        """Ingest records via the webhook endpoint."""
+        """Ingest records via the batch endpoint."""
         return await self._transport.request(
             "POST",
-            f"/v1/ingest/webhook/{source_id}",
-            json=records,
+            "/v1/ingest/batch",
+            json={
+                "source_name": source_name,
+                "entity_type": entity_type,
+                "entities": records,
+            },
         )
 
     async def ingest_file(
         self,
         source_id: str,
         path: str | Path,
-        *,
-        id_field: str = "id",
-        entity_type: str | None = None,
     ) -> dict[str, Any]:
         """Upload and process a file for ingestion."""
         p = Path(path)
-        form: dict[str, str] = {"source_id": source_id, "id_field": id_field}
-        if entity_type:
-            form["entity_type"] = entity_type
         with open(p, "rb") as f:
             return await self._transport.request(
                 "POST",
                 "/v1/ingest/file/process",
                 files={"file": (p.name, f)},
-                data=form,
+                data={"source_id": source_id},
+            )
+
+    async def ingest_parquet(
+        self,
+        source_name: str,
+        path: str | Path,
+        *,
+        entity_type: str = "entity",
+    ) -> dict[str, Any]:
+        """Upload a Parquet file for bulk ingestion.
+
+        Args:
+            source_name: Name of the data source.
+            path: Path to a local ``.parquet`` file.
+            entity_type: Entity type label (default ``"entity"``).
+
+        Returns:
+            Ingest summary with ``new``, ``updated``, ``unchanged`` counts.
+        """
+        import os as _os
+
+        p = Path(path)
+        with open(p, "rb") as f:
+            return await self._transport.request(
+                "POST",
+                "/v1/ingest/parquet",
+                files={"file": (_os.path.basename(str(p)), f, "application/octet-stream")},
+                data={"source_name": source_name, "entity_type": entity_type},
             )
 
     async def stats(self) -> dict[str, Any]:

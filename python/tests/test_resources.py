@@ -238,3 +238,85 @@ class TestSpecs:
         result = client.specs.ingest("entity: contact\n", compile=True)
         assert result["valid"] is True
         assert result["plan_hash"] == "abc123"
+
+
+# -- Resolve (realtime + bulk) ------------------------------------------------
+
+class TestResolve:
+    def test_realtime(self, mock_api, client):
+        mock_api.post("/v1/resolve/realtime").mock(
+            return_value=httpx.Response(200, json={
+                "entity_id": "e-1",
+                "canonical_data": {"email": "alice@test.com"},
+                "is_new": True,
+                "matched_source": None,
+                "confidence": 1.0,
+            })
+        )
+        result = client.resolve_rt.realtime(
+            source_name="crm",
+            external_id="sf_123",
+            data={"email": "alice@test.com", "name": "Alice"},
+        )
+        assert result["entity_id"] == "e-1"
+        assert result["is_new"] is True
+        assert result["confidence"] == 1.0
+
+    def test_realtime_existing_match(self, mock_api, client):
+        mock_api.post("/v1/resolve/realtime").mock(
+            return_value=httpx.Response(200, json={
+                "entity_id": "e-5",
+                "canonical_data": {"email": "bob@test.com"},
+                "is_new": False,
+                "matched_source": "crm",
+                "confidence": 0.95,
+            })
+        )
+        result = client.resolve_rt.realtime(
+            source_name="crm",
+            external_id="sf_456",
+            data={"email": "bob@test.com"},
+        )
+        assert result["is_new"] is False
+        assert result["matched_source"] == "crm"
+
+    def test_bulk(self, mock_api, client):
+        mock_api.post("/v1/resolve/bulk").mock(
+            return_value=httpx.Response(200, json={
+                "results": [
+                    {"source": "crm", "id": "sf_1", "entity_id": "e-1",
+                     "canonical_data": {"email": "a@t.com"}, "found": True},
+                    {"source": "crm", "id": "sf_2", "entity_id": None,
+                     "canonical_data": None, "found": False},
+                ],
+                "resolved": 1,
+                "not_found": 1,
+            })
+        )
+        result = client.resolve_rt.bulk([
+            {"source": "crm", "id": "sf_1"},
+            {"source": "crm", "id": "sf_2"},
+        ])
+        assert result["resolved"] == 1
+        assert result["not_found"] == 1
+        assert len(result["results"]) == 2
+        assert result["results"][0]["found"] is True
+        assert result["results"][1]["found"] is False
+
+    def test_realtime_sends_correct_payload(self, mock_api, client):
+        route = mock_api.post("/v1/resolve/realtime").mock(
+            return_value=httpx.Response(200, json={
+                "entity_id": "e-1", "canonical_data": {},
+                "is_new": True, "matched_source": None, "confidence": 1.0,
+            })
+        )
+        client.resolve_rt.realtime(
+            source_name="stripe",
+            external_id="cus_123",
+            data={"email": "test@example.com"},
+        )
+        import json
+        body = json.loads(route.calls[0].request.content)
+        assert body["source_name"] == "stripe"
+        assert body["external_id"] == "cus_123"
+        assert body["data"]["email"] == "test@example.com"

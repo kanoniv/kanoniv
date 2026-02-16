@@ -117,13 +117,7 @@ class SyncTransport:
                 _raise_for_status(response)
                 if response.status_code == 204:
                     return None
-                ct = response.headers.get("content-type", "")
-                if "application/json" in ct:
-                    return response.json()
-                try:
-                    return response.json()
-                except Exception:
-                    return response.text
+                return response.json()
             except (httpx.ConnectError, httpx.ReadTimeout) as exc:
                 last_exc = exc
                 if attempt < self._max_retries:
@@ -184,13 +178,7 @@ class AsyncTransport:
                 _raise_for_status(response)
                 if response.status_code == 204:
                     return None
-                ct = response.headers.get("content-type", "")
-                if "application/json" in ct:
-                    return response.json()
-                try:
-                    return response.json()
-                except Exception:
-                    return response.text
+                return response.json()
             except (httpx.ConnectError, httpx.ReadTimeout) as exc:
                 last_exc = exc
                 if attempt < self._max_retries:

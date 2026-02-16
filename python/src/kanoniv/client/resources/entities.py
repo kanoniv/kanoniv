@@ -32,6 +32,19 @@ class EntitiesResource:
     def get_linked(self, id: str) -> dict[str, Any]:
         return self._t.request("GET", f"/v1/canonical/{id}/linked")
 
+    def get_linked_bulk(self, entity_ids: list[str]) -> dict[str, Any]:
+        """Fetch linked entities for multiple canonical entities in one call.
+
+        Args:
+            entity_ids: Up to 1000 canonical entity IDs.
+
+        Returns:
+            ``{"results": {"id1": [linked...], "id2": [linked...], ...}}``
+        """
+        return self._t.request(
+            "POST", "/v1/entities/linked/bulk", json={"entity_ids": entity_ids}
+        )
+
     def history(self, id: str) -> dict[str, Any]:
         return self._t.request("GET", f"/v1/entities/{id}/history")
 
@@ -65,6 +78,19 @@ class AsyncEntitiesResource:
 
     async def get_linked(self, id: str) -> dict[str, Any]:
         return await self._t.request("GET", f"/v1/canonical/{id}/linked")
+
+    async def get_linked_bulk(self, entity_ids: list[str]) -> dict[str, Any]:
+        """Fetch linked entities for multiple canonical entities in one call.
+
+        Args:
+            entity_ids: Up to 1000 canonical entity IDs.
+
+        Returns:
+            ``{"results": {"id1": [linked...], "id2": [linked...], ...}}``
+        """
+        return await self._t.request(
+            "POST", "/v1/entities/linked/bulk", json={"entity_ids": entity_ids}
+        )
 
     async def history(self, id: str) -> dict[str, Any]:
         return await self._t.request("GET", f"/v1/entities/{id}/history")

@@ -1,6 +1,7 @@
 """Spec validation — thin wrapper over Rust validator."""
-from kanoniv._native import validate as _validate
+from kanoniv._native import validate_strict as _validate
 from kanoniv.spec import Spec
+
 
 class ValidationResult:
     def __init__(self, errors: list[str]):
@@ -19,6 +20,12 @@ class ValidationResult:
             return "<ValidationResult: Valid>"
         return f"<ValidationResult: {len(self.errors)} errors>"
 
+
 def validate(spec: Spec) -> ValidationResult:
+    """Validate a spec for schema and semantic correctness.
+
+    Args:
+        spec: The identity spec to validate.
+    """
     errors = _validate(spec.raw)
     return ValidationResult(errors)

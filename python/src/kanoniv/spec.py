@@ -21,15 +21,22 @@ class Spec:
 
     @property
     def entity(self) -> str:
-        return self._parsed.get("entity", "")
+        entity = self._parsed.get("entity", "")
+        if isinstance(entity, dict):
+            return entity.get("name", "")
+        return entity
 
     @property
     def version(self) -> str:
-        return self._parsed.get("version", "0.0.0")
+        return self._parsed.get("identity_version", self._parsed.get("version", "0.0.0"))
 
     @property
     def sources(self) -> list[dict]:
-        return self._parsed.get("sources", [])
+        raw = self._parsed.get("sources", [])
+        if isinstance(raw, dict):
+            # Map-style: {name: {config...}} → [{name: name, ...config}]
+            return [{**v, "name": k} for k, v in raw.items()]
+        return raw
 
     @property
     def rules(self) -> list[dict]:

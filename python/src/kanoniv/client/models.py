@@ -31,11 +31,14 @@ class CanonicalEntity(_Base):
     is_locked: bool | None = None
 
 
-class ExternalEntity(_Base):
+class LinkedEntityRef(_Base):
+    """Lightweight reference to a linked external entity (no raw source data)."""
     id: UUID | None = None
-    source_id: UUID | None = None
+    data_source_id: UUID | None = None
+    source_name: str | None = None
     external_id: str | None = None
-    source_data: dict[str, Any] | None = None
+    entity_type: str | None = None
+    ingested_at: datetime | None = None
 
 
 class IdentityLink(_Base):
@@ -48,7 +51,7 @@ class IdentityLink(_Base):
 class CanonicalDetailResponse(_Base):
     """Response from GET /v1/canonical/:id/linked."""
     canonical: CanonicalEntity | None = None
-    linked_entities: list[ExternalEntity] = []
+    linked_entities: list[LinkedEntityRef] = []
     links: list[IdentityLink] = []
 
 
@@ -168,6 +171,33 @@ class SpecDetail(_Base):
     created_at: str | None = None
 
 
+# -- Resolve -------------------------------------------------------------------
+
+class RealtimeResolveResponse(_Base):
+    """Response from POST /v1/resolve/realtime."""
+    entity_id: UUID
+    canonical_data: dict[str, Any]
+    is_new: bool
+    matched_source: str | None = None
+    confidence: float
+
+
+class BulkResolveResult(_Base):
+    """Single entry in a bulk resolve response."""
+    source: str
+    id: str
+    entity_id: UUID | None = None
+    canonical_data: dict[str, Any] | None = None
+    found: bool
+
+
+class BulkResolveResponse(_Base):
+    """Response from POST /v1/resolve/bulk."""
+    results: list[BulkResolveResult] = []
+    resolved: int = 0
+    not_found: int = 0
+
+
 # -- Review Queue --------------------------------------------------------------
 
 class PendingReview(_Base):
@@ -179,8 +209,6 @@ class PendingReview(_Base):
     entity_b_email: str | None = None
     entity_a_source: str | None = None
     entity_b_source: str | None = None
-    entity_a_data: dict[str, Any] | None = None
-    entity_b_data: dict[str, Any] | None = None
     confidence: float | None = None
     rule_results: dict[str, Any] | None = None
     created_at: datetime | None = None
