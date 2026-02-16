@@ -121,7 +121,7 @@ from kanoniv import Spec
 
 spec = Spec.from_file("customer-spec.yaml")
 
-print(spec.entity)                    # {'name': 'customer'}
+print(spec.entity)                    # 'customer'
 print([s['name'] for s in spec.sources])  # ['salesforce', 'stripe']
 print([r['name'] for r in spec.rules])    # ['email_exact', 'name_fuzzy', 'phone_match']
 ```
@@ -149,10 +149,11 @@ Validation catches:
 - Survivorship strategies referencing unknown sources
 
 ```python
-# Strict mode — also catches serde/schema issues
-from kanoniv import validate_strict
-
-errors = validate_strict(spec)
+# Check the raw error list directly
+result = validate(spec)
+if not result.valid:
+    for err in result.errors:
+        print(err)
 # ['KNV-E201: Invalid survivorship strategy ...']
 ```
 
@@ -213,7 +214,7 @@ result = reconcile(sources, spec)
 
 ```python
 # High-level metrics
-print(f"Input records:  {200}")
+print(f"Input records:  200")
 print(f"Clusters:       {result.cluster_count}")      # 172 unique identities
 print(f"Golden records: {len(result.golden_records)}") # 172
 print(f"Merge rate:     {result.merge_rate:.1%}")      # 14.0%
@@ -244,8 +245,8 @@ Source adapters:
 |---------|-------|
 | CSV | `Source.from_csv("name", "path.csv", primary_key="id")` |
 | Pandas | `Source.from_pandas("name", dataframe, primary_key="id")` |
-| SQL / Warehouse | `Source.from_warehouse("name", connection, query)` |
-| dbt | `Source.from_dbt("name", project_dir, model)` |
+| SQL / Warehouse | `Source.from_warehouse("name", "table", connection_string="...")` |
+| dbt | `Source.from_dbt("name", "model_name", manifest_path="target/manifest.json")` |
 
 ### 5. Diff — Compare spec versions
 
@@ -292,7 +293,7 @@ sources = [
 ]
 result = reconcile(sources, spec)
 
-print(f"Matched {result.cluster_count} identities from {200} records")
+print(f"Matched {result.cluster_count} identities")
 print(f"Merge rate: {result.merge_rate:.1%}")
 
 # 5. Export golden records
@@ -383,7 +384,7 @@ Self-serve cloud platform with additional capabilities:
 - **Webhook notifications** — trigger workflows on identity events
 - **Enterprise** — SSO, SCIM, HIPAA compliance, audit logs, BYOK encryption
 
-```python
+```bash
 pip install kanoniv[cloud]
 ```
 
