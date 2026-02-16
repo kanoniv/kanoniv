@@ -376,13 +376,13 @@ The Rust engine handles all CPU-intensive work. The Python SDK is a thin wrapper
 
 ## Kanoniv Cloud
 
-Self-serve cloud platform with additional capabilities:
+The local SDK is great for batch reconciliation. When you need real-time resolution on every API call, a persistent identity graph that grows over time, or team-based review workflows - that's what Cloud adds.
 
-- **Real-time resolution API** — sub-millisecond entity lookup
-- **Persistent identity graph** — queryable via REST API
-- **Dashboard** — match quality metrics, reconciliation history
-- **Webhook notifications** — trigger workflows on identity events
-- **Enterprise** — SSO, SCIM, HIPAA compliance, audit logs, BYOK encryption
+- **Real-time resolution API** - resolve an identity in under 1ms, on every ingest or API call
+- **Persistent identity graph** - golden records that evolve as new data arrives, queryable via REST
+- **Incremental updates** - new records match against existing entities without re-running the full pipeline
+- **Dashboard** - match quality metrics, reconciliation history, review queues
+- **Enterprise** - SSO, SCIM, HIPAA compliance, audit logs, BYOK encryption
 
 ```bash
 pip install kanoniv[cloud]
