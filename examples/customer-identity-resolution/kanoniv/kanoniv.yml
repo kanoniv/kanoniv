@@ -229,7 +229,7 @@ decision:
     # Log-likelihood thresholds for Fellegi-Sunter decision boundaries.
     # These operate on the raw composite score (sum of field log-likelihood ratios).
     thresholds:
-      match: 8.0                      # Confident match (email + one strong field)
+      match: 10.0                     # Requires email/phone + name (eliminates company+lastname-only over-merges)
       possible: 4.0                   # Needs human review
       non_match: -5.0                 # Confident non-match
 
