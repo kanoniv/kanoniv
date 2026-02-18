@@ -30,9 +30,9 @@ All three approaches solve the same problem on the same data:
 | Metric | dbt-sql | Splink | Kanoniv |
 |--------|---------|--------|---------|
 | Input records | 6,539 | 6,539 | 6,539 |
-| Golden records | 3,583 | 2,233 | 2,443 |
-| Merge rate | 45% | 65.9% | 62.6% |
-| Compression | 1.8x | 2.9x | 2.7x |
+| Golden records | 3,583 | 2,233 | 2,168 |
+| Merge rate | 45% | 65.9% | 66.8% |
+| Compression | 1.8x | 2.9x | 3.0x |
 | Runtime | <1s (DuckDB) | 2.6s | 0.4s |
 
 ## Shared Data

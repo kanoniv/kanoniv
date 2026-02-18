@@ -177,6 +177,7 @@ decision:
       max_random_pairs: 1000000       # Sample up to 1M random pairs for u
       max_iterations: 25              # Phase 2: EM iterations for m
       convergence_threshold: 0.001
+      prior_weight: 1.0               # Trust spec priors fully (well-calibrated for this dataset)
 
     fields:
       # Email - strongest identifier. Near-unique, so u is very low.
