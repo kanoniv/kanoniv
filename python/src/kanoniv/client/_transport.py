@@ -1,4 +1,4 @@
-"""HTTP transport layer — wraps httpx with auth, retries, and error mapping."""
+"""HTTP transport layer - wraps httpx with auth, retries, and error mapping."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Identity specs resource — list, get, ingest."""
+"""Identity specs resource - list, get, ingest."""
 
 from __future__ import annotations
 

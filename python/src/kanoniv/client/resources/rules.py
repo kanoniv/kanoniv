@@ -1,4 +1,4 @@
-"""Rules resource — list active, create version, history."""
+"""Rules resource - list active, create version, history."""
 
 from __future__ import annotations
 

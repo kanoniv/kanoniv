@@ -38,8 +38,9 @@ class SourceAdapter(Protocol):
 class Source:
     """A data source for identity resolution.
 
-    Create via factory class methods: ``from_pandas``, ``from_csv``,
-    ``from_json``, ``from_warehouse``, ``from_dbt``.
+    Create via factory class methods: ``from_pandas``, ``from_polars``,
+    ``from_arrow``, ``from_duckdb``, ``from_csv``, ``from_json``,
+    ``from_warehouse``, ``from_dbt``.
     """
 
     def __init__(self, name: str, adapter: SourceAdapter, primary_key: str | None = None):
@@ -47,7 +48,7 @@ class Source:
         self.primary_key = primary_key
         self._adapter = adapter
 
-    # ── Factory methods ──────────────────────────────────────────────
+    # -- Factory methods ----------------------------------------------------
 
     @classmethod
     def from_pandas(cls, name: str, df: Any, primary_key: str | None = None) -> Source:
@@ -55,6 +56,33 @@ class Source:
         from .adapters.pandas import PandasAdapter
 
         return cls(name, PandasAdapter(df), primary_key=primary_key)
+
+    @classmethod
+    def from_polars(cls, name: str, df: Any, primary_key: str | None = None) -> Source:
+        """Create a source from a Polars DataFrame."""
+        from .adapters.polars import PolarsAdapter
+
+        return cls(name, PolarsAdapter(df), primary_key=primary_key)
+
+    @classmethod
+    def from_arrow(cls, name: str, table: Any, primary_key: str | None = None) -> Source:
+        """Create a source from a PyArrow Table."""
+        from .adapters.arrow import ArrowAdapter
+
+        return cls(name, ArrowAdapter(table), primary_key=primary_key)
+
+    @classmethod
+    def from_duckdb(
+        cls,
+        name: str,
+        connection: Any,
+        query: str,
+        primary_key: str | None = None,
+    ) -> Source:
+        """Create a source from a DuckDB connection and SQL query."""
+        from .adapters.duckdb import DuckDBAdapter
+
+        return cls(name, DuckDBAdapter(connection, query), primary_key=primary_key)
 
     @classmethod
     def from_csv(cls, name: str, path: str, primary_key: str | None = None) -> Source:
@@ -104,7 +132,12 @@ class Source:
             primary_key=kw.get("primary_key"),
         )
 
-    # ── Properties ───────────────────────────────────────────────────
+    @classmethod
+    def _from_rows(cls, name: str, rows: list[dict[str, str]], primary_key: str | None = None) -> Source:
+        """Internal: create a source from a pre-materialized list of row dicts."""
+        return cls(name, _ListAdapter(rows), primary_key=primary_key)
+
+    # -- Properties ---------------------------------------------------------
 
     @property
     def connection_string(self) -> str | None:
@@ -112,7 +145,7 @@ class Source:
         adapter = self._adapter
         return getattr(adapter, "_connection_string", None)
 
-    # ── Delegated methods ────────────────────────────────────────────
+    # -- Delegated methods --------------------------------------------------
 
     def schema(self) -> SourceSchema:
         """Return the inferred schema of this source."""
@@ -122,7 +155,7 @@ class Source:
         """Iterate over rows, yielding ``{column: value}`` dicts with all values stringified."""
         return self._adapter.iter_rows()
 
-    # ── Entity bridge ────────────────────────────────────────────────
+    # -- Entity bridge ------------------------------------------------------
 
     def to_entities(self, entity_type: str, tenant_id: str | None = None) -> list[dict[str, Any]]:
         """Convert adapter rows into ``NormalizedEntity``-compatible dicts.
@@ -154,3 +187,23 @@ class Source:
             )
 
         return entities
+
+
+class _ListAdapter:
+    """Adapter that wraps a pre-materialized list of row dicts."""
+
+    def __init__(self, rows: list[dict[str, str]]):
+        self._rows = rows
+
+    def schema(self) -> SourceSchema:
+        columns = []
+        if self._rows:
+            for col in self._rows[0]:
+                columns.append(ColumnSchema(name=col, dtype="string"))
+        return SourceSchema(columns=columns, row_count=len(self._rows))
+
+    def iter_rows(self) -> Iterator[dict[str, str]]:
+        return iter(self._rows)
+
+    def row_count(self) -> int | None:
+        return len(self._rows)

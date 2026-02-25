@@ -1,4 +1,4 @@
-"""Entities resource — search, get, linked, history."""
+"""Entities resource - search, get, linked, history."""
 
 from __future__ import annotations
 

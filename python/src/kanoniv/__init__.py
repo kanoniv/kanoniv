@@ -1,19 +1,19 @@
-"""Kanoniv — Identity resolution as code."""
+"""Kanoniv - Identity resolution as code."""
 
 from .spec import Spec
 from .validate import validate
 from .plan import plan
 from .diff import diff
 from .source import Source
-from .reconcile import reconcile, ReconcileResult, FeedbackLabel
+from .reconcile import reconcile, ReconcileResult
 from .evaluate import EvaluateResult
 from .changelog import ChangeLog, EntityChange
 
-__version__ = "0.2.15"
+__version__ = "0.3.1"
 
 
 def __getattr__(name: str):
-    """Lazy-load cloud extras — they require httpx/pydantic (pip install kanoniv[cloud])."""
+    """Lazy-load cloud extras - they require httpx/pydantic (pip install kanoniv[cloud])."""
     import importlib as _il
     import sys as _sys
 
@@ -48,7 +48,6 @@ __all__ = [
     "diff",
     "reconcile",
     "ReconcileResult",
-    "FeedbackLabel",
     "EvaluateResult",
     "ChangeLog",
     "EntityChange",

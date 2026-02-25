@@ -1,4 +1,4 @@
-"""Audit resource — list events, entity trail."""
+"""Audit resource - list events, entity trail."""
 
 from __future__ import annotations
 

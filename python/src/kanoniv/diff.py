@@ -1,4 +1,4 @@
-"""Spec diffing — compare two spec versions."""
+"""Spec diffing - compare two spec versions."""
 from kanoniv._native import diff as _diff
 from kanoniv.spec import Spec
 

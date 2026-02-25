@@ -1,11 +1,12 @@
 <p align="center">
   <h1 align="center">Kanoniv</h1>
   <p align="center"><strong>Identity resolution as code</strong></p>
-  <p align="center">Match, merge, and master entity data across systems — defined in YAML, powered by Rust.</p>
+  <p align="center">Match, merge, and master entity data across systems - defined in YAML, powered by Rust.</p>
 </p>
 
 <p align="center">
   <a href="https://pypi.org/project/kanoniv/"><img src="https://img.shields.io/pypi/v/kanoniv" alt="PyPI"></a>
+  <a href="https://www.npmjs.com/package/@kanoniv/mcp"><img src="https://img.shields.io/npm/v/@kanoniv/mcp" alt="npm"></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License"></a>
   <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="Python 3.9+"></a>
   <a href="https://kanoniv.com/docs/getting-started/"><img src="https://img.shields.io/badge/docs-kanoniv.com-gold" alt="Docs"></a>
@@ -13,7 +14,17 @@
 
 ---
 
-Kanoniv matches records across data sources — CRM, billing, support, marketing — to identify which records refer to the same real-world entity. It produces **golden records** with the best values from each source.
+Kanoniv matches records across data sources - CRM, billing, support, marketing - to identify which records refer to the same real-world entity. It produces **golden records** with the best values from each source.
+
+**Three ways to use Kanoniv:**
+
+| | Python SDK | MCP Server | REST API |
+|---|---|---|---|
+| **Install** | `pip install kanoniv` | `npx @kanoniv/mcp` | `api.kanoniv.com` |
+| **Best for** | Batch reconciliation, CI/CD | AI assistants (Claude, Cursor) | Production pipelines |
+| **Runs** | Locally (Rust engine via PyO3) | Locally (native binary) | Cloud |
+
+## Python SDK
 
 ```python
 from kanoniv import Spec, Source, reconcile, validate
@@ -31,19 +42,80 @@ print(f"Golden records: {len(result.golden_records)}")
 print(f"Merge rate: {result.merge_rate:.1%}")
 ```
 
-## Install
+### Install
 
 ```bash
 pip install kanoniv
 ```
 
-Pre-built wheels for Linux x86_64, macOS Intel, and macOS Apple Silicon. No Rust toolchain required.
+Pre-built wheels for Linux x86_64, macOS (Intel + Apple Silicon), and Windows. No Rust toolchain required.
+
+### CLI
+
+The SDK includes a full CLI for both offline and cloud workflows:
+
+```bash
+# Offline (no account needed)
+kanoniv validate identity.yaml     # Validate a spec
+kanoniv plan identity.yaml         # Preview execution plan
+kanoniv diff v1.yaml v2.yaml       # Compare spec versions
+kanoniv hash identity.yaml         # Deterministic plan hash
+
+# Cloud (requires API key)
+kanoniv login                      # Authenticate
+kanoniv ingest ./data/             # Upload data
+kanoniv reconcile --wait           # Run reconciliation
+kanoniv stats                      # View entity counts
+kanoniv ask "who shares a company?"  # Natural language queries
+```
+
+## MCP Server
+
+Connect your AI assistant to Kanoniv's identity resolution platform via the [Model Context Protocol](https://modelcontextprotocol.io). Works with Claude Desktop, Cursor, Windsurf, and any MCP-compatible client.
+
+```json
+{
+  "mcpServers": {
+    "kanoniv": {
+      "command": "npx",
+      "args": ["-y", "@kanoniv/mcp"],
+      "env": {
+        "KANONIV_API_KEY": "kn_..."
+      }
+    }
+  }
+}
+```
+
+Get your API key from your [Kanoniv dashboard](https://app.kanoniv.com) under **Settings > API Keys**.
+
+**13 category tools** with action-based dispatch:
+
+| Tool | Actions |
+|------|---------|
+| `manage_specs` | create |
+| `manage_sources` | create, update, delete, sync |
+| `manage_ingest` | batch, create_mapping |
+| `manage_jobs` | run, cancel, dry_run, simulate |
+| `manage_entities` | lock, revert, resolve_realtime, resolve_bulk, bulk_linked |
+| `manage_matching` | quick_resolve, create/delete feedback & overrides |
+| `manage_rules` | create |
+| `manage_crm` | trigger_sync, merge, dismiss, split, autotune, update_settings |
+| `manage_graph` | refresh |
+| `manage_memory` | create, update, append, archive, link_entities |
+| `manage_detect` | profile, bootstrap |
+| `manage_agents` | list/get/update/delete configs, list/get/rollback runs, list/approve/reject actions |
+| `analyze_entities` | group_by, filter, field_stats |
+
+**70 resources** (lazy-loaded, zero context cost) for browsing specs, sources, jobs, entities, match explanations, CRM duplicates, graph intelligence, memory entries, and more.
+
+See the [MCP Server docs](https://kanoniv.com/docs/ai/mcp-server) for configuration options and tool profiles.
 
 ## Core Concepts
 
-Kanoniv has five core concepts. They form a pipeline: **Spec** &rarr; **Validate** &rarr; **Plan** &rarr; **Reconcile** &rarr; **Diff**.
+Kanoniv has five core concepts. They form a pipeline: **Spec** -> **Validate** -> **Plan** -> **Reconcile** -> **Diff**.
 
-### 1. Spec — Define your identity logic
+### 1. Spec - Define your identity logic
 
 A **Spec** is a YAML file that declares everything about how records should be matched. It replaces hundreds of lines of ad-hoc matching code with a single, version-controlled configuration.
 
@@ -111,55 +183,23 @@ A spec has six sections:
 | Section | Purpose |
 |---------|---------|
 | `sources` | Declare data sources and map their columns to common attributes |
-| `blocking` | Reduce the comparison space — only records sharing a blocking key are compared |
+| `blocking` | Reduce the comparison space - only records sharing a blocking key are compared |
 | `rules` | Define how to compare records (exact, fuzzy, phonetic, composite, ML) |
-| `decision` | Set thresholds — above `match` = auto-merge, above `review` = human review |
+| `decision` | Set thresholds - above `match` = auto-merge, above `review` = human review |
 | `survivorship` | When records merge, decide which source's values win for the golden record |
 
-```python
-from kanoniv import Spec
-
-spec = Spec.from_file("customer-spec.yaml")
-
-print(spec.entity)                    # 'customer'
-print([s['name'] for s in spec.sources])  # ['salesforce', 'stripe']
-print([r['name'] for r in spec.rules])    # ['email_exact', 'name_fuzzy', 'phone_match']
-```
-
-### 2. Validate — Catch errors before you run
-
-**Validate** checks your spec for structural errors, invalid references, and logical mistakes — before any data is touched.
+### 2. Validate - Catch errors before you run
 
 ```python
 from kanoniv import validate
 
 result = validate(spec)
-print(result)
-# <ValidationResult: Valid>
-
-result.raise_on_error()  # Raises if invalid — safe to use in CI
+result.raise_on_error()  # Raises if invalid - safe to use in CI
 ```
 
-Validation catches:
-- Missing required fields (`entity`, `sources`, `rules`)
-- Invalid rule types or algorithms
-- Threshold values out of range
-- Source references that don't exist
-- Blocking keys referencing unmapped attributes
-- Survivorship strategies referencing unknown sources
+Validation catches missing fields, invalid rule types, threshold values out of range, dangling source references, and more.
 
-```python
-# Check the raw error list directly
-result = validate(spec)
-if not result.valid:
-    for err in result.errors:
-        print(err)
-# ['KNV-E201: Invalid survivorship strategy ...']
-```
-
-### 3. Plan — Preview the execution
-
-**Plan** compiles your spec into an execution plan and surfaces risk flags — without touching data. Use it to understand what the engine will do and catch potential quality issues.
+### 3. Plan - Preview the execution
 
 ```python
 from kanoniv import plan
@@ -168,36 +208,9 @@ p = plan(spec)
 print(p.summary())
 ```
 
-```
-  Identity:     customer (1.0)
-  Sources:      2 (salesforce, stripe)
-  Signals:      email (exact, w=1), first_name (similarity/jaro_winkler, w=0.8),
-                phone (similarity/levenshtein, w=0.6)
-  Blocking:     email, phone
-  Thresholds:   merge >= 0.7, review >= 0.4
-  Stages:       8 execution stages
-  Survivorship: source_priority [salesforce, stripe]
-  Risk flags:   0 critical, 1 high, 1 medium
-  Plan hash:    sha256:a3f8c91d...
-```
+Compiles the spec into an execution plan and surfaces risk flags - without touching data.
 
-```python
-# Inspect risk flags
-for flag in p.risk_flags:
-    print(f"  [{flag['severity']}] {flag['message']}")
-    print(f"    -> {flag['recommendation']}")
-
-# [high] Rule 'phone_match' has threshold 0.80 — risk of over-merging
-#    -> Consider raising threshold to 0.85+ or adding verification rules
-# [medium] No temporal configuration — identity resolution is not time-aware
-#    -> Add temporal config if entities have time-dependent attributes
-```
-
-The plan hash is deterministic — same spec always produces the same hash. Use it to detect config drift in CI/CD.
-
-### 4. Reconcile — Run identity resolution
-
-**Reconcile** runs the full pipeline locally: load data, normalize, block, compare, score, cluster, and build golden records. The Rust engine handles all CPU-intensive work.
+### 4. Reconcile - Run identity resolution
 
 ```python
 from kanoniv import Source, reconcile
@@ -208,35 +221,12 @@ sources = [
 ]
 
 result = reconcile(sources, spec)
-```
 
-**What you get back:**
+print(f"Golden records: {result.cluster_count}")
+print(f"Merge rate: {result.merge_rate:.1%}")
 
-```python
-# High-level metrics
-print(f"Input records:  200")
-print(f"Clusters:       {result.cluster_count}")      # 172 unique identities
-print(f"Golden records: {len(result.golden_records)}") # 172
-print(f"Merge rate:     {result.merge_rate:.1%}")      # 14.0%
-print(f"Decisions:      {len(result.decisions)}")      # 174
-
-# Clusters — which records belong together
-for cluster in result.clusters[:3]:
-    print(cluster)
-# ['sf_003rSO42uKiv7Ry', 'cus_pQvhxKkZssTKu3']  <- matched pair
-# ['sf_0037XsrSvBpDmH5']                           <- singleton
-# ['cus_ZQDA2kiT80g4DJ', 'sf_003CLFuMk9TsuZH']   <- matched pair
-
-# Decisions — why each pair was matched
-for d in result.decisions[:2]:
-    print(f"  {d['decision']} (confidence={d['confidence']:.3f})")
-    print(f"  matched on: {d['matched_on']}")
-# merge (confidence=0.783)
-# matched on: ['email_exact', 'phone_match']
-
-# Golden records — export to Pandas
-golden_df = result.to_pandas()
-golden_df.to_csv("golden_customers.csv", index=False)
+# Export golden records
+result.to_pandas().to_csv("golden_customers.csv", index=False)
 ```
 
 Source adapters:
@@ -245,12 +235,13 @@ Source adapters:
 |---------|-------|
 | CSV | `Source.from_csv("name", "path.csv", primary_key="id")` |
 | Pandas | `Source.from_pandas("name", dataframe, primary_key="id")` |
+| Polars | `Source.from_polars("name", dataframe, primary_key="id")` |
+| PyArrow | `Source.from_arrow("name", table, primary_key="id")` |
+| DuckDB | `Source.from_duckdb("name", connection, "SELECT * FROM t", primary_key="id")` |
 | SQL / Warehouse | `Source.from_warehouse("name", "table", connection_string="...")` |
 | dbt | `Source.from_dbt("name", "model_name", manifest_path="target/manifest.json")` |
 
-### 5. Diff — Compare spec versions
-
-**Diff** compares two spec versions to show exactly what changed — sources added/removed, rules modified, thresholds shifted. Use it to review changes before deploying a new spec version.
+### 5. Diff - Compare spec versions
 
 ```python
 from kanoniv import Spec, diff
@@ -261,52 +252,15 @@ v2 = Spec.from_file("spec-v2.yaml")
 d = diff(v1, v2)
 print(d.summary)
 # version: 1.0 -> 2.0; sources: +1 -0 ~0; rules: +1 -0 ~0; thresholds changed
-
-print(d.sources_added)       # ['hubspot']
-print(d.rules_added)         # ['name_metaphone']
-print(d.thresholds_changed)  # True
-print(d.has_changes)         # True
-```
-
-## End-to-End Example
-
-Putting it all together — a complete script from spec to golden records:
-
-```python
-from kanoniv import Spec, Source, validate, plan, reconcile
-
-# 1. Spec — load your identity logic
-spec = Spec.from_file("customer-spec.yaml")
-
-# 2. Validate — fail fast on bad config
-validate(spec).raise_on_error()
-
-# 3. Plan — check for risk flags
-p = plan(spec)
-print(p.summary())
-assert len([f for f in p.risk_flags if f['severity'] == 'critical']) == 0
-
-# 4. Reconcile — run the engine
-sources = [
-    Source.from_csv("salesforce", "sf_contacts.csv", primary_key="sf_id"),
-    Source.from_csv("stripe", "stripe_customers.csv", primary_key="cus_id"),
-]
-result = reconcile(sources, spec)
-
-print(f"Matched {result.cluster_count} identities")
-print(f"Merge rate: {result.merge_rate:.1%}")
-
-# 5. Export golden records
-result.to_pandas().to_csv("golden_customers.csv", index=False)
 ```
 
 ## Why Kanoniv
 
-- **Golden records out of the box.** Most ER tools stop at matching. Kanoniv includes survivorship — the logic that decides which values survive into the canonical record.
+- **Golden records out of the box.** Most ER tools stop at matching. Kanoniv includes survivorship - the logic that decides which values survive into the canonical record.
 - **Declarative YAML spec.** Your matching logic lives in a version-controlled file, not scattered across code. Review it in a PR, test it in CI, deploy it to production.
 - **Offline-first.** The Python SDK runs entirely on your machine. No API keys, no accounts, no data leaves your environment.
 - **Fast.** The reconciliation engine is written in Rust and compiled to native Python extensions via PyO3. 100K records in seconds on a laptop.
-- **Full pipeline.** Validate &rarr; Plan &rarr; Reconcile &rarr; Diff. Each step catches problems earlier, before they reach production.
+- **AI-native.** The MCP server gives AI assistants full access to your identity graph - specs, jobs, entities, duplicates, analytics - through natural language.
 
 ## Matching Rules
 
@@ -321,7 +275,8 @@ result.to_pandas().to_csv("golden_customers.csv", index=False)
 | `similarity/haversine` | Geographic distance | Coordinates |
 | `range` | Numeric tolerance | Dates, amounts |
 | `composite` | AND/OR rule groups | Multi-field matching |
-| `ml` | ML model scoring | Custom models |
+
+All rules support both deterministic (rules-based) and probabilistic (Fellegi-Sunter with EM training) matching.
 
 ## Survivorship Strategies
 
@@ -368,7 +323,10 @@ The Rust engine handles all CPU-intensive work. The Python SDK is a thin wrapper
 |---------|---------|--------|-------|--------|--------|
 | Golden records | Yes | No | Enterprise | No | No |
 | Survivorship | Yes | No | Enterprise | No | No |
+| Probabilistic matching | Yes (Fellegi-Sunter + EM) | Yes | Yes (Spark ML) | Yes | Yes |
 | Declarative config | YAML | Python | JSON | Python | CloudFormation |
+| MCP server | Yes | No | No | No | No |
+| CLI | Yes | No | No | No | No |
 | Local-first | Yes | Yes | Yes (Spark) | Yes | No |
 | Real-time API | Yes (Cloud) | No | No | No | Near real-time |
 | Language | Rust + Python | Python + Spark | Spark | Python | Proprietary |
@@ -381,6 +339,7 @@ The local SDK is great for batch reconciliation. When you need real-time resolut
 - **Real-time resolution API** - resolve an identity in under 1ms, on every ingest or API call
 - **Persistent identity graph** - golden records that evolve as new data arrives, queryable via REST
 - **Incremental updates** - new records match against existing entities without re-running the full pipeline
+- **MCP server** - give AI assistants full access to your identity graph
 - **Dashboard** - match quality metrics, reconciliation history, review queues
 - **Enterprise** - SSO, SCIM, HIPAA compliance, audit logs, BYOK encryption
 
@@ -394,23 +353,24 @@ from kanoniv import Client
 client = Client(base_url="https://api.kanoniv.com", api_key="kn_...")
 ```
 
-[Get started](https://kanoniv.com/docs/getting-started/) | [API reference](https://kanoniv.com/docs/api-reference/) | [Pricing](https://kanoniv.com/docs/pricing/)
+[Get started](https://kanoniv.com/docs/getting-started/) | [API reference](https://kanoniv.com/docs/api-reference/) | [Pricing](https://kanoniv.com/pricing/)
 
 ## Documentation
 
 - [Getting Started](https://kanoniv.com/docs/getting-started/)
 - [Spec Reference](https://kanoniv.com/docs/spec-reference/)
 - [Python SDK Guide](https://kanoniv.com/docs/sdks/python-sdk)
+- [MCP Server](https://kanoniv.com/docs/ai/mcp-server)
+- [CLI Reference](https://kanoniv.com/docs/sdks/cli)
 - [API Reference](https://kanoniv.com/docs/api-reference/)
 - [Tutorials](https://kanoniv.com/docs/tutorials/)
-- [Blog](https://kanoniv.com/docs/blog/)
 
 ## Use Cases
 
-- **[Customer 360](https://kanoniv.com/docs/use-cases/customer-360)** — Unify customer records across CRM, billing, and support
-- **[Payment Deduplication](https://kanoniv.com/docs/use-cases/payment-dedup)** — Detect duplicate invoices and payments
-- **[Lead Matching](https://kanoniv.com/docs/use-cases/lead-matching)** — Match inbound leads to existing accounts
-- **[Patient Matching](https://kanoniv.com/docs/use-cases/patient-matching)** — HIPAA-compliant patient record linking
+- **[Customer 360](https://kanoniv.com/docs/use-cases/customer-360)** - Unify customer records across CRM, billing, and support
+- **[Payment Deduplication](https://kanoniv.com/docs/use-cases/payment-dedup)** - Detect duplicate invoices and payments
+- **[Lead Matching](https://kanoniv.com/docs/use-cases/lead-matching)** - Match inbound leads to existing accounts
+- **[Patient Matching](https://kanoniv.com/docs/use-cases/patient-matching)** - HIPAA-compliant patient record linking
 
 ## Try It
 
@@ -446,22 +406,22 @@ The [`examples/`](examples/) directory also includes the same problem solved wit
 
 | Directory | Description |
 |---|---|
-| [`crates/validator`](crates/validator/) | Rust CLI + library for validating, compiling, planning, and diffing identity specs |
 | [`python/`](python/) | Python SDK source - native extension built with [PyO3](https://pyo3.rs) + [maturin](https://www.maturin.rs) |
+| [`crates/validator`](crates/validator/) | Rust CLI + library for validating, compiling, planning, and diffing identity specs |
 | [`examples/`](examples/) | End-to-end examples with sample data (10 CSVs, 6,500 records) |
 
 The reconciliation engine (matching, blocking, scoring, clustering, survivorship) is compiled into the published PyPI wheels. Install with `pip install kanoniv` - no Rust toolchain required.
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE) for details.
+Apache-2.0 - see [LICENSE](LICENSE) for details.
 
 ---
 
 <p align="center">
   <a href="https://kanoniv.com">Website</a> &middot;
   <a href="https://kanoniv.com/docs/getting-started/">Docs</a> &middot;
-  <a href="https://kanoniv.com/docs/blog/">Blog</a> &middot;
+  <a href="https://www.npmjs.com/package/@kanoniv/mcp">MCP Server</a> &middot;
   <a href="https://pypi.org/project/kanoniv/">PyPI</a> &middot;
-  <a href="https://kanoniv.com/docs/pricing/">Pricing</a>
+  <a href="https://kanoniv.com/pricing/">Pricing</a>
 </p>

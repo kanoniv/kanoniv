@@ -1,4 +1,4 @@
-"""dbt model adapter — resolves ref() to warehouse tables."""
+"""dbt model adapter - resolves ref() to warehouse tables."""
 from __future__ import annotations
 
 import json

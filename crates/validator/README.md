@@ -1,10 +1,11 @@
 # Kanoniv Validator
 
-> CLI tool for validating, compiling, and diffing Kanoniv identity specifications.
+> Rust CLI + library for validating, compiling, planning, and diffing Kanoniv identity specifications.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](../../LICENSE)
 [![Crates.io](https://img.shields.io/crates/v/kanoniv.svg)](https://crates.io/crates/kanoniv)
-[![CI](https://github.com/kanoniv/validator/actions/workflows/ci.yml/badge.svg)](https://github.com/kanoniv/validator/actions/workflows/ci.yml)
+
+Part of the [Kanoniv](https://github.com/kanoniv/kanoniv) monorepo.
 
 ---
 
@@ -16,20 +17,12 @@
 cargo install kanoniv
 ```
 
-### From Binary
-
-Download from [Releases](https://github.com/kanoniv/validator/releases):
+### From Source
 
 ```bash
-# macOS
-curl -L https://github.com/kanoniv/validator/releases/latest/download/kanoniv-darwin-amd64 -o kanoniv
-chmod +x kanoniv
-sudo mv kanoniv /usr/local/bin/
-
-# Linux
-curl -L https://github.com/kanoniv/validator/releases/latest/download/kanoniv-linux-amd64 -o kanoniv
-chmod +x kanoniv
-sudo mv kanoniv /usr/local/bin/
+git clone https://github.com/kanoniv/kanoniv.git
+cd kanoniv/crates/validator
+cargo build --release
 ```
 
 ---
@@ -44,16 +37,16 @@ kanoniv validate identity.yaml
 
 Output:
 ```
-✓ Schema valid
-✓ Semantic checks passed
-✓ identity.yaml is valid
+ Schema valid
+ Semantic checks passed
+ identity.yaml is valid
 ```
 
 Errors:
 ```
-✗ Rule 'email_exact' references unknown field 'email_address'
-  → Did you mean 'email'?
-  
+ Rule 'email_exact' references unknown field 'email_address'
+  -> Did you mean 'email'?
+
   at identity.yaml:42:7
 ```
 
@@ -93,13 +86,7 @@ Output:
 +  - name: email_exact
 +    weight: 0.9
 
-⚠ Warning: Threshold change may affect match rates
-```
-
-### Explain a Match (Coming Soon)
-
-```bash
-kanoniv explain match.json
+Warning: Threshold change may affect match rates
 ```
 
 ---
@@ -129,12 +116,11 @@ done
 
 | Repo | Description |
 |------|-------------|
-| [kanoniv/spec](https://github.com/kanoniv/spec) | YAML language specification |
+| [kanoniv/kanoniv](https://github.com/kanoniv/kanoniv) | Monorepo: SDK, validator, examples |
 | [kanoniv/dbt-kanoniv](https://github.com/kanoniv/dbt-kanoniv) | dbt package |
-| [kanoniv/examples](https://github.com/kanoniv/examples) | Sample configurations |
 
 ---
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE)
+Apache License 2.0 - see [LICENSE](../../LICENSE)
