@@ -1,6 +1,6 @@
 # Product Entity Resolution
 
-Reconcile 1,000 product records across 4 heterogeneous retail feeds into a unified product catalog.
+Reconcile 10,000+ product records across 4 heterogeneous retail feeds into a unified product catalog.
 
 ## The Problem
 
@@ -8,10 +8,10 @@ The same product appears in your ecommerce store, wholesale supplier feed, marke
 
 | Source | Records | Identifiers | What's Missing |
 |--------|---------|-------------|---------------|
-| `ecommerce_catalog.csv` | 300 | UPC (12-digit barcode), SKU | No MPN |
-| `wholesale_feed.csv` | 250 | GTIN-13 ("0" + UPC), MPN | Different barcode format |
-| `marketplace_listings.csv` | 200 | ASIN | No barcode, no MPN |
-| `retail_inventory.csv` | 250 | manufacturer_code (= MPN) | No barcode |
+| `ecommerce_catalog.csv` | ~2,600 | UPC (12-digit barcode), SKU | No MPN |
+| `wholesale_feed.csv` | ~2,600 | GTIN-13 ("0" + UPC), MPN | Different barcode format |
+| `marketplace_listings.csv` | ~2,600 | ASIN | No barcode, no MPN |
+| `retail_inventory.csv` | ~2,600 | manufacturer_code (= MPN) | No barcode |
 
 ### Key challenges
 
@@ -39,14 +39,14 @@ The same product appears in your ecommerce store, wholesale supplier feed, marke
 
 | Metric | V1 (weighted_sum) | V2 (fellegi_sunter) |
 |--------|-------------------|---------------------|
-| Clusters | 709 | 703 |
-| Merge rate | 29.1% | 29.7% |
-| **Precision** | 0.7004 | **0.7652** |
-| **Recall** | 0.8386 | **0.9058** |
-| **F1** | 0.7633 | **0.8296** |
-| Runtime | <0.5s | <0.5s |
+| Clusters | ~5,800 | ~5,400 |
+| Merge rate | ~44% | ~48% |
+| **Precision** | 0.987 | **0.968** |
+| **Recall** | 0.880 | **0.961** |
+| **F1** | 0.930 | **0.965** |
+| Runtime | <2s | <2s |
 
-Fellegi-Sunter improves both precision and recall. Its null-aware log-likelihood scoring handles partial evidence (missing barcode, missing MPN) without penalty, while the weighted sum approach implicitly penalizes missing fields.
+Fellegi-Sunter improves F1 by +3.5pp, driven by a +8pp recall gain. Its null-aware log-likelihood scoring handles partial evidence (missing barcode, missing MPN) without penalty, while the weighted sum approach requires near-perfect field agreement at its higher threshold.
 
 ## Running
 
