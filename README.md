@@ -402,13 +402,15 @@ print('Exported to golden_customers.csv')
 
 The [`examples/`](examples/) directory also includes the same problem solved with [dbt/SQL](examples/customer-identity-resolution/dbt-sql/) and [Splink](examples/customer-identity-resolution/splink/) for comparison. See the [full walkthrough notebook](examples/customer-identity-resolution/kanoniv/customer_entity.ipynb) for data exploration, quality analysis, and business enrichment.
 
+For **product entity resolution** across heterogeneous retail feeds, see the [product reconciliation example](examples/product-reconciliation/) - covers iterative spec refinement (rules-based -> Fellegi-Sunter), three-layer evaluation with P/R/F1, and entity-level diffing with ChangeLog.
+
 ## What's in This Repo
 
 | Directory | Description |
 |---|---|
 | [`python/`](python/) | Python SDK source - native extension built with [PyO3](https://pyo3.rs) + [maturin](https://www.maturin.rs) |
 | [`crates/validator`](crates/validator/) | Rust CLI + library for validating, compiling, planning, and diffing identity specs |
-| [`examples/`](examples/) | End-to-end examples with sample data (10 CSVs, 6,500 records) |
+| [`examples/`](examples/) | End-to-end examples: [customer dedup](examples/customer-identity-resolution/) (6,500 records, 5 sources) and [product reconciliation](examples/product-reconciliation/) (1,000 records, 4 sources) |
 
 The reconciliation engine (matching, blocking, scoring, clustering, survivorship) is compiled into the published PyPI wheels. Install with `pip install kanoniv` - no Rust toolchain required.
 
