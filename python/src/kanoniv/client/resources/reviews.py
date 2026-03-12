@@ -1,4 +1,4 @@
-"""Review queue resource — list pending, decide."""
+"""Review queue resource - list pending, decide."""
 
 from __future__ import annotations
 

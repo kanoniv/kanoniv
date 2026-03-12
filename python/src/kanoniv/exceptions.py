@@ -21,27 +21,27 @@ class KanonivError(Exception):
 
 
 class AuthenticationError(KanonivError):
-    """401 Unauthorized — invalid or missing credentials."""
+    """401 Unauthorized - invalid or missing credentials."""
 
 
 class ForbiddenError(KanonivError):
-    """403 Forbidden — insufficient permissions."""
+    """403 Forbidden - insufficient permissions."""
 
 
 class NotFoundError(KanonivError):
-    """404 Not Found — resource does not exist."""
+    """404 Not Found - resource does not exist."""
 
 
 class ValidationError(KanonivError):
-    """400 Bad Request — invalid input."""
+    """400 Bad Request - invalid input."""
 
 
 class ConflictError(KanonivError):
-    """409 Conflict — resource already exists or state conflict."""
+    """409 Conflict - resource already exists or state conflict."""
 
 
 class RateLimitError(KanonivError):
-    """429 Too Many Requests — rate limit exceeded."""
+    """429 Too Many Requests - rate limit exceeded."""
 
     def __init__(
         self,
@@ -56,4 +56,4 @@ class RateLimitError(KanonivError):
 
 
 class ServerError(KanonivError):
-    """5xx Server Error — something went wrong on the server."""
+    """5xx Server Error - something went wrong on the server."""

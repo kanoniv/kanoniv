@@ -35,3 +35,17 @@ def hash(yaml_str: str) -> str:
 def plan(yaml_str: str) -> dict:
     """Generate a full execution plan with stages, strategies, risk flags, and summary."""
     ...
+
+def reconcile_local(yaml_str: str, entities_json: str) -> dict:
+    """Run local reconciliation: parse spec, build engine, match entities, return clusters + golden records."""
+    ...
+
+def reconcile_incremental(
+    yaml_str: str,
+    new_entities_json: str,
+    existing_entities_json: str,
+    existing_clusters_json: str,
+    trained_fs_params_json: str | None,
+) -> dict:
+    """Run incremental reconciliation against existing clusters."""
+    ...

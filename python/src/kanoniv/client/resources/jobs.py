@@ -1,4 +1,4 @@
-"""Jobs resource — list, get, run, cancel."""
+"""Jobs resource - list, get, run, cancel."""
 
 from __future__ import annotations
 

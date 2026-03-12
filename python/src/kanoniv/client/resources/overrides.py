@@ -1,4 +1,4 @@
-"""Overrides resource — list, create, delete."""
+"""Overrides resource - list, create, delete."""
 
 from __future__ import annotations
 

@@ -3,9 +3,7 @@
 Reads warehouse sources via Arrow, unifies them in DuckDB with canonical
 column mappings, and exports as Parquet for bulk upload.
 
-Requires the ``dataplane``, ``databricks``, or ``bigquery`` extra:
-``pip install kanoniv[cloud,dataplane]``, ``pip install kanoniv[cloud,databricks]``,
-or ``pip install kanoniv[cloud,bigquery]``.
+Requires the ``dataplane`` extra: ``pip install kanoniv[cloud,dataplane]``.
 """
 from __future__ import annotations
 
@@ -36,19 +34,14 @@ def stage_sources(
     Args:
         sources: List of warehouse sources to read.
         spec: Identity spec with attribute mappings per source.
-        connection_string: Warehouse connection string (``snowflake://``, ``databricks://``, or ``bigquery://``).
+        connection_string: Snowflake connection string.
 
     Returns:
         A unified ``pyarrow.Table`` with canonical column names.
     """
     import duckdb
 
-    from .cloud_io import (
-        detect_warehouse_scheme,
-        read_arrow,
-        read_arrow_bigquery,
-        read_arrow_databricks,
-    )
+    from .cloud_io import read_arrow
 
     # Build attribute mappings from spec: {source_name: {source_col: canonical_col}}
     attr_maps: dict[str, dict[str, str]] = {}
@@ -71,15 +64,6 @@ def stage_sources(
                 seen.add(col)
                 canonical_cols.append(col)
 
-    scheme = detect_warehouse_scheme(connection_string)
-
-    def _read_arrow(tbl_name: str) -> "pyarrow.Table":
-        if scheme == "bigquery":
-            return read_arrow_bigquery(tbl_name, connection_string)
-        if scheme == "databricks":
-            return read_arrow_databricks(tbl_name, connection_string)
-        return read_arrow(tbl_name, connection_string)
-
     con = duckdb.connect()
     union_parts: list[str] = []
 
@@ -88,9 +72,9 @@ def stage_sources(
         adapter = source._adapter
         table_name = getattr(adapter, "_table", source.name)
 
-        # Read Arrow table from warehouse
-        arrow_tbl = _read_arrow(table_name)
-        # Normalize column names to lowercase (Snowflake returns UPPERCASE)
+        # Read Arrow table from Snowflake
+        arrow_tbl = read_arrow(table_name, connection_string)
+        # Snowflake returns UPPERCASE column names; normalize to lowercase
         arrow_tbl = arrow_tbl.rename_columns(
             [c.lower() for c in arrow_tbl.column_names]
         )

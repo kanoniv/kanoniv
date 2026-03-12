@@ -1,4 +1,4 @@
-"""Execution planning — thin wrapper over Rust planner."""
+"""Execution planning - thin wrapper over Rust planner."""
 from kanoniv._native import plan as _plan
 from kanoniv.spec import Spec
 

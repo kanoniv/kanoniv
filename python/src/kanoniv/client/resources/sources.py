@@ -1,4 +1,4 @@
-"""Sources resource — CRUD, sync, preview."""
+"""Sources resource - CRUD, sync, preview."""
 
 from __future__ import annotations
 

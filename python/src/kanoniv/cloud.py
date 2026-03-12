@@ -10,7 +10,7 @@ from .source import Source
 from .spec import Spec
 
 
-_BATCH_SIZE = 5000
+_BATCH_SIZE = 500
 
 
 @dataclass
@@ -107,7 +107,7 @@ class CloudReconcileResult:
         output = self.identity_summary.get("output", {})
         mq = self.match_quality
         lines = [
-            f"Cloud Reconciliation — job {self.job_id}",
+            f"Cloud Reconciliation - job {self.job_id}",
             f"  Status:          {self.status}",
             f"  Duration:        {self.duration_ms}ms",
             f"  Health:          {self.health_status}",

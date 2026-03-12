@@ -1,4 +1,4 @@
-"""HTTP transport layer — wraps httpx with auth, retries, and error mapping."""
+"""HTTP transport layer - wraps httpx with auth, retries, and error mapping."""
 
 from __future__ import annotations
 
@@ -53,7 +53,7 @@ def _raise_for_status(response: httpx.Response) -> None:
     except Exception:
         body = response.text
 
-    message = (body.get("detail") or body.get("error") or response.reason_phrase) if isinstance(body, dict) else str(body)
+    message = body.get("error", response.reason_phrase) if isinstance(body, dict) else str(body)
     status = response.status_code
 
     if status == 429:
