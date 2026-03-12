@@ -8,11 +8,11 @@ def validate_strict(yaml_str: str) -> list[str]:
     """Strict validation including serde deserialization checks."""
     ...
 
-def validate_schema_py(yaml_str: str) -> list[str]:
+def validate_schema(yaml_str: str) -> list[str]:
     """Validate schema structure only."""
     ...
 
-def validate_semantics_py(yaml_str: str) -> list[str]:
+def validate_semantics(yaml_str: str) -> list[str]:
     """Validate semantic/business rules only."""
     ...
 

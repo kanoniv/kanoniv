@@ -43,6 +43,12 @@ fn validate(yaml_str: &str) -> PyResult<Vec<String>> {
 }
 
 #[pyfunction]
+fn validate_strict(yaml_str: &str) -> PyResult<Vec<String>> {
+    kanoniv_core::validate_yaml(yaml_str)
+        .map_err(|e| PyErr::new::<pyo3::exceptions::PyValueError, _>(e.to_string()))
+}
+
+#[pyfunction]
 fn validate_schema(yaml_str: &str) -> PyResult<Vec<String>> {
     let spec = kanoniv_core::parse_yaml(yaml_str)
         .map_err(|e| PyErr::new::<pyo3::exceptions::PyValueError, _>(e.to_string()))?;
@@ -109,6 +115,7 @@ fn plan(py: Python<'_>, yaml_str: &str) -> PyResult<PyObject> {
 #[pymodule]
 fn _native(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(validate, m)?)?;
+    m.add_function(wrap_pyfunction!(validate_strict, m)?)?;
     m.add_function(wrap_pyfunction!(validate_schema, m)?)?;
     m.add_function(wrap_pyfunction!(validate_semantics, m)?)?;
     m.add_function(wrap_pyfunction!(parse, m)?)?;
