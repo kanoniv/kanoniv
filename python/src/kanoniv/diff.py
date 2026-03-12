@@ -7,7 +7,8 @@ class DiffResult:
     """Result of comparing two spec versions.
 
     Provides granular change detection across all spec sections:
-    rules, sources, entity, blocking, thresholds, survivorship, and scoring.
+    rules, sources, entity, blocking, thresholds, survivorship, scoring,
+    Fellegi-Sunter configuration, and metadata.
     """
 
     def __init__(self, data: dict):
@@ -115,6 +116,34 @@ class DiffResult:
         """Field-level scoring changes. Each dict has ``path``, ``old_value``, ``new_value``."""
         return self._data.get("scoring_changes", [])
 
+    # -- Fellegi-Sunter --
+
+    @property
+    def fs_changes(self) -> dict | None:
+        """Fellegi-Sunter configuration changes.
+
+        Returns None when the diff does not contain FS data (neither spec
+        uses Fellegi-Sunter). Returns a dict with keys like ``fields_added``,
+        ``fields_removed``, ``m_probability_changes``, ``u_probability_changes``,
+        ``weight_changes``, ``threshold_changes`` when both specs have FS config.
+        """
+        return self._data.get("fs_changes")
+
+    @property
+    def fs_has_changes(self) -> bool:
+        """Return True if any Fellegi-Sunter configuration changed."""
+        fs = self.fs_changes
+        if fs is None:
+            return False
+        return any(
+            bool(fs.get(k))
+            for k in (
+                "fields_added", "fields_removed",
+                "m_probability_changes", "u_probability_changes",
+                "weight_changes", "threshold_changes",
+            )
+        )
+
     # -- Metadata --
 
     @property
@@ -156,6 +185,7 @@ class DiffResult:
             or self.thresholds_changed
             or self.survivorship_changed
             or self.scoring_changed
+            or self.fs_has_changes
             or self.metadata_changed
             or self.version_changed
         )
@@ -175,7 +205,8 @@ def diff(spec_a: Spec, spec_b: Spec) -> DiffResult:
 
     Returns:
         A ``DiffResult`` with granular change information across rules,
-        sources, entity, blocking, thresholds, survivorship, and scoring.
+        sources, entity, blocking, thresholds, survivorship, scoring,
+        and Fellegi-Sunter configuration.
     """
     data = _diff(spec_a.raw, spec_b.raw)
     return DiffResult(data)

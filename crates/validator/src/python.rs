@@ -46,6 +46,12 @@ fn validate(yaml_str: &str) -> PyResult<Vec<String>> {
 }
 
 #[pyfunction]
+fn validate_strict(yaml_str: &str) -> PyResult<Vec<String>> {
+    validate_yaml(yaml_str)
+        .map_err(|e| PyErr::new::<pyo3::exceptions::PyValueError, _>(e.to_string()))
+}
+
+#[pyfunction]
 fn validate_schema_py(yaml_str: &str) -> PyResult<Vec<String>> {
     let spec = parse_yaml(yaml_str)
         .map_err(|e| PyErr::new::<pyo3::exceptions::PyValueError, _>(e.to_string()))?;
@@ -110,6 +116,7 @@ fn plan(py: Python<'_>, yaml_str: &str) -> PyResult<PyObject> {
 #[pymodule]
 fn _native(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(validate, m)?)?;
+    m.add_function(wrap_pyfunction!(validate_strict, m)?)?;
     m.add_function(wrap_pyfunction!(validate_schema_py, m)?)?;
     m.add_function(wrap_pyfunction!(validate_semantics_py, m)?)?;
     m.add_function(wrap_pyfunction!(parse, m)?)?;

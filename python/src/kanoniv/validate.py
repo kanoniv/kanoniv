@@ -1,5 +1,5 @@
-"""Spec validation - thin wrapper over Rust validator."""
-from kanoniv._native import validate as _validate
+"""Spec validation — thin wrapper over Rust validator."""
+from kanoniv._native import validate_strict as _validate
 from kanoniv.spec import Spec
 
 

@@ -1,4 +1,4 @@
-"""Kanoniv API client - sync and async variants."""
+"""Kanoniv API client — sync and async variants."""
 
 from __future__ import annotations
 

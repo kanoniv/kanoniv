@@ -48,7 +48,7 @@ class Source:
         self.primary_key = primary_key
         self._adapter = adapter
 
-    # -- Factory methods ----------------------------------------------------
+    # ── Factory methods ──────────────────────────────────────────────
 
     @classmethod
     def from_pandas(cls, name: str, df: Any, primary_key: str | None = None) -> Source:
@@ -137,7 +137,7 @@ class Source:
         """Internal: create a source from a pre-materialized list of row dicts."""
         return cls(name, _ListAdapter(rows), primary_key=primary_key)
 
-    # -- Properties ---------------------------------------------------------
+    # ── Properties ───────────────────────────────────────────────────
 
     @property
     def connection_string(self) -> str | None:
@@ -145,7 +145,7 @@ class Source:
         adapter = self._adapter
         return getattr(adapter, "_connection_string", None)
 
-    # -- Delegated methods --------------------------------------------------
+    # ── Delegated methods ────────────────────────────────────────────
 
     def schema(self) -> SourceSchema:
         """Return the inferred schema of this source."""
@@ -155,7 +155,7 @@ class Source:
         """Iterate over rows, yielding ``{column: value}`` dicts with all values stringified."""
         return self._adapter.iter_rows()
 
-    # -- Entity bridge ------------------------------------------------------
+    # ── Entity bridge ────────────────────────────────────────────────
 
     def to_entities(self, entity_type: str, tenant_id: str | None = None) -> list[dict[str, Any]]:
         """Convert adapter rows into ``NormalizedEntity``-compatible dicts.
