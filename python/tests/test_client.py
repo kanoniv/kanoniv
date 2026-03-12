@@ -59,7 +59,7 @@ class TestResolve:
 
 class TestIngest:
     def test_ingest_records(self, mock_api, client):
-        mock_api.post("/v1/ingest/webhook/src-1").mock(
+        mock_api.post("/v1/ingest/batch").mock(
             return_value=httpx.Response(200, json={"ingested": 2})
         )
         result = client.ingest("src-1", records=[{"id": "a"}, {"id": "b"}])
@@ -153,7 +153,7 @@ class TestAsyncClient:
 
     @pytest.mark.asyncio
     async def test_async_ingest(self, mock_api, async_client):
-        mock_api.post("/v1/ingest/webhook/src-1").mock(
+        mock_api.post("/v1/ingest/batch").mock(
             return_value=httpx.Response(200, json={"ingested": 1})
         )
         result = await async_client.ingest("src-1", records=[{"id": "a"}])
